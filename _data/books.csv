@@ -58,3 +58,4 @@ title,author,cover,notes,status,year_finished
 "A Tour of C++","Bjarne Stroustrup",https://m.media-amazon.com/images/I/817c6KcRr2L._AC_UY218_.jpg,a-tour-of-cpp/_a-tour-of-cpp,Reading,
 "High Performance MySQL",,,high-performance-mysql/_high-performance-mysql,Reading,
 "Rust for Rustaceans",,,rust-for-rustaceans/_rust-for-rustaceans,Reading,
+"Efficient MySQL Performance",,,efficient-mysql-performance/_efficient-mysql-performance,Reading,
