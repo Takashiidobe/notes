@@ -18,7 +18,7 @@ are made to our IP address, which returns HTML pages/JSON for clients.
 
 ## Split DB from Requests
 
-To handle more users, we\'ll split out the db so it can scale
+To handle more users, we'll split out the db so it can scale
 independently.
 
 ![Split Database](./assets/chapter_1/split-db.png)
@@ -48,7 +48,7 @@ Pros of Vertical Scaling:
 Cons of Vertical Scaling:
 
 - No failover/redundancy
-- Hard limit (you can\'t add RAM and processors to one server)
+- Hard limit (you can't add RAM and processors to one server)
 - Expensive (adding to one server continuously costs too much).
 
 ## Load Balancing
@@ -86,7 +86,7 @@ A cache tier is a fast in-memory storage that stores the result of
 expensive results or frequently accessed data.
 
 Caches make reads faster, since the web server can query the cache
-first, and if there\'s a cache hit, it can serve that data instead.
+first, and if there's a cache hit, it can serve that data instead.
 
 you would cache normally like so (using memcached):
 
@@ -113,20 +113,20 @@ the TTL has not expired.
 ![Stateful](./assets/chapter_1/stateful-arch.png)
 
 Stateful architectures allow the web server to keep state in between
-requests \-- but that requires that sessions are always routed to the
+requests -- but that requires that sessions are always routed to the
 same web server, which can be challenging and makes adding or removing
 servers problematic, since if a server goes down, some state will
 disappear for our users.
 
 ![Stateless](./assets/chapter_1/stateless-arch.png)
 
-Stateless architectures do not keep the user\'s state, instead, they
+Stateless architectures do not keep the user's state, instead, they
 store state in a data layer that has its own mechanisms for reliability.
 This both has higher consistency and availability.
 
 ## Data Centers
 
-- If you a lot of international users, you\'ll want to divide the web
+- If you a lot of international users, you'll want to divide the web
   servers and databases out into data centers.
 
 ![Data Centers](./assets/chapter_1/data-centers.png)
@@ -169,7 +169,7 @@ Architecture](./assets/chapter_1/total-arch-with-message-queues.png)
 
 Cons:
 
-\$\$\$
+$$$
 
 ### Horizontal Scaling
 
@@ -186,7 +186,7 @@ Cons:
 - Celebrity problem: Some keys are more popular than others, which
   requires special shards for these users.
 - Joins no longer work: you require de-normalization to query for data
-  you might\'ve done so prior.
+  you might've done so prior.
 
 Databases can also be sharded by table, but if a particular shard goes
 down, you will lose data to that table.

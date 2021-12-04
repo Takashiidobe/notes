@@ -2,10 +2,10 @@
 title: user-defined-types
 ---
 
--Defined Types\"
+-Defined Types"
 
 # User-Defined Types
 
-Prev: \[\[the-basics\]\] Next: \[\[modularity\]\]
+Prev: [[the-basics]] Next: [[modularity]]
 
-Prev: \[\[the-basics\]\] Next: \[\[modularity\]\]
+Prev: [[the-basics]] Next: [[modularity]]

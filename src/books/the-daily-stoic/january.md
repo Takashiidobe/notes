@@ -10,7 +10,7 @@ title: january
 > matters so that I can say clearly to myself which are externals not
 > under my control, and which have to do with the choices I actually
 > control. Where then do I look for good and evil? Not to uncontrollable
-> externals, but within myself to the choices that are my own\...
+> externals, but within myself to the choices that are my own...
 >
 > Epictetus, Discourses, 2.5.4--5
 
@@ -32,7 +32,7 @@ against things we cannot control.
 
 Education is freedom. It allows us to cultivate positive behaviors and
 change ourselves from within. Learning allows us to be free in a way
-that others who aren\'t educated cannot be.
+that others who aren't educated cannot be.
 
 ## January 3rd
 
@@ -44,7 +44,7 @@ that others who aren\'t educated cannot be.
 > Seneca, On the Brevity of Life, 3.3b
 
 To begin to reclaim your life, start by saying `no`. No to all the
-things that other people are doing, things that don\'t matter,
+things that other people are doing, things that don't matter,
 addictions, impulses, and emotions.
 
 ## January 4th
@@ -65,7 +65,7 @@ be boiled down thusly:
 ## January 5th
 
 > Let all your efforts be directed to something, let it keep that end in
-> view. It\'s not activity that disturbs people, but false conceptions
+> view. It's not activity that disturbs people, but false conceptions
 > of things that drive them mad.
 >
 > SENECA, ON TRANQUILITY OF MIND, 12.5
@@ -76,17 +76,17 @@ goal, you must define it.
 
 ## January 6th
 
-> A person who doesn\'t know what the universe is, doesn\'t know where
-> they are. A person who doesn\'t know their purpose in life doesn\'t
-> know who they are or what the universe is. A person who doesn\'t know
-> any one of these things doesn\'t know why they are here. So what to
+> A person who doesn't know what the universe is, doesn't know where
+> they are. A person who doesn't know their purpose in life doesn't
+> know who they are or what the universe is. A person who doesn't know
+> any one of these things doesn't know why they are here. So what to
 > make of people who seek or avoid the praise of those who have no
 > knowledge of where or who they are?
 >
 > MARCUS AURELIUS, MEDITATIONS, 8.52
 
 To live your life meaningfully, you must have a purpose to define, and
-goals to make it there. You must whittle down the things that don\'t
+goals to make it there. You must whittle down the things that don't
 matter to understand the things you value in order to make your life
 worth living.
 
@@ -94,7 +94,7 @@ worth living.
 
 > The proper work of the mind is the exercise of choice, refusal,
 > yearning, repulsion, preparation, purpose, and assent. What then can
-> pollute and clog the mind\'s proper functioning? Nothing but its own
+> pollute and clog the mind's proper functioning? Nothing but its own
 > corrupt decisions.
 >
 > EPICTETUS, DISCOURSES, 4.11.6--7
@@ -107,13 +107,13 @@ The mind exercises these things:
 4.  Repulsion - of bad influences
 5.  Preparation - to be ready for what lies ahead
 6.  Purpose - To set important priorities
-7.  Assent - to learn what is and isn\'t in our control
+7.  Assent - to learn what is and isn't in our control
 
 ## January 8th
 
 > We must give up many things to which we are addicted, considering them
 > to be good. Otherwise, courage will vanish, which should continually
-> test itself. Greatness of soul will be lost, which can\'t stand out
+> test itself. Greatness of soul will be lost, which can't stand out
 > unless it disdains as petty what the mob regards as most desirable.
 >
 > SENECA, MORAL LETTERS, 74.12b--13
@@ -136,9 +136,9 @@ to make choice means one must also have the freedom to abstain.
 > EPICTETUS, ENCHIRIDION, 1.1--2
 
 That which we can control are free, able to do the right thing, while
-that which we can\'t control cannot. We only decide how we see events
+that which we can't control cannot. We only decide how we see events
 outside of our purview, which ultimately lets us decide what is and
-isn\'t just.
+isn't just.
 
 ## January 10th
 
@@ -185,7 +185,7 @@ lead a peaceful life regardless of the circumstances.
 > EPICTETUS, DISCOURSES, 4.4.39
 
 Remember that the way to happiness is to understand what you do and
-don\'t control, and that reason and the ability to make choices can
+don't control, and that reason and the ability to make choices can
 never be taken away from you. Realize that, and leave the rest to
 chance, as unchanging.
 
@@ -198,9 +198,9 @@ chance, as unchanging.
 >
 > EPICTETUS, DISCOURSES, 1.22.10
 
-The only thing we truly control is our mind \-- we might lose control
+The only thing we truly control is our mind -- we might lose control
 over our body, with old age, or illness. We allow that to simplify our
-responibilities \-- We only need to manage our choices, our will, and
+responibilities -- We only need to manage our choices, our will, and
 our mind.
 
 ## January 14th
@@ -213,7 +213,7 @@ our mind.
 > MARCUS AURELIUS, MEDITATIONS, 12.19
 
 We are always tempted by things outside of our control, but we must
-realize that our values are more important \-- if we want to avoid being
+realize that our values are more important -- if we want to avoid being
 mere pawns, we must understand that it is important to follow them and
 avoid temptation.
 
@@ -229,7 +229,7 @@ avoid temptation.
 > SENECA, MORAL LETTERS, 95.57b--58a
 
 Tranquility can be found by having a strong belief in oneself. Those who
-don\'t have a strong belief in onself are constantly wavering between
+don't have a strong belief in onself are constantly wavering between
 one stance and another, and always concerned about what people think.
 Common opinion is a weak sentiment.
 
@@ -245,7 +245,7 @@ Common opinion is a weak sentiment.
 >
 > MUSONIUS RUFUS, LECTURES, 6.25.5--11
 
-It is important to think about why we do things \-- out of habit is
+It is important to think about why we do things -- out of habit is
 sometimes the worst response. What we do out of habit, or fear of the
 unknown shrinks our mind and leaves us retreating into our cave. The
 only way to subvert this is to step outside and challenge our
@@ -259,14 +259,14 @@ assumptions about the world.
 > God in things great and small---your aim is to learn and diligently
 > practice all these things. Why then don't you complete the work, if
 > you have the right aim and I have both the right aim and right
-> preparation? What is missing? \... The work is quite feasible, and is
-> the only thing in our power. \... Let go of the past. We must only
+> preparation? What is missing? ... The work is quite feasible, and is
+> the only thing in our power. ... Let go of the past. We must only
 > begin. Believe me and you will see.
 >
 > EPICTETUS, DISCOURSES, 2.19.29--34
 
-It is important to begin the work of learning for life \-- those who
-don\'t exert themselves will never start the path to improvement. It is
+It is important to begin the work of learning for life -- those who
+don't exert themselves will never start the path to improvement. It is
 important to realize that the first step is to gain the means with which
 to start, and then to begin.
 
@@ -279,10 +279,10 @@ to start, and then to begin.
 >
 > MARCUS AURELIUS, MEDITATIONS, 4.48.2
 
-See the world through an artist and a poet\'s lens \-- life is a brief
+See the world through an artist and a poet's lens -- life is a brief
 lapse of time in harmony with nature, before ending quickly. It is
 important to be grateful through the process, and shed all things that
-don\'t matter.
+don't matter.
 
 ## January 19th
 
@@ -293,21 +293,21 @@ don\'t matter.
 > EPICTETUS, DISCOURSES, 2.6.25
 
 The stoics came from different upbringings in life, but they realized
-that no matter where one\'s station in life is, choice of thought can
+that no matter where one's station in life is, choice of thought can
 never be taken away.
 
 ## January 20th
 
 > Your principles can't be extinguished unless you snuff out the
 > thoughts that feed them, for it's continually in your power to
-> reignite new ones. \... It's possible to start living again! See
+> reignite new ones. ... It's possible to start living again! See
 > things anew as you once did---that is how to restart life!"
 >
 > MARCUS AURELIUS, MEDITATIONS, 7.2
 
-Sometimes we have a tough stretch of life where things don\'t go well
-\-- but it is important to realize that we have the ability to always
-restart thinking about them \-- to retreat back to our values and start
+Sometimes we have a tough stretch of life where things don't go well
+-- but it is important to realize that we have the ability to always
+restart thinking about them -- to retreat back to our values and start
 anew, no matter the circumstances.
 
 ## January 21st
@@ -341,7 +341,7 @@ to become a better person in the future.
 >
 > SENECA, MORAL LETTERS, 83.2
 
-Seneca kept a journal to review the day \-- it is important because
+Seneca kept a journal to review the day -- it is important because
 every decision in the future is predicated by some decision in the past.
 Learn to reflect, to improve, and think about each day atomically. This
 helps you improve.
@@ -352,24 +352,24 @@ helps you improve.
 > just like the poor! When they travel abroad they must restrict their
 > baggage, and when haste is necessary, they dismiss their entourage.
 > And those who are in the army, how few of their possessions they get
-> to keep \..."
+> to keep ..."
 >
 > SENECA, ON CONSOLATION TO HELVIA, 12. 1.b--2
 
 Money is important because it aids one until one has a livable amount of
-money. Afterwards, it only helps marginally \-- external assets cannot
+money. Afterwards, it only helps marginally -- external assets cannot
 solve internal questions. We admire the rich, as in some form of idol
 worship, when the rich are just people.
 
 ## January 24th
 
-> From Rusticus \... I learned to read carefully and not be satisfied
+> From Rusticus ... I learned to read carefully and not be satisfied
 > with a rough understanding of the whole, and not to agree too quickly
 > with those who have a lot to say about something.
 >
 > MARCUS AURELIUS, MEDITATIONS, 1.7.3
 
-It is important to learn deeply instead of shallowly \-- to understand
+It is important to learn deeply instead of shallowly -- to understand
 the whole of a system rather than to have a weak understanding of the
 system. It is also important to not jump to conclusions before an entire
 picture has been painted, as that is a quick path to confusion.
@@ -378,13 +378,13 @@ picture has been painted, as that is a quick path to confusion.
 
 > What's left to be prized? This, I think---to limit our action or
 > inaction to only what's in keeping with the needs of our own
-> preparation \... it's what the exertions of education and teaching are
+> preparation ... it's what the exertions of education and teaching are
 > all about---here is the thing to be prized! If you hold this firmly,
-> you'll stop trying to get yourself all the other things. \... If you
+> you'll stop trying to get yourself all the other things. ... If you
 > don't, you won't be free, self-sufficient, or liberated from passion,
 > but necessarily full of envy, jealousy, and suspicion for any who have
 > the power to take them, and you'll plot against those who do have what
-> you prize. \... But by having some self-respect for your own mind and
+> you prize. ... But by having some self-respect for your own mind and
 > prizing it, you will please yourself and be in better harmony with
 > your fellow human beings, and more in tune with the gods---praising
 > everything they have set in order and allotted you.
@@ -392,9 +392,9 @@ picture has been painted, as that is a quick path to confusion.
 > MARCUS AURELIUS, MEDITATIONS, 6.16.2b--4a
 
 One important lesson to prize is to limit our wants to what is within
-our means \-- if not, we fester jealously and envy for others material
+our means -- if not, we fester jealously and envy for others material
 possessions. It is of no use to be jealous of material possessions, as
-they are subservient to the most useful of all \-- the mind. To see only
+they are subservient to the most useful of all -- the mind. To see only
 the mind as a useful vessel, and all other things as distractions is the
 way to begin true thought.
 
@@ -408,7 +408,7 @@ way to begin true thought.
 >
 > MARCUS AURELIUS, MEDITATIONS, 8.29
 
-Marcus Aurelius used this mantra \-- to erase the false impressions of
+Marcus Aurelius used this mantra -- to erase the false impressions of
 his mind, and to keep out evil, desire, and other disturbances, seeking
 only to see the true nature of things.
 
@@ -430,7 +430,7 @@ only to see the true nature of things.
 There are three areas to consider training oneself in:
 
 1.  Desires, and not to be swayed by them.
-2.  Motivations, and if we\'re doing things for the right reasons.
+2.  Motivations, and if we're doing things for the right reasons.
 3.  Judgment, and the ability to see things for how they are.
 
 Without practicing these three areas daily, you fall into the trap of
@@ -444,8 +444,8 @@ and being left with nothing to lead your life.
 >
 > MARCUS AURELIUS, MEDITATIONS, 4.38
 
-It is important to learn from those who are wiser than us \-- to judge
-our actions in comparison to theirs and to learn \-- without
+It is important to learn from those who are wiser than us -- to judge
+our actions in comparison to theirs and to learn -- without
 understanding how a principled person would act towards daily life, how
 are we to begin the process of improvement?
 
@@ -463,7 +463,7 @@ are we to begin the process of improvement?
 >
 > MARCUS AURELIUS, MEDITATIONS, 2.5
 
-Keep an unwavering focus on the tasks at hand \-- to peform them with
+Keep an unwavering focus on the tasks at hand -- to peform them with
 simplicity and tact, with simple dignity, giving yourself a break from
 all other considerations. Give up all distractions to pursue your daily
 tasks. Mastery over a few things allows one an abundant life of
@@ -477,8 +477,8 @@ prosperity.
 >
 > EPICTETUS, ENCHIRIDION, 13a
 
-One of the most important things to say is \"I don\'t know\", followed
-by \"I don\'t care\". Ruthlessly prioritize what really matters to you,
+One of the most important things to say is "I don't know", followed
+by "I don't care". Ruthlessly prioritize what really matters to you,
 and rid yourself of distractions that plague the world. Distrust
 yourself if you regard yourself as important, as that mindset prevents
 you from improvement.

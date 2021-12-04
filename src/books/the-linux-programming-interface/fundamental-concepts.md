@@ -2,16 +2,16 @@
 title: fundamental-concepts
 ---
 
-Concepts\"
+Concepts"
 
 # The Linux Programming Interface
 
 Prev:
-\[history-and-standards](history-and-standards.md)
+[history-and-standards](history-and-standards.md)
 Next:
-\[system-programming-concepts](system-programming-concepts.md)
+[system-programming-concepts](system-programming-concepts.md)
 
 Prev:
-\[history-and-standards](history-and-standards.md)
+[history-and-standards](history-and-standards.md)
 Next:
-\[system-programming-concepts](system-programming-concepts.md)
+[system-programming-concepts](system-programming-concepts.md)

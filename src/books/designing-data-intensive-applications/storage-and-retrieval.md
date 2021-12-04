@@ -2,14 +2,14 @@
 title: storage-and-retrieval
 ---
 
-and Retrieval\"
+and Retrieval"
 
 # Storage and Retrieval
 
 Prev:
-\[data-models-and-query-languages](data-models-and-query-languages.md)
+[data-models-and-query-languages](data-models-and-query-languages.md)
 Next:
-\[encoding-and-evolution](encoding-and-evolution.md)
+[encoding-and-evolution](encoding-and-evolution.md)
 
 ## Data Structures That Power Your Database
 
@@ -59,7 +59,7 @@ We now have O(1) average reads.
 3.  Crash recovery
 
 - Take a snapshot of the hashmap on disk intermittently, so when the
-  database crashes, restarting it won\'t take so long.
+  database crashes, restarting it won't take so long.
 
 4.  Partially written records
 
@@ -113,7 +113,7 @@ later that are in the set come later, so overwrite the ones that came
 before with the ones that come later.
 
 In order to find a particular key in the file, you dont need an index at
-all \-- you can use the byte offsets as a range query indicator.
+all -- you can use the byte offsets as a range query indicator.
 
 Thus, the whole engine works like this:
 
@@ -162,7 +162,7 @@ certain cases.
 You can index columns at a time, like for geospatial data. (PostGIS with
 a GIST (QuadTree or R-Tree) index)).
 
-Here\'s an example of a 2D query:
+Here's an example of a 2D query:
 
 ```sql
 SELECT *
@@ -177,7 +177,7 @@ Lucene uses edit distance along with an LSM-tree table for indexing.
 
 ### Keeping everything in memory
 
-Disk offers two advantages over RAM. Disk is cheaper than RAM (\~10x)
+Disk offers two advantages over RAM. Disk is cheaper than RAM (~10x)
 and durable, so it stores state after it is powered off (or crashes).
 
 RAM is becoming far cheaper, which allows in-memory Key-value stores,
@@ -187,7 +187,7 @@ In-memory key value databases still write to disk (normally in the form
 of an append-only log) in order to allow for backups. They are fast as
 they serve reads purely in memory, and come with some durability
 guarantees because they write to disk. Because in-memory KV stores like
-Redis don\'t have to worry about persisting data structures to disk,
+Redis don't have to worry about persisting data structures to disk,
 some normally hard to represent data structures like queues and sets can
 be found.
 
@@ -231,13 +231,13 @@ this single table.
 
 ## Column-Oriented Storage
 
-Let\'s say we want to query a table for lots of rows but only a few
+Let's say we want to query a table for lots of rows but only a few
 columns; say all purchases in 2013.
 
-We\'ll need the date, the product_sk, the quantity, and price. How would
+We'll need the date, the product_sk, the quantity, and price. How would
 we do this efficiently?
 
-In most RDBMS\', data is stored by row. That means that filtering data
+In most RDBMS', data is stored by row. That means that filtering data
 that is indexed is slow, as the engine must read the whole row into
 memory before parsing and filtering it.
 
@@ -270,7 +270,7 @@ To reassemble a row, query the same index of all the rows.
 As well, this scheme lends itself well to Run-Length Encoding and opens
 itself up to compression opportunities.
 
-Let\'s take a look at our `product_sk` and make a bitmap of it instead.
+Let's take a look at our `product_sk` and make a bitmap of it instead.
 
 ```py
 product_sks = [69, 69, 74]
@@ -279,7 +279,7 @@ product_sk_74 = [0, 0, 1]
 ```
 
 We have two products, so we can generate two different bitmap arrays for
-the values of `69` and `74`. Let\'s say we want to do a query like this:
+the values of `69` and `74`. Let's say we want to do a query like this:
 
 ```sql
 SELECT date_key
@@ -311,7 +311,7 @@ In short, Column Storage is very efficient at using CPU-cycles.
 
 ### Sort Order in Column Storage
 
-To sort data in a column, we can\'t sort one column at a time, since
+To sort data in a column, we can't sort one column at a time, since
 that would break our scheme. A wise DB admin may choose to sort rows by
 a frequently accessed column, like date, to make it so queries in a date
 range are faster. They may also sort by second and third indicies, but
@@ -326,7 +326,7 @@ are added to a sorted structure and prepared for writing to disk.
 ## Aggregation: Data Cubes and Materialized Views
 
 Views allow for faster reads in SQL databases. If we often run the same
-set of queries, it\'s wasteful to run them without caching, as that
+set of queries, it's wasteful to run them without caching, as that
 wastes compute. We can make a `view`, which is a table which is a
 shortcut for writing a specific query. We can write a
 `materialized view`, which is a persisted to disk copy of the data that
@@ -343,6 +343,6 @@ query based on more dimensions that just a simple materialized view.
 This can be a noticeable boost for some queries.
 
 Prev:
-\[data-models-and-query-languages](data-models-and-query-languages.md)
+[data-models-and-query-languages](data-models-and-query-languages.md)
 Next:
-\[encoding-and-evolution](encoding-and-evolution.md)
+[encoding-and-evolution](encoding-and-evolution.md)

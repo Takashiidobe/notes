@@ -2,10 +2,10 @@
 title: execution-plans
 ---
 
-Plans\"
+Plans"
 
 # Execution Plans
 
-Prev: \[modifying-data](modifying-data.md)
+Prev: [modifying-data](modifying-data.md)
 
-Prev: \[modifying-data](modifying-data.md)
+Prev: [modifying-data](modifying-data.md)

@@ -14,7 +14,7 @@ the concrete class that implements it.
 There are many classes that are used frequently throughout the codebase,
 like allocators, logging, or random number generation.
 
-Let\'s talk about playing sounds:
+Let's talk about playing sounds:
 
 Should we use a static class?
 
@@ -31,11 +31,11 @@ AudioSystem::instance()->playSound(VERY_LOUD_BANG);
 Either way does the job, but we introducing coupling. And if we decide
 to refactor it, we have to change every caller.
 
-There\'s a better solution: a phone book.
+There's a better solution: a phone book.
 
 People that need to get in touch with us can look us up by name and get
 our current address. When we move, we tell the phone company. They
-update the book, and everyone gets the new address. We don\'t need our
+update the book, and everyone gets the new address. We don't need our
 own address at all.
 
 This is the Service locator pattern: it decouples code that needs a
@@ -47,7 +47,7 @@ service from **who** it is (concrete implementation) and **where** it is
 A service class defines an abstract interface to a set of operations. A
 concrete service provider implements this interface. A separate service
 locator provides access to the service by finding an appropriate
-provider while hiding both the provider\'s concrete type and the process
+provider while hiding both the provider's concrete type and the process
 used to locate it.
 
 ## When to use it
@@ -56,31 +56,31 @@ This is still global state like the singleton. Use it sparingly.
 
 If you can, consider passing the object to it instead.
 
-But, if you can\'t, this pattern works.
+But, if you can't, this pattern works.
 
 ## Keep in Mind
 
 The service locator defers coupling between two pieces of code until
-runtime. This gives you flexibility, but the price you pay is it\'s
+runtime. This gives you flexibility, but the price you pay is it's
 harder to understand what your dependencies are by reading the code.
 
 ### The service actually has to be located
 
 Since this pattern has to locate the service, we have to handle the case
-where that fails. We\'ll need a null service for that.
+where that fails. We'll need a null service for that.
 
-### The service doesn\'t know who is locating it
+### The service doesn't know who is locating it
 
 Since the locator is globally accessible, any code in the game could be
 requesting a service and then poking at it. If a service can only be
-used in certain contexts, it\'s best not to expose it to the world with
+used in certain contexts, it's best not to expose it to the world with
 this pattern.
 
 ## Sample Code
 
 ### The service
 
-Here\'s the interface for the service:
+Here's the interface for the service:
 
 ```cpp
 class Audio {
@@ -94,7 +94,7 @@ public:
 
 ### The service provider
 
-Here\'s an implementation:
+Here's an implementation:
 
 ```cpp
 class ConsoleAudio : public Audio {
@@ -153,16 +153,16 @@ Locator::provide(audio);
 ```
 
 This class takes the interface, not a concrete implementation, so it
-doesn\'t need to know about it\'s implementation, which lets it be
+doesn't need to know about it's implementation, which lets it be
 applied retroactively to existing classes.
 
 ## A null service
 
 Our implementation is simple and flexible so far. If we try to use the
 service before a provider has been registered, it returns `NULL`. If the
-calling code doesn\'t check that, we\'re going to crash the game.
+calling code doesn't check that, we're going to crash the game.
 
-Let\'s provide a Null Object to address this. The null object is an
+Let's provide a Null Object to address this. The null object is an
 implementation that does nothing.
 
 ```cpp
@@ -199,14 +199,14 @@ private:
 };
 ```
 
-We\'re defaulting our service to an instance of nullService, and
-returning a reference, which is an indication this can\'t be null.
+We're defaulting our service to an instance of nullService, and
+returning a reference, which is an indication this can't be null.
 
 ## Logging decorator
 
-Let\'s discuss another refinement to this pattern: Decorated services.
+Let's discuss another refinement to this pattern: Decorated services.
 
-Let\'s try to decorate our audio class by wrapping it with a logging
+Let's try to decorate our audio class by wrapping it with a logging
 function.
 
 ```cpp
@@ -240,7 +240,7 @@ private:
 };
 ```
 
-Now to enable audiologging, here\'s what we do:
+Now to enable audiologging, here's what we do:
 
 ```cpp
 // Decorate the existing service.
@@ -256,18 +256,18 @@ Locator::provide(service);
 
 - Outside code registers it:
 
-This is what we did, and it\'s the most common:
+This is what we did, and it's the most common:
 
 Pros:
 
-1.  It\'s fast and simple:
+1.  It's fast and simple:
 2.  We control construction:
 3.  We can change the service while the game is running
 
 Cons:
 
-1.  The locator depends on outside code. If the locator isn\'t
-    initialized properly, it\'ll crash mysteriously.
+1.  The locator depends on outside code. If the locator isn't
+    initialized properly, it'll crash mysteriously.
 
 - Bind it at compile time:
 
@@ -289,18 +289,18 @@ private:
 
 Pros:
 
-1.  It\'s fast
+1.  It's fast
 2.  the service is always available
 
 Cons:
 
-3.  You can\'t change the service without recompiling
+3.  You can't change the service without recompiling
 
 - Configure it at runtime:
 
 This is what most people do in enterprise business software:
 
-We can put everything in a configuration file that\'s loaded at runtime.
+We can put everything in a configuration file that's loaded at runtime.
 
 Pros:
 
@@ -310,15 +310,15 @@ Pros:
 
 Cons:
 
-1.  It\'s complex: you need some way to store and load the
+1.  It's complex: you need some way to store and load the
     configurations
-2.  It\'s very slow.
+2.  It's very slow.
 
-### What happens if the service can\'t be located?
+### What happens if the service can't be located?
 
 - Let the user handle it:
 
-If the locator can\'t find the service, return `NULL`:
+If the locator can't find the service, return `NULL`:
 
 1.  It lets users determine how to handle failure.
 2.  Users of the service must handle the failure.
@@ -341,13 +341,13 @@ public:
 };
 ```
 
-1.  Users don\'t need to handle a missing service
+1.  Users don't need to handle a missing service
 2.  The game will crash if not found.
 
 - Return a null service:
 
-1.  User\'s don\'t need to handle a missing service
-2.  The game will continue if the service isn\'t available
+1.  User's don't need to handle a missing service
+2.  The game will continue if the service isn't available
 3.  It is harder to debug
 
 ## What is the scope of the service?
@@ -372,5 +372,5 @@ Access to the service is restricted to classes that inherit Base: that
 way, we control coupling. This can be useful for services that need to
 be scoped.
 
-Prev: \[event-queue](event-queue.md) Next:
-\[data-locality](data-locality.md)
+Prev: [event-queue](event-queue.md) Next:
+[data-locality](data-locality.md)

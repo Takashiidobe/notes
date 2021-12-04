@@ -14,30 +14,30 @@ a virtual machine
 Making games requires a lot of flexibility: we need a language like C++
 that has high performance and a good type system to corral bugs. C++
 also takes a long time to compile, which requires constant iteration,
-but we don\'t want to recompile every time. What do we do?
+but we don't want to recompile every time. What do we do?
 
 ### Spell fight!
 
-Let\'s make a magic-based fighting game. A pair of wizards sling spells
+Let's make a magic-based fighting game. A pair of wizards sling spells
 at each other until there is only one left.
 
 If a game designer wants to tweak some part of the game, if we hard code
-the spells into the source code, it\'ll always take a compile to make
+the spells into the source code, it'll always take a compile to make
 any changes and test them out.
 
 Also, if we want to support modding, we need some way to allow adding
 spells. If we hard code all spells into the binary, we need to release
 our source code and allow them to play with the source code.
 
-### Data \> Code
+### Data > Code
 
 We want people to be able to extend the behavior of the game by
-extending data. Let\'s use files for that and contrast that with the
+extending data. Let's use files for that and contrast that with the
 Interpreter pattern from the GoF.
 
 ### The Interpreter pattern
 
-Let\'s discuss how to implement and execute the interpreter pattern.
+Let's discuss how to implement and execute the interpreter pattern.
 
 Create an expression class:
 
@@ -93,12 +93,12 @@ This is too slow and memory intensive.
 
 Consider a binary from C++.
 
-- It\'s dense
-- It\'s linear
-- It\'s low-level
-- It\'s fast
+- It's dense
+- It's linear
+- It's low-level
+- It's fast
 
-We can\'t do the same thing, but we can add a VM to our code to run code
+We can't do the same thing, but we can add a VM to our code to run code
 on the fly.
 
 ## The Pattern
@@ -120,24 +120,24 @@ flexibility at runtime.
 DSLs and the like have a tendency to grow like vines. Try your best to
 keep it small, or rearchitect it when needed.
 
-### You\'ll need a front-end
+### You'll need a front-end
 
-You\'ll need to find some way to generate this bytecode that this
+You'll need to find some way to generate this bytecode that this
 pattern interprets.
 
-### You\'ll miss your debugger
+### You'll miss your debugger
 
-You\'ll need to build a debugger for your language since otherwise
-there\'ll be no way to debug it, which will delay you from shipping your
+You'll need to build a debugger for your language since otherwise
+there'll be no way to debug it, which will delay you from shipping your
 code.
 
 ## Sample Code
 
-This\'ll be fairly simple: create an instruction set for the VM.
+This'll be fairly simple: create an instruction set for the VM.
 
 ### A magical API
 
-Let\'s start out with an API for a wizard.
+Let's start out with an API for a wizard.
 
 ```cpp
 void setHealth(int wizard, int amount);
@@ -154,7 +154,7 @@ void spawnParticles(int particleType);
 
 ### A magical instruction set
 
-Let\'s make an enumeration for each instruction.
+Let's make an enumeration for each instruction.
 
 ```cpp
 enum class Instruction : unsigned char {
@@ -166,7 +166,7 @@ enum class Instruction : unsigned char {
 };
 ```
 
-Let\'s create a way to execute these instructions:
+Let's create a way to execute these instructions:
 
 ```cpp
 switch (instruction) {
@@ -192,7 +192,7 @@ switch (instruction) {
 }
 ```
 
-And let\'s make a class that represents the VM.
+And let's make a class that represents the VM.
 
 ```cpp
 class VM {
@@ -210,7 +210,7 @@ public:
 
 ## A stack machine
 
-To execute a nested expression, you\'ll have to create a stack that
+To execute a nested expression, you'll have to create a stack that
 keeps track of the state and function pointers here.
 
 ```cpp
@@ -285,7 +285,7 @@ case Instruction::LITERAL {
 }
 ```
 
-This is good enough to define basic behavior, but we can\'t compose any
+This is good enough to define basic behavior, but we can't compose any
 behavior.
 
 ### Behavior = Composition
@@ -306,7 +306,7 @@ case Instruction::GET_HEALTH: {
 This way, we can read the value of the wizard and then return it back to
 the stack.
 
-We\'ll need addition though, to be able to use the getters and setters
+We'll need addition though, to be able to use the getters and setters
 correctly.
 
 ```cpp
@@ -318,7 +318,7 @@ case Instruction::ADD {
 }
 ```
 
-Let\'s say we wanted to do something like this:
+Let's say we wanted to do something like this:
 
     setHealth(0, getHealth(0) +
         (getAgility(0) + getWisdom(0)) / 2);
@@ -344,15 +344,15 @@ We use pushes and pops to get what we need.
 
 ### A virtual machine
 
-This virtual machine is safe (since it\'s sandboxed, it can\'t reach
+This virtual machine is safe (since it's sandboxed, it can't reach
 into other parts of the code and cause security vulnerabilities. We also
-saw that it\'s as easy as implementing a stack and popping and pushing
+saw that it's as easy as implementing a stack and popping and pushing
 off of it.
 
 ### Spellcasting tools
 
-We saw that it was easy to interpret the code, but we haven\'t generated
-the bytecode. We can use tools like lex or yacc to do this, but that\'s
+We saw that it was easy to interpret the code, but we haven't generated
+the bytecode. We can use tools like lex or yacc to do this, but that's
 for another time.
 
 ## Design Decisions
@@ -360,7 +360,7 @@ for another time.
 ### How do instructions access the stack?
 
 Stack based VMs can only push and pop from the top of the stack. They
-can\'t read any other state. Register based VMs can dig into a specific
+can't read any other state. Register based VMs can dig into a specific
 register (location) and read the content of the instruction from there.
 
 - With a stack-based VM:
@@ -385,7 +385,7 @@ register (location) and read the content of the instruction from there.
 
 - A single datatype:
 
-  - It\'s simple
+  - It's simple
   - There are no different data types. (Numbers are strings and
     vice-versa)
 
@@ -417,9 +417,9 @@ struct Value {
 - An untagged union:
 
   - Just the value
-  - It\'s fast
-  - It\'s unsafe
-  - (The compiler guarantees code isn\'t incorrect)
+  - It's fast
+  - It's unsafe
+  - (The compiler guarantees code isn't incorrect)
 
 If we can stick with a single data type, do so. Otherwise, tagged unions
 are good.
@@ -436,5 +436,5 @@ are good.
   - Less technical people will like it
   - Less composable
 
-Prev: \[update-method](update-method.md) Next:
-\[subclass-sandbox](subclass-sandbox.md)
+Prev: [update-method](update-method.md) Next:
+[subclass-sandbox](subclass-sandbox.md)

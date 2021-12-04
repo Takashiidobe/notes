@@ -8,7 +8,7 @@ A command is an object-oriented replacement for callbacks.
 
 ## Configuring Input
 
-- Let\'s say we have to configure input:
+- Let's say we have to configure input:
 
 ```cpp
 enum class Button { X, Y, A, B };
@@ -22,8 +22,8 @@ void InputHandler::handleInput() {
 }
 ```
 
-Most games allow their buttons to be re-mapped, so this won\'t work.
-We\'ll need to find a way to swap out the action that occurs when a
+Most games allow their buttons to be re-mapped, so this won't work.
+We'll need to find a way to swap out the action that occurs when a
 button is is pressed.
 
 Define a base class that allows for this:
@@ -80,7 +80,7 @@ void InputHandler::handleInput() {
 
 ## Directions for Actors
 
-- This is powerful, but only lets us move the actor itself. Let\'s
+- This is powerful, but only lets us move the actor itself. Let's
   loosen that restriction and pass in the actor we want to move.
 
 ```cpp
@@ -122,12 +122,12 @@ if (command) {
 }
 ```
 
-We\'ve now made it so the Commands are decoupled from the Actor. As long
+We've now made it so the Commands are decoupled from the Actor. As long
 as it can receive the commands, it can execute them.
 
 ## Undo and Redo
 
-Let\'s try this with a move unit command.
+Let's try this with a move unit command.
 
 ```cpp
 class MoveUnitCommand : public Command {
@@ -141,7 +141,7 @@ private:
 };
 ```
 
-This command allows us to move a unit that\'s passed into it.
+This command allows us to move a unit that's passed into it.
 
 Now we can handle its commands like so:
 
@@ -162,7 +162,7 @@ Command* handleInput() {
 }
 ```
 
-Let\'s make commands undoable:
+Let's make commands undoable:
 
 ```cpp
 class Command {
@@ -173,7 +173,7 @@ public:
 };
 ```
 
-Let\'s add that undo method to the `MoveUnitCommand`.
+Let's add that undo method to the `MoveUnitCommand`.
 
 ```cpp
 class MoveUnitCommand : public Command {
@@ -200,4 +200,4 @@ introduce undo and redo for more commands, keep a list of commands and a
 reference to the current one. When a player executes a commad, we append
 to the list and point current to it.
 
-Next: \[flyweight](flyweight.md)
+Next: [flyweight](flyweight.md)

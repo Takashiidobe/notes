@@ -2,18 +2,18 @@
 title: business-logic
 ---
 
-Logic\"
+Logic"
 
 # Business Logic
 
 Prev:
-\[getting-ready-to-read-this-book](getting-ready-to-read-this-book.md)
+[getting-ready-to-read-this-book](getting-ready-to-read-this-book.md)
 Next:
-\[a-small-application](a-small-application.md)
+[a-small-application](a-small-application.md)
 
 How much business logic should we put in the database?
 
-Let\'s query the chinook database for an artist\'s albums and total
+Let's query the chinook database for an artist's albums and total
 duration of each album:
 
 ```sql
@@ -39,7 +39,7 @@ There are four isolation levels in Postgres:
   - Your transaction uses the same snapshot of the whole database
     for its entire duration, from `BEGIN` to `COMMIT`. This means
     that even if a transaction is going on in the background, it
-    won\'t affect this query.
+    won't affect this query.
 - Serializable
   - This guarantees that there is a one-transaction-at-a-time
     ordering of what query was run.
@@ -74,6 +74,6 @@ try to use SQL only instead of PLpgSQL, although you can do that if
 necessary.
 
 Prev:
-\[getting-ready-to-read-this-book](getting-ready-to-read-this-book.md)
+[getting-ready-to-read-this-book](getting-ready-to-read-this-book.md)
 Next:
-\[a-small-application](a-small-application.md)
+[a-small-application](a-small-application.md)

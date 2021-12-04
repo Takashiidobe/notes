@@ -2,10 +2,10 @@
 title: enriched-categories
 ---
 
-Categories\"
+Categories"
 
-Prev: \[kan-extensions](kan-extensions.md) Next:
-\[topoi](topoi.md)
+Prev: [kan-extensions](kan-extensions.md) Next:
+[topoi](topoi.md)
 
-Prev: \[kan-extensions](kan-extensions.md) Next:
-\[topoi](topoi.md)
+Prev: [kan-extensions](kan-extensions.md) Next:
+[topoi](topoi.md)

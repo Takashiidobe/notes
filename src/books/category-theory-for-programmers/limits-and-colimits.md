@@ -2,12 +2,12 @@
 title: limits-and-colimits
 ---
 
-and Colimits\"
+and Colimits"
 
 Prev:
-\[declarative-programming](declarative-programming.md)
-Next: \[free-monoids](free-monoids.md)
+[declarative-programming](declarative-programming.md)
+Next: [free-monoids](free-monoids.md)
 
 Prev:
-\[declarative-programming](declarative-programming.md)
-Next: \[free-monoids](free-monoids.md)
+[declarative-programming](declarative-programming.md)
+Next: [free-monoids](free-monoids.md)

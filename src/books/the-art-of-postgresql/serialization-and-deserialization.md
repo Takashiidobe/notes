@@ -2,16 +2,16 @@
 title: serialization-and-deserialization
 ---
 
-and Deserialization\"
+and Deserialization"
 
 # Serialization and Deserialization
 
 Prev:
-\[an-interview-with-markus-winand](an-interview-with-markus-winand.md)
+[an-interview-with-markus-winand](an-interview-with-markus-winand.md)
 Next:
-\[some-relational-theory](some-relational-theory.md)
+[some-relational-theory](some-relational-theory.md)
 
 Prev:
-\[an-interview-with-markus-winand](an-interview-with-markus-winand.md)
+[an-interview-with-markus-winand](an-interview-with-markus-winand.md)
 Next:
-\[some-relational-theory](some-relational-theory.md)
+[some-relational-theory](some-relational-theory.md)

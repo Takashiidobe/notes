@@ -2,15 +2,15 @@
 title: encoding-and-evolution
 ---
 
-and Evolution\"
+and Evolution"
 
 # Encoding and Evolution
 
 Prev:
-\[storage-and-retrieval](storage-and-retrieval.md)
-Next: \[replication](replication.md)
+[storage-and-retrieval](storage-and-retrieval.md)
+Next: [replication](replication.md)
 
-Nothing stays still. Change is a constant. To cater to this world, it\'s
+Nothing stays still. Change is a constant. To cater to this world, it's
 important to talk about _backward_ and _forward_ compatibility.
 
 - Backward compatibility
@@ -18,7 +18,7 @@ important to talk about _backward_ and _forward_ compatibility.
 - Forward compatibility
   - Older code can read data that was written by newer code.
 
-Let\'s look at some formats that allow us to achieve that.
+Let's look at some formats that allow us to achieve that.
 
 ## Formats for Encoding Data
 
@@ -27,7 +27,7 @@ There are normally two kinds:
 - In-Memory (objects, structs, lists, arrays, etc.)
 - Persistent (a representation of the object on Disk)
 
-We need to translate between these two forms. In-memory -\> Persistent
+We need to translate between these two forms. In-memory -> Persistent
 is called `encoding`, also (`serialization` or `marshalling`) and the
 reverse is called `decoding`, also (`parsing`, `deserialization`,
 `unmarshalling`).
@@ -41,7 +41,7 @@ Built-in Language specific formats are generally bad:
 3.  Versioning data is poor
 4.  Efficiency is poor
 
-Instead, let\'s talk about cross-language variants:
+Instead, let's talk about cross-language variants:
 
 ### JSON, XML, and Binary Variants
 
@@ -49,7 +49,7 @@ JSON, XML, and CSV are subpar.
 
 XML has security issues:
 
-JSON is poor at handling numbers above (2\^53).
+JSON is poor at handling numbers above (2^53).
 
 CSV has no schema, and every type could be a string or not.
 
@@ -64,7 +64,7 @@ BJSON, UBJSON).
 Thrift and Protocol Buffers (protobuf) are binary encoding libraries
 that solve a few of the issues that JSON, XML, and CSV have.
 
-Let\'s take this JSON data and encode it in Thrift\'s schema language,
+Let's take this JSON data and encode it in Thrift's schema language,
 IDL.
 
 ```json
@@ -110,7 +110,7 @@ are some caveats, like truncation.
 
 ## Avro
 
-Avro is another binary encoding format, but it doesn\'t use tag numbers.
+Avro is another binary encoding format, but it doesn't use tag numbers.
 
 It encodes data in Avro IDL and JSON.
 
@@ -137,19 +137,19 @@ in JSON:
 With Avro, you go through the fields in the order they appear in the
 schema, using the schema to tell the datatype of each field.
 
-When transferring data, Avro uses two schemas \-- when encoding, it
-generates a writer\'s schema, and when decoding, a reader\'s schema.
+When transferring data, Avro uses two schemas -- when encoding, it
+generates a writer's schema, and when decoding, a reader's schema.
 
-The writer\'s schema doesn\'t have to be the same as the reader\'s. When
+The writer's schema doesn't have to be the same as the reader's. When
 data is decoded, the Avro library resolves differences by translating
-the writer and reader\'s schema. Schema resolution matches up fields by
-field name, so order doesn\'t matter.
+the writer and reader's schema. Schema resolution matches up fields by
+field name, so order doesn't matter.
 
-If there\'s a field that appears in the writer\'s schema but not the
-reader\'s schema, it\'s ignored. (The reader doesn\'t need it).
+If there's a field that appears in the writer's schema but not the
+reader's schema, it's ignored. (The reader doesn't need it).
 
-If the writer\'s schema lacks a field, it is filled in with a default
-value from the reader\'s schema.
+If the writer's schema lacks a field, it is filled in with a default
+value from the reader's schema.
 
 ### Schema Evolution Rules
 
@@ -164,9 +164,9 @@ Avro lacks `optional` and `required` markers like protobuf and thrift.
 Changing a data type is possible as long as the data types are
 convertible.
 
-### But what is the writer\'s schema?
+### But what is the writer's schema?
 
-How do we determine where to store the reader and writer\'s schema?
+How do we determine where to store the reader and writer's schema?
 
 1.  Large file with lots of records
 
@@ -175,7 +175,7 @@ How do we determine where to store the reader and writer\'s schema?
 2.  Database with individually written records
 
 - include a version number at the beginning of every record, and keep
-  a table with a version -\> schema mapping in it.
+  a table with a version -> schema mapping in it.
 
 3.  Sending records over a network connection
 
@@ -206,8 +206,8 @@ How does data flow through processes?
 
 Forward compatibility is normally required, because there may be many
 readers and writers who use an older version of the code. As well,
-there\'s a concern where an old reader might update data previously read
-by a newer version of the application, which may lose data if you\'re
+there's a concern where an old reader might update data previously read
+by a newer version of the application, which may lose data if you're
 not careful.
 
 ### Different values written at different times
@@ -239,9 +239,9 @@ following reasons:
     to a network problem, the remote machine may be slow or
     unresponsive, or DNS resolution may have failed.
 2.  A network call may return without a result, due to a timeout. You
-    don\'t know if your call to the server was correct.
+    don't know if your call to the server was correct.
 3.  Your request may be making it through, and the response was lost.
-4.  A network request\'s latency is wildly variable, ranging from
+4.  A network request's latency is wildly variable, ranging from
     milliseconds to seconds.
 5.  Large objects are extremely expensive to send over the network, as
     they must be passed by value.
@@ -256,7 +256,7 @@ popular for internal procedure calls.
 ## Message-Passing Dataflow
 
 Message-Passing Dataflows are commonly asynchronous message-passing
-systems. They deliver a client\'s request (a message) to another process
+systems. They deliver a client's request (a message) to another process
 with low latency, normally passing requests to a message broker, which
 store requests temporarily.
 
@@ -265,7 +265,7 @@ Message Brokers have the following Pros:
 1.  They can act as a buffer, improving system reliability
 2.  They can automatically redeliver messages to a crashed process,
     preventing lost messages.
-3.  The sender doesn\'t need to know where the message is going, just
+3.  The sender doesn't need to know where the message is going, just
     the broker.
 4.  One message can be sent to several recipients
 5.  The sender and the recipient can be decoupled. The sender does not
@@ -294,5 +294,5 @@ Some notable implementations:
 Akka: for the JVM Orleans: for the CLR OTP: for the BEAM
 
 Prev:
-\[storage-and-retrieval](storage-and-retrieval.md)
-Next: \[replication](replication.md)
+[storage-and-retrieval](storage-and-retrieval.md)
+Next: [replication](replication.md)

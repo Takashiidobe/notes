@@ -2,12 +2,12 @@
 title: meaningful-names
 ---
 
-Names\"
+Names"
 
 # Meaningful Names
 
-Prev: \[clean-code](clean-code.md) Next:
-\[functions](functions.md)
+Prev: [clean-code](clean-code.md) Next:
+[functions](functions.md)
 
-Prev: \[clean-code](clean-code.md) Next:
-\[functions](functions.md)
+Prev: [clean-code](clean-code.md) Next:
+[functions](functions.md)

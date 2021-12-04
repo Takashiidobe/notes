@@ -7,9 +7,9 @@ title: state
 The state pattern allows an object to alter its behavior when its
 internal state changes.
 
-## We\'ve all been there
+## We've all been there
 
-Let\'s make a game where the heroine jumps to some input.
+Let's make a game where the heroine jumps to some input.
 
 ```cpp
 void Heroine::handleInput(Input input) {
@@ -22,7 +22,7 @@ void Heroine::handleInput(Input input) {
 
 Spot the bug?
 
-You can keep jumping infinitely while you\'re in the air.
+You can keep jumping infinitely while you're in the air.
 
 Add an `isJumping_` boolean to address that.
 
@@ -94,7 +94,7 @@ another in a fixed set of ways.
 3.  A sequence of events is sent to the machine.
 4.  Each state has a set of transitions.
 
-Let\'s model the states through enums:
+Let's model the states through enums:
 
 ```cpp
 enum class State {
@@ -179,7 +179,7 @@ The object will appear to change its class.
 
 ### A state interface
 
-We define an interface for the state. Let\'s make an abstract base
+We define an interface for the state. Let's make an abstract base
 class:
 
 ```cpp
@@ -290,7 +290,7 @@ entering and exiting a state.
 
 When the heroine changes state, we also switch her sprite.
 
-Let\'s handle that by giving the state an entry action:
+Let's handle that by giving the state an entry action:
 
 ```cpp
 class StandingState : public HeroineState {
@@ -332,7 +332,7 @@ HeroineState* DuckingState::handleInput(Heroine& heroine,
 }
 ```
 
-## What\'s the Catch?
+## What's the Catch?
 
 We cant use FSMs for anything more complicated than a set of states.
 Game AI, for example, is very difficult to code this way.
@@ -340,10 +340,10 @@ Game AI, for example, is very difficult to code this way.
 ### Concurrent State Machines
 
 What happens if we want to add a gun to our heroine? Well, instead of
-packing all the state into one machine, where there are (n \* m) states,
+packing all the state into one machine, where there are (n * m) states,
 we can make two different state machines, for (n + m) states.
 
-We give her another state machine for the equipment she\'s using.
+We give her another state machine for the equipment she's using.
 
 ```cpp
 class Heroine {
@@ -363,7 +363,7 @@ void Heroine::handleInput(Input input) {
 }
 ```
 
-If the two states interact with each other, you\'ll need to sprinkle in
+If the two states interact with each other, you'll need to sprinkle in
 some `ifs` here and there, but it works.
 
 ## Hierarchical State Machines
@@ -402,7 +402,7 @@ public:
 };
 ```
 
-If each child state can\'t handle the state, it delegates up the chain.
+If each child state can't handle the state, it delegates up the chain.
 
 ## Pushdown Automata
 
@@ -421,5 +421,5 @@ Finite state machines are useful when:
     number of distinct options.
 3.  The entity responds to a series of inputs or events over time.
 
-Prev: \[singleton](singleton.md) Next:
-\[double-buffer](double-buffer.md)
+Prev: [singleton](singleton.md) Next:
+[double-buffer](double-buffer.md)

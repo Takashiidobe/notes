@@ -2,16 +2,16 @@
 title: denormalized-data-types
 ---
 
-Data Types\"
+Data Types"
 
 # Denormalized Data Types
 
 Prev:
-\[postgresql-data-types](postgresql-data-types.md)
+[postgresql-data-types](postgresql-data-types.md)
 Next:
-\[postgresql-extensions](postgresql-extensions.md)
+[postgresql-extensions](postgresql-extensions.md)
 
 Prev:
-\[postgresql-data-types](postgresql-data-types.md)
+[postgresql-data-types](postgresql-data-types.md)
 Next:
-\[postgresql-extensions](postgresql-extensions.md)
+[postgresql-extensions](postgresql-extensions.md)

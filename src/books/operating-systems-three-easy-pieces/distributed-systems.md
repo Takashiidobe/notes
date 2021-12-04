@@ -2,16 +2,16 @@
 title: distributed-systems
 ---
 
-Systems\"
+Systems"
 
 # Distributed Systems
 
 Prev:
-\[a-dialogue-on-distribution](a-dialogue-on-distribution.md)
+[a-dialogue-on-distribution](a-dialogue-on-distribution.md)
 Next:
-\[suns-network-file-system-nfs](suns-network-file-system-nfs.md)
+[suns-network-file-system-nfs](suns-network-file-system-nfs.md)
 
 Prev:
-\[a-dialogue-on-distribution](a-dialogue-on-distribution.md)
+[a-dialogue-on-distribution](a-dialogue-on-distribution.md)
 Next:
-\[suns-network-file-system-nfs](suns-network-file-system-nfs.md)
+[suns-network-file-system-nfs](suns-network-file-system-nfs.md)

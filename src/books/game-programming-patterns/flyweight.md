@@ -2,8 +2,8 @@
 title: flyweight
 ---
 
-Prev: \[command](command.md) Next:
-\[observer](observer.md)
+Prev: [command](command.md) Next:
+[observer](observer.md)
 
 # Flyweight
 
@@ -12,7 +12,7 @@ much data as possible with other similar objects.
 
 ## Forest for the Trees
 
-Let\'s say you want to paint a large amount of trees in a landscape:
+Let's say you want to paint a large amount of trees in a landscape:
 
 ```cpp
 class Tree {
@@ -29,7 +29,7 @@ private:
 ```
 
 We notice that the mesh, bark, and leaves are going to be all the same.
-We\'ll leave the barkTint and leafTint as customizable:
+We'll leave the barkTint and leafTint as customizable:
 
 ```cpp
 class TreeModel {
@@ -63,7 +63,7 @@ and the parts that are unique to the instance.
 
 ## A Place to Put Down Roots
 
-Let\'s try to put down terrain on the earth.
+Let's try to put down terrain on the earth.
 
 ```cpp
 enum class Terrain {
@@ -102,7 +102,7 @@ bool World::isWater(int x, int y) {
 }
 ```
 
-Instead, let\'s make a terrain class.
+Instead, let's make a terrain class.
 
 ```cpp
 class Terrain {
@@ -123,8 +123,8 @@ private:
 };
 ```
 
-Because this has nothing that\'s coupled to the location of the tile,
-let\'s just generate one tile of each type and maintain pointers to it
+Because this has nothing that's coupled to the location of the tile,
+let's just generate one tile of each type and maintain pointers to it
 in the world instance.
 
 ```cpp
@@ -181,5 +181,5 @@ const Terrain& World::getTile(int x, int y) const {
 }
 ```
 
-Prev: \[command](command.md) Next:
-\[observer](observer.md)
+Prev: [command](command.md) Next:
+[observer](observer.md)

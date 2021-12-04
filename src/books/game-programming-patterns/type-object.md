@@ -8,12 +8,12 @@ Object
 
 ## Intent
 
-Allow the flexible creation of new \"classes\" by creating a single
+Allow the flexible creation of new "classes" by creating a single
 class, each instance of which represents a different type of object.
 
 ## Motivation
 
-Let\'s say we want to create monsters for our RPG. We\'ll start out with
+Let's say we want to create monsters for our RPG. We'll start out with
 an interface that defines its health and attacks.
 
 ```cpp
@@ -72,8 +72,8 @@ Instead, we can architect our code so that each monster has a breed.
 
     Monster <- Breed
 
-There\'s no inheritance at all. The `Breed` class that we create
-contains the information that\'s shared between all monsters. The breed
+There's no inheritance at all. The `Breed` class that we create
+contains the information that's shared between all monsters. The breed
 is essentially the type of the monster.
 
 ## The Pattern
@@ -84,7 +84,7 @@ reference to the type object that describes its type.
 
 ## When to Use it
 
-- You don\'t know what types you will need up front
+- You don't know what types you will need up front
 - You want to be able to modify or add new types without having to
   recompile or change code
 
@@ -95,10 +95,10 @@ reference to the type object that describes its type.
 
 ### The type objects have to be tracked manually
 
-Instead of using vtables set up by C++, we\'ll have to manually track
+Instead of using vtables set up by C++, we'll have to manually track
 the vtables ourselves.
 
-### It\'s harder to define behavior for each type
+### It's harder to define behavior for each type
 
 With subclassing, we can override a method and do whatever you want to.
 With the type object pattern, we replace an overridden method with a
@@ -107,7 +107,7 @@ to define type-specific behavior.
 
 ## Sample Code
 
-Here\'s the breed class:
+Here's the breed class:
 
 ```cpp
 class Breed {
@@ -126,7 +126,7 @@ private:
 };
 ```
 
-Here\'s the monster class:
+Here's the monster class:
 
 ```cpp
 class Monster {
@@ -154,7 +154,7 @@ it.
 We have to construct a monster directly and pass in its breed. This is a
 little backwards:
 
-Let\'s make our constructor do this for us.
+Let's make our constructor do this for us.
 
 ```cpp
 class Breed
@@ -186,13 +186,13 @@ private:
 };
 ```
 
-By making the monster\'s constructor private, it can only be called by
+By making the monster's constructor private, it can only be called by
 friend classes (of which our breed is). Thus, our breed can call the
 function directly in its constructor.
 
 ### Sharing data through inheritance:
 
-We\'ll support single inheritance, allowing a class to have a parent
+We'll support single inheritance, allowing a class to have a parent
 base class.
 
 ```cpp
@@ -240,7 +240,7 @@ const char* Breed::getAttack() {
 }
 ```
 
-At construction time (if overridden attributes don\'t change):
+At construction time (if overridden attributes don't change):
 
 ```cpp
 Breed(Breed* parent, int health, const char* attack)
@@ -254,7 +254,7 @@ Breed(Breed* parent, int health, const char* attack)
 }
 ```
 
-To actually implement the data, let\'s say we use a JSON file:
+To actually implement the data, let's say we use a JSON file:
 
 ```json
 {
@@ -278,7 +278,7 @@ To actually implement the data, let\'s say we use a JSON file:
 This way, Troll Archer and Troll Wizard inherit from troll, but they
 have different attacks.
 
-This is much like the \[prototype](prototype.md) pattern.
+This is much like the [prototype](prototype.md) pattern.
 
-Prev: \[subclass-sandbox](subclass-sandbox.md)
-Next: \[component](component.md)
+Prev: [subclass-sandbox](subclass-sandbox.md)
+Next: [component](component.md)

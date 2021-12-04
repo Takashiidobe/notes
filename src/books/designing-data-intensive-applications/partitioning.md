@@ -2,21 +2,21 @@
 title: partitioning
 ---
 
-Prev: \[replication](replication.md) Next:
-\[transactions](transactions.md)
+Prev: [replication](replication.md) Next:
+[transactions](transactions.md)
 
 # Partitioning
 
 Partitions (also known as shards) occur when you break up a database
 over multiple nodes. We have to shard instances when the data becomes
-too large for one node to handle \-- but we lose the ability to do joins
+too large for one node to handle -- but we lose the ability to do joins
 on one instance, so the data schema becomes harder to manage.
 
 ## Partitioning and Replication
 
 Partitions are normally combined with replication, so copies of each
 partition is stored on multiple nodes. This means that we have to update
-copies too when we\'re updating one part of the data.
+copies too when we're updating one part of the data.
 
 ## Partitioning of Key-Value Data
 
@@ -31,10 +31,10 @@ We can do better.
 
 ### Partitioning by Key Range
 
-One way is to split the data into a sorted range of keys. Assume you\'re
+One way is to split the data into a sorted range of keys. Assume you're
 sorting alphabetical data into 5 partitions. Sorting by letter can lead
 to hotspots (vowels are more common first characters than consonants) so
-we\'ll have to try to evenly distribute by range.
+we'll have to try to evenly distribute by range.
 
 One pitfall of this approach is that partitioning across time series
 data can lead to hotspots. You can avoid this by allowing time series
@@ -44,9 +44,9 @@ all queries have to query those 1 - n nodes.
 ### Partitioning by Hash of Key
 
 Because partitioning by Key Range can lead to skew, it is common to use
-a hash of a key. This hash doesn\'t have to be cryptographically secure;
+a hash of a key. This hash doesn't have to be cryptographically secure;
 MD5 and FNV are commonly used. You assign each partition a range of
-hashes and every key whose hash falls within that partition\'s range is
+hashes and every key whose hash falls within that partition's range is
 stored there.
 
 Consistent hashing is commonly cited in the literature, but not commonly
@@ -63,7 +63,7 @@ other columns are used to sort the data in the SSTable in the partition.
 
 Hashing a key to determine its partition can help reduce hot spots; but
 in the extreme case that one key contributes a lot of read/write volume
-(like a celebrity tweeting and people retweeting in response) it\'s up
+(like a celebrity tweeting and people retweeting in response) it's up
 to the developer to reduce pressure. One way might be to add a random
 number to the beginning or end of the key, and directing the read/write
 to that partition.
@@ -73,14 +73,14 @@ all partitions.
 
 ## Partitioning and Secondary Indexes
 
-We\'ve talked about a simple key-value model (just an indexed primary
-key). But in RDBMS\', it is common to have a more than one index.
-Unfortunately, this doesn\'t map neatly to partitions.
+We've talked about a simple key-value model (just an indexed primary
+key). But in RDBMS', it is common to have a more than one index.
+Unfortunately, this doesn't map neatly to partitions.
 
 ### Partitioning Secondary Indexes by Document
 
 Imagine you are operating a website for selling used cars. Each car has
-a unique ID, and you partition by document ID. Let\'s say you want to
+a unique ID, and you partition by document ID. Let's say you want to
 allow users to search for cars by color and make, and you have a
 secondary index for both. Each partition can maintain a copy of
 secondary indexes for color and make, and when a read query is issued,
@@ -126,7 +126,7 @@ Rebalancing should meet these criteria:
 
 ### Strategies for Rebalancing
 
-Don\'t do hash mod N -\> When adding new nodes to the system, most
+Don't do hash mod N -> When adding new nodes to the system, most
 records will have to find a new node, which makes rebalancing slow and
 error-prone (due to replication lag).
 
@@ -141,7 +141,7 @@ other node an even distribution of its records.
 This greatly reduces the amount of data that moves to n / m.
 
 It is generally hard to create more partitions (there is ops load) so
-you\'ll want to rarely do this.
+you'll want to rarely do this.
 
 #### Dynamic Partitioning
 
@@ -155,10 +155,10 @@ partitions data.
 
 #### Partitioning proportionally to Nodes
 
-Cassandra has a fixed number of partitions per node. There\'s a fixed
+Cassandra has a fixed number of partitions per node. There's a fixed
 number of partitions, which are evenly distributed per node. When more
 nodes enter, partitions are evenly distributed and given to the new
-node. This can lead to unfair splits when there\'s a smaller number of
+node. This can lead to unfair splits when there's a smaller number of
 partitions per node, but with 256 per node, this is rarer (by the law of
 large numbers).
 
@@ -167,19 +167,19 @@ large numbers).
 Automatic seems like a no-brainer, since it should require less ops load
 than manual rebalancing; however, if rebalancing is done at an
 inopportune time by the database, it can cause network overload and harm
-system performance. Even worse, a node that\'s reachable might be
+system performance. Even worse, a node that's reachable might be
 labeled as unreachable, skewing load to nodes that are thought to be
-alive, which can crash the cluster. It\'s generally good for this reason
+alive, which can crash the cluster. It's generally good for this reason
 to have an operator commit rebalancing operations when prudent.
 
 ## Request Routing
 
 Now that we have more than one database and computer, how do we reach
-our databases? This is an instance of service discovery. There\'s a few
+our databases? This is an instance of service discovery. There's a few
 different approaches:
 
 1.  Allow clients to contact any node through a load balancer. If the
-    node doesn\'t contain the required data, that node can forward the
+    node doesn't contain the required data, that node can forward the
     request to the appropriate node, receive the reply, and return it to
     the client.
 
@@ -194,7 +194,7 @@ which uses raft, or zookeeper, which uses ZAB). Each node is required to
 register with etcd/zk and zk manages consensus on all nodes.
 
 Cassandra and Riak use a gossip protocol; requests can be sent to any
-node, and that node forwards them to the appropriate node. This doesn\'t
+node, and that node forwards them to the appropriate node. This doesn't
 require an intermediary like ZK or etcd.
 
 ## Parallel Query Execution
@@ -203,5 +203,5 @@ Some queries may be executed in parallel across the cluster. Massively
 parallel processing (MPP) relational database products support a lot of
 sophisticated queries that can be optimized in this fashion.
 
-Prev: \[replication](replication.md) Next:
-\[transactions](transactions.md)
+Prev: [replication](replication.md) Next:
+[transactions](transactions.md)

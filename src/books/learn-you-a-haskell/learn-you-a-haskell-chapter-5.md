@@ -6,7 +6,7 @@ You A Haskell Chapter 5
 
 # Recursion
 
-Recursion allows us to do computation by using the previous function\'s
+Recursion allows us to do computation by using the previous function's
 state.
 
 ## Maximum awesome
@@ -23,7 +23,7 @@ First, you would have to handle the empty case:
 maximum' [] = error "No maximum of empty list"
 ```
 
-Next, you would have to handle the case where there\'s one element:
+Next, you would have to handle the case where there's one element:
 
 ```hs
 maximum' [x] = x
@@ -50,7 +50,7 @@ maximum' (x:xs)
     where maxTail = maximum' xs
 ```
 
-We can also use the standard library\'s max function:
+We can also use the standard library's max function:
 
 ```hs
 maximum' :: (Ord a) => [a] -> a
@@ -70,13 +70,13 @@ replicate' n x
     | otherwise = x:replicate' (n-1) x
 ```
 
-We return an empty list if n \< 0, otherwise, call replicate with n - 1
+We return an empty list if n < 0, otherwise, call replicate with n - 1
 and the same x prepended to it.
 
 As another note, since Num does not conform to Ord, we have to ask for
 both of them.
 
-Let\'s implement `take`.
+Let's implement `take`.
 
 ```hs
 take' :: (Num i, Ord i) => i -> [a] -> [a]
@@ -88,9 +88,9 @@ take' n (x:xs) = x : take' (n-1) xs
 
 If n is less than or equal to 0, return `[]`. If the list to take from
 is an empty list, return an empty list. otherwise, take the first
-element from the list, prepend it to the result of (take\' (n-1) xs.
+element from the list, prepend it to the result of (take' (n-1) xs.
 
-Let\'s implement `reverse`.
+Let's implement `reverse`.
 
 ```hs
 reverse' :: [a] -> [a]
@@ -98,7 +98,7 @@ reverse' [] = []
 reverse' (x:xs) = reverse' xs ++ [x]
 ```
 
-If there\'s an empty list, return the empty list. Otherwise, append the
+If there's an empty list, return the empty list. Otherwise, append the
 head of the list to the reverse of the rest of the list.
 
 We can also implement repeat: just return the element and pass it to the
@@ -146,6 +146,6 @@ quicksort (x:xs) =
 ```
 
 Prev:
-\[learn-you-a-haskell-chapter-4](learn-you-a-haskell-chapter-4.md)
+[learn-you-a-haskell-chapter-4](learn-you-a-haskell-chapter-4.md)
 Next:
-\[learn-you-a-haskell-chapter-6](learn-you-a-haskell-chapter-6.md)
+[learn-you-a-haskell-chapter-6](learn-you-a-haskell-chapter-6.md)

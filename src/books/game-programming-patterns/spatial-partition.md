@@ -13,14 +13,14 @@ by their positions.
 
 ## Motivation
 
-You\'ll want to separate out objects on a notion of time and space. A
-dead object shouldn\'t be talking, and you shouldn\'t hear an object far
+You'll want to separate out objects on a notion of time and space. A
+dead object shouldn't be talking, and you shouldn't hear an object far
 away talking either. If you have to iterate through every object to
 check its location, it can become a performance bottleneck.
 
 ### Units of the field of battle
 
-Let\'s say we\'re making an RTS. opposing armies with hundreds of units
+Let's say we're making an RTS. opposing armies with hundreds of units
 will clash on the field of battle. The naive way to handle this is by
 looking at every pair of units and seeing how close they are to each
 other:
@@ -37,23 +37,23 @@ void handleMelee(Unit* units[], int numUnits) {
 }
 ```
 
-This is an O(n\^2) algorithm, which quickly becomes too expensive with a
+This is an O(n^2) algorithm, which quickly becomes too expensive with a
 large amount of units.
 
 ### Drawing battle lines
 
-The problem that we\'re running into is that there\'s no underlying
+The problem that we're running into is that there's no underlying
 order to the array of units. Instead of having a 2D battlefield, imagine
 that it is a 1D battle line.
 
-Let\'s try to make a 2D battlefield sortable in a 1D field.
+Let's try to make a 2D battlefield sortable in a 1D field.
 
 ## The Pattern
 
 For a set of objects, each has a position in space. Store them in a
 spatial data structure that organizes the objects by their positions.
 This data structure lets you efficiently query for objects at or near a
-location. When an object\'s position changes, update the spatial data
+location. When an object's position changes, update the spatial data
 structure so that it can continue to find the object.
 
 ### When to Use It
@@ -64,7 +64,7 @@ suffering.
 
 ### Keep in Mind
 
-Spatial partitions knock an O(n) or O(n\^2) operation down to something
+Spatial partitions knock an O(n) or O(n^2) operation down to something
 more manageable. The more objects you have, the more valuable that
 becomes.
 
@@ -72,12 +72,12 @@ Since this pattern involves organizing objects by their positions,
 objects that **change** position are harder to deal with.
 
 A spatial partition uses additional memory for its bookkeeping data
-structures. It trades **memory** for **speed**. If you can\'t spare the
-memory, this pattern won\'t help you.
+structures. It trades **memory** for **speed**. If you can't spare the
+memory, this pattern won't help you.
 
 ## Sample Code
 
-This pattern\'s implementation varies: let\'s start off with a fixed
+This pattern's implementation varies: let's start off with a fixed
 grid.
 
 ### A sheet of graph paper
@@ -86,11 +86,11 @@ Imagine the entire field of battle as a matrix. Units that are close
 enough to fight are in the same grid. We put all units that are adjacent
 to each other in the same cell in the matrix.
 
-Let\'s implement it.
+Let's implement it.
 
 ### A grid of linked units
 
-Let\'s get coding.
+Let's get coding.
 
 ```cpp
 class Unit {
@@ -114,7 +114,7 @@ private:
 Each unit has a position in 2D and a pointer to the grid that it lives
 on.
 
-here\'s the grid:
+here's the grid:
 
 ```cpp
 class Grid {
@@ -135,7 +135,7 @@ private:
 };
 ```
 
-Now, since every unit should be a linked list, we\'ll extend unit with
+Now, since every unit should be a linked list, we'll extend unit with
 `next` and `prev` pointers.
 
 ```cpp
@@ -149,7 +149,7 @@ private:
 
 ### Entering the field of battle
 
-Next, we\'ll want to make sure that new units are placed in the grid on
+Next, we'll want to make sure that new units are placed in the grid on
 construction:
 
 ```cpp
@@ -184,7 +184,7 @@ void Grid::add(Unit* unit) {
 
 ### A clash of swords
 
-Once all of the units are nestled in their cells, let\'s have them
+Once all of the units are nestled in their cells, let's have them
 fight:
 
 ```cpp
@@ -214,14 +214,14 @@ void Grid::handleCell(Unit* unit) {
 }
 ```
 
-Aside from having to traverse a linked list, we\'ve partitioned the
+Aside from having to traverse a linked list, we've partitioned the
 battlefield into little isolated skirmishes.
 
 ### Charging forward
 
-We have no code for moving a unit between cells. Let\'s fix that:
+We have no code for moving a unit between cells. Let's fix that:
 
-Let\'s define a method for that:
+Let's define a method for that:
 
 ```cpp
 void Unit::move(double x, double y) {
@@ -266,16 +266,16 @@ void Grid::move(Unit* unit, double x, double y) {
 }
 ```
 
-If we move but don\'t cross a cell boundary, we return there. Otherwise,
+If we move but don't cross a cell boundary, we return there. Otherwise,
 we unlink the node from its current location and then add it back to the
 grid at its new cell.
 
-### At arm\'s length
+### At arm's length
 
 This works, but only for units with a melee range. What happens for
 ranged units?
 
-Let\'s handle ranged units like so:
+Let's handle ranged units like so:
 
 ```cpp
 if (distance(unit, other) < ATTACK_DISTANCE) {
@@ -343,13 +343,13 @@ space partitions (BSPs) are commonly used in place of them.
 
 ### Is the partition hierarchical or flat?
 
-- If it\'s flat
+- If it's flat
 
-  - It\'s simpler
+  - It's simpler
   - Memory usage is constant
   - It can be faster to update when objects change their positions
 
-- If it\'s hierarchical
+- If it's hierarchical
 
   - It handles empty space more efficiently
   - It handles densely populated areas more efficiently.
@@ -364,7 +364,7 @@ space partitions (BSPs) are commonly used in place of them.
 - If the partitioning adapts to the set of objects
 
   - You can ensure the partitions are balanced
-  - It\'s more efficient to partition an entire set of objects at
+  - It's more efficient to partition an entire set of objects at
     once.
 
 - If the partitioning is object-independent, but hierarchy is
@@ -401,4 +401,4 @@ Here are some of the common structures for Spatial partitions.
 - [Bounding volume
   hierarchy](http://en.wikipedia.org/wiki/Bounding_volume_hierarchy.md)
 
-Prev: \[object-pool](object-pool.md)
+Prev: [object-pool](object-pool.md)

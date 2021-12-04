@@ -2,16 +2,16 @@
 title: scheduling-proportional-share
 ---
 
-: Proportional Share\"
+: Proportional Share"
 
 # Scheduling: Proportional Share
 
 Prev:
-\[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
+[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
 Next:
-\[multiprocessor-scheduling-advanced](multiprocessor-scheduling-advanced.md)
+[multiprocessor-scheduling-advanced](multiprocessor-scheduling-advanced.md)
 
 Prev:
-\[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
+[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
 Next:
-\[multiprocessor-scheduling-advanced](multiprocessor-scheduling-advanced.md)
+[multiprocessor-scheduling-advanced](multiprocessor-scheduling-advanced.md)

@@ -2,16 +2,16 @@
 title: creational-patterns
 ---
 
-Patterns\"
+Patterns"
 
 # Creational Patterns
 
 Prev:
-\[a-case-study-designing-a-document-editor](a-case-study-designing-a-document-editor.md)
+[a-case-study-designing-a-document-editor](a-case-study-designing-a-document-editor.md)
 Next:
-\[structural-patterns](structural-patterns.md)
+[structural-patterns](structural-patterns.md)
 
 Prev:
-\[a-case-study-designing-a-document-editor](a-case-study-designing-a-document-editor.md)
+[a-case-study-designing-a-document-editor](a-case-study-designing-a-document-editor.md)
 Next:
-\[structural-patterns](structural-patterns.md)
+[structural-patterns](structural-patterns.md)

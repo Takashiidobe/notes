@@ -11,7 +11,7 @@ as values. A function that does so is called a higher order function.
 
 ## Curried Functions
 
-Functions in haskell only take one parameter \-- any functions that take
+Functions in haskell only take one parameter -- any functions that take
 more are actually curried functions.
 
 For example, taking the max of two numbers:
@@ -72,14 +72,14 @@ isUpperAlphanum :: Char -> Bool
 isUpperAlpanum = (`elem` ['A'..'Z'])
 ```
 
-Let\'s create a function that applies a function twice
+Let's create a function that applies a function twice
 
 ```hs
 applyTwice :: (a -> a) -> a -> a
 applyTwice f x = f (f x)
 ```
 
-and let\'s use it
+and let's use it
 
 ```hs
 ghci> applyTwice (+3) 10
@@ -94,7 +94,7 @@ ghci> applyTwice (3:) [1]
 [3,3,1]
 ```
 
-Let\'s make zipWith, which takes a function and two lists. it applies
+Let's make zipWith, which takes a function and two lists. it applies
 the function to both of the lists and returns a new list.
 
 ```hs
@@ -191,7 +191,7 @@ ghci> filter (`elem` ['A'..'Z']) "i lauGh At You BecAuse u r aLL the Same"
 "GAYBALLS"
 ```
 
-Here\'s the previous chapter\'s quicksort with Filters
+Here's the previous chapter's quicksort with Filters
 
 ```hs
 quicksort :: (Ord a) => [a] -> a
@@ -202,7 +202,7 @@ quicksort (x:xs) =
     in smaller ++ [x] ++ larger
 ```
 
-Finding the largest number under 100,000 that\'s divisible by 3829.
+Finding the largest number under 100,000 that's divisible by 3829.
 
 ```hs
 largestDivisible :: (Integral a) => a
@@ -225,16 +225,16 @@ passed to any function. When applied, they return a value.
 This map sums up the pairs here and returns a list:
 
 ```hs
-map (\(a,b) -> a + b) [(1,2),(3,5),(6,3),(2,6),(2,5)]
+map ((a,b) -> a + b) [(1,2),(3,5),(6,3),(2,6),(2,5)]
 ```
 
 ### Folds
 
-Let\'s implement sum using a fold:
+Let's implement sum using a fold:
 
 ```hs
 sum' :: (Num a) => [a] -> a
-sum' xs = foldl (\acc x -> acc + x) 0 xs
+sum' xs = foldl (acc x -> acc + x) 0 xs
 ```
 
 ```hs
@@ -255,7 +255,7 @@ side:
 
 ```hs
 map' :: (a -> b) -> [a] -> [b]
-map' f xs = foldr (\x acc -> f x : acc) [] xs
+map' f xs = foldr (x acc -> f x : acc) [] xs
 ```
 
 One caveat why `foldr` exists is that it works on infinite lists, but
@@ -273,22 +273,22 @@ Here are some library functions using folds
 
 ```hs
 maximum' :: (Ord a) => [a] -> a
-maximum' = foldr1 (\x acc -> if x > acc then x else acc)
+maximum' = foldr1 (x acc -> if x > acc then x else acc)
 
 reverse' :: [a] -> [a]
-reverse' = foldl (\acc x -> x : acc) []
+reverse' = foldl (acc x -> x : acc) []
 
 product' :: (Num a) => [a] -> a
 product' = foldr1 (*)
 
 filter' :: (a -> Bool) -> [a] -> [a]
-filter' p = foldr (\x acc -> if p x then x : acc else acc) []
+filter' p = foldr (x acc -> if p x then x : acc else acc) []
 
 head' :: [a] -> a
-head' = foldr1 (\x _ -> x)
+head' = foldr1 (x _ -> x)
 
 last' :: [a] -> a
-last' = foldl1 (\_ x -> x)
+last' = foldl1 (_ x -> x)
 ```
 
 `scanl` and `scanr` are similar to `foldl` and `foldr`, but they report
@@ -299,7 +299,7 @@ ghci> scanl (+) 0 [3,5,2,1]
 [0,3,8,10,11]
 ghci> scanr (+) 0 [3,5,2,1]
 [11,8,3,1,0]
-ghci> scanl1 (\acc x -> if x > acc then x else acc) [3,4,5,3,7,9,2,1]
+ghci> scanl1 (acc x -> if x > acc then x else acc) [3,4,5,3,7,9,2,1]
 [3,4,5,5,7,9,9,9]
 ghci> scanl (flip (:)) [] [3,2,1]
 [],[3],[2,3],[1,2,3]]
@@ -315,7 +315,7 @@ Function composition can be done with the `.` operator:
 Instead of:
 
 ```hs
-ghci> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2,-19,24]
+ghci> map (x -> negate (abs x)) [5,-3,-6,7,-3,2,-19,24]
 [-5,-3,-6,-7,-3,-2,-19,-24]
 ```
 
@@ -327,6 +327,6 @@ ghci> map (negate . abs) [5,-3,-6,7,-3,2,-19,24]
 ```
 
 Prev:
-\[learn-you-a-haskell-chapter-5](learn-you-a-haskell-chapter-5.md)
+[learn-you-a-haskell-chapter-5](learn-you-a-haskell-chapter-5.md)
 Next:
-\[learn-you-a-haskell-chapter-7](learn-you-a-haskell-chapter-7.md)
+[learn-you-a-haskell-chapter-7](learn-you-a-haskell-chapter-7.md)

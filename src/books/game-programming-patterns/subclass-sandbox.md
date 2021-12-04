@@ -13,7 +13,7 @@ base class.
 
 ## Motivation
 
-Let\'s say we want to create a class template that implements all
+Let's say we want to create a class template that implements all
 superpowers. Here are some cons:
 
 1.  Redundant Code
@@ -45,7 +45,7 @@ sandbox method using the provided operations.
 
 ## Keep in Mind
 
-Inheritance isn\'t thought of kindly because base classes tend to
+Inheritance isn't thought of kindly because base classes tend to
 accumulate lots of code.
 
 With this pattern, since every subclass goes through its base class to
@@ -53,11 +53,11 @@ reach the rest of the game, you can end up with the brittle base class
 problem.
 
 If you get spaghetti code from this pattern, try turning to the
-\[component](component.md) pattern.
+[component](component.md) pattern.
 
 ## Sample Code
 
-Let\'s make the Superpower base class:
+Let's make the Superpower base class:
 
 ```cpp
 class Superpower {
@@ -100,7 +100,7 @@ protected:
 };
 ```
 
-Let\'s say we want to add some control flow based on the hero\'s
+Let's say we want to add some control flow based on the hero's
 location. We can add that to the Superpower:
 
 ```cpp
@@ -167,7 +167,7 @@ This is a fairly small pattern that has a lot of flexibility.
 
 ### Should methods be provided directly, or through objects that contain them?
 
-Let\'s say that we want to add more methods to the base class to play
+Let's say that we want to add more methods to the base class to play
 music:
 
 ```cpp
@@ -189,7 +189,7 @@ protected:
 };
 ```
 
-Instead of adding it directly to the Superpower class, why don\'t we
+Instead of adding it directly to the Superpower class, why don't we
 create a new class that encapsulates it:
 
 ```cpp
@@ -268,7 +268,7 @@ power->init(particles);
 ```
 
 This lets us initialize the superpower base class and the derived class
-at different times. Let\'s create a helper function so we don\'t forget
+at different times. Let's create a helper function so we don't forget
 to initialize both at the same time.
 
 ```cpp
@@ -298,11 +298,11 @@ private:
 };
 ```
 
-This makes it so every instance of Superpower doesn\'t have to store its
+This makes it so every instance of Superpower doesn't have to store its
 own instance of particles, so this uses up less memory. Of course,
-we\'ll need to call `Superpower::init()` before we can use it.
+we'll need to call `Superpower::init()` before we can use it.
 
-- Use a \[service-locator](service-locator.md)
+- Use a [service-locator](service-locator.md)
 
 ```cpp
 class Superpower {
@@ -316,5 +316,5 @@ protected:
 };
 ```
 
-Prev: \[bytecode](bytecode.md) Next:
-\[type-object](type-object.md)
+Prev: [bytecode](bytecode.md) Next:
+[type-object](type-object.md)

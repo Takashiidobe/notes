@@ -2,12 +2,12 @@
 title: smells-and-heuristics
 ---
 
-and Heuristics\"
+and Heuristics"
 
 # Smells and Heuristics
 
 Prev:
-\[refactoring-serialdate](refactoring-serialdate.md)
+[refactoring-serialdate](refactoring-serialdate.md)
 
 Prev:
-\[refactoring-serialdate](refactoring-serialdate.md)
+[refactoring-serialdate](refactoring-serialdate.md)

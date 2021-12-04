@@ -2,8 +2,8 @@
 title: transactions
 ---
 
-Prev: \[partitioning](partitioning.md) Next:
-\[distributed-systems-trouble](distributed-systems-trouble.md)
+Prev: [partitioning](partitioning.md) Next:
+[distributed-systems-trouble](distributed-systems-trouble.md)
 
 # Transactions
 
@@ -57,7 +57,7 @@ certain number of nodes.
 ## Single-Object and Multi-Object Operations
 
 Transactions are used to logically group two operations that are
-disjoint. Let\'s say that you have a table of emails, and are querying
+disjoint. Let's say that you have a table of emails, and are querying
 it like this:
 
 ```sql
@@ -72,12 +72,12 @@ decrement it.
 Without atomicity, if an error occurs somewhere, the contents of the
 mailbox and unread counter might become out of sync.
 
-Unfortunately, many NoSQL databases don\'t have a way of grouping
+Unfortunately, many NoSQL databases don't have a way of grouping
 operations together.
 
 ### Single-Object writes
 
-Atomicity and Isolation apply for a single object being changed. Let\'s
+Atomicity and Isolation apply for a single object being changed. Let's
 say in the middle of a write, if the network connection goes out, it
 would be confusing if a half-written write propagated to the database.
 
@@ -103,7 +103,7 @@ Likewise, there are many cases when they are useful, like:
 
 ### Handling errors and aborts
 
-ACID guarantees allow us to retry transactions, but this isn\'t a
+ACID guarantees allow us to retry transactions, but this isn't a
 perfect error handling mechanism.
 
 - If the transaction succeeded, but the network failed, retrying still
@@ -141,12 +141,12 @@ dirty read. This prevents:
 
 #### No dirty writes
 
-What happens if a write overwrites an uncommitted value? That\'s a dirty
+What happens if a write overwrites an uncommitted value? That's a dirty
 write.
 
 This helps us avoid these situations:
 
-- If Alice and Bob try to buy a car: Let\'s say Bob wins, because he
+- If Alice and Bob try to buy a car: Let's say Bob wins, because he
   wrote to the listings table first so he gets the certificate, but
   Alice is given the invoice, because she wrote to the invoices table
   first.
@@ -160,7 +160,7 @@ single-object keys, and release them when the transaction aborts or
 completes.
 
 However, this is slow in practice, and slows read volume speed. Because
-of this, this isn\'t used much.
+of this, this isn't used much.
 
 Instead, MVCC is used, where for every object written in a transaction,
 the database remembers the old value and the new value. Readers can read
@@ -169,15 +169,15 @@ value after the transaction has been committed.
 
 ### Snapshot Isolation and Repeatable Read
 
-This doesn\'t prevent us from getting into concurrency bugs: Imagine a
+This doesn't prevent us from getting into concurrency bugs: Imagine a
 person trying to transfer money from one account to another:
 
-Assume Alice has two accounts with \$500, and wants to transfer \$100
+Assume Alice has two accounts with $500, and wants to transfer $100
 from account 1 to account 2.
 
 If Alice queries her first account before the transaction completed and
 queries her second account after the transaction, it will look as though
-\$100 disappeared.
+$100 disappeared.
 
 ```sql
 select balance
@@ -230,5 +230,5 @@ called multi-version concurrency control (MVCC).
 To do this, every transaction is written an only increasing transaction
 id (txid). Each row has a created_by and a deleted_by field,
 
-Prev: \[partitioning](partitioning.md) Next:
-\[distributed-systems-trouble](distributed-systems-trouble.md)
+Prev: [partitioning](partitioning.md) Next:
+[distributed-systems-trouble](distributed-systems-trouble.md)

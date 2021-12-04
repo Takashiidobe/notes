@@ -2,16 +2,16 @@
 title: graph-algorithms
 ---
 
-Algorithms\"
+Algorithms"
 
 # Graph Algorithms
 
 Prev:
-\[dynamic-programming](dynamic-programming.md)
+[dynamic-programming](dynamic-programming.md)
 Next:
-\[algorithm-design-topics](algorithm-design-topics.md)
+[algorithm-design-topics](algorithm-design-topics.md)
 
 Prev:
-\[dynamic-programming](dynamic-programming.md)
+[dynamic-programming](dynamic-programming.md)
 Next:
-\[algorithm-design-topics](algorithm-design-topics.md)
+[algorithm-design-topics](algorithm-design-topics.md)

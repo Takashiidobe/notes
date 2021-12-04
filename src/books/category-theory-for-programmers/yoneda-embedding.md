@@ -2,12 +2,12 @@
 title: yoneda-embedding
 ---
 
-Embedding\"
+Embedding"
 
-Prev: \[the-yoneda-lemma](the-yoneda-lemma.md)
+Prev: [the-yoneda-lemma](the-yoneda-lemma.md)
 Next:
-\[its-all-about-morphisms](its-all-about-morphisms.md)
+[its-all-about-morphisms](its-all-about-morphisms.md)
 
-Prev: \[the-yoneda-lemma](the-yoneda-lemma.md)
+Prev: [the-yoneda-lemma](the-yoneda-lemma.md)
 Next:
-\[its-all-about-morphisms](its-all-about-morphisms.md)
+[its-all-about-morphisms](its-all-about-morphisms.md)

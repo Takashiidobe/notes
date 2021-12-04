@@ -58,7 +58,7 @@ while (true) {
 ### A world out of time
 
 This loop has to adjust to the game. How fast does it spin? On fixed
-hardware, this was easy, but on newer hardware, there\'s no guarantee
+hardware, this was easy, but on newer hardware, there's no guarantee
 that any two computers are the same.
 
 ### Seconds per second
@@ -74,8 +74,8 @@ tracks the passage of time to control the rate of gameplay.
 
 ## When to Use It
 
-Even if you don\'t control the game loop of the underlying platform,
-you\'ll be relying on this, so it\'s good to have an idea of it.
+Even if you don't control the game loop of the underlying platform,
+you'll be relying on this, so it's good to have an idea of it.
 
 ## Keep in mind
 
@@ -83,15 +83,15 @@ Be careful of the way this code performs, since this is the 10% of the
 code that has 90% of the impact. Most everything happens inside of the
 game loop, so efficiency is king.
 
-### You may need to coordinate with the platform\'s event loop
+### You may need to coordinate with the platform's event loop
 
 In the win32 API, you can use calls like `PeekMessage` to handle and
-dispatch events from the OS. Unlike `GetMessage`, `PeekMessage` doesn\'t
+dispatch events from the OS. Unlike `GetMessage`, `PeekMessage` doesn't
 block waiting for user input, so your game loop continues on.
 
 ## Sample Code
 
-The code for a game loop is pretty straightforward. Let\'s talk about
+The code for a game loop is pretty straightforward. Let's talk about
 some variations and go over their pros and cons.
 
 Remember that the game loop consists of three parts:
@@ -102,8 +102,8 @@ Remember that the game loop consists of three parts:
 
 ### Take a little nap
 
-Let\'s say our game runs at 60FPS, or about 16 ms per frame. For any
-other work in between, we\'ll take a quick nap.
+Let's say our game runs at 60FPS, or about 16 ms per frame. For any
+other work in between, we'll take a quick nap.
 
 The code might look like this:
 
@@ -119,10 +119,10 @@ while (true) {
 
 ### One small step, one giant step
 
-Let\'s try something a bit more sophisticated.
+Let's try something a bit more sophisticated.
 
 If it takes us more than 16ms to advance the game one frame, the game
-loop can\'t possibly keep up. Let\'s try to implement a **variable**
+loop can't possibly keep up. Let's try to implement a **variable**
 time step, which will do this for us.
 
 ```cpp
@@ -137,21 +137,21 @@ while (true) {
 }
 ```
 
-This looks to solve the problem of one game loop, but it doesn\'t.
+This looks to solve the problem of one game loop, but it doesn't.
 
-Say we\'ve got a two-player networked game, and the two players are
+Say we've got a two-player networked game, and the two players are
 using hardware with different capabilities.
 
-Because one person\'s computer is better than another\'s, objects that
+Because one person's computer is better than another's, objects that
 are shared between them become unsynchronized. On top of that, floats
 have imprecise addition, so they can actually can be subject to rounding
 error.
 
 ### Play catch up
 
-One part of the engine that usually isn\'t affected by a variable time
-step is rendering. We\'ll update the game using a fixed time step, but
-we\'ll cause the variable time step to be rendered independently.
+One part of the engine that usually isn't affected by a variable time
+step is rendering. We'll update the game using a fixed time step, but
+we'll cause the variable time step to be rendered independently.
 
 ```cpp
 double previous = getCurrentTime();
@@ -172,27 +172,27 @@ while (true) {
 
 `MS_PER_UPDATE` is now the granularity we use to update the game. The
 shorter this step is, the more processing time it takes to catch up to
-real time. We\'ll want to make this pretty short to make the game look
+real time. We'll want to make this pretty short to make the game look
 better to the player. This also frees up a lot of CPU time by removing
 rendering from the update loop.
 
 ## Design Decisions
 
-At a high level, this is all that\'s in a game loop. That being said,
-there\'s more to it:
+At a high level, this is all that's in a game loop. That being said,
+there's more to it:
 
 ### Do you own the game loop, or does the platform?
 
-- Use the platform\'s event loop
+- Use the platform's event loop
 
-  - It\'s simple
+  - It's simple
   - It plays nice with the platform
   - You lose control over timing
 
-- Use a game engine\'s loop
+- Use a game engine's loop
 
-  - You don\'t have to write it
-  - You don\'t get full control
+  - You don't have to write it
+  - You don't get full control
 
 - Write it yourself
 
@@ -207,7 +207,7 @@ there\'s more to it:
 
 - Clamp the frame rate:
 
-  - You\'ll want to set an upper bound of frame rate to be 30-60FPS.
+  - You'll want to set an upper bound of frame rate to be 30-60FPS.
     That way, if all calculations finish, you can sleep for the rest
     of the time, saving battery power.
 
@@ -222,7 +222,7 @@ there\'s more to it:
 
   - Simple
   - Power friendly
-  - The game doesn\'t play too fast
+  - The game doesn't play too fast
   - The game can get very slow
 
 - Variable time step
@@ -233,7 +233,7 @@ there\'s more to it:
 - Fixed update time step, variable rendering
 
   - It adapts to playing both too slowly and too fast
-  - It\'s more complex
+  - It's more complex
 
-Prev: \[double-buffer](double-buffer.md) Next:
-\[update-method](update-method.md)
+Prev: [double-buffer](double-buffer.md) Next:
+[update-method](update-method.md)

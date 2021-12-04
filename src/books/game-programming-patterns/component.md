@@ -119,7 +119,7 @@ private:
 };
 ```
 
-Let\'s keep splitting:
+Let's keep splitting:
 
 ```cpp
 class PhysicsComponent
@@ -163,7 +163,7 @@ private:
 };
 ```
 
-Here\'s our Bjorn Class.
+Here's our Bjorn Class.
 
 ```cpp
 class Bjorn
@@ -257,7 +257,7 @@ Bjorn* bjorn = new Bjorn(new PlayerInputComponent());
 We pay the cost of a virtual function call for our `update()` functions,
 but instead, we can swap out the `InputComponent` at will:
 
-Let\'s say we wanted an AI to control Bjorn, like on a Demo screen:
+Let's say we wanted an AI to control Bjorn, like on a Demo screen:
 
 ```cpp
 class DemoInputComponent: public InputComponent {
@@ -276,7 +276,7 @@ Bjorn* bjorn = new Bjorn(new DemoInputComponent());
 
 ### No Bjorn at all?
 
-Actually, Bjorn is just a component bag. Let\'s go further with the
+Actually, Bjorn is just a component bag. Let's go further with the
 physics and graphics and make them interfaces too.
 
 ```cpp
@@ -353,16 +353,16 @@ GameObject* createBjorn() {
 
 - If the object creates its own components:
   - The object itself ensures it has the components it needs.
-  - It\'s harder to reconfigure the object.
+  - It's harder to reconfigure the object.
 - If outside code provides the components:
   - The object becomes flexible
   - It can be decoupled from the concrete component types.
 
 ### How do components communicate?
 
-- By modifying the container object\'s state.
+- By modifying the container object's state.
 - By referring directly to each other.
-- By sending messages There\'s no one right answer
+- By sending messages There's no one right answer
 
-Prev: \[type-object](type-object.md) Next:
-\[event-queue](event-queue.md)
+Prev: [type-object](type-object.md) Next:
+[event-queue](event-queue.md)

@@ -31,7 +31,7 @@ Work
 
 - You cannot stack up average workers to create the output of a
   superstar.
-- A Superstar\'s output is categorically different from those of an
+- A Superstar's output is categorically different from those of an
   average worker.
 - The open economy is winner-take-all so mediocre work is poorly
   compensated, whereas Deep Work is highly compensated.
@@ -52,7 +52,7 @@ Work
 - Deep Work helps us quickly learn hard things, and produce at an
   elite level.
 
-High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
+High Quality Work Produced = (Time Spent) * (Intensity of Focus).
 
 ### Attention Residue
 
@@ -72,7 +72,7 @@ High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
 ### The principal of least resistance
 
 - Email is easier than not using email.
-- It makes you feel more productive, even when you\'re not.
+- It makes you feel more productive, even when you're not.
 - People tend to do easier things first.
 
 ### Internet Faith
@@ -100,9 +100,9 @@ High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
   an area with serendipitous meetings, and areas to concentrate for
   deep work.
 
-### Why don\'t we all work deeply?
+### Why don't we all work deeply?
 
-- Every day we fight our desires, and so we can\'t work deeply.
+- Every day we fight our desires, and so we can't work deeply.
 - We must add routine and rituals to help fend off our desires.
 
 ### Decide on Your Depth Philosophy
@@ -152,7 +152,7 @@ High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
 - Spend a lot of money on a plane ticket to another place just to get
   that deep work needed.
 
-#### Don\'t Work Alone
+#### Don't Work Alone
 
 - MIT used to have a lab that would house all kinds of scientists, and
   this serendipitous building created many innovations of the 20th
@@ -202,7 +202,7 @@ High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
 
 - Deliberate practice can only happen up to four hours per day. Thus,
   when we take a break in the evenings, we should, for that work
-  we\'re replacing is low quality.
+  we're replacing is low quality.
 
 ## Rule 2: Embrace Boredom
 
@@ -210,13 +210,13 @@ High Quality Work Produced = (Time Spent) \* (Intensity of Focus).
   trained. And thus, you must be fine with being bored to hone that
   skill.
 
-### Don\'t take Breaks from Distraction. Instead Take Breaks from Focus
+### Don't take Breaks from Distraction. Instead Take Breaks from Focus
 
 - Allow yourself time with the internet in some chunks.
 
 ### Work Like Teddy Roosevelt
 
-- Identify a deep task that you\'d like done for the day that\'s high
+- Identify a deep task that you'd like done for the day that's high
   on your priority list.
 - Then, give yourself a hard deadline that drastically lowers the time
   required for this.
@@ -242,7 +242,7 @@ For example, taking off your shoes, then sitting down, etc.
 
 ## Rule 3: Quit Social Media
 
-- Don\'t believe in the \"Any Benefit\" approach to tooling.
+- Don't believe in the "Any Benefit" approach to tooling.
 
 - The Any Benefit approach to tooling believes that you should adopt
   any tool that has any positive.
@@ -267,7 +267,7 @@ For example, taking off your shoes, then sitting down, etc.
 
 - 80% of a given effect is due to just 20% of the possible causes.
 
-### Don\'t use the internet to entertain yourself
+### Don't use the internet to entertain yourself
 
 - Mental Facilities do not tire like an arm or a leg; self improvement
   in the hours after work help you out more than doing shallow work or
@@ -276,9 +276,9 @@ For example, taking off your shoes, then sitting down, etc.
 ## Rule 4: Drain the Shallows
 
 - Jason Fried (of basecamp fame) believed that his employees did
-  better work with less time, since they respected each other\'s time
+  better work with less time, since they respected each other's time
   more.
-- They take off friday\'s during the summer, and spend a month where
+- They take off friday's during the summer, and spend a month where
   employees were allowed to work on any projects that they wanted to
   to improve the company.
 
@@ -301,7 +301,7 @@ For example, taking off your shoes, then sitting down, etc.
 
 - Turn your email into something that only requires a response if
   something is interesting; Make people more reluctant to send you
-  email unless it\'s interesting, and make it so there\'s no guarantee
-  you\'ll respond.
+  email unless it's interesting, and make it so there's no guarantee
+  you'll respond.
 
 - This will help cut out email from your life.

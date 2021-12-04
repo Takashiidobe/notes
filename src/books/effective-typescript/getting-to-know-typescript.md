@@ -2,12 +2,12 @@
 title: getting-to-know-typescript
 ---
 
-to Know Typescript\"
+to Know Typescript"
 
 # Getting to Know Typescript
 
 Next:
-\[typescripts-type-system](typescripts-type-system.md)
+[typescripts-type-system](typescripts-type-system.md)
 
 1.  Understand the Relationship Between Typescript and Javascript
 
@@ -32,7 +32,7 @@ Will throw this error:
 
     TypeError: city.toUppercase is not a function
 
-Typescript\'s type checker can spot the problem a little bit better:
+Typescript's type checker can spot the problem a little bit better:
 
 ```ts
 let city = "new york city";
@@ -42,4 +42,4 @@ console.log(city.toUppercase());
 ```
 
 Next:
-\[typescripts-type-system](typescripts-type-system.md)
+[typescripts-type-system](typescripts-type-system.md)

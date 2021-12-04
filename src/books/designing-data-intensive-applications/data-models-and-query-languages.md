@@ -2,14 +2,14 @@
 title: data-models-and-query-languages
 ---
 
-Models and Query Languages\"
+Models and Query Languages"
 
 # Data Models and Query Languages
 
 Prev:
-\[reliable-scalable-and-maintainable-applications](reliable-scalable-and-maintainable-applications.md)
+[reliable-scalable-and-maintainable-applications](reliable-scalable-and-maintainable-applications.md)
 Next:
-\[storage-and-retrieval](storage-and-retrieval.md)
+[storage-and-retrieval](storage-and-retrieval.md)
 
 Data Models are APIs built on top of APIs. Bad data models are awkward
 to use.
@@ -31,7 +31,7 @@ NoSQL became popular in the 2010s, driven by these factors:
 
 ### The Object-Relational Mismatch
 
-Since we code primarily in object oriented languages, there\'s a
+Since we code primarily in object oriented languages, there's a
 mismatch between SQL and how ORMs are used.
 
 Compare a data model that uses JSON vs one that uses normalized tables.
@@ -39,9 +39,9 @@ The JSON data model has better cache locality, as the Relational data
 model requires lots of joins (which take time).
 
 You should try to store duplicated data as ids, and have a lookup table
-mapping from id -\> value. Instead of saying \"industry\": \"Software\",
-you should instead say \"industry_id\": 131, where 131 corresponds to
-\"Software\". This reduces code duplication and allows for fast changes
+mapping from id -> value. Instead of saying "industry": "Software",
+you should instead say "industry_id": 131, where 131 corresponds to
+"Software". This reduces code duplication and allows for fast changes
 for all callers if the name of the item changes.
 
 ## Many-to-One and Many-to-Many Relationships
@@ -224,6 +224,6 @@ migrated(Name, BornIn, LivingIn) :- name(Person, Name),
 ```
 
 Prev:
-\[reliable-scalable-and-maintainable-applications](reliable-scalable-and-maintainable-applications.md)
+[reliable-scalable-and-maintainable-applications](reliable-scalable-and-maintainable-applications.md)
 Next:
-\[storage-and-retrieval](storage-and-retrieval.md)
+[storage-and-retrieval](storage-and-retrieval.md)

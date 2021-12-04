@@ -2,16 +2,16 @@
 title: threads-further-details
 ---
 
-: Further Details\"
+: Further Details"
 
 # The Linux Programming Interface
 
 Prev:
-\[threads-thread-cancellation](threads-thread-cancellation.md)
+[threads-thread-cancellation](threads-thread-cancellation.md)
 Next:
-\[process-groups-sessions-and-job-control](process-groups-sessions-and-job-control.md)
+[process-groups-sessions-and-job-control](process-groups-sessions-and-job-control.md)
 
 Prev:
-\[threads-thread-cancellation](threads-thread-cancellation.md)
+[threads-thread-cancellation](threads-thread-cancellation.md)
 Next:
-\[process-groups-sessions-and-job-control](process-groups-sessions-and-job-control.md)
+[process-groups-sessions-and-job-control](process-groups-sessions-and-job-control.md)

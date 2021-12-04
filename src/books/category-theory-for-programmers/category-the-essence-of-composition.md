@@ -2,10 +2,10 @@
 title: category-the-essence-of-composition
 ---
 
-: The Essence of Composition\"
+: The Essence of Composition"
 
 Next:
-\[types-and-functions](types-and-functions.md)
+[types-and-functions](types-and-functions.md)
 
 # Category: The Essence of Composition
 
@@ -18,7 +18,7 @@ composition, that goes from A to C.
 ## Arrows as Functions
 
 Arrows, which are also called **morphisms** can be thought of as
-functions. Let\'s say you have a function `f` which takes an argument of
+functions. Let's say you have a function `f` which takes an argument of
 type `A` and returns a `B`. You have another function that takes a `B`
 and returns a `C`. You can compose them by passing the result of `f` to
 `g`. You have just defined a new function that takes an `A` and returns
@@ -61,7 +61,7 @@ There are two properties that the composition in any category must
 satisfy:
 
 1.  Composition is associative. If you have three morphisms, `f`, `g`,
-    and `h`, that can be composed, you don\'t need parentheses to
+    and `h`, that can be composed, you don't need parentheses to
     compose them.
 
 `ℎ ∘(𝑔 ∘ 𝑓) = (ℎ ∘ 𝑔)∘ 𝑓 = ℎ ∘ 𝑔 ∘ 𝑓`
@@ -161,4 +161,4 @@ When every node has an edge that refers back to it, and for every node
 pair `(A, B)` there is a path from `A` to `B`.
 
 Next:
-\[types-and-functions](types-and-functions.md)
+[types-and-functions](types-and-functions.md)

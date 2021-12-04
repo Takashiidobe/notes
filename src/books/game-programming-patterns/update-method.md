@@ -11,7 +11,7 @@ Method
 Simulate a collection of independent objects by telling each to process
 one frame of behavior at a time.
 
-Let\'s create some skeletons that guard an entrance:
+Let's create some skeletons that guard an entrance:
 
 ```cpp
 while(true) {
@@ -20,10 +20,10 @@ while(true) {
 }
 ```
 
-Of course, the player doesn\'t see this. It\'s locked in an infinite
+Of course, the player doesn't see this. It's locked in an infinite
 loop.
 
-Instead, we\'ll rely on the outer loop for iteration.
+Instead, we'll rely on the outer loop for iteration.
 
 ```cpp
 Entity skeleton;
@@ -42,7 +42,7 @@ while (true) {
 }
 ```
 
-Then we\'ll have to add some more enchanted statues\...
+Then we'll have to add some more enchanted statues...
 
 ```cpp
 Entity leftStatue;
@@ -77,7 +77,7 @@ all it does is call `update()` on them once, every frame.
 ## The Pattern
 
 The game world maintains a collection of objects. Each object implements
-an update method that simulates one frame of the object\'s behavior.
+an update method that simulates one frame of the object's behavior.
 Each frame, the game updates every object in the collection.
 
 ## When to Use It
@@ -86,19 +86,19 @@ This pattern works well when:
 
 1.  Your game has a number of objects or systems that need to run
     simultaneously.
-2.  Each object\'s behavior is mostly independent of the others.
+2.  Each object's behavior is mostly independent of the others.
 3.  The objects need to be simulated over time.
 
 ## Keep in Mind
 
 - Splitting code into single frame slices makes it more complex
 - You have to store state to resume where you left off each frame
-- Objects are updated sequentially. If objects rely on each other\'s
+- Objects are updated sequentially. If objects rely on each other's
   state, this can end up in edge cases if both are updated at the same
   time.
 - Be careful modifying the object list while updating.
 - You can easily handle the case where objects are added to the end of
-  the list, but not being removed. If you don\'t want to update dead
+  the list, but not being removed. If you don't want to update dead
   objects, allow them to be labeled as `dead`. The update loop can
   skip over dead objects, and at the end of the loop, remove them.
 
@@ -227,7 +227,7 @@ void Skeleton::update(double elapsed) {
 
 2.  The component class:
 
-- If you\'re using the Component pattern, this makes sense. Each
+- If you're using the Component pattern, this makes sense. Each
   component can update itself independently.
 
 3.  A delegate class:
@@ -238,8 +238,8 @@ void Skeleton::update(double elapsed) {
 ## How are dormant objects handled?
 
 Dormant objects can be handled by setting a flag that says whether or
-not they\'re alive (simpler) or you can separate entities into a
+not they're alive (simpler) or you can separate entities into a
 collection of alive or not.
 
-Prev: \[game-loop](game-loop.md) Next:
-\[bytecode](bytecode.md)
+Prev: [game-loop](game-loop.md) Next:
+[bytecode](bytecode.md)

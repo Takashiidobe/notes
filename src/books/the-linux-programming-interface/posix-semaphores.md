@@ -2,16 +2,16 @@
 title: posix-semaphores
 ---
 
-Semaphores\"
+Semaphores"
 
 # The Linux Programming Interface
 
 Prev:
-\[posix-message-queues](posix-message-queues.md)
+[posix-message-queues](posix-message-queues.md)
 Next:
-\[posix-shared-memory](posix-shared-memory.md)
+[posix-shared-memory](posix-shared-memory.md)
 
 Prev:
-\[posix-message-queues](posix-message-queues.md)
+[posix-message-queues](posix-message-queues.md)
 Next:
-\[posix-shared-memory](posix-shared-memory.md)
+[posix-shared-memory](posix-shared-memory.md)

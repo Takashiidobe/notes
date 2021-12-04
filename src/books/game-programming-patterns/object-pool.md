@@ -20,11 +20,11 @@ objects.
 
 Imagine you have a 16-byte chunk of memory:
 
-But there\'s one two-byte chunk in the middle, so all you have is an
+But there's one two-byte chunk in the middle, so all you have is an
 8-byte chunk and a 6-byte chunk.
 
 You get a request for a 12-byte chunk, which you could allocate size
-wise, but you can\'t allocate because you don\'t have a free 12-byte
+wise, but you can't allocate because you don't have a free 12-byte
 chunk.
 
 ## Keep in Mind
@@ -37,7 +37,7 @@ Here are some things to keep in mind:
     happens when we need to allocate a new object?
 
 - Prevent it outright: tune pool sizes
-- Don\'t create the objects
+- Don't create the objects
 - Forcibly kill an existing object
 
 ## Memory size of each object is fixed
@@ -49,7 +49,7 @@ Here are some things to keep in mind:
 
 ## Unused objects will remain in memory
 
-- You can\'t use it with garbage collection
+- You can't use it with garbage collection
 
 ## Sample Code
 
@@ -122,7 +122,7 @@ void ParticlePool::create(double x, double y,
 }
 ```
 
-You\'ll notice that every time we want to allocate more memory, this
+You'll notice that every time we want to allocate more memory, this
 costs O(n) time to traverse to the end of the pool. We can get away with
 using a union and a free list:
 
@@ -222,5 +222,5 @@ void ParticlePool::animate() {
 }
 ```
 
-Prev: \[dirty-flag](dirty-flag.md) Next:
-\[spatial-partition](spatial-partition.md)
+Prev: [dirty-flag](dirty-flag.md) Next:
+[spatial-partition](spatial-partition.md)

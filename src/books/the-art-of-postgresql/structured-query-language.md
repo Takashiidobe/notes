@@ -2,12 +2,12 @@
 title: structured-query-language
 ---
 
-Query Language\"
+Query Language"
 
 # Structured Query Language
 
 Next:
-\[software-architecture](software-architecture.md)
+[software-architecture](software-architecture.md)
 
 We first begin by loading in some data:
 
@@ -28,7 +28,7 @@ create table factbook
     dollars text
 );
 
-\copy factbook from 'factbook.csv' with delimiter E'\t' null ''
+copy factbook from 'factbook.csv' with delimiter E't' null ''
 
 alter table factbook
     alter shares
@@ -64,7 +64,7 @@ order by date;
 We might want to create a function that can do this for us, but we have
 to be wary of SQL injection.
 
-We can create \"prepared statements\" which will do that for us:
+We can create "prepared statements" which will do that for us:
 
 ```sql
 prepare query as
@@ -103,7 +103,7 @@ from
 order by date;
 ```
 
-Let\'s say we want to count week on week growth:
+Let's say we want to count week on week growth:
 
 We can use a window function:
 
@@ -180,4 +180,4 @@ order by date;
 ```
 
 Next:
-\[software-architecture](software-architecture.md)
+[software-architecture](software-architecture.md)

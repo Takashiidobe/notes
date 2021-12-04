@@ -2,16 +2,16 @@
 title: the-abstraction-address-spaces
 ---
 
-Abstraction: Address Spaces\"
+Abstraction: Address Spaces"
 
 # The Abstraction: Address Spaces
 
 Prev:
-\[a-dialogue-on-memory-virtualization](a-dialogue-on-memory-virtualization.md)
+[a-dialogue-on-memory-virtualization](a-dialogue-on-memory-virtualization.md)
 Next:
-\[interlude-memory-api](interlude-memory-api.md)
+[interlude-memory-api](interlude-memory-api.md)
 
 Prev:
-\[a-dialogue-on-memory-virtualization](a-dialogue-on-memory-virtualization.md)
+[a-dialogue-on-memory-virtualization](a-dialogue-on-memory-virtualization.md)
 Next:
-\[interlude-memory-api](interlude-memory-api.md)
+[interlude-memory-api](interlude-memory-api.md)

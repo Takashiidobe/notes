@@ -19,7 +19,7 @@ C Programming Language Chapter 3
 ## Exercise 3-2
 
 > Write a function escape(s,t) that converts characters like newline and
-> tab into visible escape sequences like \\n and \\t as it copies the
+> tab into visible escape sequences like n and t as it copies the
 > string t to s . Use a switch . Write a function for the other
 > direction as well, converting escape sequences into the real
 > characters.
@@ -31,7 +31,7 @@ C Programming Language Chapter 3
 ## Exercise 3-3
 
 > Write a function expand(s1,s2) that expands shorthand notations like
-> a-z in the string s1 into the equivalent complete list abc\...xyz in
+> a-z in the string s1 into the equivalent complete list abc...xyz in
 > s2 . Allow for letters of either case and digits, and be prepared to
 > handle cases like a-b-c and a-z0-9 and -a-z . Arrange that a leading
 > or trailing - is taken literally.
@@ -42,12 +42,12 @@ C Programming Language Chapter 3
 
 ## Exercise 3-4
 
-> In a two\'s complement number representation, our version of itoa does
+> In a two's complement number representation, our version of itoa does
 > not handle the largest negative number, that is, the value of n equal
 > to -(2 to the power (wordsize - 1)) . Explain why not. Modify it to
 > print that value correctly regardless of the machine on which it runs.
 
-It doesn\'t handle it because it assumes that the first bit is the
+It doesn't handle it because it assumes that the first bit is the
 negative or positive sign.
 
 ```c

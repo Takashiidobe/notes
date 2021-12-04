@@ -2,10 +2,10 @@
 title: function-types
 ---
 
-Types\"
+Types"
 
-Prev: \[functoriality](functoriality.md) Next:
-\[natural-transformations](natural-transformations.md)
+Prev: [functoriality](functoriality.md) Next:
+[natural-transformations](natural-transformations.md)
 
-Prev: \[functoriality](functoriality.md) Next:
-\[natural-transformations](natural-transformations.md)
+Prev: [functoriality](functoriality.md) Next:
+[natural-transformations](natural-transformations.md)

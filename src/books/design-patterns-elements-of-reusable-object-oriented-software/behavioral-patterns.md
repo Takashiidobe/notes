@@ -2,14 +2,14 @@
 title: behavioral-patterns
 ---
 
-Patterns\"
+Patterns"
 
 # Behavioral Patterns
 
 Prev:
-\[structural-patterns](structural-patterns.md)
-Next: \[conclusion](conclusion.md)
+[structural-patterns](structural-patterns.md)
+Next: [conclusion](conclusion.md)
 
 Prev:
-\[structural-patterns](structural-patterns.md)
-Next: \[conclusion](conclusion.md)
+[structural-patterns](structural-patterns.md)
+Next: [conclusion](conclusion.md)

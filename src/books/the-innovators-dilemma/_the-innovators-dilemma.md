@@ -47,7 +47,7 @@ instead of Sears.
 ### Three Problems of Disruptive Technology vs Investment
 
 1.  Disruptive technologies are cheaper than their sustained technology
-    counterparts \-- this leads to lower margins, and lower profits.
+    counterparts -- this leads to lower margins, and lower profits.
 2.  Disruptive technologies are commercialized in insignificant markets,
     and start out in a niche market.
 3.  Thus, companies that listen to customers (who do not represent the
@@ -58,7 +58,7 @@ instead of Sears.
 
 1.  Companies depend on customers and investors.
 
-    - Investors rule your company \-- and since disruptive
+    - Investors rule your company -- and since disruptive
       technologies take multiple years to come to fruition, investors
       veto investment (as they prefer short-term growth to long-term
       growth) and customers veto it (they want a better product now,
@@ -67,33 +67,33 @@ instead of Sears.
       firm research the disruptive technology, without guard rails of
       the company at large.
 
-2.  Small markets don\'t meet the growth needs of large companies.
+2.  Small markets don't meet the growth needs of large companies.
 
     - Disruptive technologies often start out in small markets.
-    - This is fine for small companies, as a \$40MM company only needs
-      \$8MM in profits to grow its company by 20%.
-    - A large company (\$4B) needs 400MM, so they would disregard this
+    - This is fine for small companies, as a $40MM company only needs
+      $8MM in profits to grow its company by 20%.
+    - A large company ($4B) needs 400MM, so they would disregard this
       budding market as too small to compete in.
     - This can be abetted by spinning off an org relative to the size
       of the market and having that org own its own growth metrics and
       compete against other companies trying to introduce the product
       to the mainstream.
 
-3.  Markets that don\'t exist can\'t be analyzed.
+3.  Markets that don't exist can't be analyzed.
 
     - Market research is critical in fueling sustained development,
       since the market trajectory is clear and the technology is
       well-known.
     - Market research fails to predict the growth of smaller markets,
       and this handicaps big companies.
-    - Companies with investors don\'t enter a market without hard data
-      \-- but this data is useless, since it fails to capture the
+    - Companies with investors don't enter a market without hard data
+      -- but this data is useless, since it fails to capture the
       potential future value of that market.
     - To combat this, spin off an org, but allow it to remain
       autonomous and make decisions based on the market itself, rather
       than company wide goals.
 
-4.  An organization\'s capabilities define its disabilities
+4.  An organization's capabilities define its disabilities
 
     - An organization constitutes of its processes and its values.
       Processes and values are not readily transferrable, which means
@@ -109,7 +109,7 @@ instead of Sears.
 
 ## Why Great Companies can Fail
 
-- Hard disk companies are like the bacteria of business \-- a
+- Hard disk companies are like the bacteria of business -- a
   disruptive technology was introduced and killed the sustaining
   technology every 5 years at the latest. Almost no firm was around
   for more than one cycle of this, and no firms lasted longer than
@@ -120,15 +120,15 @@ instead of Sears.
 1.  Managerial
 
     - Some companies are slow to adapt because organizations mirror
-      components \-- so teams are organizationally adept at producing
+      components -- so teams are organizationally adept at producing
       products for technologies that involve sustained innovation, but
       are bad at new architectures, since that requires a new
       org-chart to fit the new architecture.
 
 2.  Capabilities and Technology
 
-    - Companies build competencies doing what they\'ve done before.
-    - New firms don\'t have these capabilities, so they gravitate
+    - Companies build competencies doing what they've done before.
+    - New firms don't have these capabilities, so they gravitate
       towards radical technology changes.
     - They may stumble to an org-chart that matches the innovation
       required for a disruptive technology, if they find enough
@@ -137,8 +137,8 @@ instead of Sears.
 3.  Value Networks
 
     - Companies are embedded in a network which involves the products
-      they sell \-- for example, Intel and AMD are embedded in a
-      network that involves desktop computing \-- the fans,
+      they sell -- for example, Intel and AMD are embedded in a
+      network that involves desktop computing -- the fans,
       motherboards, RAM, Hard disk, cases, etc. They want to build
       technology that fits like a glove.
 
@@ -161,7 +161,7 @@ instead of Sears.
 
 ![Technology S-Curve](./technology-s-curves.png)
 
-- Technologies leap frog each other \-- disruptive technologies always
+- Technologies leap frog each other -- disruptive technologies always
   start off worse and end up better.
 - Sustained growth is slow at first, then gets faster, and slows down
   again after hitting some physical limit, before a disruptive
@@ -173,7 +173,7 @@ instead of Sears.
     - Big firms engineers create the technology that new entrants
       commercialize.
 2.  The engineers asked customers for thoughts.
-    - Customers didn\'t like this disruptive product, because they had
+    - Customers didn't like this disruptive product, because they had
       more use for the sustained product, and research for the
       disruptive product is shelved.
 3.  Established firms step up pace of improvement on sustained
@@ -189,7 +189,7 @@ instead of Sears.
     - The entrants take their product and improve upon it while
       listening to their customers. Eventually, they have a product
       that is superior in all ways to the sustained technology, and
-      grow in size, eating away the big firm\'s margins.
+      grow in size, eating away the big firm's margins.
 6.  Established firms belatedly enter market
     - The established firms belatedly enter the market, but only
       either survive or are kicked out entirely.
@@ -205,12 +205,12 @@ This story also pans out in the mechanical excavator industry.
 - Smaller comapnies started by targeting firms who had fewer
   requiremetns than the others, and grew with them to sustain the use
   of the technology.
-- Companies think of their products from the view of the market\'s
-  needs, rather than the user\'s wants, which leads them to stick onto
+- Companies think of their products from the view of the market's
+  needs, rather than the user's wants, which leads them to stick onto
   sustained technology and eventually lose to the disruptive
   technology.
 
-## Chapter 4: What goes up can\'t go down
+## Chapter 4: What goes up can't go down
 
 Leading firms find it difficult to enter downstream markets (where
 margins are lower) but easy to go upstream (where margins are higher).
@@ -224,7 +224,7 @@ margins are lower) but easy to go upstream (where margins are higher).
   analysis of data, hence, it is invisible and hard to argue with a
   company.
 - Smaller comapnies do better at analyzing a disruptive technology,
-  because they\'re not as data driven and are more flexible to change.
+  because they're not as data driven and are more flexible to change.
 
 ## Part Two: Managing Disruptive Technological Change
 
@@ -251,7 +251,7 @@ The five reasons why firms failed to be disruptive.
 2.  Making their groups small, so they were decoupled from the parent
     company.
 3.  They planned to fail early and Inexpensively.
-4.  They used some of the parent company\'s resources as an advantage,
+4.  They used some of the parent company's resources as an advantage,
     but not the processes or values.
 5.  By developing new markets that valued the attributes of disruptive
     markets.

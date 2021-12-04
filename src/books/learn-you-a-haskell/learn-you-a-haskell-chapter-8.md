@@ -6,7 +6,7 @@ title: learn-you-a-haskell-chapter-8
 
 ## Algebraic Data types intro
 
-Let\'s see how `Bool` is implemented.
+Let's see how `Bool` is implemented.
 
 ```hs
 data Bool = False | True
@@ -14,13 +14,13 @@ data Bool = False | True
 
 a bool is either False or True.
 
-Here\'s how Int is defined:
+Here's how Int is defined:
 
 ```hs
 data Int = -214783648 | ... | -1 | 0 | 1 | ... | 214783647
 ```
 
-Let\'s make our own type to represent a shape:
+Let's make our own type to represent a shape:
 
 ```hs
 data Shape = Circle Float Float Float | Rectangle Float Float Float Float
@@ -36,7 +36,7 @@ ghci> :t Rectangle
 Rectangle :: Float -> Float -> Float -> Float -> Shape
 ```
 
-Let\'s make a function that takes a Shape and returns its area.
+Let's make a function that takes a Shape and returns its area.
 
 ```hs
 surface :: Shape -> Float
@@ -44,7 +44,7 @@ surface (Circle _ _ r) = pi * r ^ 2
 surface (Rectangle x1 y1 x2 y2) = (abs $ x2 - x2) * (abs $ y2 - y1)
 ```
 
-Here\'s how that works:
+Here's how that works:
 
 ```hs
 ghci> surface $ Circle 10 20 10
@@ -53,7 +53,7 @@ ghci> surface $ Rectangle 0 0 100 100
 10000.0
 ```
 
-We can\'t print out the circle, until we have it derive show:
+We can't print out the circle, until we have it derive show:
 
 ```hs
 data Shape = Circle Float Float Float | Rectangle Float Float Float Float deriving (Show)
@@ -76,7 +76,7 @@ ghci> map (Circle 10 20) [4,5,6,6]
 [Circle 10.0 20.0 4.0,Circle 10.0 20.0 5.0,Circle 10.0 20.0 6.0,Circle 10.0 20.0 6.0]
 ```
 
-Let\'s make an intermediate Point to simplify our definition:
+Let's make an intermediate Point to simplify our definition:
 
 ```hs
 data Point = Point Float Float deriving (Show)
@@ -145,14 +145,14 @@ module Shapes
 
 ## Record Syntax
 
-Here\'s a data type that describes a person: Their: first name last name
+Here's a data type that describes a person: Their: first name last name
 age height phone number favorite ice cream flavor
 
 ```hs
 data Person = Person String String Int Float String String deriving (Show)
 ```
 
-It\'s very cumbersome to use this without labeling them.
+It's very cumbersome to use this without labeling them.
 
 ```hs
 ghci> let guy = Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
@@ -160,7 +160,7 @@ ghci> guy
 Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
 ```
 
-Here\'s how we create value constructors for everything:
+Here's how we create value constructors for everything:
 
 ```hs
 firstName :: Person -> String
@@ -206,7 +206,7 @@ ghci> let guy = Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"ghci
 ```
 
 Record syntax is generally preferred when the order of values is vague,
-and it\'s not obvious which field is which.
+and it's not obvious which field is which.
 
 ## Type parameters
 
@@ -250,8 +250,8 @@ data (Ord k) => Map k v = ...
 We can require that the Ord typeclass has to be satisfied for a key, so
 the Map can be ordered.
 
-Let\'s create a Vector 3D vector type and add operations for it. In the
-type, don\'t add the constraint, because we have to for the functions.
+Let's create a Vector 3D vector type and add operations for it. In the
+type, don't add the constraint, because we have to for the functions.
 
 ```hs
 data Vector a = Vector a a a deriving (Show)
@@ -279,7 +279,7 @@ firstName :: String
 } deriving (Show, Read, Eq)
 ```
 
-We\'ll create a person type and then derive Show, Read and Eq for it.
+We'll create a person type and then derive Show, Read and Eq for it.
 
 ```hs
 ghci> let mikeD = Person {firstName = "Michael", lastName = "Diamond", age = 43}
@@ -300,7 +300,7 @@ type, whereas read turns a string representation of our type into the
 type.
 
 ```hs
-ghci> read "Person {firstName =\"Michael\", lastName =\"Diamond\", age = 43}" :: Person
+ghci> read "Person {firstName ="Michael", lastName ="Diamond", age = 43}" :: Person
 Person {firstName = "Michael", lastName = "Diamond", age = 43}
 ```
 
@@ -404,7 +404,7 @@ In Haskell that could be represented like this:
 type String = [Char]
 ```
 
-Likewise, we could simplify our `Data.Map` module\'s types:
+Likewise, we could simplify our `Data.Map` module's types:
 
 ```hs
 phoneBook :: [(String,String)]
@@ -418,7 +418,7 @@ phoneBook = [
   ]
 ```
 
-We know that this is a mapping of `String` -\> `String`, but we could
+We know that this is a mapping of `String` -> `String`, but we could
 make a type synonym and make that easier to understand.
 
 ```hs
@@ -433,7 +433,7 @@ Type synonyms can also be parameterized:
 type AssocList k v = [(k,v)]
 ```
 
-Let\'s talk about the `Either` type:
+Let's talk about the `Either` type:
 
 ```hs
 data Either a b = Left a | Right b deriving (Eq, Ord, Read, Show)
@@ -455,7 +455,7 @@ Left True :: Either Bool b
 
 ## Recursive Data Structures
 
-Let\'s make a List data type with Algebraic Data Types
+Let's make a List data type with Algebraic Data Types
 
 ```hs
 data List a = Empty | Cons a (List a) deriving (Show, Read, Eq, Ord)
@@ -477,7 +477,7 @@ infixr 5 :-:
 data List a = Empty | a :-: (List a) deriving (Show, Read, Eq, Ord)
 ```
 
-Let\'s define our own `++` operator:
+Let's define our own `++` operator:
 
 ```hs
 infixr 5  .++
@@ -486,7 +486,7 @@ Empty .++ ys = ys
 (x :-: xs) .++ ys = x :-: (xs .++ ys)
 ```
 
-Let\'s make a binary search tree:
+Let's make a binary search tree:
 
 ```hs
 data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)
@@ -507,7 +507,7 @@ treeInsert x (Node a left right)
   | x > a  = Node a left (treeInsert x right)
 ```
 
-Here\'s a function that checks if an Element is in a tree:
+Here's a function that checks if an Element is in a tree:
 
 ```hs
 treeElem :: (Ord a) => a -> Tree a -> Bool
@@ -518,7 +518,7 @@ treeElem x (Node a left right)
   | x > a = TreeElem x right
 ```
 
-And let\'s start inserting values into the tree:
+And let's start inserting values into the tree:
 
 ```hs
 ghci> let nums = [8,6,4,1,7,3,5]
@@ -529,7 +529,7 @@ Node 5 (Node 3 (Node 1 EmptyTree EmptyTree) (Node 4 EmptyTree EmptyTree)) (Node 
 
 ## Typeclasses 102
 
-Let\'s see how the `Eq` typeclass is implemented:
+Let's see how the `Eq` typeclass is implemented:
 
 ```hs
 class Eq a where
@@ -540,15 +540,15 @@ class Eq a where
 ```
 
 A type conforms to the `Eq` typeclass if it has a definition for `==`
-and `/=` and doesn\'t have the same implementation for `==` and `/=`.
+and `/=` and doesn't have the same implementation for `==` and `/=`.
 
-Let\'s write a Traffic Light class:
+Let's write a Traffic Light class:
 
 ```hs
 data TrafficLight = Red | Yellow | Green
 ```
 
-Normally we could derive it automatically, but let\'s write it out:
+Normally we could derive it automatically, but let's write it out:
 
 ```hs
 instance Eq TrafficLight where
@@ -561,7 +561,7 @@ instance Eq TrafficLight where
 Because `Eq` is defined in terms of each other, we can stop right here.
 `Eq` is fulfilled, because it can figure out the definition for `/=`.
 
-Here\'s how show would be written by hand:
+Here's how show would be written by hand:
 
 ```hs
 instance Show TrafficLight where
@@ -570,7 +570,7 @@ instance Show TrafficLight where
     show Green = "Green light"
 ```
 
-Let\'s override `Eq` for `Maybe`.
+Let's override `Eq` for `Maybe`.
 
 ```hs
 instance (Eq m) => Eq (Maybe m) where

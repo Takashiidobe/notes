@@ -4,7 +4,7 @@ title: hashing
 
 # Hashing
 
-Next: \[membership](membership.md)
+Next: [membership](membership.md)
 
 `Hashing` is crucial to probabilistic data structures. They `randomize`
 and `compact` representation of data.
@@ -29,7 +29,7 @@ works well here)).
 This is an approximate algorithm which provides a probability of
 collision smaller than `2/m`.
 
-This hash function only works for inputs on integers. This doesn\'t work
+This hash function only works for inputs on integers. This doesn't work
 well for applications that need to hash variable-sized vectors with
 certain guaranteed properties.
 
@@ -125,7 +125,7 @@ discovered and in 2010 it was deprecated for use as a
 
 RadioGatún is an improvement of the Panama hash function. The algorithm
 splits the input into a sequence of blocks which are injected into the
-algorithm\'s internal state using a special function. That is followed
+algorithm's internal state using a special function. That is followed
 by an iterative application of single non-cryptographic functions (the
 belt-and-mill).
 
@@ -149,7 +149,7 @@ multiplication and the XOR over the range.
 
 The FNV algorithm has (32, 64, 128, 256, 512, and 1024 bit hash values).
 
-It is used in Rust\'s hashmaps as a crate.
+It is used in Rust's hashmaps as a crate.
 
 ### MurmurHash
 
@@ -172,7 +172,7 @@ and more complex than MurmurHash for most other inputs.
 
 A hash table is a dictionary data structure that is comprised of an
 unordered associate array of length m, whose entries are called buckets
-and are indexed by a key in the range of {0, 1, \..., m - 1}.
+and are indexed by a key in the range of {0, 1, ..., m - 1}.
 
 A hash function is used to compute the key that is utilized to select
 the appropriate bucket to store the value.
@@ -181,9 +181,9 @@ Since the size of the universe (all possible inputs) is larger than our
 hash table, there will be collisions that need to be dealt with.
 
 The load factor `α` can be represented by the ratio of the used keys `n`
-to a table\'s total length `m`.
+to a table's total length `m`.
 
-\$\$α = \\frac{n}{m}\$\$
+$$α = frac{n}{m}$$
 
 To deal with collisions, there are two main strategies:
 
@@ -196,22 +196,22 @@ To deal with collisions, there are two main strategies:
 `perfect hashing` uses special hash functions and secondary hash tables
 of different lengths.
 
-Let\'s talk about some open addressing implementations:
+Let's talk about some open addressing implementations:
 
 ### Linear Probing
 
 Create a hash table as a circular array (ring buffer).
 
-To insert a new element x, we compute its key \$\$k = h(x)\$\$ using a
+To insert a new element x, we compute its key $$k = h(x)$$ using a
 hash function `h`. If the bucket is filled, we keep going clockwise
 until we find a free space to drop the item.
 
-We must have a load factor \< 1, otherwise the hash table will run out
+We must have a load factor < 1, otherwise the hash table will run out
 of elements.
 
 To calculate lookup, we compute the key `k` using the hash function `h`
 and start checking the buckets clockwise. If we find the wanted element
-x, then we know it\'s in the table. If we find an empty bucket, the
+x, then we know it's in the table. If we find an empty bucket, the
 element is not in the table.
 
 The algorithm requires O(1) time on average for each operation, as long
@@ -239,4 +239,4 @@ goes into that bucket, and the evicted item changes.
 Next Chapter is on probabilistic data structures and extensions of hash
 tables, called filters.
 
-Next: \[membership](membership.md)
+Next: [membership](membership.md)

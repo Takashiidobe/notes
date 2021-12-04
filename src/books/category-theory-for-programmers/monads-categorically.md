@@ -2,12 +2,12 @@
 title: monads-categorically
 ---
 
-Categorically\"
+Categorically"
 
 Prev:
-\[monads-and-effects](monads-and-effects.md)
-Next: \[comonads](comonads.md)
+[monads-and-effects](monads-and-effects.md)
+Next: [comonads](comonads.md)
 
 Prev:
-\[monads-and-effects](monads-and-effects.md)
-Next: \[comonads](comonads.md)
+[monads-and-effects](monads-and-effects.md)
+Next: [comonads](comonads.md)

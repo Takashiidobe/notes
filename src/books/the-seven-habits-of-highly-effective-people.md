@@ -8,11 +8,11 @@ Character ethics matter - Integrity, Humility, Fidelity, Temperance,
 Courage, Justice, Patience, Industry, Simplicity, Modesty, and the
 Golden Rule.
 
-Values are what people remember \-- \"what you are shouts so loudly in
-my ears that I cannot hear what you say.\"
+Values are what people remember -- "what you are shouts so loudly in
+my ears that I cannot hear what you say."
 
-\"For every thousand hacking at the leaves of evil, there is one
-striking at the root.\" Prefer subtance over style.
+"For every thousand hacking at the leaves of evil, there is one
+striking at the root." Prefer subtance over style.
 
 ## Habit 1: Be Proactive
 
@@ -50,7 +50,7 @@ Not Important Delegate Eliminate
 Genuine feelings for mutually beneficial solutions should be prioritized
 over solutions where one party wins a lot and one party wins nothing.
 
-It\'s important to resolve conflict by allowing both parties to win a
+It's important to resolve conflict by allowing both parties to win a
 little bit at a time.
 
 ## Habit 5: Seek first to understand, then to be understood
@@ -72,6 +72,6 @@ is greater than the sum of its parts.
 
 ## Habit 7: Sharpen the Saw
 
-Always continuously improve \-- find ways to judge less, and care more
-\-- to improve in both technical and interpersonal ways, and learn
+Always continuously improve -- find ways to judge less, and care more
+-- to improve in both technical and interpersonal ways, and learn
 something new, to avoid stagnation.

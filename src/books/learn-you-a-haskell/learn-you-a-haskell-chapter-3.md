@@ -25,7 +25,7 @@ addThree :: Int -> Int -> Int -> Int
 addThree x y z = x + y + z
 ```
 
-the types are separated by -\>, and the last is the return type
+the types are separated by ->, and the last is the return type
 
 Int stands for Integer. This is a 64-bit number on a 64 bit machine. the
 min and max bounds can be found like so:
@@ -82,7 +82,7 @@ not False
 -- True
 ```
 
-Chars are characters, \[Char\] is a list of Chars, or a String
+Chars are characters, [Char] is a list of Chars, or a String
 
 ## Type Variables
 
@@ -94,7 +94,7 @@ Head takes a list of any type and returns an element of that type, a.
 ```
 
 First takes a tuple with generic types (a, b) and returns a type of
-\'a\'.
+'a'.
 
 ```hs
 :t fst
@@ -114,8 +114,8 @@ This means that the function has a constraint of Eq a that must be met.
 If the types are not equalable, this has no effect. all of the
 comparison operators, like /=, ==, require Eq.
 
-Ord is for types that have an ordering. this type is required for \>,
-\<, \>=, \<=
+Ord is for types that have an ordering. this type is required for >,
+<, >=, <=
 
 ```hs
 :t (>)
@@ -128,7 +128,7 @@ Ord must return an Ordering, which is a type where if all members are
 compared, they return GT, LT, or EQ.
 
 Members of the typeclass `Show` can be presented as strings. You can
-overload `show` for this\`.
+overload `show` for this`.
 
 ```hs
 show 3
@@ -153,7 +153,7 @@ read "[1,2,3,4]" ++ [3]
 -- [1,2,3,4,3]
 ```
 
-Read \"4\" doesn\'t work, since ghci doesn\'t know what we\'re doing
+Read "4" doesn't work, since ghci doesn't know what we're doing
 
 ```hs
 read "4"
@@ -169,7 +169,7 @@ read "5" :: Int
 -- 5
 read "5" :: Float
 -- 5.0
-(read "5" :: Float) \* 4
+(read "5" :: Float) * 4
 -- 20.0
 read "[1,2,3,4]" :: [Int]
 -- [1,2,3,4]
@@ -198,7 +198,7 @@ Bounded members have an upper and lower bound
 minBound :: Int
 -- -2147483648
 maxBound :: Char
--- '\1114111'
+-- '1114111'
 maxBound :: Bool
 -- True
 minBound :: Bool
@@ -209,7 +209,7 @@ Tuples can be bounded if the components are
 
 ```hs
 maxBound :: (Bool, Int, Char)
--- (True,2147483647,'\1114111')
+-- (True,2147483647,'1114111')
 ```
 
 Num is a numeric typeclass that can act like a number. Multiplication
@@ -225,6 +225,6 @@ Integral includes only whole numbers, Int and Integer.
 Floating includes only floating point numbers, Float and Double.
 
 Prev:
-\[learn-you-a-haskell-chapter-2](learn-you-a-haskell-chapter-2.md)
+[learn-you-a-haskell-chapter-2](learn-you-a-haskell-chapter-2.md)
 Next:
-\[learn-you-a-haskell-chapter-4](learn-you-a-haskell-chapter-4.md)
+[learn-you-a-haskell-chapter-4](learn-you-a-haskell-chapter-4.md)

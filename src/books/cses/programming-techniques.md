@@ -2,12 +2,12 @@
 title: programming-techniques
 ---
 
-Techniques\"
+Techniques"
 
 # Programming Techniques
 
-Prev: \[introduction](introduction.md) Next:
-\[efficiency](efficiency.md)
+Prev: [introduction](introduction.md) Next:
+[efficiency](efficiency.md)
 
-Prev: \[introduction](introduction.md) Next:
-\[efficiency](efficiency.md)
+Prev: [introduction](introduction.md) Next:
+[efficiency](efficiency.md)

@@ -2,12 +2,12 @@
 title: synchronization-in-c
 ---
 
-in C\"
+in C"
 
 # The Little Book of Semaphores
 
 Prev:
-\[synchronization-in-python](synchronization-in-python.md)
+[synchronization-in-python](synchronization-in-python.md)
 
 Prev:
-\[synchronization-in-python](synchronization-in-python.md)
+[synchronization-in-python](synchronization-in-python.md)

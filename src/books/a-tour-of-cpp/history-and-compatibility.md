@@ -2,10 +2,10 @@
 title: history-and-compatibility
 ---
 
-and Compatibility\"
+and Compatibility"
 
 # History and Compatibility
 
-Prev: \[\[concurrency\]\]
+Prev: [[concurrency]]
 
-Prev: \[\[concurrency\]\]
+Prev: [[concurrency]]

@@ -83,7 +83,7 @@ ghci> transpose ["hey","there","guys"]
 ["htg","ehu","yey","rs","e"]
 ```
 
-Let\'s say we have some list where we want to sum up column-wise.
+Let's say we have some list where we want to sum up column-wise.
 
 We can do this:
 
@@ -186,7 +186,7 @@ What if we wanted to know the sum of all third powers that are under
 
 We can do something like this:
 
-We make an infinite list of third powers, chop them off when they\'re
+We make an infinite list of third powers, chop them off when they're
 greater than 10000, then sum them.
 
 ```hs
@@ -204,11 +204,11 @@ ghci> dropWhile (<3) [1,2,2,2,3,4,5,4,3,2,1]
 [3,4,5,4,3,2,1]
 ```
 
-Imagine finding out when the stock value of a stock exceeds \$1000.
+Imagine finding out when the stock value of a stock exceeds $1000.
 
 ```hs
 ghci> let stock = [(994.4,2008,9,1),(995.2,2008,9,2),(999.2,2008,9,3),(1001.4,2008,9,4),(998.3,2008,9,5)]
-ghci> head (dropWhile (\(val,y,m,d) -> val < 1000) stock)
+ghci> head (dropWhile ((val,y,m,d) -> val < 1000) stock)
 (1001.4,2008,9,4)
 ```
 
@@ -249,12 +249,12 @@ We can sort and map to find out how many times each element appears in
 the list.
 
 ```hs
-ghci> map (\l@(x:xs) -> (x,length l)) . group . sort $ [1,1,1,1,2,2,2,2,3,3,2,2,2,5,6,7]
+ghci> map (l@(x:xs) -> (x,length l)) . group . sort $ [1,1,1,1,2,2,2,2,3,3,2,2,2,5,6,7]
 [(1,4),(2,7),(3,2),(5,1),(6,1),(7,1)]
 ```
 
 `inits` and `tails` are like `init` and `tail`, but they apply
-recursively until there\'s nothing left.
+recursively until there's nothing left.
 
 ```hs
 ghci> inits "w00t"
@@ -266,7 +266,7 @@ ghci> let w = "w00t" in zip (inits w) (tails w)
 ```
 
 `isInfixOf` searches for a sublist inside a list and returns `True` if
-the sublist we\'re looking for is somewhere inside the target list.
+the sublist we're looking for is somewhere inside the target list.
 
 ```hs
 ghci> "cat" `isInfixOf` "im a cat burglar"
@@ -295,7 +295,7 @@ False
 lists.
 
 The first list in the result contains all the elements that satisfy the
-predicate, the second one contains all the ones that don\'t.
+predicate, the second one contains all the ones that don't.
 
 ```hs
 ghci> partition (`elem` ['A'..'Z']) "BOBsidneyMORGANeddy"
@@ -306,7 +306,7 @@ ghci> partition (>3) [1,3,5,6,3,2,1,0,3,7]
 
 `partition` takes a list and a predicate and returns a pair of lists.
 The first list in the result contains all the elements that satisfy the
-predicate, while the second one contains all the ones that don\'t.
+predicate, while the second one contains all the ones that don't.
 
 ```hs
 ghci> partition (`elem` ['A'..'Z']) "BOBsidneyMORGANeddy"
@@ -356,23 +356,23 @@ ghci> findIndices (`elem` ['A'..'Z']) "Where Are The Caps?"
 [0,6,10,14]
 ```
 
-There\'s `zip3`, `zipWith3`, for when you want to zip three lists or
+There's `zip3`, `zipWith3`, for when you want to zip three lists or
 apply a function to a zip.
 
 `lines` deals with files and takes a string and returns every line of
 that string in a separate list.
 
 ```hs
-ghci> lines "first line\nsecond line\nthird line"
+ghci> lines "first linensecond linenthird line"
 ["first line","second line","third line"]
 ```
 
 `unlines` is the inverse of `lines`. It takes a list of strings and
-merges them using \'\\n\'.
+merges them using 'n'.
 
 ```hs
 ghci> unlines ["first line", "second line", "third line"]
-"first line\nsecond line\nthird line\n"
+"first linensecond linenthird linen"
 ```
 
 `words` and `unwords` are for splitting a line of text into words or
@@ -381,7 +381,7 @@ joining a list of words into a text.
 ```hs
 ghci> words "hey these are the words in this sentence"
 ["hey","these","are","the","words","in","this","sentence"]
-ghci> words "hey these           are    the words in this\nsentence"
+ghci> words "hey these           are    the words in thisnsentence"
 ["hey","these","are","the","words","in","this","sentence"]
 ghci> unwords ["hey","there","mate"]
 "hey there mate"
@@ -400,13 +400,13 @@ ghci> nub "Lots of words and stuff"
 that element in the list.
 
 ```hs
-ghci> [1..10] \\ [2,5,9]
+ghci> [1..10]  [2,5,9]
 [1,3,4,6,7,8,10]
-ghci> "Im a big baby" \\ "big"
+ghci> "Im a big baby"  "big"
 "Im a  baby"
 ```
 
-`union` appends every element that doesn\'t appear in \$f1 to it.
+`union` appends every element that doesn't appear in $f1 to it.
 
 ```hs
 ghci> "hey man" `union` "man what's up"
@@ -422,7 +422,7 @@ ghci> [1..7] `union` [5..10]
 ```
 
 `insert` takes an element and a list of elements and inserts it into a
-position where it\'s still less than or equal to the next element.
+position where it's still less than or equal to the next element.
 
 ```hs
 ghci> insert 4 [3,5,1,2,8,2]
@@ -524,7 +524,7 @@ toTitle converts a character to title-case. For most characters,
 title-case is the same as upper-case.
 
 digitToInt converts a character to an Int. To succeed, the character
-must be in the ranges \'0\'..\'9\', \'a\'..\'f\' or \'A\'..\'F\'.
+must be in the ranges '0'..'9', 'a'..'f' or 'A'..'F'.
 
 intToDigit is the inverse function of digitToInt. It takes an Int in the
 range of 0..15 and converts it to a lower-case character.
@@ -633,7 +633,7 @@ them.
 
 ```hs
 phoneBookToMap :: (Ord k) => [(k, String)] -> Map.Map k String
-phoneBookToMap xs = Map.fromListWith (\number1 number2 -> number1 ++ ", " ++ number2) xs
+phoneBookToMap xs = Map.fromListWith (number1 number2 -> number1 ++ ", " ++ number2) xs
 ```
 
 ```hs
@@ -682,7 +682,7 @@ or we can `map` or `filter`.
 
 ## Making our own Modules
 
-Let\'s make our own module, `Geometry.hs`.
+Let's make our own module, `Geometry.hs`.
 
 ```hs
 module Geometry
@@ -782,6 +782,6 @@ import qualified Geometry.Cube as Cube
 ```
 
 Prev:
-\[learn-you-a-haskell-chapter-6](learn-you-a-haskell-chapter-6.md)
+[learn-you-a-haskell-chapter-6](learn-you-a-haskell-chapter-6.md)
 Next:
-\[learn-you-a-haskell-chapter-8](learn-you-a-haskell-chapter-8.md)
+[learn-you-a-haskell-chapter-8](learn-you-a-haskell-chapter-8.md)

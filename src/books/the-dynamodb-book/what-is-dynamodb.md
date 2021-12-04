@@ -2,12 +2,12 @@
 title: what-is-dynamodb
 ---
 
-is DynamoDB?\"
+is DynamoDB?"
 
 # What is DynamoDB?
 
 Next:
-\[core-concepts-in-dynamodb](core-concepts-in-dynamodb.md)
+[core-concepts-in-dynamodb](core-concepts-in-dynamodb.md)
 
 Next:
-\[core-concepts-in-dynamodb](core-concepts-in-dynamodb.md)
+[core-concepts-in-dynamodb](core-concepts-in-dynamodb.md)

@@ -2,16 +2,16 @@
 title: strategies-for-migrations
 ---
 
-for Migrations\"
+for Migrations"
 
 # Strategies for Migrations
 
 Prev:
-\[strategies-for-sorting](strategies-for-sorting.md)
+[strategies-for-sorting](strategies-for-sorting.md)
 Next:
-\[additional-strategies](additional-strategies.md)
+[additional-strategies](additional-strategies.md)
 
 Prev:
-\[strategies-for-sorting](strategies-for-sorting.md)
+[strategies-for-sorting](strategies-for-sorting.md)
 Next:
-\[additional-strategies](additional-strategies.md)
+[additional-strategies](additional-strategies.md)

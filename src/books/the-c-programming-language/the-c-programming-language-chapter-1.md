@@ -17,12 +17,12 @@ C Programming Language Chapter 1
 
 ## Exercise 1-2
 
-> Experiment to find out what happens when `prints`\'s argument string
-> contains \\c where c is some character not listed above.
+> Experiment to find out what happens when `prints`'s argument string
+> contains c where c is some character not listed above.
 
-Some escape characters include \\n for newline, \\t for tab, \' for
-single quote, \" for double quote, \\ for literal backslash, \\r for
-carriage return, \\f for form feed, \\b for backspace.
+Some escape characters include n for newline, t for tab, ' for
+single quote, " for double quote,  for literal backslash, r for
+carriage return, f for form feed, b for backspace.
 
 ```c
 {{# include _include/code/programming-languages/c/the-c-programming-language/chapter-1/1-2/main.c }}
@@ -93,7 +93,7 @@ EOF is -1 when cast to an int, and the expression != casts to either 0
 ## Exercise 1-10
 
 > Write a program to copy its input to its output, replacing each tab by
-> \\t, each backspace by \\b, and each backslash by \\. This makes tabs
+> t, each backspace by b, and each backslash by . This makes tabs
 > and backspaces visible in an unambiguous way.
 
 ```c
@@ -106,7 +106,7 @@ EOF is -1 when cast to an int, and the expression != casts to either 0
 > most likely to uncover bugs if they are any?
 
 I would test the word count program by adding lots of corpuses at it. I
-see one bug, where it doesn\'t split on punctuation other than newline
+see one bug, where it doesn't split on punctuation other than newline
 or tab.
 
 ## Exercise 1-12
@@ -206,7 +206,7 @@ or tab.
 
 ## Exercise 1-22
 
-> Write a program to \"fold\" long input lines into two or more shorter
+> Write a program to "fold" long input lines into two or more shorter
 > lines after the last non-blank character that occurs before the n -th
 > column of input. Make sure your program does something intelligent
 > with very long lines, and if there are no blanks or tabs before the
@@ -218,7 +218,7 @@ or tab.
 
 ## Exercise 1-23
 
-> Write a program to remove all comments from a C program. Don\'t forget
+> Write a program to remove all comments from a C program. Don't forget
 > to handle quoted strings and character constants properly. C comments
 > do not nest.
 
@@ -229,7 +229,7 @@ or tab.
 ## Exercise 1-24
 
 > Write a program to check a C program for rudimentary syntax errors
-> like unbalanced parentheses, brackets and braces. Don\'t forget about
+> like unbalanced parentheses, brackets and braces. Don't forget about
 > quotes, both single and double, escape sequences, and comments. (This
 > program is hard if you do it in full generality.)
 

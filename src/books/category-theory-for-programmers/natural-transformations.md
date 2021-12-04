@@ -2,10 +2,10 @@
 title: natural-transformations
 ---
 
-Transformations\"
+Transformations"
 
-Prev: \[function-types](function-types.md) Next:
-\[declarative-programming](declarative-programming.md)
+Prev: [function-types](function-types.md) Next:
+[declarative-programming](declarative-programming.md)
 
-Prev: \[function-types](function-types.md) Next:
-\[declarative-programming](declarative-programming.md)
+Prev: [function-types](function-types.md) Next:
+[declarative-programming](declarative-programming.md)

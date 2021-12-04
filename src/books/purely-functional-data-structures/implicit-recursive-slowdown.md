@@ -2,12 +2,12 @@
 title: implicit-recursive-slowdown
 ---
 
-Recursive Slowdown\"
+Recursive Slowdown"
 
 # Implicit Recursive Slowdown
 
 Prev:
-\[data-structural-bootstrapping](data-structural-bootstrapping.md)
+[data-structural-bootstrapping](data-structural-bootstrapping.md)
 
 Prev:
-\[data-structural-bootstrapping](data-structural-bootstrapping.md)
+[data-structural-bootstrapping](data-structural-bootstrapping.md)

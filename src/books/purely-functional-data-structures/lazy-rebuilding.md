@@ -2,16 +2,16 @@
 title: lazy-rebuilding
 ---
 
-Rebuilding\"
+Rebuilding"
 
 # Lazy Rebuilding
 
 Prev:
-\[eliminating-amortization](eliminating-amortization.md)
+[eliminating-amortization](eliminating-amortization.md)
 Next:
-\[numerical-representations](numerical-representations.md)
+[numerical-representations](numerical-representations.md)
 
 Prev:
-\[eliminating-amortization](eliminating-amortization.md)
+[eliminating-amortization](eliminating-amortization.md)
 Next:
-\[numerical-representations](numerical-representations.md)
+[numerical-representations](numerical-representations.md)

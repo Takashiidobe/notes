@@ -2,16 +2,16 @@
 title: file-locking
 ---
 
-Locking\"
+Locking"
 
 # The Linux Programming Interface
 
 Prev:
-\[posix-shared-memory](posix-shared-memory.md)
+[posix-shared-memory](posix-shared-memory.md)
 Next:
-\[sockets-introduction](sockets-introduction.md)
+[sockets-introduction](sockets-introduction.md)
 
 Prev:
-\[posix-shared-memory](posix-shared-memory.md)
+[posix-shared-memory](posix-shared-memory.md)
 Next:
-\[sockets-introduction](sockets-introduction.md)
+[sockets-introduction](sockets-introduction.md)

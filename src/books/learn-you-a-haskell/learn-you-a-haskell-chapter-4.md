@@ -15,8 +15,8 @@ lucky x = "Sorry, you're out of luck, pal!"
 ```
 
 This function checks if the number passed in is 7. If it is, it returns
-\"LUCKY NUMBER SEVEN!\", otherwise, it returns the String \"Sorry,
-you\'re out of luck, pal!\".
+"LUCKY NUMBER SEVEN!", otherwise, it returns the String "Sorry,
+you're out of luck, pal!".
 
 We can make functions with capturing catch alls this way.
 
@@ -43,9 +43,9 @@ specific catch-all to the more general ones, otherwise they might not
 work. Imagine pattern matching like a switch statement with a break at
 the end of each case.
 
-Pattern matching doesn\'t have to be comprehensive.
+Pattern matching doesn't have to be comprehensive.
 
-Let\'s say we define this:
+Let's say we define this:
 
 ```hs
 charName :: Char -> String
@@ -63,7 +63,7 @@ ghci> charName 'h'
 Always add catch alls to patterns to make sure not to crash on
 unexpected input.
 
-Let\'s define a pattern that adds up two tuples with a pair of points.
+Let's define a pattern that adds up two tuples with a pair of points.
 
 ```hs
 addVectors :: (Num a) => (a, a) -> (a, a) -> (a, a)
@@ -143,7 +143,7 @@ sum' [] = 0
 sum' (x:xs) = x + sum' xs
 ```
 
-We can\'t use ++ in pattern matches.
+We can't use ++ in pattern matches.
 
 ## Guards, Guards!
 
@@ -172,7 +172,7 @@ bmiTell weight height
     | otherwise                 = "You're a whale, congratulations!"
 ```
 
-We can make our own max\' function with guards as well.
+We can make our own max' function with guards as well.
 
 ```hs
 max' :: (Ord a) => a -> a -> a
@@ -236,6 +236,6 @@ describeList xs = "The list is " ++ case xs of [] -> "empty."
 ```
 
 Prev:
-\[learn-you-a-haskell-chapter-3](learn-you-a-haskell-chapter-3.md)
+[learn-you-a-haskell-chapter-3](learn-you-a-haskell-chapter-3.md)
 Next:
-\[learn-you-a-haskell-chapter-5](learn-you-a-haskell-chapter-5.md)
+[learn-you-a-haskell-chapter-5](learn-you-a-haskell-chapter-5.md)

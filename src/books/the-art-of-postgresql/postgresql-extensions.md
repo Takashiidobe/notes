@@ -2,16 +2,16 @@
 title: postgresql-extensions
 ---
 
-Extensions\"
+Extensions"
 
 # PostgreSQL Extensions
 
 Prev:
-\[denormalized-data-types](denormalized-data-types.md)
+[denormalized-data-types](denormalized-data-types.md)
 Next:
-\[an-interview-with-gregoire-hubert](an-interview-with-gregoire-hubert.md)
+[an-interview-with-gregoire-hubert](an-interview-with-gregoire-hubert.md)
 
 Prev:
-\[denormalized-data-types](denormalized-data-types.md)
+[denormalized-data-types](denormalized-data-types.md)
 Next:
-\[an-interview-with-gregoire-hubert](an-interview-with-gregoire-hubert.md)
+[an-interview-with-gregoire-hubert](an-interview-with-gregoire-hubert.md)

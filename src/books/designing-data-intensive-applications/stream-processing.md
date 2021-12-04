@@ -2,12 +2,12 @@
 title: stream-processing
 ---
 
-Processing\"
+Processing"
 
-Prev: \[batch-processing](batch-processing.md)
+Prev: [batch-processing](batch-processing.md)
 Next:
-\[the-future-of-data-systems](the-future-of-data-systems.md)
+[the-future-of-data-systems](the-future-of-data-systems.md)
 
-Prev: \[batch-processing](batch-processing.md)
+Prev: [batch-processing](batch-processing.md)
 Next:
-\[the-future-of-data-systems](the-future-of-data-systems.md)
+[the-future-of-data-systems](the-future-of-data-systems.md)

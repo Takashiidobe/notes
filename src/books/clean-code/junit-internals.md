@@ -2,16 +2,16 @@
 title: junit-internals
 ---
 
-Internals\"
+Internals"
 
 # JUnit Internals
 
 Prev:
-\[successive-refinement](successive-refinement.md)
+[successive-refinement](successive-refinement.md)
 Next:
-\[refactoring-serialdate](refactoring-serialdate.md)
+[refactoring-serialdate](refactoring-serialdate.md)
 
 Prev:
-\[successive-refinement](successive-refinement.md)
+[successive-refinement](successive-refinement.md)
 Next:
-\[refactoring-serialdate](refactoring-serialdate.md)
+[refactoring-serialdate](refactoring-serialdate.md)

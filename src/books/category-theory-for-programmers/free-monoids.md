@@ -2,14 +2,14 @@
 title: free-monoids
 ---
 
-Monoids\"
+Monoids"
 
 Prev:
-\[limits-and-colimits](limits-and-colimits.md)
+[limits-and-colimits](limits-and-colimits.md)
 Next:
-\[representable-functors](representable-functors.md)
+[representable-functors](representable-functors.md)
 
 Prev:
-\[limits-and-colimits](limits-and-colimits.md)
+[limits-and-colimits](limits-and-colimits.md)
 Next:
-\[representable-functors](representable-functors.md)
+[representable-functors](representable-functors.md)

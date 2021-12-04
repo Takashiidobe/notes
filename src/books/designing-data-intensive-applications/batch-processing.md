@@ -2,12 +2,12 @@
 title: batch-processing
 ---
 
-Processing\"
+Processing"
 
 Prev:
-\[consistency-and-consensus](consistency-and-consensus.md)
-Next: \[stream-processing](stream-processing.md)
+[consistency-and-consensus](consistency-and-consensus.md)
+Next: [stream-processing](stream-processing.md)
 
 Prev:
-\[consistency-and-consensus](consistency-and-consensus.md)
-Next: \[stream-processing](stream-processing.md)
+[consistency-and-consensus](consistency-and-consensus.md)
+Next: [stream-processing](stream-processing.md)

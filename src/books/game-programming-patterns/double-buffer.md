@@ -16,7 +16,7 @@ drawn, what ends up happening is half the image renders onto the screen.
 
 Imagine a play, where there is some setup required between scenes. While
 the audience is captivated by the play on one stage, the team can prep
-for the next scene. When the first scene is done, the audience\'s
+for the next scene. When the first scene is done, the audience's
 attention is diverted to the second stage, where they can watch the next
 scene without any waiting. While that scene plays out, the team preps
 the first stage for the next scene.
@@ -80,13 +80,13 @@ always paint to the next buffer, and swap when appropriate.
 
 1.  Swap pointers or references to the buffer:
 
-- It\'s fast.
+- It's fast.
 - Outside code cannot store persistent pointers to the buffer.
 
 Copy data between the buffers
 
-- Data is kept up to date, as it\'s only a single frame old.
+- Data is kept up to date, as it's only a single frame old.
 - Swapping can take more time.
 
-Prev: \[state](state.md) Next:
-\[game-loop](game-loop.md)
+Prev: [state](state.md) Next:
+[game-loop](game-loop.md)

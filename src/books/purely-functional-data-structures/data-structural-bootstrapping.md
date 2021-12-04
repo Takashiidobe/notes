@@ -2,16 +2,16 @@
 title: data-structural-bootstrapping
 ---
 
--Structural Bootstrapping\"
+-Structural Bootstrapping"
 
 # Data-Structural Bootstrapping
 
 Prev:
-\[numerical-representations](numerical-representations.md)
+[numerical-representations](numerical-representations.md)
 Next:
-\[implicit-recursive-slowdown](implicit-recursive-slowdown.md)
+[implicit-recursive-slowdown](implicit-recursive-slowdown.md)
 
 Prev:
-\[numerical-representations](numerical-representations.md)
+[numerical-representations](numerical-representations.md)
 Next:
-\[implicit-recursive-slowdown](implicit-recursive-slowdown.md)
+[implicit-recursive-slowdown](implicit-recursive-slowdown.md)

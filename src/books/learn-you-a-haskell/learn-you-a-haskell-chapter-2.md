@@ -66,7 +66,7 @@ Equality Testing:
 -- True
 ```
 
-We can\'t add two different types though:
+We can't add two different types though:
 
 ```hs
 5 + "llama"
@@ -107,14 +107,14 @@ odd 5
 -- True
 ```
 
-## Baby\'s First Functions
+## Baby's First Functions
 
 ```hs
 doubleMe x = x + x
 
 doubleUs x y = doubleMe x + doubleMe y
 
-doubleSmallNumber x = if x > 10 then x else x \* 2
+doubleSmallNumber x = if x > 10 then x else x * 2
 ```
 
 ```hs
@@ -333,7 +333,7 @@ be careful about floats in haskell.
 -- [0.1,0.3,0.5,0.7,0.8999999999999999,1.0999999999999999]
 ```
 
-ranges can be lazy, just don\'t end the right hand side
+ranges can be lazy, just don't end the right hand side
 
 ```hs
 x = [13,26..]
@@ -374,7 +374,7 @@ List comprehensions
 
 with an if block, only take items that are greater than 12.
 
-## I\'m a list comprehension
+## I'm a list comprehension
 
 ```hs
 [x*2 | x <- [1..10], x*2 >= 12]
@@ -436,6 +436,6 @@ let rightTriangles = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b
 ```
 
 Prev:
-\[learn-you-a-haskell-chapter-1](learn-you-a-haskell-chapter-1.md)
+[learn-you-a-haskell-chapter-1](learn-you-a-haskell-chapter-1.md)
 Next:
-\[learn-you-a-haskell-chapter-3](learn-you-a-haskell-chapter-3.md)
+[learn-you-a-haskell-chapter-3](learn-you-a-haskell-chapter-3.md)

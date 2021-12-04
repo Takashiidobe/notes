@@ -34,7 +34,7 @@ A: 10 million DAU.
 - For every character entered in the search box, the client sends a network request.
 - ~ 24000 QPS = 10M users _ 10 queries/day _ 20 characters / 24 hours / 3600 seconds.
 - Peak QPS is double the normal QPS, ~48,000 QPS.
-- Assume 20% of the daily queries are new. 10M _ 10 queries/day _ 20 bytes per query \* 20% = 0.4 GB. 0.4GB of new data is added to storage daily.
+- Assume 20% of the daily queries are new. 10M _ 10 queries/day _ 20 bytes per query * 20% = 0.4 GB. 0.4GB of new data is added to storage daily.
 
 ## High level design
 

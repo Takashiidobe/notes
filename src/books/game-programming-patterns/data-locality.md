@@ -13,23 +13,23 @@ caching.
 
 ## Motivation
 
-While Moore\'s law has been making processors faster, memory access has
+While Moore's law has been making processors faster, memory access has
 plateaued in speed: we can process data faster with each passing year,
-but we can\'t get it much faster.
+but we can't get it much faster.
 
-With today\'s hardware, it can take hundreds of cycles to fetch a byte
+With today's hardware, it can take hundreds of cycles to fetch a byte
 of data from RAM.
 
 ### A pallet for your CPU
 
 As memory access speeds stalled, hardware engineers found CPU caching to
 make memory access faster. Modern computers have memory inside the chip.
-It\'s extremely small (sometimes called SRAM, for Static RAM, or L1
+It's extremely small (sometimes called SRAM, for Static RAM, or L1
 cache). It might hold 128 bytes. When the CPU seeks for data in RAM, it
 pulls the data you want along with its adjacent 128 bytes of data. If
-the next instruction operates on data in the cache, it\'s called a cache
-hit \-- it already has the data it needs in its cache and is ready to
-move on. If it doesn\'t, it has to go back to RAM, which can take a few
+the next instruction operates on data in the cache, it's called a cache
+hit -- it already has the data it needs in its cache and is ready to
+move on. If it doesn't, it has to go back to RAM, which can take a few
 hundred cycles:
 
 If we get a cache hit, our code looks like this:
@@ -40,7 +40,7 @@ for (const auto& item: items) {
 }
 ```
 
-If we get a cache miss, it\'s more like this:
+If we get a cache miss, it's more like this:
 
 ```cpp
 for (const auto& item: items) {
@@ -60,7 +60,7 @@ were 50x faster.
 
 Data is performance.
 
-This is why people prefer arrays to lists \-- the next item of a list
+This is why people prefer arrays to lists -- the next item of a list
 might be in a random place in memory, which causes a cache miss while
 iterating. A vector contiguously lays out its items, resulting in fewer
 cache misses.
@@ -81,9 +81,9 @@ a good profiling tool to check for cache usage.
 ## Keep in Mind
 
 In C++ and higher level languages, abstractions generally cost pointer
-accesses. A pointer access is almost always a cache miss. Thus, you\'ll
+accesses. A pointer access is almost always a cache miss. Thus, you'll
 have to sacrifice some inheritance, interfaces, and other niceties to
-use this pattern. It\'s a tradeoff of simplicity for performance.
+use this pattern. It's a tradeoff of simplicity for performance.
 
 ## Sample Code
 
@@ -116,7 +116,7 @@ while (!gameOver) {
 }
 ```
 
-Which thrashes the cache, we\'ll put everything in an array of
+Which thrashes the cache, we'll put everything in an array of
 `AiComponents`, `PhysicsComponents` and `RenderComponents`.
 
 ```cpp
@@ -125,7 +125,7 @@ PhysicsComponent* physicsComponents = new PhysicsComponent[MAX_ENTITIES];
 RenderComponent* renderComponents = new RenderComponent[MAX_ENTITIES];
 ```
 
-Instead of using pointers, we\'ll directly update each.
+Instead of using pointers, we'll directly update each.
 
 ```cpp
 while (!gameOver) {
@@ -226,15 +226,15 @@ This can be helpful, but for less clear cut cases, less useful.
 
 ## Design Decisions
 
-This pattern is about a mindset, and applying it to code that\'s slow.
+This pattern is about a mindset, and applying it to code that's slow.
 
 ### How do you handle polymorphism?
 
-- Don\'t
+- Don't
 
-  - It\'s safe and easy
-  - It\'s faster
-  - It\'s inflexible
+  - It's safe and easy
+  - It's faster
+  - It's inflexible
 
 - Use Separate arrays for each type
 
@@ -245,8 +245,8 @@ This pattern is about a mindset, and applying it to code that\'s slow.
 
 - Use a collection of pointers
 
-  - It\'s flexible
-  - It\'s less cache friendly
+  - It's flexible
+  - It's less cache friendly
 
 ### How are game entities defined?
 
@@ -258,16 +258,16 @@ This pattern is about a mindset, and applying it to code that\'s slow.
 
 - If game entities are classes with IDs for their components
 
-  - It\'s more complex
-  - It\'s slower
-  - You\'ll need access to the \"component\" manager.
+  - It's more complex
+  - It's slower
+  - You'll need access to the "component" manager.
 
 - If the game entity itself is just an ID
 
   - Entities are tiny
   - Entities are empty
-  - You don\'t have to manage their lifetime
+  - You don't have to manage their lifetime
   - Looking up a component is slower
 
-Prev: \[service-locator](service-locator.md) Next:
-\[dirty-flag](dirty-flag.md)
+Prev: [service-locator](service-locator.md) Next:
+[dirty-flag](dirty-flag.md)

@@ -26,7 +26,7 @@ Your app takes these events and processes them somehow.
 
 ## Central Event bus
 
-Let\'s say we want to implement a tutorial system. The player slays two
+Let's say we want to implement a tutorial system. The player slays two
 cows, and they get an achievement.
 
 Instead of coupling tutorial code into your combat system, you may want
@@ -37,7 +37,7 @@ to receive events from the game queue.
 
 ## Example
 
-Let\'s say we want to create sounds when monsters are slain.
+Let's say we want to create sounds when monsters are slain.
 
 ```cpp
 class Audio {
@@ -70,18 +70,18 @@ We have a few problems, though:
 
 ### Problem 1: The API blocks
 
-- This API call is synchronous, which means it\'ll freeze the game
+- This API call is synchronous, which means it'll freeze the game
   while trying to fetch the sound from disk.
 
 ### Problem 2: Requests cannot be processed in aggregate
 
-- This code has no synchronization, which means it\'s not thread safe,
+- This code has no synchronization, which means it's not thread safe,
   and also blocks other threads, if they want to call this code at the
   same time too.
 
 ### Problem 3: Requests are processed on the wrong thread.
 
-- This forces the current thread to drop what it\'s doing and play the
+- This forces the current thread to drop what it's doing and play the
   sound now.
 
 ### The Pattern
@@ -90,26 +90,26 @@ This pattern decouples the sender from the receiver both statically and
 in time.
 
 If you just want to decouple who receives a message from its sender, use
-the \[observer](observer.md) or
-\[command](command.md) patterns.
+the [observer](observer.md) or
+[command](command.md) patterns.
 
 ### Keep in Mind
 
 ### A central event queue is a global variable
 
-- It\'s nicely wrapped up, but it\'s still a global variable. Try to
+- It's nicely wrapped up, but it's still a global variable. Try to
   limit its use to only the systems that need to know about it.
 
 ### The state of the world can change under you
 
-- You\'ll have to send your payload with all of the state that you
+- You'll have to send your payload with all of the state that you
   need of the event.
 - If you want to tie the amount of exp points the main character gets
   with the HP of the monster, the monster may be deallocated by the
   time the exp system gets its message. Make sure your messages have
   all the information they need to process.
 
-Try to avoid sending events from within code that\'s handling an event.
+Try to avoid sending events from within code that's handling an event.
 
 ### Sample Code
 
@@ -260,5 +260,5 @@ void Audio::playSound(SoundId id, int volume) {
 }
 ```
 
-Prev: \[component](component.md) Next:
-\[service-locator](service-locator.md)
+Prev: [component](component.md) Next:
+[service-locator](service-locator.md)

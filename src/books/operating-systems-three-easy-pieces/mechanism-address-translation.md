@@ -2,14 +2,14 @@
 title: mechanism-address-translation
 ---
 
-: Address Translation\"
+: Address Translation"
 
 # Mechanism: Address Translation
 
 Prev:
-\[interlude-memory-api](interlude-memory-api.md)
-Next: \[segmentation](segmentation.md)
+[interlude-memory-api](interlude-memory-api.md)
+Next: [segmentation](segmentation.md)
 
 Prev:
-\[interlude-memory-api](interlude-memory-api.md)
-Next: \[segmentation](segmentation.md)
+[interlude-memory-api](interlude-memory-api.md)
+Next: [segmentation](segmentation.md)

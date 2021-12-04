@@ -2,14 +2,14 @@
 title: condition-variables
 ---
 
-Variables\"
+Variables"
 
 # Condition Variables
 
 Prev:
-\[lock-based-concurrent-data-structures](lock-based-concurrent-data-structures.md)
-Next: \[semaphores](semaphores.md)
+[lock-based-concurrent-data-structures](lock-based-concurrent-data-structures.md)
+Next: [semaphores](semaphores.md)
 
 Prev:
-\[lock-based-concurrent-data-structures](lock-based-concurrent-data-structures.md)
-Next: \[semaphores](semaphores.md)
+[lock-based-concurrent-data-structures](lock-based-concurrent-data-structures.md)
+Next: [semaphores](semaphores.md)

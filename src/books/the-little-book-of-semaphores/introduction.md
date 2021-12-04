@@ -4,7 +4,7 @@ title: introduction
 
 # The Little Book of Semaphores
 
-Next: \[semaphores](semaphores.md)
+Next: [semaphores](semaphores.md)
 
 ## 1.1 Synchronization
 
@@ -25,12 +25,12 @@ Next: \[semaphores](semaphores.md)
 #### Puzzle:
 
 - You eat lunch at 11:59 and Bob eats lunch at 12:01. Who ate lunch
-  first? - You don\'t know who ate lunch first, because your clocks
+  first? - You don't know who ate lunch first, because your clocks
   could be wrong.
 
 - How can you guarantee that you will eat lunch before Bob tomorrow? -
-  Tell him not to eat lunch until after you\'ve called him. - Eat
-  lunch, and then call Bob. - This risks starvation (Bob can\'t eat
+  Tell him not to eat lunch until after you've called him. - Eat
+  lunch, and then call Bob. - This risks starvation (Bob can't eat
   until you call him, which you can sacrifice correctness for (tell
   him to eat at 12:30 his time anyway so he goes eventually)).
 
@@ -49,10 +49,10 @@ Thread A Thread B
 
 ---
 
-print(\'yes\') print(\'no\')
+print('yes') print('no')
 
-- In this program, we don\'t know if it prints \"yes\" then \"no\" or
-  \"no\" then \"yes\".
+- In this program, we don't know if it prints "yes" then "no" or
+  "no" then "yes".
 
 ### 1.5 Shared Variables
 
@@ -75,7 +75,7 @@ print(x)
   first
 - Puzzle: Is there a path that yields output 7 and final value 5? Can
   you prove it? - If Thread B runs first, and the print(x) call runs
-  before x = 5 (which it shouldn\'t), then this could work.
+  before x = 5 (which it shouldn't), then this could work.
 
 #### 1.5.2 Concurrent updates
 
@@ -90,4 +90,4 @@ count += 1 count += 1
 
 - This can result in either one increment or two increments.
 
-Next: \[semaphores](semaphores.md)
+Next: [semaphores](semaphores.md)

@@ -2,16 +2,16 @@
 title: signals-signal-handlers
 ---
 
-: Signal Handlers\"
+: Signal Handlers"
 
 # The Linux Programming Interface
 
 Prev:
-\[signals-fundamental-concepts](signals-fundamental-concepts.md)
+[signals-fundamental-concepts](signals-fundamental-concepts.md)
 Next:
-\[signals-advanced-features](signals-advanced-features.md)
+[signals-advanced-features](signals-advanced-features.md)
 
 Prev:
-\[signals-fundamental-concepts](signals-fundamental-concepts.md)
+[signals-fundamental-concepts](signals-fundamental-concepts.md)
 Next:
-\[signals-advanced-features](signals-advanced-features.md)
+[signals-advanced-features](signals-advanced-features.md)

@@ -4,7 +4,7 @@ title: prototype
 
 # Prototype
 
-Let\'s pretend we have a lot of monsters.
+Let's pretend we have a lot of monsters.
 
 ```cpp
 class Monster {/* implementation */};
@@ -41,7 +41,7 @@ class DemonSpawner : public Spawner {
 This has a lot of repetition. Instead, using the prototypes pattern, we
 allow objects to spawn objects similar to itself.
 
-Let\'s give our base class an abstract `clone()` method.
+Let's give our base class an abstract `clone()` method.
 
 ```cpp
 class Monster {
@@ -180,12 +180,12 @@ to create a new state.
 
 ## Prototypes for Data Modeling
 
-Games shuffle a lot of state to and from places. Wouldn\'t it be nice if
+Games shuffle a lot of state to and from places. Wouldn't it be nice if
 we could have more dynamic behavior?
 
-Let\'s say we separate our state from our game by using JSON.
+Let's say we separate our state from our game by using JSON.
 
-Let\'s define a goblin.
+Let's define a goblin.
 
 ```json
 {
@@ -197,7 +197,7 @@ Let\'s define a goblin.
 }
 ```
 
-Let\'s make more goblins.
+Let's make more goblins.
 
 ```json
 [
@@ -221,7 +221,7 @@ Let\'s make more goblins.
 ```
 
 This has a lot of duplication. Not great, since it means we have to
-change more code if we want to change things, and isn\'t everything just
+change more code if we want to change things, and isn't everything just
 a goblin?
 
 ```json
@@ -249,5 +249,5 @@ a goblin?
 Now, we can remove duplication and have each goblin archer have a goblin
 grunt inside of it that it takes from, and then applies changes to.
 
-Prev: \[observer](observer.md) Next:
-\[singleton](singleton.md)
+Prev: [observer](observer.md) Next:
+[singleton](singleton.md)

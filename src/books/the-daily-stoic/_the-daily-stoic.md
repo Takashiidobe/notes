@@ -6,5 +6,5 @@ Daily Stoic
 
 # The Daily Stoic
 
-1.  \[january](january.md)
-2.  \[february](february.md)
+1.  [january](january.md)
+2.  [february](february.md)

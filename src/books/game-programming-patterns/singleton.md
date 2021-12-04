@@ -7,8 +7,8 @@ title: singleton
 Use the Singleton pattern sparingly; it tends to result in problems down
 the road.
 
-Singletons make it so there\'s only one instance of a class that manages
-some state \-- this can be useful for operations that take a long time
+Singletons make it so there's only one instance of a class that manages
+some state -- this can be useful for operations that take a long time
 and must be synchronized, like a file system API.
 
 ## Providing a global point of access
@@ -30,11 +30,11 @@ private:
 
 - It saves memory by being lazily initialized
 - It allows you to read information that the program has at runtime,
-  since it\'s used at runtime unlike statics, which are compile time
+  since it's used at runtime unlike statics, which are compile time
   only
 - You can subclass the singleton.
 
-Here\'s the base class:
+Here's the base class:
 
 ```cpp
 class FileSystem {
@@ -104,7 +104,7 @@ FileSystem& FileSystem::instance()
 }
 ```
 
-This doesn\'t solve the fact that these are just glorified global vars:
+This doesn't solve the fact that these are just glorified global vars:
 
 Globals:
 
@@ -113,11 +113,11 @@ Globals:
   have to look at the function and at global state.
 
 - They encourage coupling. Global variables are easy to entangle with
-  other code even if you don\'t mean it \-- therefore they get bound
-  into other code when you didn\'t mean to, turning your architecture
+  other code even if you don't mean it -- therefore they get bound
+  into other code when you didn't mean to, turning your architecture
   into a ball of mud.
 
-- They aren\'t concurrency-friendly: Games are multi-threaded now for
+- They aren't concurrency-friendly: Games are multi-threaded now for
   maximum performance, and having globally readable and writable
   variables is one way to create race conditions.
 
@@ -126,12 +126,12 @@ Globals:
 Convenient access is why we turn to the singleton, especially for cases
 like logging. But when we do this, we can no longer create more than one
 logger. What happens when we need to write to more than one log file? We
-can\'t anymore. If we want to provide a filepath, every line of code
+can't anymore. If we want to provide a filepath, every line of code
 that uses it and the class itself must break.
 
 ## Lazy initialization takes control away from you
 
-If you want to initialize everything at start time, you don\'t want lazy
+If you want to initialize everything at start time, you don't want lazy
 instantiation. To do so, you might write this:
 
 ```cpp
@@ -150,7 +150,7 @@ private:
 
 Do we really need the class?
 
-A lot of singleton classes are \"managers\". Classes that babysit
+A lot of singleton classes are "managers". Classes that babysit
 another class.
 
 Instead of doing this, allow the object to manage its own state.
@@ -258,7 +258,7 @@ class Enemy : public GameObject {
 
 - Get it from something Global:
 
-Assume there\'s already a singleton Game object:
+Assume there's already a singleton Game object:
 
 ```cpp
 class Game {
@@ -287,7 +287,7 @@ Game::instance().getAudioPlayer().play(VERY_LOUD_BANG);
 ```
 
 - Get it from a Service Locator:
-  \[service-locator](service-locator.md)
+  [service-locator](service-locator.md)
 
-Prev: \[prototype](prototype.md) Next:
-\[state](state.md)
+Prev: [prototype](prototype.md) Next:
+[state](state.md)

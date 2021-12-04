@@ -5,8 +5,8 @@ title: replication
 # Replication
 
 Prev:
-\[encoding-and-evolution](encoding-and-evolution.md)
-Next: \[partitioning](partitioning.md)
+[encoding-and-evolution](encoding-and-evolution.md)
+Next: [partitioning](partitioning.md)
 
 Replicating data keeps a copy of the same data on multiple machines that
 are connected via a network.
@@ -18,7 +18,7 @@ You may do this for the following reasons:
     (increase availability)
 3.  To scale out the number of machines (improve read throughput).
 
-We\'re assuming that the dataset can fit on a single machine, and talk
+We're assuming that the dataset can fit on a single machine, and talk
 about single-leader, multi-leader, and leaderless replication.
 
 ## Leaders and Followers
@@ -32,7 +32,7 @@ replication.
     the leader, and the leader first writes new data to its storage.
 2.  The leader sends the data change to all of its followers as part of
     a replication log. Each leader takes the log and updates its local
-    copy of the database to match the leader\'s.
+    copy of the database to match the leader's.
 3.  When a client wants to read from the database, it can read from any
     of them.
 
@@ -77,10 +77,10 @@ request before the write has propagated to all followers.
 ### Setting Up New Followers
 
 We want to get a copy of the consistent state of the database onto a new
-copy. But since we\'re serving writes while we\'re doing so, we can\'t
+copy. But since we're serving writes while we're doing so, we can't
 do a simple file copy. What do we do?
 
-1.  Take a consistent snapshot of the leader\'s database at some point
+1.  Take a consistent snapshot of the leader's database at some point
     in time.
 2.  Copy the snapshot to the follower node.
 3.  When copying the snapshot has finished, the follower requests the
@@ -103,7 +103,7 @@ When it catches up, it can serve reads and writes again.
 
 What do we do if the leader fails?
 
-1.  Determine that the leader has failed: if the leader doesn\'t respond
+1.  Determine that the leader has failed: if the leader doesn't respond
     to a heartbeat (maybe in 15 seconds) we can assume it is dead.
 2.  Choosing a new leader: The followers go through an election process
     and elect the follower with the most up-to-date changes from the
@@ -117,7 +117,7 @@ There are lots of problems:
 - If using asynchronous replication: what happens to writes that were
   acknowledged by the old leader but not propagated to the followers?
   The most common is to get rid of those writes, which can violate
-  client\'s durability guarantees.
+  client's durability guarantees.
 - Discarding writes is dangerous if other systems rely on the
   database. For example, at github, an out-of-date mysql follower was
   promoted to leader. The follower reused some primary keys that were
@@ -125,7 +125,7 @@ There are lots of problems:
   primary keys being monotonic from mysql. This caused some data to be
   disclosed to the wrong users.
 - In certain situations, two nodes might both believe they are the
-  leader, and both try to serve writes. If so, there\'s no easy way to
+  leader, and both try to serve writes. If so, there's no easy way to
   reconcile the writes.
 - Be careful about setting the right timeout; if the timeout is too
   short, there might be unnecessary failovers, which would increase
@@ -140,7 +140,7 @@ Statement-based replication involves logging every write request
 
 This sounds reasonable except for these caveats:
 
-1.  Any statement that isn\'t deterministic (e.g. `NOW()` or `RAND()`)
+1.  Any statement that isn't deterministic (e.g. `NOW()` or `RAND()`)
     will generate a different value on each replica
 2.  If statements use an autoincrementing column, they must be executed
     in the same order on the follower as the leader.
@@ -163,7 +163,7 @@ both, upgrade the other node, sync them).
 #### Logical (row-based) log replication
 
 To decouple the WAL from the storage format, we can employ a logical log
-(like MySQL\'s binlog). A logical log is a sequence of records
+(like MySQL's binlog). A logical log is a sequence of records
 describing writes to database tables per row:
 
 For an inserted row, the log contains the new values of the columns. For
@@ -177,7 +177,7 @@ If you only want to replicate a certain table or a section of a table,
 you might resort to a trigger. A trigger listens to reads and writes on
 a table and executes a specific action.
 
-You may want to replicate a specific table\'s updates, so when an update
+You may want to replicate a specific table's updates, so when an update
 comes to that table, you might write a trigger to propagate that update
 to another table.
 
@@ -208,11 +208,11 @@ How do we solve this?
 
 - When reading something that the user may have modified, read it from
   the leader, otherwise, read it from the follower. This requires that
-  there is some way to quickly distinguish what is \"yours\", possibly
+  there is some way to quickly distinguish what is "yours", possibly
   through user id or other primary key.
 - If a user can update almost anything on the system, you may choose
   to use a timestamp based strategy instead. Track the last update of
-  the row we\'re trying to read. If it\'s been less than a minute, for
+  the row we're trying to read. If it's been less than a minute, for
   example, the leader should serve that read. Otherwise, a follower
   can.
 - The client can remember the timestamp of its most recent write.
@@ -221,18 +221,18 @@ How do we solve this?
 
 What happens if this is done from multiple devices?
 
-- You\'ll want to read your writes across devices. You also can\'t
-  trust timestamps across devices, so you\'ll need to find another way
+- You'll want to read your writes across devices. You also can't
+  trust timestamps across devices, so you'll need to find another way
   (possibly using a centralized server).
 
 ## Monotonic Reads
 
 It is also possible to see reads go back in time with asynchronous
 replication. Imagine you make one read to two different databases, one
-which has replicated and another which hasn\'t fully replicated. If you
-get back the read from the replicated node first, you\'ll see that the
+which has replicated and another which hasn't fully replicated. If you
+get back the read from the replicated node first, you'll see that the
 write has processed and read the value. If you then get the query from
-the node which hasn\'t fully replicated, the read will return nothing.
+the node which hasn't fully replicated, the read will return nothing.
 Thus, it seems like the write succeeded at t1 and then disappeared by
 t2.
 
@@ -241,7 +241,7 @@ t2.
 
 ### Consistent Prefix Reads
 
-Another anomaly is when causal violations occur. Let\'s say w1 must come
+Another anomaly is when causal violations occur. Let's say w1 must come
 before w2, because w1 creates a row and w2 updates it.
 
 Imagine these statements:
@@ -265,8 +265,8 @@ an ordering, but that comes at some performance cost.
 
 ### Solutions for Replication Lag
 
-If the system you\'re working on can function with replication lag and
-weaker consistency guarantees, that\'s good. If not, you may want to
+If the system you're working on can function with replication lag and
+weaker consistency guarantees, that's good. If not, you may want to
 pursue distributed transactions or use multi-leader or leaderless
 strategies.
 
@@ -327,9 +327,9 @@ fail later on.
 #### Converging toward a consistent state
 
 A single-leader database applies writes in a sequential order. With a
-multi-leader database that\'s impossible, because in the case above,
-with editing the wiki title, the writes look like A -\> B for node 1 and
-A -\> C for node 2. Which write wins? To deal with that, here are some
+multi-leader database that's impossible, because in the case above,
+with editing the wiki title, the writes look like A -> B for node 1 and
+A -> C for node 2. Which write wins? To deal with that, here are some
 ways to achieve convergent conflict resolution:
 
 - Give each write a unique ID, and pick the write with the highest ID.
@@ -344,7 +344,7 @@ ways to achieve convergent conflict resolution:
 
 You can execute conflict resolution logic on read or on write.
 
-- On write: When there\'s a conflict in the log of replicated changes,
+- On write: When there's a conflict in the log of replicated changes,
   call the conflict handler. (Bucardo) does this.
 
 - On read: Conflicting writes are stored, and when read, calls the
@@ -374,7 +374,7 @@ setups.
 
 Circular:
 
-write -\> n1 -\> n2 -\> n3 -\> n1
+write -> n1 -> n2 -> n3 -> n1
 
 Writes are propagated from node to node in order. If the write has been
 serviced (e.g. the write is back at node 1) the write is deemed
@@ -382,7 +382,7 @@ successful and stops here.
 
 Star Topology:
 
-write -\> n1 \<-\> n2 \^ \| v n3
+write -> n1 <-> n2 ^ | v n3
 
 Writes are served to one root node, where it is pushed to all other
 nodes. If the write comes back to the root node, the write is
@@ -395,7 +395,7 @@ All to all topology:
          |
          v
 
-write -\> n1 \<-\> n3
+write -> n1 <-> n3
 
 Writes are served to all other leaders.
 
@@ -416,8 +416,8 @@ ordering of said writes.
 Imagine a leaderless replication setup with 3 nodes. A client issues a
 write request to all three nodes, but one is down, so two writes
 succeed. That is good enough for quorum, and so the write is considered
-successful. Let\'s say you issue reads to only one replica; you may get
-stale data since one node didn\'t accept the write. Thus, in order to
+successful. Let's say you issue reads to only one replica; you may get
+stale data since one node didn't accept the write. Thus, in order to
 have consistent reads and writes, you must read from all the nodes as
 well, and version numbers are used to determine newer values.
 
@@ -429,7 +429,7 @@ that done?
 - Read Repair
 
 When a client makes a read from several nodes in parallel, it can detect
-stale responses. Let\'s say one node gives a value from version 6, but
+stale responses. Let's say one node gives a value from version 6, but
 all other nodes give a value from version 7. The client can write the
 newer value back to that replica. This is good for maintaining consensus
 for values that are frequently read.
@@ -445,7 +445,7 @@ If there are n replicas, every write must be confirmed by w replicas and
 we must query r replicas. As long as `w + r > n`, we will get an
 up-to-date value when reading. In this case, w = 2 and r = 2.
 
-In dynamo style DBs, these parameters are configurable. Normally, we\'ll
+In dynamo style DBs, these parameters are configurable. Normally, we'll
 calculate w and r as w = r = (n + 1) / 2 (rounded up).
 
 Thus, if n = 3, w = 2, and r = 2, we can tolerate one unavailable node.
@@ -453,20 +453,20 @@ With n = 5, w = 3, and r = 3, we can tolerate two unavailable nodes.
 
 #### Limitations of Quorom Consistency
 
-If we follow the rule w + r \> n, every read should return the most
+If we follow the rule w + r > n, every read should return the most
 recent value written. Often, r and w are chosen to be a majority of
-nodes, but quorums aren\'t always majorities. As long as they overlap in
+nodes, but quorums aren't always majorities. As long as they overlap in
 at least one node, our guarantees are kept. However, there are edge
 cases where stale values are returned:
 
 - If a sloppy quorum is used, the w writes may end up on different
   nodes than the r reads, which can return stale values.
 - If two writes occur concurrently, the only safe solution is to
-  merge. If we choose LWW, we\'ll have data loss.
+  merge. If we choose LWW, we'll have data loss.
 - If a write happens concurrently with a read, should we return the
   new value or the old value?
 - If a write succeeded on some replicas but failed on others, and
-  isn\'t rolled back, subsequent reads may or may not return the value
+  isn't rolled back, subsequent reads may or may not return the value
   from that write.
 - If a node carrying a new value fails, and its data is restored from
   a replica carrying an old value, it may break the quorum condition.
@@ -478,8 +478,8 @@ cases where stale values are returned:
 Staleness in a leaderless replication setup is harder to measure than in
 one with a leader. Since a leader based system has a replication log on
 the leader and followers, we know how far behind each follower is. If we
-use read repair, if a value isn\'t frequently read, it may be far behind
-on some replicas. With anti-entropy, if the background job hasn\'t run
+use read repair, if a value isn't frequently read, it may be far behind
+on some replicas. With anti-entropy, if the background job hasn't run
 in a while, it may also be out of date.
 
 ### Sloppy Quorums and Hinted Handoff
@@ -499,7 +499,7 @@ so, what do we do?
 The second is a `sloppy quorum`. writes and reads can be successful even
 without a quorum. But by accepting this tradeoff (for greater
 availability and less latency), you cannot be sure to read the latest
-value for a key, because even if w + r \> n, the latest value may have
+value for a key, because even if w + r > n, the latest value may have
 been written outside of n.
 
 When the value is eventually written, to the nodes it needs to go to,
@@ -533,7 +533,7 @@ it to the third node. How do we determine order then?
 LWW achieves the goal of eventual convergence, but at the cost of data
 loss. Some writes that were acknowledged will be lost.
 
-### The \"happens-before\" relationship and concurrency
+### The "happens-before" relationship and concurrency
 
 - If A creates a value and B updates that value, then B is dependent
   on A.
@@ -554,7 +554,7 @@ We can create an algorithm to capture correctly merging values:
   the version number every time that key is written, and stores the
   new version number with it.
 - When a client reads a key, the server returns all values that
-  haven\'t been overwritten, and the latest version number. A client
+  haven't been overwritten, and the latest version number. A client
   must read a key before writing.
 - When a client writes a key, it must include a version number from
   the prior read, and merge together all values it received in the
@@ -566,9 +566,9 @@ We can create an algorithm to capture correctly merging values:
 #### Merging Concurrently written values
 
 With a write only configuration,we have to merge siblings by taking the
-union. The two final siblings of a grocery cart example are \[milk,
-flour, eggs, bacon\] and \[eggs, milk, ham\]. The union is \[milk,
-flour, eggs, bacon, ham\], which is the correct answer.
+union. The two final siblings of a grocery cart example are [milk,
+flour, eggs, bacon] and [eggs, milk, ham]. The union is [milk,
+flour, eggs, bacon, ham], which is the correct answer.
 
 However, if we support deletions, we need a version vector to make sure
 that we can delete a particular item, which can be done with a
@@ -576,11 +576,11 @@ tombstone.
 
 #### Version Vectors
 
-We\'ve assumed the above with one node. What happens when there are
+We've assumed the above with one node. What happens when there are
 multiple nodes? Then each node is required to keep a version vector, or
 a version number per replica as well as per key, which can be diffed to
 process a write.
 
 Prev:
-\[encoding-and-evolution](encoding-and-evolution.md)
-Next: \[partitioning](partitioning.md)
+[encoding-and-evolution](encoding-and-evolution.md)
+Next: [partitioning](partitioning.md)

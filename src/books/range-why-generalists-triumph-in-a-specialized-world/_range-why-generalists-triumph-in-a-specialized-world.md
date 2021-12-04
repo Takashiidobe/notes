@@ -2,7 +2,7 @@
 title: _range-why-generalists-triumph-in-a-specialized-world
 ---
 
-: Why Generalists Triumph in a Specialized World\"
+: Why Generalists Triumph in a Specialized World"
 
 We need both focused frogs and visionary birds. Birds fly high in the
 air and survey broad vistas of mathematics out to the far horizon. They
@@ -15,7 +15,7 @@ It is stupid to claim that birds are better than frogs because they see
 farther, or that frogs are better than birds because they see deeper.
 
 With the increasing velocity of information, being a specialist is less
-impactful; the specialist\'s work is well communicated, and it\'s up to
+impactful; the specialist's work is well communicated, and it's up to
 the polymaths to stitch the research together in interesting ways.
 
 Having T-Shaped knowledge is critical, because you can go to the

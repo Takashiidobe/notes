@@ -2,16 +2,16 @@
 title: clustering-data
 ---
 
-Data\"
+Data"
 
 # Clustering Data
 
 Prev:
-\[the-join-operation](the-join-operation.md)
+[the-join-operation](the-join-operation.md)
 Next:
-\[sorting-and-grouping](sorting-and-grouping.md)
+[sorting-and-grouping](sorting-and-grouping.md)
 
 Prev:
-\[the-join-operation](the-join-operation.md)
+[the-join-operation](the-join-operation.md)
 Next:
-\[sorting-and-grouping](sorting-and-grouping.md)
+[sorting-and-grouping](sorting-and-grouping.md)

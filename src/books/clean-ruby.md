@@ -157,7 +157,7 @@ Try to avoid generic words like
 - Info
 - List
 
-that don\'t convey information to the reader.
+that don't convey information to the reader.
 
 Instead of:
 
@@ -321,7 +321,7 @@ Some classes offer a particular role.
 
 #### Modules
 
-- A module is a class that you can\'t instantiate; instead, you
+- A module is a class that you can't instantiate; instead, you
   include it.
 
 A class always needs to be instantiated, whereas a module does not.
@@ -364,7 +364,7 @@ end
 
 Use Fewer Parameters
 
-This function isn\'t alterable: we can make this better.
+This function isn't alterable: we can make this better.
 
 ```rb
 def greeting
@@ -400,7 +400,7 @@ end
 The passed in value can be an array or a hash or a long string too, so
 you must be able to catch for those as well.
 
-You\'ll want to use instance variables and attr_accessors and the like
+You'll want to use instance variables and attr_accessors and the like
 liberally in classes.
 
 ```rb
@@ -494,8 +494,8 @@ end
 
 ### Method Length
 
-- You\'ll not want a method to grow too long in length; try to make
-  methods \< 20 lines long.
+- You'll not want a method to grow too long in length; try to make
+  methods < 20 lines long.
 
 - Try to create private helper methods in classes that might do
   validation.
@@ -537,7 +537,7 @@ end
 
 ### Comments
 
-- Make sure to comment why you\'re doing things, or notes for later.
+- Make sure to comment why you're doing things, or notes for later.
 
 ```rb
 def change_role(user_id, new_role)
@@ -743,7 +743,7 @@ result = a > b ? a : b
 
 #### Avoid Double Negatives
 
-- Don\'t use a double negative
+- Don't use a double negative
 
 ```rb
 # bad
@@ -760,7 +760,7 @@ end
 
 #### Truthy and Falsy
 
-- Everything that isn\'t nil or false is falsy.
+- Everything that isn't nil or false is falsy.
 - These evaluate to false.
 - Everything else is truthy, and evaluates to true.
 
@@ -785,7 +785,7 @@ end
 
 ### Private Methods
 
-- Use private methods to do calculations that aren\'t necessary for
+- Use private methods to do calculations that aren't necessary for
   callers to understand.
 
 ```rb
@@ -807,7 +807,7 @@ end
 
 #### Modules
 
-- Use modules for methods that shouldn\'t have to be instantiated.
+- Use modules for methods that shouldn't have to be instantiated.
 
 ```rb
 module Math

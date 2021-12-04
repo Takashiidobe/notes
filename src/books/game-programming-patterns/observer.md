@@ -6,13 +6,13 @@ title: observer
 
 ## Achievement Unlocked
 
-Let\'s add achievements to our game \-- We\'ll do so with the Observer
+Let's add achievements to our game -- We'll do so with the Observer
 pattern.
 
 Observers let one piece of code announce that something interesting
 happened, and letting listeners subscribe to it.
 
-Let\'s implement an observer that notifies anything at all when our
+Let's implement an observer that notifies anything at all when our
 character falls off a bridge.
 
 ```cpp
@@ -28,7 +28,7 @@ void Physics::updateEntity(Entity& entity) {
 
 ## How it Works
 
-Let\'s create an `Observer` interface:
+Let's create an `Observer` interface:
 
 ```cpp
 class Observer {
@@ -38,7 +38,7 @@ public:
 };
 ```
 
-Now we\'ll have our achievements class implement things:
+Now we'll have our achievements class implement things:
 
 ```cpp
 class Achievements : public Observer {
@@ -64,7 +64,7 @@ private:
 The notification method is invoked by the object being observed. This is
 the subject.
 
-We\'ll keep a list that lets us store observers.
+We'll keep a list that lets us store observers.
 
 Next, send notifications.
 
@@ -93,5 +93,5 @@ public:
 };
 ```
 
-Prev: \[flyweight](flyweight.md) Next:
-\[prototype](prototype.md)
+Prev: [flyweight](flyweight.md) Next:
+[prototype](prototype.md)

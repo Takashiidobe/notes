@@ -4,8 +4,8 @@ title: membership
 
 # Membership
 
-Prev: \[hashing](hashing.md) Next:
-\[cardinality](cardinality.md)
+Prev: [hashing](hashing.md) Next:
+[cardinality](cardinality.md)
 
 A membership problem for a dataset is a task to decide whether some
 element belongs to the dataset or not.
@@ -21,18 +21,18 @@ can store some signature of the item rather than the whole value.
 
 ### Safe-browsing
 
-Imagine we\'re developing a web-browser and notice that some URLs are
+Imagine we're developing a web-browser and notice that some URLs are
 known to have malware that needs to be blocked.
 
 While the list is small, we can store all unique URLs in a list and
 check the list when navigating.
 
-Since there are billions of bad URLs, this won\'t work well for
+Since there are billions of bad URLs, this won't work well for
 real-world applications, as the time to index grows linearly with input.
 
 ### DNA sequences
 
-One issue in metagenomic studies is to classify sequences as \"novel\"
+One issue in metagenomic studies is to classify sequences as "novel"
 or belonging to a previously known genome.
 
 We can preprocess the data to execute membership queries, which if
@@ -58,9 +58,9 @@ different hash functions, `k`, while the number of expected elements is
 The hash functions (h) should be independent and uniformly distributed.
 
 When adding a number to the bloom filter, we compute its hash using the
-hash function and set each bit if it wasn\'t previously set.
+hash function and set each bit if it wasn't previously set.
 
-Assume we\'re hashing capitals, using MurmurHash and FNV1a.
+Assume we're hashing capitals, using MurmurHash and FNV1a.
 
 The bloom filter starts out unset:
 
@@ -83,7 +83,7 @@ If all bits are set, then the element **may exist** in the filter.
 
 Otherwise, the element is **definitely not** in the filter.
 
-Assume we\'re checking an item like \'Mexico City\' which hashes to (1,
+Assume we're checking an item like 'Mexico City' which hashes to (1,
 7).
 
 In this case, even though we did not add `Mexico City` to the set, the
@@ -123,7 +123,7 @@ longer than the expected number of elements n and use 6 hash functions.
 **False negatives are not possible**.
 
 To handle 1 billion elements and key the false positive rate to about
-2%, we must use \~ 1GB of memory.
+2%, we must use ~ 1GB of memory.
 
 #### Operations
 
@@ -140,7 +140,7 @@ could delete other items.
 ## Counting Bloom Filter
 
 To allow for counting occurrences in a bloom filter, we can add another
-array of counters corresponding to each bit in the filter\'s array.
+array of counters corresponding to each bit in the filter's array.
 
 Adding an item is similar to a bloom filter, except we first increment
 the associated counter. If it changes from zero to one, we set the bit
@@ -157,7 +157,7 @@ the bit-array is unset.
 
 This allows us to delete items, but in exchange for more memory. How
 much more memory? Well, the array must have a size of M, just like the
-bit array. But since we\'re counting occurrences, we must at least be
+bit array. But since we're counting occurrences, we must at least be
 able to count a few occurrences (in case of collisions). If 4 bits
 sounds good (count up to 16) then we require 4x the memory of a bloom
 filter.
@@ -195,5 +195,5 @@ filter algorithm uses Partial-Key Cuckoo hashing.
 
 They have low space overhead, but are slower than normal bloom filters.
 
-Prev: \[hashing](hashing.md) Next:
-\[cardinality](cardinality.md)
+Prev: [hashing](hashing.md) Next:
+[cardinality](cardinality.md)

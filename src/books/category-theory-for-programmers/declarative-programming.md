@@ -2,14 +2,14 @@
 title: declarative-programming
 ---
 
-Programming\"
+Programming"
 
 Prev:
-\[natural-transformations](natural-transformations.md)
+[natural-transformations](natural-transformations.md)
 Next:
-\[limits-and-colimits](limits-and-colimits.md)
+[limits-and-colimits](limits-and-colimits.md)
 
 Prev:
-\[natural-transformations](natural-transformations.md)
+[natural-transformations](natural-transformations.md)
 Next:
-\[limits-and-colimits](limits-and-colimits.md)
+[limits-and-colimits](limits-and-colimits.md)

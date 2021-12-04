@@ -2,16 +2,16 @@
 title: scheduling-introduction
 ---
 
-: Introduction\"
+: Introduction"
 
 # Scheduling: Introduction
 
 Prev:
-\[mechanism-limited-direct-execution](mechanism-limited-direct-execution.md)
+[mechanism-limited-direct-execution](mechanism-limited-direct-execution.md)
 Next:
-\[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
+[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
 
 Prev:
-\[mechanism-limited-direct-execution](mechanism-limited-direct-execution.md)
+[mechanism-limited-direct-execution](mechanism-limited-direct-execution.md)
 Next:
-\[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)
+[scheduling-the-multi-level-feedback-queue](scheduling-the-multi-level-feedback-queue.md)

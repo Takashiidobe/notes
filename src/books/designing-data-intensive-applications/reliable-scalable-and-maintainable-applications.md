@@ -2,12 +2,12 @@
 title: reliable-scalable-and-maintainable-applications
 ---
 
-, Scalable and Maintainable Applications\"
+, Scalable and Maintainable Applications"
 
 # Reliable, Scalable, and Maintainable Applications
 
 Next:
-\[data-models-and-query-languages](data-models-and-query-languages.md)
+[data-models-and-query-languages](data-models-and-query-languages.md)
 
 Data Intensive Applications use the following building blocks:
 
@@ -77,7 +77,7 @@ That could be read or write volume, or read or write throughput.
 - Posting a tweet:
 
 A User can publish a new message to their followers (4.6k rps, 12krps
-\@peak)
+@peak)
 
 - Viewing Home Timeline:
 
@@ -108,7 +108,7 @@ WHERE follows.follower_id = current_user
 Twitter does the second approach these days. This is because the read
 volume is much higher than the write volume, but this has the tradeoff
 of increasing write volume (if everyone has on average 75 followers,
-4.6k \* 75 == 345k writes per second).
+4.6k * 75 == 345k writes per second).
 
 Some celebrities might have 1M+ followers. In that case, twitter employs
 the first approach, as every time a celebrity would write a tweet, 1M
@@ -124,9 +124,9 @@ writes in a few seconds would overload the writers to this service.
 Normally we use p90, p95, p99, p999 (90th, 95th, 99th, 99.9th)
 percentiles to measure performance.
 
-Amazon for example optimized for the p999 customer\'s experience,
+Amazon for example optimized for the p999 customer's experience,
 because they spent a lot on the platform, and were more likely to spend
-more. However, the p9999 experience didn\'t matter as much, so they
+more. However, the p9999 experience didn't matter as much, so they
 stopped optimizing at that point.
 
 SLAs (service level agreements) are a contractual bound where customers
@@ -135,7 +135,7 @@ can find out what is the expectation for the service to be up.
 ### Approaches for Coping with Load
 
 An architecture that is appropriate for one level of load is unlikely to
-cope with 10 times that load. For a fast growing service, you\'ll want
+cope with 10 times that load. For a fast growing service, you'll want
 to rethink your architecture every so often to deal with that.
 
 To create systems like this, you may want to go for a shared-nothing
@@ -175,7 +175,7 @@ throughput.
 5.  Establishing good practices for deployment and configuration
     management
 6.  Maintaining processes of the system
-7.  Preserving the organization\'s knowledge about the system.
+7.  Preserving the organization's knowledge about the system.
 
 #### Simplicity: Managing Complexity
 
@@ -188,4 +188,4 @@ Following agile, TDD, allowing the system to be more modular through the
 use of interface segregation.
 
 Next:
-\[data-models-and-query-languages](data-models-and-query-languages.md)
+[data-models-and-query-languages](data-models-and-query-languages.md)
