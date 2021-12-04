@@ -1,0 +1,1224 @@
+{
+	"info": {
+		"_postman_id": "e3e42666-50ce-4af4-9ace-518a171db25f",
+		"name": "GitHub Migration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ownerName\": \"alexdebrie\",\n\t\"repoName\": \"dynamodb-book\",\n\t\"description\": \"The book.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRepo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCodeOfConductForRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"code_of_conduct.md\",\n\t\"URL\": \"https://github.com/alexdebrie/dynamodb-book/code_of_conduct.md\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/code",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"code"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddStarToRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/stars",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"stars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetStargazersForRepo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/stars",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"stars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ForkRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie2\",\n\t\"description\": \"The book\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/forks",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"forks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetForksForRepo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/forks",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"forks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie2\",\n\t\"name\": \"Alex DeBrie\",\n\t\"email\": \"alexdebrie1@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/users",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserAndRepos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/repos",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateGist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"First Gist\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/gists",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"gists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserAndGists",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/gists",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"gists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePaymentPlanForUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"planType\": \"Pro\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/payment",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrganization",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ownerName\": \"alexdebrie\",\n\t\"organizationName\": \"debriellc\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/organizations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrganization",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/organizations/debriellc",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations",
+						"debriellc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrganizationAndMembers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/organizations/debriellc/members",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations",
+						"debriellc",
+						"members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrganizationAndRepos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/organizations/debriellc/repos",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations",
+						"debriellc",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddMemberToOrganization",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie2\",\n\t\"role\": \"Admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/organizations/debriellc/members",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations",
+						"debriellc",
+						"members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePaymentPlanForOrganization",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"planType\": \"Pro\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/organizations/debriellc/payment",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"organizations",
+						"debriellc",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddIssueToRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"creatorUsername\": \"alexdebrie\",\n\t\"title\": \"Finish the book\",\n\t\"content\": \"You know what to do.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRepoAndIssues",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues?status=Closed",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "Closed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetIssue",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateIssue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"Finish the book\",\n\t\"content\": \"You know what to do.\",\n\t\"status\": \"Closed\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCommentToIssue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\": \"I have some thoughts.\",\n\t\"username\": \"alexdebrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues/1/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues",
+						"1",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCommentsForIssue",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues/1/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues",
+						"1",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddReactionToIssue",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"reaction\": \"smile\",\n\t\"username\": \"alexdebrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/issues/1/reactions",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"issues",
+						"1",
+						"reactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddPullRequestToRepo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"creatorUsername\": \"alexdebrie\",\n\t\"title\": \"Finish the book\",\n\t\"content\": \"You know what to do.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRepoAndPullRequests",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPullRequest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePullRequest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"Finish the book\",\n\t\"content\": \"You know what to do.\",\n\t\"status\": \"Merged\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls/3",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddCommentToPullRequest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\": \"I have some thoughts.\",\n\t\"username\": \"alexdebrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls/2/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls",
+						"2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCommentsForPullRequest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls/2/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls",
+						"2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddReactionToPullRequest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"reaction\": \"smile\",\n\t\"username\": \"alexdebrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/pulls/2/reactions",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"pulls",
+						"2",
+						"reactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddReactionToComment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"reaction\": \"+1\",\n\t\"username\": \"alexdebrie\",\n\t\"targetType\": \"pullRequest\",\n\t\"targetNumber\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/comments/1ZjkMqOabjigbZFdvqrR76tOHXt/reactions",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"comments",
+						"1ZjkMqOabjigbZFdvqrR76tOHXt",
+						"reactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateApp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ownerName\": \"alexdebrie3\",\n\t\"appName\": \"CICD\",\n\t\"description\": \"The app.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/apps",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"apps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InstallApp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"repoOwner\": \"alexdebrie\",\n\t\"repoName\": \"dynamodb-book\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/apps/alexdebrie3/cicd/installations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"apps",
+						"alexdebrie3",
+						"cicd",
+						"installations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAppAndInstallations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/apps/alexdebrie3/cicd/installations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"apps",
+						"alexdebrie3",
+						"cicd",
+						"installations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRepoAndInstallations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/repos/alexdebrie/dynamodb-book/installations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"repos",
+						"alexdebrie",
+						"dynamodb-book",
+						"installations"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

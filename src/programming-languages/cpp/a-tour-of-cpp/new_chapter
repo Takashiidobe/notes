@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 0 ]; then
+  echo "Please provide one argument for the directory name"
+  exit 1
+fi
+
+if [ -d $1 ]; then
+  echo "This directory already exists, exiting"
+  exit 1
+fi
+
+mkdir -p $1/build
+
+echo '#include <fmt/core.h>
+int main() {
+  fmt::print("{}", "Hello World");
+}' >> $1/main.cc
+
+echo -e 'all:\n\tclang++ -std=c++2a -lfmt main.cc -o build/main && ./build/main' >> $1/Makefile

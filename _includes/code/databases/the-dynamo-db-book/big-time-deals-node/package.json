@@ -1,0 +1,19 @@
+{
+  "name": "big-time-deals-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.638.0",
+    "ksuid": "^1.2.0",
+    "middy": "^0.34.0",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

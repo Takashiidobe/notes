@@ -1,0 +1,254 @@
+service: big-time-deals-node
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: prod
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:BatchWriteItem"
+        - "dynamodb:ConditionCheckItem"
+        - "dynamodb:GetItem"
+        - "dynamodb:PutItem"
+        - "dynamodb:Scan"
+        - "dynamodb:Query"
+        - "dynamodb:UpdateItem"
+      Resource:
+        - Fn::GetAtt:
+          - BigTimeDealsTable 
+          - Arn
+        - Fn::Join: 
+          - "/"
+          - - Fn::GetAtt:
+              - BigTimeDealsTable 
+              - Arn
+            - "index/GSI1"
+        - Fn::Join: 
+          - "/"
+          - - Fn::GetAtt:
+              - BigTimeDealsTable 
+              - Arn
+            - "index/GSI2"
+        - Fn::Join: 
+          - "/"
+          - - Fn::GetAtt:
+              - BigTimeDealsTable 
+              - Arn
+            - "index/GSI3"
+        - Fn::Join: 
+          - "/"
+          - - Fn::GetAtt:
+              - BigTimeDealsTable 
+              - Arn
+            - "index/UserIndex"
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:DescribeStream"
+        - "dynamodb:GetRecords"
+        - "dynamodb:GetShardIterator"
+        - "dynamodb:ListStreams"
+      Resource:
+        - Fn::Join: 
+          - "/"
+          - - Fn::GetAtt:
+              - BigTimeDealsTable 
+              - Arn
+            - "stream/*"
+
+  environment:
+    TABLE_NAME: { Ref: BigTimeDealsTable }
+
+functions:
+  createDeal:
+    handler: handlers/createDeal.handler
+    events:
+      - http:
+          path: deals
+          method: post
+  getDeal:
+    handler: handlers/getDeal.handler
+    events:
+      - http:
+          path: deals/{dealId}
+          method: get
+  createBrand:
+    handler: handlers/createBrand.handler
+    events:
+      - http:
+          path: brands
+          method: post
+  listBrands:
+    handler: handlers/listBrands.handler
+    events:
+      - http:
+          path: brands
+          method: get
+  getBrand:
+    handler: handlers/getBrand.handler
+    events:
+      - http:
+          path: brands/{name}
+          method: get
+  likeBrandForUser:
+    handler: handlers/likeBrandForUser.handler
+    events:
+      - http:
+          path: brands/{name}/likes/{username}
+          method: post
+  watchBrandForUser:
+    handler: handlers/watchBrandForUser.handler
+    events:
+      - http:
+          path: brands/{name}/watches/{username}
+          method: post
+  updateCategory:
+    handler: handlers/updateCategory.handler
+    events:
+      - http:
+          path: categories/{name}
+          method: post
+  getCategory:
+    handler: handlers/getCategory.handler
+    events:
+      - http:
+          path: categories/{name}
+          method: get
+  likeCategoryForUser:
+    handler: handlers/likeCategoryForUser.handler
+    events:
+      - http:
+          path: categories/{name}/likes/{username}
+          method: post
+  watchCategoryForUser:
+    handler: handlers/watchCategoryForUser.handler
+    events:
+      - http:
+          path: categories/{name}/watches/{username}
+          method: post
+  updateFrontPage:
+    handler: handlers/updateFrontPage.handler
+    events:
+      - http:
+          path: /frontpage
+          method: post
+  getFrontPage:
+    handler: handlers/getFrontPage.handler
+    events:
+      - http:
+          path: /frontpage
+          method: get
+  updateEditorsChoice:
+    handler: handlers/updateEditorsChoice.handler
+    events:
+      - http:
+          path: /editorschoice
+          method: post
+  getEditorsChoice:
+    handler: handlers/getEditorsChoice.handler
+    events:
+      - http:
+          path: /editorschoice
+          method: get
+  createUser:
+    handler: handlers/createUser.handler
+    events:
+      - http:
+          path: users
+          method: post
+  getUser:
+    handler: handlers/getUser.handler
+    events:
+      - http:
+          path: users/{username}
+          method: get
+  getMessagesForUser:
+    handler: handlers/getMessagesForUser.handler
+    events:
+      - http:
+          path: users/{username}/messages
+          method: get
+  markMessageRead:
+    handler: handlers/markMessageRead.handler
+    events:
+      - http:
+          path: users/{username}/messages/{messageId}
+          method: post
+  sendHotDealToAllUsers:
+    handler: handlers/sendHotDealToAllUsers.handler
+    events:
+      - http:
+          path: hotdealblast
+          method: post
+  streamHandler:
+    handler: handlers/streamHandler.handler
+    events:
+      - stream:
+          type: dynamodb
+          arn:
+            Fn::GetAtt: [BigTimeDealsTable, StreamArn]
+
+resources:
+  Resources:
+    BigTimeDealsTable:
+      Type: AWS::DynamoDB::Table
+      Properties: 
+        AttributeDefinitions: 
+          - AttributeName: "PK"
+            AttributeType: "S"
+          - AttributeName: "SK"
+            AttributeType: "S"
+          - AttributeName: "GSI1PK"
+            AttributeType: "S"
+          - AttributeName: "GSI1SK"
+            AttributeType: "S"
+          - AttributeName: "GSI2PK"
+            AttributeType: "S"
+          - AttributeName: "GSI2SK"
+            AttributeType: "S"
+          - AttributeName: "GSI3PK"
+            AttributeType: "S"
+          - AttributeName: "GSI3SK"
+            AttributeType: "S"
+          - AttributeName: "UserIndex"
+            AttributeType: "S"
+        KeySchema: 
+          - AttributeName: "PK"
+            KeyType: "HASH"
+          - AttributeName: "SK"
+            KeyType: "RANGE"
+        BillingMode: "PAY_PER_REQUEST"
+        StreamSpecification:
+          StreamViewType: 'NEW_IMAGE'
+        GlobalSecondaryIndexes:
+          - IndexName: 'GSI1'
+            KeySchema:
+            - AttributeName: "GSI1PK"
+              KeyType: "HASH"
+            - AttributeName: "GSI1SK"
+              KeyType: "RANGE"
+            Projection:
+              ProjectionType: ALL
+          - IndexName: 'GSI2'
+            KeySchema:
+            - AttributeName: "GSI2PK"
+              KeyType: "HASH"
+            - AttributeName: "GSI2SK"
+              KeyType: "RANGE"
+            Projection:
+              ProjectionType: ALL
+          - IndexName: 'GSI3'
+            KeySchema:
+            - AttributeName: "GSI3PK"
+              KeyType: "HASH"
+            - AttributeName: "GSI3SK"
+              KeyType: "RANGE"
+            Projection:
+              ProjectionType: ALL
+          - IndexName: 'UserIndex'
+            KeySchema:
+            - AttributeName: "UserIndex"
+              KeyType: "HASH"
+            Projection:
+              ProjectionType: ALL

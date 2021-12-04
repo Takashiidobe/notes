@@ -1,0 +1,575 @@
+{
+	"info": {
+		"_postman_id": "f77437d8-f242-4ea6-848f-7a12b41dba7f",
+		"name": "BigTimeDeals",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateDeal",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"8 day cruise!\",\n\t\"link\": \"https://www.princess.com/...\",\n\t\"price\": 1599,\n\t\"category\": \"Travel\",\n\t\"brand\": \"Princess\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/deals",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDeal",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/deals/1Zd9UkcRsDTMq3WNUGNUdlOESjA",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deals",
+						"1Zd9UkcRsDTMq3WNUGNUdlOESjA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateBrand",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nike\",\n\t\"logoUrl\": \"https://static.nike.com/logo.png\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListBrands",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBrand",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/brands/nike",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"brands",
+						"nike"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCategory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"featuredDeals\": [\n        {\n            \"dealId\": \"1ZdWD1dceld4nmboOmvCF0caI40\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-25T20:48:47.823Z\"\n        },\n        {\n            \"dealId\": \"1ZdWCXDj7ZIzrwRRHhp0Vldj9A2\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-22T20:48:43.301Z\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/categories/sports",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories",
+						"sports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategory",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/categories/sports",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories",
+						"sports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateFrontPage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"featuredDeals\": [\n        {\n            \"dealId\": \"1ZdWD1dceld4nmboOmvCF0caI40\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-25T20:48:47.823Z\"\n        },\n        {\n            \"dealId\": \"1ZdWCXDj7ZIzrwRRHhp0Vldj9A2\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-22T20:48:43.301Z\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/frontpage",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"frontpage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFrontPage",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/frontpage",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"frontpage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateEditorsChoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"featuredDeals\": [\n        {\n            \"dealId\": \"1ZdWD1dceld4nmboOmvCF0caI40\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-25T20:48:47.823Z\"\n        },\n        {\n            \"dealId\": \"1ZdWCXDj7ZIzrwRRHhp0Vldj9A2\",\n            \"title\": \"Air Force 1s!\",\n            \"link\": \"https://www.nike.com/...\",\n            \"price\": 79.99,\n            \"category\": \"Sports\",\n            \"brand\": \"Nike\",\n            \"createdAt\": \"2020-03-22T20:48:43.301Z\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/editorschoice",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"editorschoice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetEditorsChoice",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/editorschoice",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"editorschoice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie\",\n\t\"name\": \"Alex DeBrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/users",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SendHotDealToAllUsers",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"subject\": \"Hot new Nike Deal!\",\n\t\"message\": \"Check out the latest Air Force 1's. Blah blah blah.\",\n\t\"dealId\": \"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/hotdealblast",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"hotdealblast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserMessages",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/messages",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MarkMessageRead",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/users/alexdebrie/messages/1ZfkZbn7wWZfSI2IeKZ25WQqGVq",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"alexdebrie",
+						"messages",
+						"1ZfkZbn7wWZfSI2IeKZ25WQqGVq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LikeBrandForUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/brands/nike/likes/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"brands",
+						"nike",
+						"likes",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WatchBrandForUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/brands/nike/watches/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"brands",
+						"nike",
+						"watches",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LikeCategoryForUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/categories/sports/likes/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories",
+						"sports",
+						"likes",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WatchCategoryForUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/categories/sports/watches/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"categories",
+						"sports",
+						"watches",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

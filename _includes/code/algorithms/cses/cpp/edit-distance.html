@@ -1,0 +1,803 @@
+<style>
+  .header {
+    background: #dedede;
+  }
+  .active {
+    background: #FFCCCB;
+  }
+</style>
+
+<p>Let's solve Edit distance:</p>
+<p>We want to find the edit distance between the words MOVIE and LOVE.</p>
+<p>MOVIE and LOVE have an edit distance of 2, because you can remove the I from MOVIE and change the M of Movie to an L, which makes both words LOVE.</p>
+<p>Thus, MOVIE and LOVE have an edit distance of 2.</p>
+<p>Let's start out by creating a DP Table which starts out with the empty string and the word for each.</p>
+<p>The Cell that we're on is the red cell. First, we ask, what is the edit distance between the empty string and the empty string?</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td class="active">?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p>They are the same character, so the edit distance is 0.</p>
+<p>We note it in our table and move on.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td class="active">0</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Next, let's compare "" and M. Clearly "" != M, so there is an edit distance of 1.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td class="active">1</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>What is the edit distance between "" and "MO"? 2.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td class="active">2</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p>What is the edit distance between "" and "MOV"? 3.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td class="active">3</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lets do that until we reach the end.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td class="active">5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Next, we ask the same question of the first column. This looks exactly the same.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>1</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>2</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>3</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td class="active">4</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So we have a row and column before us to pick from.</p>
+<p>Let's take the first cell we haven't visited yet, (1,1), and apply some rules.</p>
+
+<p>Our rules are as follows: If the character in the row matches the character in the column, like in the case of the empty string and the empty string, we can take the number to the left and above us, and set that as our cell. Why? This is because we can disregard both characters (they are the same) and consider our problem to have the same edit distance as the cell if both characters didn't exist.
+</p>
+<p>
+Take the words "go" and "no". Their edit distance is 1, because we need to update "g" to "n" or vice-versa. We do not care about "o" in both words, because they are the same. Thus, "go" and "no"'s edit distance is the same as if I asked you "g" and "n"s edit distance.
+</p>
+<p>
+In order to make a cell that "matches" the same as not counting, we take from the left-above cell, which is the same as if both words didn't have that character.
+</p>
+
+<p>
+The second rule is if there is no match, we look for the minimum of the cell left, above, and left-above, and add one to that value (since we must make a change). We keep track of the minimum cost, and carry that onto the end.</p>
+
+<p>Let's apply those rules to our table:</p>
+<p>In our current cell (1,1), we find the minimum of left, above, and left-above. That's 0. We add 1 to that, because we're comparing "M" with "L". In this case, there is an edit distance of 1 (update "M" to "L" or vice-versa).</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>1</td>
+      <td class="active">1</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>2</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>3</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>4</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+<p>Let's move onto the next cell:</p>
+<p>Here, we're comparing "MO" with "L". This has an edit distance of 2 (delete a character, update the other character). This is the same as the edit distance of the previous subproblem + 1.</p>
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>1</td>
+      <td>1</td>
+      <td class="active">2</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>2</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>3</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>4</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Let's finish the first row.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>2</td>
+      <td class="active">?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>3</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>4</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We'll apply the same logic to the rest of the table, trying to find out the edit distance between MOVIE and LOVE.</p>
+
+<table>
+  <colgroup>
+    <col class="header">
+    <col>
+    <col>
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th>X</th>
+      <th>""</th>
+      <th>M</th>
+      <th>O</th>
+      <th>V</th>
+      <th>I</th>
+      <th>E</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>""</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="even">
+      <td>L</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr class="odd">
+      <td>O</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr class="even">
+      <td>V</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr class="odd">
+      <td>E</td>
+      <td>4</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td class="active">2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>And in this case, it's 2!</p>

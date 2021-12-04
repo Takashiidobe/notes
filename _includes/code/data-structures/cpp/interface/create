@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+from stat import S_IEXEC
+from os import getcwd, mkdir, chmod, stat
+from sys import argv
+
+dir_name = argv[1]
+
+cpp_code = "#include \"util.h\"\n\n" + f"template <class T>\nclass {dir_name.title()} {{\n\tprivate:\n\tpublic:\n\t\t{dir_name.title()}() = default;\n\t\t~{dir_name.title()}() {{}}\n}};\n" + """
+int main() {
+  cout << "Hello World!" << endl;
+}
+"""
+
+create_and_run_code = r"""#!/usr/bin/env bash
+
+if [[ ! -e ./build ]]; then
+  mkdir ./build
+fi
+
+if [ "$1" != "" ]; then
+  FILE_NAME=$(echo $1 | sed 's/\.[^.]*$//');
+  g++-9 -std=c++2a -O2 -fconcepts -Wall -Wpedantic $1 -o ./build/$FILE_NAME && ./build/$FILE_NAME
+else
+  echo "Please provide a file to compile"
+fi
+"""
+
+util_code = r"""#include <iostream>
+#include <cassert>
+#include <vector>
+#include <map>
+#include <algorithm>
+#include <functional>
+#include <chrono>
+
+using namespace std;
+using namespace std::chrono;
+
+void print(auto item, string s = "Value") { cout << s << ": " << item << endl; }
+
+void _time(auto func) {
+  auto start = high_resolution_clock::now();
+  func();
+  auto end = high_resolution_clock::now();
+  auto duration = duration_cast<microseconds>(end - start);
+  cout << "Execution took: " <<  duration.count() << " microseconds" << endl;
+}
+"""
+
+mkdir(dir_name)
+mkdir(dir_name + '/build')
+
+with open(f'{dir_name}/{dir_name}.cc', 'w+') as f:
+    f.write(cpp_code)
+
+with open(f'{dir_name}/car', 'w+') as f:
+    f.write(create_and_run_code)
+    st = stat(f'{dir_name}/car')
+    chmod(f'{dir_name}/car', st.st_mode | S_IEXEC)
+
+with open(f'{dir_name}/util.h', 'w+') as f:
+    f.write(util_code)

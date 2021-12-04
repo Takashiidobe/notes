@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "ab98d2e7-eaa1-4760-a3fe-8a6434ba562f",
+		"name": "E-commerce example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\": \"alexdebrie\",\n\t\"email\": \"alexdebrie1@gmail.com\",\n\t\"name\": \"Alex DeBrie\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/customers",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditAddressForCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Work\",\n\t\"streetAddress\": \"123 1st Street\",\n\t\"postalCode\": \"10001\",\n\t\"country\": \"USA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/addresses",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"addresses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAddressForCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/addresses/Work",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"addresses",
+						"Work"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"address\": {\n\t\t\"streetAddress\": \"123 1st Street\",\n\t\t\"postalCode\": \"10001\",\n\t\t\"country\": \"USA\"\t\t\n\t},\n\t\"items\": [\n\t\t{\n\t\t\t\"itemId\": \"1d45\",\n\t\t\t\"description\": \"Air Force 1s\",\n\t\t\t\"price\": 15.99,\n\t\t\t\"amount\": 1\n\t\t}\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/orders",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrdersForCustomer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/orders",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateStatusForOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"status\": \"DELIVERED\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/orders/1Ziwe3Bq5xjAUGneEPrlgrl8BSA/status",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"orders",
+						"1Ziwe3Bq5xjAUGneEPrlgrl8BSA",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrder",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/customers/alexdebrie/orders/1Ziwe3Bq5xjAUGneEPrlgrl8BSA",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customers",
+						"alexdebrie",
+						"orders",
+						"1Ziwe3Bq5xjAUGneEPrlgrl8BSA"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

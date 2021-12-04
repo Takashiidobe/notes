@@ -1,0 +1,16 @@
+chapter 1 scale from zero to millions of users
+chapter 2 back-of-the-envelope estimation
+chapter 3 a framework for system design interviews
+chapter 4 design a rate limiter
+chapter 5 design consistent hashing
+chapter 6 design a key-value store
+chapter 7 design a unique id generator in distributed systems
+chapter 8 design a url shortener
+chapter 9 design a web crawler
+chapter 10 design a notification system
+chapter 11 design a news feed system
+chapter 12 design a chat system
+chapter 13 design a search autocomplete system
+chapter 14 design youtube
+chapter 15 design google drive
+chapter 16 the learning continues

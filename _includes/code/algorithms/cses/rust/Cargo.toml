@@ -1,0 +1,17 @@
+[package]
+name = "cses-problem-set"
+version = "0.1.0"
+authors = ["takashiidobe <idobetakashi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "utils"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]

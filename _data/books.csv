@@ -1,0 +1,58 @@
+title,author,cover,notes,status,year_finished
+"Atomic Habits","James Clear","https://m.media-amazon.com/images/I/91pR9wKJ3zL._AC_UY218_.jpg",atomic-habits,Reading,
+"Being Mortal",Atul Gawande,"https://m.media-amazon.com/images/I/51ISw971LnL._SY346_.jpg",being-mortal/_being-mortal,Finished,2021-06-28
+"Between the World and Me",Ta-Nehisi Coates,https://m.media-amazon.com/images/I/51LiRoMTbpL._AC_UY218_.jpg,between-the-world-and-me,Finished,2018
+"Black Swan",Nicholas Nassim Taleb,https://m.media-amazon.com/images/I/61jIm2btp6L._AC_UY218_.jpg,black-swan,Finished,2018
+"Born a Crime",Trevor Noah,https://m.media-amazon.com/images/I/91mePFAgywL._AC_UY218_.jpg,born-a-crime,Finished,2017
+"Category Theory for Programmers",,,category-theory-for-programmers/_category-theory-for-programmers,Reading,
+"Clean Code",Robert C. Martin,"https://images-na.ssl-images-amazon.com/images/I/41yafGMO+rL._SX258_BO1,204,203,200_.jpg",clean-code/_clean-code,Reading,
+"Clean Ruby",Carleton DiLeo,https://m.media-amazon.com/images/I/41IpctQ7RIL._AC_UY218_.jpg,clean-ruby,Finished,2021
+"Compiling to Assembly from Scratch",Vladimir Keleshev,https://keleshev.com/compiling-to-assembly-from-scratch.jpg,compiling-to-assembly-from-scratch,Reading,
+"Crossing the Chasm",Geoffery Moore,https://images-na.ssl-images-amazon.com/images/I/41czNgTCIQL.jpg,crossing-the-chasm,Reading,
+"Deep Work",Cal Newport,"https://images-na.ssl-images-amazon.com/images/I/41W+SUER72L._SX333_BO1,204,203,200_.jpg",deep-work,Finished,2020
+"Design Patterns: Elements of Reusable Object-Oriented Software",Erich Gamma & Richard Helm & Ralph Johnson & John Vlissides,"https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",design-patterns-elements-of-reusable-object-oriented-software/_design-patterns-elements-of-reusable-object-oriented-software,Reading,
+"Designing Data Intensive Applications",Martin Kleppmann,https://m.media-amazon.com/images/I/91pzJip+jnL._AC_UY218_.jpg,designing-data-intensive-applications/_designing-data-intensive-applications,Reading,
+"Educated",Tara Westover,https://m.media-amazon.com/images/I/81XR45UdqkL._AC_UY218_.jpg,educated,Finished,2019
+"Game Programming Patterns",Robert Nystrom,https://m.media-amazon.com/images/I/71Kfg2zTisL._AC_UY218_.jpg,game-programming-patterns/_game-programming-patterns,Finished,2021
+"Grit",Angela Duckworth,https://m.media-amazon.com/images/I/71+7ZRI3y6L._AC_UY218_.jpg,grit,Finished,2017
+"Haskell From First Principles",Christopher Allen & Julie Moronuki,https://books.google.com/books/content?id=5FaXDAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api,haskell-from-first-principles/_haskell-from-first-principles,Reading,
+"High Performance Browser Networking",,,high-performance-browser-networking/_high-performance-browser-networking,Reading,
+"How Linux Works",Brian Ward,https://m.media-amazon.com/images/I/81pHTiIbBKL._AC_UY218_.jpg,how-linux-works/_how-linux-works,Reading,
+"How to Solve it",George Polya,https://m.media-amazon.com/images/I/41sZoTbSopL._AC_UY218_.jpg,how-to-solve-it/_how-to-solve-it,Reading,
+"Inside the Tornado",Geoffery Moore,https://m.media-amazon.com/images/I/71rTkqfwB1L._AC_UY218_.jpg,inside-the-tornado,Reading,
+"Learn you a Haskell for Great Good",Miran Lipovača,https://m.media-amazon.com/images/I/71nF23YUpfL._AC_UY218_.jpg,learn-you-a-haskell/_learn-you-a-haskell,Reading,
+"Long Walk to Freedom",Nelson Mandela,https://m.media-amazon.com/images/I/51nARkcByML._AC_UY218_.jpg,long-walk-to-freedom,Finished,2017
+"Man's Search for Meaning",Viktor Frankl,https://m.media-amazon.com/images/I/816dOlxU5qL._AC_UY218_.jpg,mans-search-for-meaning,Finished,2020
+"Meditations",Marcus Aurelius,https://m.media-amazon.com/images/I/61h98jZnUQL._AC_UY218_.jpg,meditations,Finished,2020
+"Operating Systems: Three Easy Pieces",Remzi H. Arpaci-Dusseau & Andrea C. Arpaci-Dusseau,,operating-systems-three-easy-pieces/_operating-systems-three-easy-pieces,Reading,
+"Probabilistic Data Structures and Algorithms for Big Data Applications",Andrii Gakhov,https://m.media-amazon.com/images/P/3748190484.01._SCLZZZZZZZ_SX500_.jpg,probabilistic-data-structures-and-algorithms-for-big-data-applications/_probabilistic-data-structures-and-algorithms-for-big-data-applications,Reading,
+"Purely Functional Data Structures",Chris Okasaki,https://m.media-amazon.com/images/I/61FKT-95DVL._AC_UY218_.jpg,purely-functional-data-structures/_purely-functional-data-structures,Reading,
+"Radical Candor",Kim Scott,https://m.media-amazon.com/images/I/81Yd6Q6geBL._AC_UY218_.jpg,radical-candor,Finished,2020
+"Range: Why Generalists Triumph in a Specialized World",David Epstein,"https://images-na.ssl-images-amazon.com/images/I/41-nFxo5yTL._SX333_BO1,204,203,200_.jpg",range-why-generalists-triumph-in-a-specialized-world/_range-why-generalists-triumph-in-a-specialized-world,Finished,2021-06-12
+"Real World OCaml",Anil Madhavapeddy & Jason Hickey & Yaron Minsky,https://m.media-amazon.com/images/I/91JswYwrTnL._AC_UY218_.jpg,real-world-ocaml/_real-world-ocaml,Reading,
+"Real-World Cryptography",,,real-world-cryptography/_real-world-cryptography,Reading,
+"SQL Performance Explained",Markus Winand,https://m.media-amazon.com/images/I/51D2JZLEFLL._AC_UY218_.jpg,sql-performance-explained/_sql-performance-explained,Reading,
+"Structure and Intepretation of Computer Programs",Harold Abelson & Gerald Jay Sussman & Julie Sussman,https://m.media-amazon.com/images/I/41AJV8G0ZTL._AC_UY218_.jpg,structure-and-interpretation-of-computer-programs/_structure-and-interpretation-of-computer-programs,Reading,
+"System Design Interview - an Insider's Guide",Alex Xu,https://m.media-amazon.com/images/I/61CekcUc2EL._AC_UY218_.jpg,system-design-interview-an-insiders-guide/_system-design-interview-an-insiders-guide,Reading,
+"Systems Performance: Enterprise and the Cloud",,,systems-performance-enterprise-and-the-cloud/_systems-performance-enterprise-and-the-cloud,Reading,
+"The 7 Habits of Highly Effective People",Steven Covey,https://m.media-amazon.com/images/I/515raXIF0rL._AC_UY218_.jpg,the-seven-habits-of-highly-effective-people,Finished,2021
+"The Art of PostgreSQL",Dimitri Fontaine,https://www.postgresql.org/media/img/docs/books/art_of_postgresql.png,the-art-of-postgresql/_the-art-of-postgresql,Reading,
+"The Art of War",Sun-Tzu,https://m.media-amazon.com/images/I/4145Q3WAneL._AC_UY218_.jpg,the-art-of-war,Reading,
+"The C Programming Language",Brian Kernighan & Dennis Ritchie,https://m.media-amazon.com/images/I/411ejyE8obL._AC_UY218_.jpg,the-c-programming-language/_the-c-programming-language,Reading,
+"The Choice",Edith Eger,https://m.media-amazon.com/images/I/71JP7+XErWL._AC_UY218_.jpg,the-choice,Reading,
+"The Daily Stoic",Ryan Holiday,https://m.media-amazon.com/images/I/71l+BjaWMmL._AC_UY218_.jpg,the-daily-stoic/_the-daily-stoic,Reading,
+"The DynamoDB Book",,,the-dynamodb-book/_the-dynamodb-book,Reading,
+"The Innovator's Dilemma",Clayton Christensen,https://m.media-amazon.com/images/I/51vr6Wvbc3L._AC_UY218_.jpg,the-innovators-dilemma/_the-innovators-dilemma,Finished,2021
+"The Linux Programming Interface",Michael Kerrisk,https://books.google.com/books/content?id=2SAQAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api,the-linux-programming-interface/_the-linux-programming-interface,Reading,
+"The Little Book of Semaphores",Allen Downey,,the-little-book-of-semaphores/_the-little-book-of-semaphores,Reading,
+"The Little MLer",Matthias Felleisen & Daniel P. Friedman,https://m.media-amazon.com/images/I/51s4p7t9llL._AC_UY218_.jpg,the-little-mler,Reading,
+"The Mythical Man Month",Fred Brooks,https://m.media-amazon.com/images/I/51U7pYWTaML._AC_UY218_.jpg,the-mythical-man-month,Reading,
+"The New Economics",Edwards Deming,https://m.media-amazon.com/images/I/41Z6mNU78cL._AC_UY218_.jpg,the-new-economics,Reading,
+"The Rust Programming Language",Carol Nichols & Steve Klabnik,https://m.media-amazon.com/images/I/911w-wSKhiL._AC_UY218_.jpg,the-rust-programming-language,Finished,2020
+"Unix and Linux System Administration Handbook",,,unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook,Reading,
+"Zero To One",Peter Thiel,https://m.media-amazon.com/images/I/51q0wjE6eSL._AC_UY218_.jpg,zero-to-one,Finished,2018
+"Effective Typescript",,,effective-typescript/_effective-typescript,Reading,
+"So Good They Can't Ignore You",,,,Finished,2021-07-06
+"CSES",,,cses/_cses,Reading,
+"Things Fall Apart","Chinua Achebe",,,Reading,
+"A Tour of C++","Bjarne Stroustrup",https://m.media-amazon.com/images/I/817c6KcRr2L._AC_UY218_.jpg,a-tour-of-cpp/_a-tour-of-cpp,Reading,

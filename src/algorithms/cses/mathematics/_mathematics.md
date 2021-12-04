@@ -1,0 +1,37 @@
+---
+title: _mathematics
+---
+
+# Mathematics
+
+1.  \[josephus-queries](josephus-queries.md)
+2.  \[exponentiation](exponentiation.md)
+3.  \[exponentiation-ii](exponentiation-ii.md)
+4.  \[counting-divisors](counting-divisors.md)
+5.  \[common-divisors](common-divisors.md)
+6.  \[sum-of-divisors](sum-of-divisors.md)
+7.  \[divisor-analysis](divisor-analysis.md)
+8.  \[prime-multiples](prime-multiples.md)
+9.  \[counting-coprime-pairs](counting-coprime-pairs.md)
+10. \[binomial-coefficients](binomial-coefficients.md)
+11. \[creating-strings-ii](creating-strings-ii.md)
+12. \[distributing-apples](distributing-apples.md)
+13. \[christmas-party](christmas-party.md)
+14. \[bracket-sequences-i](bracket-sequences-i.md)
+15. \[bracket-sequences-ii](bracket-sequences-ii.md)
+16. \[counting-necklaces](counting-necklaces.md)
+17. \[counting-grids](counting-grids.md)
+18. \[fibonacci-numbers](fibonacci-numbers.md)
+19. \[throwing-dice](throwing-dice.md)
+20. \[graph-paths-i](graph-paths-i.md)
+21. \[graph-paths-ii](graph-paths-ii.md)
+22. \[dice-probability](dice-probability.md)
+23. \[moving-robots](moving-robots.md)
+24. \[candy-lottery](candy-lottery.md)
+25. \[inversion-probability](inversion-probability.md)
+26. \[stick-game](stick-game.md)
+27. \[nim-game-i](nim-game-i.md)
+28. \[nim-game-ii](nim-game-ii.md)
+29. \[stair-game](stair-game.md)
+30. \[grundys-game](grundys-game.md)
+31. \[another-game](another-game.md)
