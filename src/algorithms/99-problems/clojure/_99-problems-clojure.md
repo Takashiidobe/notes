@@ -1,9 +1,7 @@
 ---
-title: _99-problems-clojure
+title: "99 Problems Clojure"
 ---
-
-Problems Clojure
 
 # Clojure
 
-- \[\_99-problems-clojure-lists](lists/\_99-problems-clojure-lists.md)
+- [\_99-problems-clojure-lists](lists/_99-problems-clojure-lists.md)

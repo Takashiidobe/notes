@@ -1,7 +1,5 @@
 ---
-title: the-art-of-war
+title: "The Art of War"
 ---
-
-Art Of War
 
 # The Art of War

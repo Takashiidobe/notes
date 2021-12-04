@@ -1,5 +1,3 @@
 ---
-title: _streaming-algorithms
+title: "Streaming Algorithms"
 ---
-
--algorithms\"

@@ -1,8 +1,6 @@
 ---
-title: the-seven-habits-of-highly-effective-people
+title: "The 7 Habits of Highly Effective People"
 ---
-
-Seven Habits Of Highly Effective People
 
 # The 7 Habits of Highly Effective People
 

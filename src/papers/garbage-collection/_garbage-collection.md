@@ -1,5 +1,3 @@
 ---
-title: _garbage-collection
+title: "Garbage Collection"
 ---
-
--collection\"

@@ -1,5 +1,5 @@
 ---
-title: _unix
+title: Unix
 ---
 
 # Unix

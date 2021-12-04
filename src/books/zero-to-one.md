@@ -1,7 +1,5 @@
 ---
-title: zero-to-one
+title: "Zero to One"
 ---
-
-To One
 
 # Zero To One

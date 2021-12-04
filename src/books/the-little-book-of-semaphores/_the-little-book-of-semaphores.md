@@ -1,8 +1,6 @@
 ---
-title: _the-little-book-of-semaphores
+title: "The Little Book of Semaphores"
 ---
-
-Little Book of Semaphores\"
 
 # The Little Book of Semaphores
 

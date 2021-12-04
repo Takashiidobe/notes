@@ -1,10 +1,8 @@
 ---
-title: _operating-systems
+title: "Operating Systems"
 ---
-
-Systems
 
 # Operating Systems
 
-- \[\_shell](shell/\_shell.md)
-- \[\_unix](unix/\_unix.md)
+- [\_shell](shell/_shell.md)
+- [\_unix](unix/_unix.md)

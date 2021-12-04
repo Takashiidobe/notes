@@ -1,5 +1,3 @@
 ---
-title: _non-blocking-algorithms
+title: "Non-Blocking Algorithms"
 ---
-
--blocking-algorithms\"

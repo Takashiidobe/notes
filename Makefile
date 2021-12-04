@@ -2,13 +2,19 @@ SOURCE_DOCS := $(shell find src -type f -name "*.md")
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: $(HTML_FILES) ./build_index.js
+all: html
 	miniserve site
 
-html: $(HTML_FILES) ./build_index.js
+deploy: html build_index
+	ntl deploy --prod
 
-site/%.html: src/%.md templates/site.html
+html: $(HTML_FILES)
+
+site/%.html: $(SOURCE_DOCS) templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
+
+build_index: $(SOURCE_DOCS)
+	./build_index.js
 
 clean:
 	rm -r site/*

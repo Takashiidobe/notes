@@ -1,8 +1,6 @@
 ---
-title: _the-innovators-dilemma
+title: "The Innovator\'s Dilemma"
 ---
-
-Innovators Dilemma
 
 # The Innovator\'s Dilemma
 
