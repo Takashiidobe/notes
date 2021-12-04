@@ -56,3 +56,5 @@ title,author,cover,notes,status,year_finished
 "CSES",,,cses/_cses,Reading,
 "Things Fall Apart","Chinua Achebe",,,Reading,
 "A Tour of C++","Bjarne Stroustrup",https://m.media-amazon.com/images/I/817c6KcRr2L._AC_UY218_.jpg,a-tour-of-cpp/_a-tour-of-cpp,Reading,
+"High Performance MySQL",,,high-performance-mysql/_high-performance-mysql,Reading,
+"Rust for Rustaceans",,,rust-for-rustaceans/_rust-for-rustaceans,Reading,

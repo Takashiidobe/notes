@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/local/bin/bash
 
 set -Eeuo pipefail
 trap cleanup SIGINT SIGTERM ERR EXIT
@@ -108,7 +108,7 @@ for index in "${!corrected_files[@]}"; do
   FILE_NAME="$DIR_PATH/${corrected_files[$index]}.md"
   # create the file
 
-  touch $FILE_NAME 
+  touch $FILE_NAME
 file_template=$(cat << EOF
 ---
 title: "${files[$index]}"
