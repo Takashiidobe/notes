@@ -1,8 +1,8 @@
 ---
-title: "The Innovator\'s Dilemma"
+title: "The Innovator's Dilemma"
 ---
 
-# The Innovator\'s Dilemma
+# The Innovator's Dilemma
 
 Big companies always miss the next trend that revolutionizes their
 industry. Sears dominated the catalog retail market, but missed the
