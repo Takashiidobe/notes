@@ -1,5 +1,5 @@
 ---
-title: _python
+title: Python
 ---
 
 # Python

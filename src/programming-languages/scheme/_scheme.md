@@ -1,5 +1,5 @@
 ---
-title: _scheme
+title: Scheme
 ---
 
 # Scheme

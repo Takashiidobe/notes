@@ -1,5 +1,5 @@
 ---
-title: godocs
+title: Godocs
 ---
 
 # Godocs

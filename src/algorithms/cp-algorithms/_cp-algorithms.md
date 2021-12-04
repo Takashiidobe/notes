@@ -1,7 +1,5 @@
 ---
-title: _cp-algorithms
+title: "CP Algorithms"
 ---
 
-Algorithms\"
-
-\[binary-exponentation](binary-exponentation.md)
+[binary-exponentation](binary-exponentation.md)

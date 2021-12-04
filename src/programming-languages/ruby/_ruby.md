@@ -4,4 +4,4 @@ title: _ruby
 
 # Ruby
 
-- \[regex-literals-in-ruby](regex-literals-in-ruby.md)
+- [regex-literals-in-ruby](regex-literals-in-ruby.md)

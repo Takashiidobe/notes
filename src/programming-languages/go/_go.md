@@ -1,8 +1,8 @@
 ---
-title: _go
+title: Go
 ---
 
 # Go
 
-- \[build-for-different-archs-in-go](build-for-different-archs-in-go.md)
-- \[godocs](godocs.md)
+- [build-for-different-archs-in-go](build-for-different-archs-in-go.md)
+- [godocs](godocs.md)

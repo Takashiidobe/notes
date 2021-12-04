@@ -1,8 +1,6 @@
 ---
-title: rustup-docs
+title: "Rustup Docs"
 ---
-
-Docs
 
 # Rustup Docs
 

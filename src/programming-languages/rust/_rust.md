@@ -1,7 +1,7 @@
 ---
-title: _rust
+title: Rust
 ---
 
 # Rust
 
-\[rustup-docs](rustup-docs.md)
+[rustup-docs](rustup-docs.md)

@@ -1,7 +1,5 @@
 ---
-title: _crafting-interpreters
+title: Crafting Interpreters
 ---
-
-Interpreters
 
 # Crafting Interpreters

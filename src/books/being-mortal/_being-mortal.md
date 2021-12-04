@@ -1,7 +1,5 @@
 ---
-title: _being-mortal
+title: "Being Mortal"
 ---
 
-Mortal\"
-
-Being Mortal
+# Being Mortal

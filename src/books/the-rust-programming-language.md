@@ -1,7 +1,5 @@
 ---
-title: the-rust-programming-language
+title: "The Rust Programming Language"
 ---
-
-Rust Programming Language
 
 # The Rust Programming Language

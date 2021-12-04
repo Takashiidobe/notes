@@ -1,8 +1,6 @@
 ---
-title: 78-zero-matrix
+title: "78 Zero Matrix"
 ---
-
-Matrix\"
 
 ## Problem
 

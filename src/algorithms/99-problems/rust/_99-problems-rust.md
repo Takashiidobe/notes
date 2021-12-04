@@ -1,5 +1,5 @@
 ---
-title: _99-problems-rust
+title: "99 Problems Rust"
 ---
 
 # Rust

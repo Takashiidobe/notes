@@ -1,8 +1,6 @@
 ---
-title: real-world-ocaml
+title: "Real World OCaml"
 ---
-
-World Ocaml
 
 # Real World OCaml
 

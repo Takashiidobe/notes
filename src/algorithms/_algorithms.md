@@ -1,5 +1,5 @@
 ---
-title: _algorithms
+title: Algorithms
 ---
 
 # Algorithms

@@ -1,8 +1,6 @@
 ---
-title: 63-tree-sum
+title: "63 Tree Sum"
 ---
-
-Sum\"
 
 Given a binary tree `root`, return the sum of all values in the tree.
 

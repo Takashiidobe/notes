@@ -1,5 +1,5 @@
 ---
-title: fail2ban
+title: Fail2Ban
 ---
 
 # Fail2Ban

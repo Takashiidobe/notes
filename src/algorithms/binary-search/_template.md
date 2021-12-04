@@ -1,8 +1,6 @@
 ---
-title: _template
+title: template
 ---
-
-balanced Tree\"
 
 ## Problem
 

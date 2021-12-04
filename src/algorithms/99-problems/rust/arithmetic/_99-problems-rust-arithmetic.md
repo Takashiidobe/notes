@@ -1,8 +1,6 @@
 ---
-title: _99-problems-rust-arithmetic
+title: "99 Problems Rust Arithmetic"
 ---
-
-Problems Rust Arithmetic
 
 # Arithmetic
 

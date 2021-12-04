@@ -1,8 +1,6 @@
 ---
-title: minimum-queue
+title: "Minimum Queue"
 ---
-
-Queue\"
 
 Let\'s create a minimum queue as well:
 

@@ -1,7 +1,5 @@
 ---
-title: -the-c-programming-language
+title: The C Programming Language
 ---
 
-C Programming Language
-
-# the C Programming Language
+# The C Programming Language

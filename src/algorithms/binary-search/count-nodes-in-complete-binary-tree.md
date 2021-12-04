@@ -1,8 +1,6 @@
 ---
-title: 867-count-nodes-in-complete-binary-tree
+title: "867 Count Nodes in Complete Binary Tree"
 ---
-
-Nodes in Complete Binary Tree\"
 
 ## Problem
 

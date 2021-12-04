@@ -1,9 +1,7 @@
 ---
-title: ctci-rust
+title: "CTCI in Rust"
 ---
-
-Rust
 
 # Rust
 
-\[ctci-rust-arrays](arrays/ctci-rust-arrays.md)
+- [ctci-rust-arrays](arrays/ctci-rust-arrays.md)

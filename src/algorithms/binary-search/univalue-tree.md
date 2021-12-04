@@ -1,8 +1,6 @@
 ---
-title: 251-univalue-tree
+title: "251 Univalue Tree"
 ---
-
-Tree\"
 
 ## Problem
 

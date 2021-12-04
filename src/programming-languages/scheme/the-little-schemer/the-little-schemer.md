@@ -1,7 +1,5 @@
 ---
-title: the-little-schemer
+title: "The Little Schemer"
 ---
-
-Little Schemer
 
 # The Little Schemer

@@ -1,7 +1,5 @@
 ---
-title: head-first-kotlin
+title: "Head First Kotlin"
 ---
-
-First Kotlin
 
 # Head First Kotlin

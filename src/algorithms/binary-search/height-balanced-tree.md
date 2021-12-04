@@ -1,8 +1,6 @@
 ---
-title: 132-height-balanced-tree
+title: "132 Height Balanced Tree"
 ---
-
-balanced Tree\"
 
 ## Problem
 

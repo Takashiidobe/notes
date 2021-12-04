@@ -1,8 +1,6 @@
 ---
-title: binary-exponentation
+title: "Binary Exponentation"
 ---
-
-Exponentiation\"
 
 Binary Exponentiation allows us to calculate an exponent in O(log n)
 exponentiations, instead of O(n).

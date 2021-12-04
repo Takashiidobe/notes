@@ -1,8 +1,6 @@
 ---
-title: constant-time-comparison
+title: "Constant Time Comparison"
 ---
-
-Time Comparison
 
 # Constant Time Comparison
 

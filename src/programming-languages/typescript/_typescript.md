@@ -1,5 +1,5 @@
 ---
-title: _typescript
+title: "Typescript"
 ---
 
 # Typescript

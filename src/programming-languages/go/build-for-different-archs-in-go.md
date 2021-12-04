@@ -1,8 +1,6 @@
 ---
-title: build-for-different-archs-in-go
+title: "Build for Different Architectures in Go"
 ---
-
-For Different Archs In Go
 
 # Build for Different Architectures in Go
 

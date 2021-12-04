@@ -1,9 +1,7 @@
 ---
-title: ctci-cpp
+title: "ctci-C++"
 ---
-
-Cpp
 
 # C++
 
-- \[ctci-cpp-arrays](arrays/ctci-cpp-arrays.md)
+- [ctci-cpp-arrays](arrays/ctci-cpp-arrays.md)

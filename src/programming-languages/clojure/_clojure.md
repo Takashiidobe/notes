@@ -1,5 +1,5 @@
 ---
-title: _clojure
+title: Clojure
 ---
 
 # Clojure

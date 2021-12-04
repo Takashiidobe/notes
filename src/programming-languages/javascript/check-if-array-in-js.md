@@ -1,8 +1,6 @@
 ---
-title: check-if-array-in-js
+title: "Check if Array in JS"
 ---
-
-If Array In Js
 
 # Check if Array in JS
 

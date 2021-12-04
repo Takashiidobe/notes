@@ -1,8 +1,6 @@
 ---
-title: the-bitter-lesson
+title: "The Bitter Lesson"
 ---
-
-Bitter Lesson
 
 # The Bitter Lesson
 

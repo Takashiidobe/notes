@@ -1,12 +1,10 @@
 ---
-title: monotonic-time
+title: Monotonic Time
 ---
-
-Time
 
 # Monotonic Time
 
-- Use Erlang\'s monotonic_time for timing, since it isn\'t affected by
+- Use Erlang\'s `monotonic_time` for timing, since it isn\'t affected by
   OS clock changes.
 
 > `System.monotonic_time/1` Returns the current monotonic time in the

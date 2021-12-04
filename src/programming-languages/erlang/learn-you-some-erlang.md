@@ -1,8 +1,6 @@
 ---
-title: learn-you-some-erlang
+title: "Learn you Some Erlang"
 ---
-
-You Some Erlang
 
 # Learn you Some Erlang
 

@@ -1,8 +1,6 @@
 ---
-title: minimum-stack
+title: "Minimum Stack"
 ---
-
-Stack\"
 
 Let\'s create a stack where the minimum element of the stack can be
 queried in O(1) time.
