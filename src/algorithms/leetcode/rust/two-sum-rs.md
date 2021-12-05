@@ -1,8 +1,6 @@
 ---
-title: two-sum-rs
+title: "Two Sum"
 ---
-
-Sum Rs
 
 # Two Sum
 
