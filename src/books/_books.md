@@ -2,32 +2,12 @@
 title: Books
 ---
 
-real-world-ocaml/\_real-world-ocaml.md
-real-world-cryptography/\_real-world-cryptography.md
-sql-performance-explained/\_sql-performance-explained.md
-structure-and-interpretation-of-computer-programs/\_structure-and-interpretation-of-computer-programs.md
-system-design-interview-an-insiders-guide/\_system-design-interview-an-insiders-guide.md
-systems-performance-enterprise-and-the-cloud/\_systems-performance-enterprise-and-the-cloud.md
-the-seven-habits-of-highly-effective-people.md
-the-art-of-postgresql/\_the-art-of-postgresql.md
-the-c-programming-language/\_the-c-programming-language.md
-the-daily-stoic/\_the-daily-stoic.md
-the-dynamodb-book/\_the-dynamodb-book.md
-the-innovators-dilemma/\_the-innovators-dilemma.md
-the-linux-programming-interface/\_the-linux-programming-interface.md
-the-little-book-of-semaphores/\_the-little-book-of-semaphores.md
-the-little-mler.md
-the-mythical-man-month.md
-the-new-economics.md
-the-rust-programming-language.md
-
 - [Atomic Habits](atomic-habits.md)
 - [Being Mortal](being-mortal/_being-mortal.md)
 - [Between the World and Me](between-the-world-and-me.md)
 - [Black Swan](black-swan.md)
 - [Born a Crime](born-a-crime.md)
 - [Category Theory for Programmers](category-theory-for-programmers/_category-theory-for-programmers.md)
-
 - [Clean Code]
 - [Clean Ruby](clean-ruby.md)
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch.md)
@@ -52,26 +32,26 @@ the-rust-programming-language.md
 - [Purely Functional Data Structures](purely-functional-data-structures/_purely-functional-data-structures.md)
 - [Radical Candor](radical-candor.md)
 - [Range: Why Generalists Triumph in a Specialized World]
-- [Real World OCaml]
-- [Real-World Cryptography]
-- [SQL Performance Explained]
-- [Structure and Intepretation of Computer Programs]
-- [System Design Interview - an Insider's Guide]
-- [Systems Performance: Enterprise and the Cloud]
-- [The 7 Habits of Highly Effective People]
-- [The Art of PostgreSQL]
+- [Real World OCaml](real-world-ocaml/_real-world-ocaml.md)
+- [Real-World Cryptography](real-world-cryptography/_real-world-cryptography.md)
+- [SQL Performance Explained](sql-performance-explained/_sql-performance-explained.md)
+- [Structure and Intepretation of Computer Programs](structure-and-interpretation-of-computer-programs/_structure-and-interpretation-of-computer-programs.md)
+- [System Design Interview - an Insider's Guide](system-design-interview-an-insiders-guide/_system-design-interview-an-insiders-guide.md)
+- [Systems Performance: Enterprise and the Cloud](systems-performance-enterprise-and-the-cloud/_systems-performance-enterprise-and-the-cloud.md)
+- [The 7 Habits of Highly Effective People](the-seven-habits-of-highly-effective-people.md)
+- [The Art of PostgreSQL](the-art-of-postgresql/_the-art-of-postgresql.md)
 - [The Art of War](the-art-of-war.md)
-- [The C Programming Language]
+- [The C Programming Language](the-c-programming-language/_the-c-programming-language.md)
 - [The Choice](the-choice.md)
-- [The Daily Stoic]
-- [The DynamoDB Book]
-- [The Innovator's Dilemma]
-- [The Linux Programming Interface]
-- [The Little Book of Semaphores]
-- [The Little MLer]
-- [The Mythical Man Month]
-- [The New Economics]
-- [The Rust Programming Language]
+- [The Daily Stoic](the-daily-stoic/_the-daily-stoic.md)
+- [The DynamoDB Book](the-dynamodb-book/_the-dynamodb-book.md)
+- [The Innovator's Dilemma](the-innovators-dilemma/_the-innovators-dilemma.md)
+- [The Linux Programming Interface](the-linux-programming-interface/_the-linux-programming-interface.md)
+- [The Little Book of Semaphores](the-little-book-of-semaphores/_the-little-book-of-semaphores.md)
+- [The Little MLer](the-little-mler.md)
+- [The Mythical Man Month](the-mythical-man-month.md)
+- [The New Economics](the-new-economics.md)
+- [The Rust Programming Language](the-rust-programming-language.md)
 - [Unix and Linux System Administration
   Handbook](unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook.md)
 - [Zero To One](zero-to-one.md)
