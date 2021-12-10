@@ -8,7 +8,7 @@ all: html fix_links
 deploy: html build_index
 	ntl deploy --prod
 
-html: $(HTML_FILES)
+html: mkdirs $(HTML_FILES)
 
 site/%.html: src/%.md templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
@@ -23,9 +23,6 @@ fix_links: $(SOURCE_DOCS)
 clean:
 	rm -r site/*
 
-# .PHONY: mkdirs
-# mkdirs:
-# 	mkdir site
-# 	find src -type d -print0 >dirs.txt
-# 	xargs -0 mkdir -p <dirs.txt
-# 	rm dirs.txt
+.PHONY: mkdirs
+mkdirs:
+	rsync -a --include='*/' --exclude='*' src/ site/
