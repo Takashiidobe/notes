@@ -1,5 +1,5 @@
 ---
-title: _recipes
+title: "Recipes"
 ---
 
 # Recipes
@@ -11,35 +11,47 @@ title: _recipes
   Tasty](./karaage-fried-chicken-recipe-by-tasty.md)
 - [Uzbek Plov](./uzbek-plov.md)
 - [Copycat Chick-fil-A Sandwich](./copycat-chick-fil-a-sandwich.md)
-- [Spicy Pan-fried Chickpeas With
-  Beef](./spicy-pan-fried-chickpeas-with-beef.md)
+- [Spicy Pan-fried Chickpeas With Beef](./spicy-pan-fried-chickpeas-with-beef.md)
 - [Chicken Katsu Curry](./chicken-katsu-curry.md)
 - [Crab Cream Korokke Recipe Japanese-Style Deep-Fried Croquettes
-  Filled With White Sauce And
-  Seafood](./crab-cream-korokke-recipe-japanese-style-deep-fried-croquettes-filled-with-white-sauce-and-seafood.md)
+  Filled With White Sauce And Seafood](./crab-cream-korokke-recipe-japanese-style-deep-fried-croquettes-filled-with-white-sauce-and-seafood.md)
 - [Vegan Hawaiian Tofu And Pineapple
   Sandwich](./vegan-hawaiian-tofu-and-pineapple-sandwich.md)
 - [Everyday Pancakes](./everyday-pancakes.md)
 - [Perfect Buttermilk Pancakes](./perfect-buttermilk-pancakes.md)
-- [Japanese Hamburger Steak
-  Hambagu](./japanese-hamburger-steak-hambagu.md)
+- [Japanese Hamburger Steak Hambagu](./japanese-hamburger-steak-hambagu.md)
 - [Butter Chicken](./butter-chicken.md)
 - [Egg Drop Soup With Crab](./egg-drop-soup-with-crab.md)
-- [Taiwanese Braised Pork Belly Made In An Instant
-  Pot](./taiwanese-braised-pork-belly-made-in-an-instant-pot.md)
+- [Taiwanese Braised Pork Belly Made In An Instant Pot](./taiwanese-braised-pork-belly-made-in-an-instant-pot.md)
 - [Asian Chicken Noodle Soup](./asian-chicken-noodle-soup.md)
 - [Curry Udon](./curry-udon.md)
-- [Baked Katsudon Japanese Crispy Baked Cutlet Rice
-  Bowl](./baked-katsudon-japanese-crispy-baked-cutlet-rice-bowl.md)
-- [Pearl Couscous With Chicken And
-  Chickpeas](./pearl-couscous-with-chicken-and-chickpeas.md)
+- [Baked Katsudon Japanese Crispy Baked Cutlet Rice Bowl](./baked-katsudon-japanese-crispy-baked-cutlet-rice-bowl.md)
+- [Pearl Couscous With Chicken And Chickpeas](./pearl-couscous-with-chicken-and-chickpeas.md)
 - [Chicken Gyros](./chicken-gyros.md)
-- [Greek Slow Roasted Leg Of
-  Lamb](./greek-slow-roasted-leg-of-lamb.md)
+- [Greek Slow Roasted Leg Of Lamb](./greek-slow-roasted-leg-of-lamb.md)
 - [Slow Roast Leg Of Lamb](./slow-roast-leg-of-lamb.md)
 - [The Classic, Kimchi Jjigae](./the-classic-kimchi-jjigae.md)
 - [Vanilla Crème Brûlée](./vanilla-creme-brulee.md)
 - [Vegetarian Pad See Ew](./vegetarian-pad-see-ew.md)
 - [Chickpea Salad Sandwich](./chickpea-salad-sandwich.md)
-- [Jamaican Curry Chicken And
-  Potatoes](./jamaicancurrychickenandpotatoes.md)
+- [Jamaican Curry Chicken And Potatoes](./jamaican-curry-chicken-and-potatoes)
+- [Vegan Tantanmen With Pan-Fried Tofu](./vegan-tantanmen-with-pan-fried-tofu)
+- [Coconut Chicken Curry](./coconut-chicken-curry)
+- [Braised White Beans And Greens With Parmesan](./braised-white-beans-and-greens-with-parmesan)
+- [Cauliflower Piccata](./cauliflower-piccata)
+- [Sheet-Pan Chicken With Zucchini And Basil](./sheet-pan-chicken-with-zucchini-and-basil)
+- [Creamy Asparagus Pasta](./creamy-asparagus-pasta)
+- [Pineapple-Marinated Chicken Breasts](./pineapple-marinated-chicken-breasts)
+- [Double Lemon Chicken](./double-lemon-chicken)
+- [Croissants](./croissants)
+- [Ginger-Dill Salmon](./ginger-dill-salmon)
+- [Birria De Res](./birria-de-res)
+- [Sheet-Pan Bibimbap](./sheet-pan-bibimbap)
+- [Cucumber-Avocado Salad](./cucumber-avocado-salad)
+- [Grilled Za’Atar Chicken With Garlic Yogurt And Cilantro](./grilled-zaatar-chicken-with-garlic-yogurt-and-cilantro)
+- [Updated No-Knead Bread](./updated-no-knead-bread)
+- [Cold Noodle Salad With Spicy Peanut Sauce](./cold-noodle-salad-with-spicy-peanut-sauce)
+- [Crispy Gnocchi With Burst Tomatoes And Mozzarella](./crispy-gnocchi-with-burst-tomatoes-and-mozzarella)
+- [Lemony White Bean Soup With Turkey And Greens](./lemony-white-bean-soup-with-turkey-and-greens)
+- [Creamy Baked Macaroni And Cheese](./creamy-baked-macaroni-and-cheese)
+- [Extra-Creamy Scrambled Eggs](./extra-creamy-scrambled-eggs)
