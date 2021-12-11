@@ -25,4 +25,8 @@ clean:
 
 .PHONY: mkdirs
 mkdirs:
-	rsync -a --include='*/' --exclude='*' src/ site/
+	rsync -a --include='*/' \
+	--include="*.png" \
+	--include="*.jpg" \
+	--include="*.jpeg" \
+	--exclude='*' src/ site/
