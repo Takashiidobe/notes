@@ -16,9 +16,8 @@ site/%.html: src/%.md templates/site.html
 build_index: $(SOURCE_DOCS)
 	./build_index.js
 
-fix_links: $(SOURCE_DOCS)
-	sed -i 's/\.md/\.html/g' site/**/*.html
-	sed -i 's/\.md/\.html/g' site/*.html
+fix_links: $(HTML_FILES)
+	./bin/convert-html.sh
 
 clean:
 	rm -r site/*
