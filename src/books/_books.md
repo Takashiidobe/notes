@@ -63,3 +63,5 @@ title: Books
 - [High Performance MySQL](high-performance-mysql/_high-performance-mysql.md)
 - [Rust for Rustaceans](rust-for-rustaceans/_rust-for-rustaceans.md)
 - [Efficient MySQL Performance](efficient-mysql-performance/_efficient-mysql-performance.md)
+- [Crafting Interpters](crafting-interpreters/_crafting-interpreters.md)
+- [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md)

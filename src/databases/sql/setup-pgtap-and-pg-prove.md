@@ -9,7 +9,7 @@ Pgtap And Pg Prove
 pg_prove can be found on the cpan website. If it can\'t be found,
 here\'s the source.
 
-```{.perl .numberLines}
+```perl
 #!/usr/bin/perl -w
 
 use strict;

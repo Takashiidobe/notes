@@ -59,3 +59,5 @@ title,author,cover,notes,status,date_finished
 "High Performance MySQL",,,high-performance-mysql/_high-performance-mysql,Reading,
 "Rust for Rustaceans",,,rust-for-rustaceans/_rust-for-rustaceans,Reading,
 "Efficient MySQL Performance",,,efficient-mysql-performance/_efficient-mysql-performance,Reading,
+"Crafting Interpreters",,,crafting-interpreters/_crafting-interpreters,Reading,
+"Compiling to Assembly from Scratch",,,compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch,Reading,

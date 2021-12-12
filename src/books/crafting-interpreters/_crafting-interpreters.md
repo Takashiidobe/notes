@@ -1,0 +1,36 @@
+---
+title: "Crafting Interpreters"
+---
+
+# Crafting Interpreters
+
+1. [introduction](introduction.md)
+2. [a-map-of-the-territory](a-map-of-the-territory.md)
+3. [the-lox-language](the-lox-language.md)
+4. [scanning](scanning.md)
+5. [representing-code](representing-code.md)
+6. [parsing-expressions](parsing-expressions.md)
+7. [evaluating-expressions](evaluating-expressions.md)
+8. [statements-and-state](statements-and-state.md)
+9. [control-flow](control-flow.md)
+10. [functions](functions.md)
+11. [resolving-and-binding](resolving-and-binding.md)
+12. [classes](classes.md)
+13. [inheritance](inheritance.md)
+14. [chunks-of-bytecode](chunks-of-bytecode.md)
+15. [a-virtual-machine](a-virtual-machine.md)
+16. [scanning-on-demand](scanning-on-demand.md)
+17. [compiling-expressions](compiling-expressions.md)
+18. [types-of-values](types-of-values.md)
+19. [strings](strings.md)
+20. [hash-tables](hash-tables.md)
+21. [global-variables](global-variables.md)
+22. [local-variables](local-variables.md)
+23. [jumping-back-and-forth](jumping-back-and-forth.md)
+24. [calls-and-functions](calls-and-functions.md)
+25. [closures](closures.md)
+26. [garbage-collection](garbage-collection.md)
+27. [classes-and-instances](classes-and-instances.md)
+28. [methods-and-initializers](methods-and-initializers.md)
+29. [superclasses](superclasses.md)
+30. [optimization](optimization.md)

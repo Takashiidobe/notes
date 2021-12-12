@@ -1,0 +1,14 @@
+Introduction
+Typescript Basics
+High-level Compiler Overview
+Abstract Syntax Tree
+Introduction to Parser Combinators
+First Pass: The Parser
+Introduction to ARM Assembly Programming
+Second Pass: Code Generation
+Introduction to Part II
+Arrays and Heap Allocation
+Visitor Pattern
+Static Type Checking and Inference
+Dynamic Typing
+Garbage Collection
