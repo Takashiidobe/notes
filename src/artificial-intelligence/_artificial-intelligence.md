@@ -1,8 +1,6 @@
 ---
-title: _artificial-intelligence
+title: "Artificial Intelligence"
 ---
-
-Intelligence
 
 # Artificial Intelligence
 
