@@ -1,8 +1,6 @@
 ---
-title: type-design
+title: "Type Design"
 ---
-
-Design"
 
 # Type Design
 

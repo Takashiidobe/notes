@@ -1,7 +1,7 @@
 ---
-title: _design-patterns
+title: "Design Patterns"
 ---
 
 # Design Patterns
 
-- [\_game-programming-patterns](../books/game-programming-patterns/\_game-programming-patterns.md)
+- [Game Programming Patterns](../books/game-programming-patterns/_game-programming-patterns.md)

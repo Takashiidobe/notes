@@ -2,9 +2,7 @@
 title: alternative-io-models
 ---
 
-I/O Models"
-
-# The Linux Programming Interface
+# Alternative I/O Models
 
 Prev: [terminals](terminals.md) Next:
 [pseudoterminals](pseudoterminals.md)

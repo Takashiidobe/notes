@@ -1,8 +1,6 @@
 ---
-title: _the-linux-programming-interface
+title: "The Linux Programming Interface"
 ---
-
-Linux Programming Interface"
 
 # The Linux Programming Interface
 

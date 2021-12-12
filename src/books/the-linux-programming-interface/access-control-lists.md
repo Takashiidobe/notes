@@ -2,9 +2,7 @@
 title: access-control-lists
 ---
 
-Control Lists"
-
-# The Linux Programming Interface
+# Access Control Lists
 
 Prev:
 [extended-attributes](extended-attributes.md)

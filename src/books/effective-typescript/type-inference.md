@@ -1,8 +1,6 @@
 ---
-title: type-inference
+title: "Type Inference"
 ---
-
-Inference"
 
 # Type Inference
 

@@ -2,8 +2,6 @@
 title: getting-to-know-typescript
 ---
 
-to Know Typescript"
-
 # Getting to Know Typescript
 
 Next:

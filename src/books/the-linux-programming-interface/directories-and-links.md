@@ -2,9 +2,7 @@
 title: directories-and-links
 ---
 
-and Links"
-
-# The Linux Programming Interface
+# Directories and Links
 
 Prev:
 [access-control-lists](access-control-lists.md)

@@ -2,7 +2,7 @@
 title: daemons
 ---
 
-# The Linux Programming Interface
+# Daemons
 
 Prev: [process-resources](process-resources.md)
 Next:

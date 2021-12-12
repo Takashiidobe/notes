@@ -1,8 +1,6 @@
 ---
-title: types-declarations-and-types
+title: "Types Declarations and @types"
 ---
-
-Declarations and @types"
 
 # Types Declarations and @types
 

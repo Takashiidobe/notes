@@ -1,8 +1,6 @@
 ---
-title: migrating-to-typescript
+title: "Migrating to Typescript"
 ---
-
-to Typescript"
 
 # Migrating to Typescript
 

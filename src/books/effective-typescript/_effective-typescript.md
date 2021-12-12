@@ -1,8 +1,6 @@
 ---
-title: _effective-typescript
+title: "Effective Typescript"
 ---
-
-Typescript"
 
 # Effective Typescript
 

@@ -1,8 +1,6 @@
 ---
-title: typescripts-type-system
+title: "Typescript's Type System"
 ---
-
-'s Type System"
 
 # Typescript's Type System
 

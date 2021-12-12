@@ -2,9 +2,7 @@
 title: advanced-features-of-shared-libraries
 ---
 
-Features of Shared Libraries"
-
-# The Linux Programming Interface
+# Advanced Features of Shared Libraries
 
 Prev:
 [fundamentals-of-shared-libraries](fundamentals-of-shared-libraries.md)

@@ -1,8 +1,6 @@
 ---
-title: writing-and-running-your-code
+title: "Writing and Running Your Code"
 ---
-
-and Running Your Code"
 
 # Writing and Running Your Code
 

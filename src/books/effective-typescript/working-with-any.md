@@ -1,8 +1,6 @@
 ---
-title: working-with-any
+title: "Working with any"
 ---
-
-with any"
 
 # Working with any
 
