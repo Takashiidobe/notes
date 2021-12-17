@@ -15,8 +15,9 @@ Example here: <https://notes.takashiidobe.com/>
 On mac these can be installed like so:
 
 ```sh
-brew install make pandoc node miniserve
-npm install -g netlify
+$ brew install make pandoc node miniserve
+$ npm install -g netlify
+$ npm install # to install node_modules
 ```
 
 ## Building
