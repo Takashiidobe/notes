@@ -2,24 +2,31 @@
 title: Books
 ---
 
+- [A Tour of C++](a-tour-of-cpp/_a-tour-of-cpp.md)
 - [Atomic Habits](atomic-habits.md)
 - [Being Mortal](being-mortal/_being-mortal.md)
 - [Between the World and Me](between-the-world-and-me.md)
 - [Black Swan](black-swan.md)
 - [Born a Crime](born-a-crime.md)
+- [CSES](cses/_cses.md)
 - [Category Theory for Programmers](category-theory-for-programmers/_category-theory-for-programmers.md)
 - [Clean Code]
 - [Clean Ruby](clean-ruby.md)
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch.md)
+- [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md)
+- [Crafting Interpters](crafting-interpreters/_crafting-interpreters.md)
 - [Crossing the Chasm](crossing-the-chasm.md)
 - [Deep Work](deep-work.md)
 - [Design Patterns: Elements of Reusable Object-Oriented Software]
 - [Designing Data Intensive Applications](designing-data-intensive-applications/_designing-data-intensive-applications.md)
 - [Educated](educated.md)
+- [Effective Typescript](effective-typescript/_effective-typescript.md)
+- [Efficient MySQL Performance](efficient-mysql-performance/_efficient-mysql-performance.md)
 - [Game Programming Patterns](game-programming-patterns/_game-programming-patterns.md)
 - [Grit](grit.md)
 - [Haskell From First Principles](haskell-from-first-principles/_haskell-from-first-principles.md)
 - [High Performance Browser Networking](high-performance-browser-networking/_high-performance-browser-networking.md)
+- [High Performance MySQL](high-performance-mysql/_high-performance-mysql.md)
 - [How Linux Works](how-linux-works/_how-linux-works.md)
 - [How to Solve it](how-to-solve-it/_how-to-solve-it.md)
 - [Inside the Tornado](inside-the-tornado.md)
@@ -34,13 +41,16 @@ title: Books
 - [Range: Why Generalists Triumph in a Specialized World]
 - [Real World OCaml](real-world-ocaml/_real-world-ocaml.md)
 - [Real-World Cryptography](real-world-cryptography/_real-world-cryptography.md)
+- [Rust for Rustaceans](rust-for-rustaceans/_rust-for-rustaceans.md)
 - [SQL Performance Explained](sql-performance-explained/_sql-performance-explained.md)
+- [So Good They Can't Ignore You]
 - [Structure and Intepretation of Computer Programs](structure-and-interpretation-of-computer-programs/_structure-and-interpretation-of-computer-programs.md)
 - [System Design Interview - an Insider's Guide](system-design-interview-an-insiders-guide/_system-design-interview-an-insiders-guide.md)
 - [Systems Performance: Enterprise and the Cloud](systems-performance-enterprise-and-the-cloud/_systems-performance-enterprise-and-the-cloud.md)
 - [The 7 Habits of Highly Effective People](the-seven-habits-of-highly-effective-people.md)
 - [The Art of PostgreSQL](the-art-of-postgresql/_the-art-of-postgresql.md)
 - [The Art of War](the-art-of-war.md)
+- [The Bitcoin Standard](the-bitcoin-standard.md)
 - [The C Programming Language](the-c-programming-language/_the-c-programming-language.md)
 - [The Choice](the-choice.md)
 - [The Daily Stoic](the-daily-stoic/_the-daily-stoic.md)
@@ -52,16 +62,6 @@ title: Books
 - [The Mythical Man Month](the-mythical-man-month.md)
 - [The New Economics](the-new-economics.md)
 - [The Rust Programming Language](the-rust-programming-language.md)
-- [Unix and Linux System Administration
-  Handbook](unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook.md)
-- [Zero To One](zero-to-one.md)
-- [Effective Typescript](effective-typescript/_effective-typescript.md)
-- [So Good They Can't Ignore You]
-- [CSES](cses/_cses.md)
 - [Things Fall Apart]
-- [A Tour of C++](a-tour-of-cpp/_a-tour-of-cpp.md)
-- [High Performance MySQL](high-performance-mysql/_high-performance-mysql.md)
-- [Rust for Rustaceans](rust-for-rustaceans/_rust-for-rustaceans.md)
-- [Efficient MySQL Performance](efficient-mysql-performance/_efficient-mysql-performance.md)
-- [Crafting Interpters](crafting-interpreters/_crafting-interpreters.md)
-- [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md)
+- [Unix and Linux System Administration Handbook](unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook.md)
+- [Zero To One](zero-to-one.md)
