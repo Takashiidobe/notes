@@ -1,8 +1,6 @@
 ---
-title: _the-dynamodb-book
+title: "The DynamoDB Book"
 ---
-
-DynamoDB Book"
 
 # The DynamoDB Book
 
