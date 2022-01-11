@@ -84,7 +84,7 @@ Assume we have one leader that propagates files.
 
 - Technologies used:
 
-- [Kraken](https://github.com/uber/kraken.md)
+- [Kraken](https://github.com/uber/kraken)
 
 - Open source project for P2P distribution.
 

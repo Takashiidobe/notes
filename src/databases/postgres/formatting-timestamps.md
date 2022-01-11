@@ -12,7 +12,7 @@ Timestamps
 SELECT to_char(now() - '2020-05-28 5:30'::timestamp, 'HH:MI');
 ```
 
-[`DateTime Formatting in Postgres`](https://www.postgresql.org/docs/current/functions-formatting.md)
+[DateTime Formatting in Postgres](https://www.postgresql.org/docs/current/functions-formatting)
 
 Convert a timestamp to minutes:
 
