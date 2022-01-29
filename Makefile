@@ -20,7 +20,7 @@ fix_links: $(HTML_FILES)
 	./bin/convert-html.sh
 
 clean:
-	rm -r site/*
+	rm -r site/**/*.html
 
 .PHONY: mkdirs
 mkdirs:
