@@ -2,8 +2,8 @@
 title: Books
 ---
 
-- [A World Without Email]()
 - [A Tour of C++](a-tour-of-cpp/_a-tour-of-cpp.md)
+- [A World Without Email]
 - [Atomic Habits](atomic-habits.md)
 - [Being Mortal](being-mortal/_being-mortal.md)
 - [Between the World and Me](between-the-world-and-me.md)
@@ -13,6 +13,7 @@ title: Books
 - [Category Theory for Programmers](category-theory-for-programmers/_category-theory-for-programmers.md)
 - [Clean Code]
 - [Clean Ruby](clean-ruby.md)
+- [Clever Girl Finance]
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch.md)
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md)
 - [Crafting Interpters](crafting-interpreters/_crafting-interpreters.md)
@@ -52,6 +53,7 @@ title: Books
 - [The Art of PostgreSQL](the-art-of-postgresql/_the-art-of-postgresql.md)
 - [The Art of War](the-art-of-war.md)
 - [The Bitcoin Standard](the-bitcoin-standard.md)
+- [The Broke Milennial]
 - [The C Programming Language](the-c-programming-language/_the-c-programming-language.md)
 - [The Choice](the-choice.md)
 - [The Daily Stoic](the-daily-stoic/_the-daily-stoic.md)
