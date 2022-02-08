@@ -2,7 +2,7 @@ SOURCE_DOCS := $(shell find src -type f -name "*.md")
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: html fix_links
+all: html books fix_links
 	miniserve site --index index.html
 
 deploy: html build_index
@@ -21,6 +21,9 @@ fix_links: $(HTML_FILES)
 
 clean:
 	rm -r site/**/*.html
+
+books:
+	./bin/generate_books_md.py
 
 .PHONY: mkdirs
 mkdirs:
