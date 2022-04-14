@@ -71,3 +71,4 @@ title: Books
 - [Things Fall Apart](nan.md)
 - [Unix and Linux System Administration Handbook](unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook.md)
 - [Zero To One](zero-to-one.md)
+- [Effective Rust](effective-rust/_effective-rust.md)

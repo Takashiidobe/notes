@@ -56,3 +56,4 @@ title: "Recipes"
 - [Creamy Baked Macaroni And
   Cheese](./creamy-baked-macaroni-and-cheese.md)
 - [Extra-Creamy Scrambled Eggs](./extra-creamy-scrambled-eggs.md)
+- [Oven-Roasted Chicken Shawarma](./oven-roasted-chicken-shawarma)
