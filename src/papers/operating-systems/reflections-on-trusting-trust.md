@@ -4,6 +4,8 @@ title: "Reflections on Trusting Trust"
 
 # Reflections on Trusting Trust
 
+This was Ken Thompson's ACM acceptance speech in 1984.
+
 Unix is written in C. The C Compiler is written in C. Firmware, anything, is generally compiled through a C compiler.
 
 You can't trust code that you didn't write yourself, because if your compiler has been compromised, your compiler can introduce trojan horse like code into binaries.

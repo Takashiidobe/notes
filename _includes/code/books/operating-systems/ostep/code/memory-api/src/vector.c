@@ -32,7 +32,6 @@ void vector_for_each(Vector *v, int (*fn)(int));
 
 int vector_pop(Vector *v);
 
-
 size_t max(size_t a, size_t b) {
   return a > b ? a : b;
 }
