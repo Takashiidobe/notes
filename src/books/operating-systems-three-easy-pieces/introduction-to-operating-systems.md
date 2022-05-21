@@ -2,8 +2,6 @@
 title: introduction-to-operating-systems
 ---
 
-to Operating Systems"
-
 # Introduction to Operating Systems
 
 Prev:
