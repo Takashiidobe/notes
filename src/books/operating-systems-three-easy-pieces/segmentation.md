@@ -101,7 +101,6 @@ This does create external fragmentation, and requires compaction.
 There are many ways to optimize free memory, like best-fit, worst-fit,
 first-fit, and the buddy algorithm.
 
-
 Prev:
 [mechanism-address-translation](mechanism-address-translation.md)
 Next:
