@@ -13,3 +13,11 @@ title: "Data Structures"
 - [nodes](nodes.md)
 - [pointers](pointers.md)
 - [singly-linked-lists](singly-linked-lists.md)
+
+## Advanced Data Structures
+
+- [Hash Array Mapped Tries](../papers/data-structures/ideal-hash-trees.md)
+- [RRB Trees](../papers/data-structures/rrb-trees.md)
+
+## Concurrent Data Structures
+

@@ -71,4 +71,6 @@ than a binary or linear search at the node.
 
 ## Conclusions
 
-RRB-Trees provide a viable extension to 32-way
+RRB-Trees provide a viable extension to 32-way HAMTs by having the
+advantage of O (log N) concatenation and splits while maintaining the
+same costs as the HAMT.
