@@ -1,0 +1,20 @@
+Introduction
+Mutual Exclusion
+Concurrent Objects
+Foundations of shared memory
+The relative power of primitive synchronization operations
+University of consensus
+Spin locks and contention
+Monitors and blocking synchronization
+Linked lists: the role of locking
+Queues, memory management, and the ABA problem
+Stacks and elimination
+Counting, sorting, and distributed coordination
+Concurrent hashing and natural parallelism
+Skiplists and balanced search
+Priority Queues
+Scheduling and work distribution
+Data parallelism
+Barriers
+Optimism and manual memory management
+Transactional programming

@@ -72,3 +72,4 @@ title: Books
 - [Unix and Linux System Administration Handbook](unix-and-linux-system-administration-handbook/_unix-and-linux-system-administration-handbook.md)
 - [Zero To One](zero-to-one.md)
 - [Effective Rust](nan.md)
+- [The Art of Multiprocessor Programming](the-art-of-multiprocessor-programming/_the-art-of-multiprocessor-programming.md)
