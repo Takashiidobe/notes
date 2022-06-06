@@ -15,7 +15,7 @@ Let's say that you use a malicious actor's C Compiler that recognizes when it is
 1. Compiling itself.
 2. Compiling OS code.
 
-In the case that it's compiling itself, i.e. bootstrapping another version of the C compiler, it will infect that compiler with the same trojan it has itself.
+In the case that it's compiling itself, that is bootstrapping another version of the C compiler, it will infect that compiler with the same trojan it has itself.
 
 In the case that it is compiling OS code, it'll inject a trojan that introduces a backdoor into the `login` command that lets the malicious actor login as root.
 

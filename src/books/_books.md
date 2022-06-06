@@ -73,3 +73,5 @@ title: Books
 - [Zero To One](zero-to-one.md)
 - [Effective Rust](nan.md)
 - [The Art of Multiprocessor Programming](the-art-of-multiprocessor-programming/_the-art-of-multiprocessor-programming.md)
+- [Database Internals](database-internals/_database-internals.md)
+- [Algorithms by Jeff Erickson](algorithms-by-jeff-erickson/_algorithms-by-jeff-erickson.md)
