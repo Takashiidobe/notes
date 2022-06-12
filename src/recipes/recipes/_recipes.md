@@ -57,3 +57,4 @@ title: "Recipes"
   Cheese](./creamy-baked-macaroni-and-cheese.md)
 - [Extra-Creamy Scrambled Eggs](./extra-creamy-scrambled-eggs.md)
 - [Oven-Roasted Chicken Shawarma](./oven-roasted-chicken-shawarma)
+- [Potato Korokke](./potato-korokke)
