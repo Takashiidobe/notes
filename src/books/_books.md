@@ -76,3 +76,4 @@ title: Books
 - [Database Internals](nan.md)
 - [Algorithms by Jeff Erickson](nan.md)
 - [Randomized Algorithms](nan.md)
+- [Programming Clojure](programming-clojure/_programming-clojure.md)
