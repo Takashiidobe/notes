@@ -77,3 +77,5 @@ title: Books
 - [Algorithms by Jeff Erickson](nan.md)
 - [Randomized Algorithms](nan.md)
 - [Programming Clojure](programming-clojure/_programming-clojure.md)
+- [Computer Networks: A Systems Approach](computer-networks-a-systems-approach/_computer-networks-a-systems-approach.md)
+- [System Design Interview: An Insiders guide Volume 2](system-design-interview-an-insiders-guide-volume-2/_system-design-interview-an-insiders-guide-volume-2.md)

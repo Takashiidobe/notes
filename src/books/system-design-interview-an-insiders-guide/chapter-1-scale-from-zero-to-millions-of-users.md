@@ -164,12 +164,14 @@ Architecture](./assets/chapter_1/total-arch-with-message-queues.png)
 
 ### Vertical Scaling
 
+Pros:
+
 - You can scale your database vertically (e.g. having one master
   server), and adding more CPU, RAM, etc.
 
 Cons:
 
-$$$
+- $$$
 
 ### Horizontal Scaling
 
