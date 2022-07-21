@@ -2,7 +2,7 @@ SOURCE_DOCS := $(shell find src -type f -name "*.md")
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: html books fix_links
+all: html books fix_links copy_css
 	miniserve site --index index.html
 
 deploy: html build_index
@@ -15,6 +15,9 @@ site/%.html: src/%.md templates/site.html
 
 build_index: $(SOURCE_DOCS)
 	npx -y pagefind --source site
+
+copy_css:
+	cp templates/styles.css site/styles.css
 
 fix_links: $(HTML_FILES)
 	./bin/convert-html.sh
