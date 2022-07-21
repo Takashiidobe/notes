@@ -2,8 +2,6 @@
 title: summary-dialogue-on-memory-virtualization
 ---
 
-Dialogue on Memory Virtualization"
-
 # Summary Dialogue on Memory Virtualization
 
 Prev:

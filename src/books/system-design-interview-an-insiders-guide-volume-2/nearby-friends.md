@@ -125,5 +125,28 @@ We should take care to persist the data, since updates are required to
 be stateful, but redis' raft implementation leaves much to be desired.
 I'd prefer distributed kafka here.
 
+### Periodic Location update
+
+The client periodically updates its location via websocket. This updates
+the location cache (with a TTL of 5 minutes or so) and if the person has
+moved enough in 5 minutes, an update is sent to the subscribers.
+
+## Scaling the System
+
+Websocket servers are stateful, so care must be taken to drain
+connections before removing a node.
+
+## Location Cache
+
+One instance of redis should be able to handle all of the user ids, but
+given that this requires about 333k updates per second, sharding by
+user_id allows for write volume to be less.
+
+### Distribution
+
+The distirbution of redis servers could be done with a service discovery
+system like etcd and zookeeper, with a hash ring, so servers can be
+added and removed.
+
 Prev: [proximity-service](proximity-service.md)
 Next: [google-maps](google-maps.md)
