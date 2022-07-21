@@ -14,7 +14,7 @@ site/%.html: src/%.md templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
-	npx -y pagefind --source site
+	pagefind --source site
 
 copy_css:
 	cp templates/styles.css site/styles.css
