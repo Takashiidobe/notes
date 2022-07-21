@@ -22,9 +22,7 @@
     <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
     $endif$
 
-    <script src="/lunr.js"></script>
-	  <script src="/lunr_index.js"></script>
-	  <script src="/lunrclient.js"></script>
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
 
     <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
     <style>
@@ -49,6 +47,12 @@
           --blockquote-color: #FF8C69;
           --single-tick-color: #9E9E00;
         }
+      }
+      a.pagefind-ui__result-link {
+        color: var(--link-color) !important;
+      }
+      p.pagefind-ui__result-excerpt {
+        color: var(--color) !important;
       }
       body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -223,14 +227,17 @@
       $endif$
     </header>
     $endif$ $if(toc)$
-	  <form id="lunrSearchForm" name="lunrSearchForm">
-	  	<input class="search-input" name="q" placeholder="Enter search term" type="text"> <input type="submit" value="Search">
-	  </form>
-	  <div class="resultCount" id="resultCount"></div>
-	  <div id="searchResults"></div>
+
+    <div id="search"></div>
 
     <h2>Table of Contents</h1>
     <nav id="$idprefix$TOC" role="doc-toc">$table-of-contents$</nav>
     $endif$ $body$ $for(include-after)$ $include-after$ $endfor$
+    <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search" });
+        });
+    </script>
   </body>
 </html>

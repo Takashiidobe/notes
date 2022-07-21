@@ -14,7 +14,7 @@ site/%.html: src/%.md templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
-	./build_index.js
+	npx -y pagefind --source site
 
 fix_links: $(HTML_FILES)
 	./bin/convert-html.sh
