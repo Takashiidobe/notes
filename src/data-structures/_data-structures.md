@@ -19,5 +19,8 @@ title: "Data Structures"
 - [Hash Array Mapped Tries](../papers/data-structures/ideal-hash-trees.md)
 - [RRB Trees](../papers/data-structures/rrb-trees.md)
 
-## Concurrent Data Structures
+## Time Complexity of Data Structures
 
+- [Time Complexity](./time-complexity.md)
+
+## Concurrent Data Structures

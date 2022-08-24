@@ -6,6 +6,213 @@ title: "Introduction"
 
 Next: [mutual-exclusion](mutual-exclusion.md)
 
+## Shared objects and synchronization
+
+Imagine your boss asks you to find all primes between 1 and 10^10 using
+a parallel machine that supports ten concurrent threads. The machine is
+rented by the minute, so you want to optimize for total runtime.
+
+As a first attempt, you might do something like this:
+
+This fails, for a couple of reasons: there are more primes in the early
+section of the computation, and computation time per prime goes up as
+you look at larger numbers.
+
+```java
+void primePrint {
+  int i = ThreadID.get(); // thread IDs are in {0..9}
+  long block = power (10, 9);
+  for (long j = (i * block) + 1; j <= (i + 1) * block ; j ++) {
+  if (isPrime(j))
+    print(j);
+  }
+}
+```
+
+A better way is to distribute the work by using a shared counter -- each
+thread will calculate a prime, then ask for a new integer.
+
+```java
+Counter counter = new Counter(1);
+void primePrint {
+  long i = 0;
+  long limit = power(10, 10);
+  while (i < limit) {
+    i = counter.getAndIncrement();
+    if (isPrime(i))
+      print(i);
+  }
+}
+
+class Counter {
+  private long value;
+  public Counter(long i) {
+    value = i;
+  }
+  public long getAndIncrement() {
+    return value++;
+  }
+}
+```
+
+Unfortunately, the counter class is not synchronized, so different
+threads can repeat computation on the same number. We could fix this by
+synchronizing access:
+
+```java
+class Counter {
+  private long value;
+  public Counter(long i) {
+    value = i;
+  }
+  public synchronized long getAndIncrement() {
+    return value++;
+  }
+}
+```
+
+## A fable
+
+Alice and Bob share a yard. Alice has a cat and Bob has a dog, who don't
+get along.
+
+They could use cans tied by string to signal to each other (i.e. when
+their animal is in the yard).
+
+Unfortunately, one of them could be on vacation, so this solution can
+deadlock.
+
+Another solution is to set up a flagpole, where both of them can raise
+or lower a flag.
+
+If Alice raises a flag:
+
+1. If Bob's flag is lowered, she releases her cat.
+2. When her cat comes back, she lowers her flag.
+
+If Bob raises his flag:
+
+1. While Alice's flag is raised
+  1. Bob lowers his flag.
+  2. Bob waits until Alice's flag is lowered.
+  3. Bob raises his flag.
+2. Bob releases his dog.
+3. When his dog comes back, he lowers his flag.
+
+To prove this, a proof by contradiction is done:
+
+Assume the pets could be in the yard together. Since our protocol
+requires that Bob waits on Alice, if Alice raises her flag, and releases
+her cat, she would've seen that Bob's flag was not raised after raising
+her flag. As well, Bob waits until he raises his flag before checking
+Alice's flag. If this is the case, he lowers his flag, so he would not
+have released his dog, so both pets cannot be in the yard at the same
+time.
+
+### Properties of a mutual exclusion protocol
+
+This protocol is enough for **mutual exclusion**, which excludes both pets
+from being in the yard at the same time. This protocol also has some
+other properties: **deadlock-freedom**, where if a pet wants to enter
+the yard, it eventually succeeds. As well, if both pets want to enter
+the yard, then at least one of them eventually succeeds.
+
+However, this protocol is not **starvation free**. Bob defers to Alice,
+so Bob's dog could wait infinitely long before getting a turn.
+
+As well, this protocol is bad for **waiting**.
+Imagine that Alice raises her flag, then goes to the hospital.
+She returns a week later, and then lowers her flag. During that time,
+Bob's dog cannot use the yard, making this protocol bad for Bob.
+
+### The moral
+
+There are two ways of communicating in concurrent systems:
+
+1. Transient communication requires both parties to participate at the
+   same time.
+2. Persistent communication allows the sender and receiver to
+   participate at different time.
+
+Mutual exclusion requires persistent communication.
+
+Transient communication is used in Operating Systems as interrupts --
+a Thread A can set a bit that Thread B reads often, which Thread B would
+react to. Afterwards, Thread B would reset the bit.
+
+Interrupts cannot solve mutual exclusion, but are useful.
+
+## The producer-consumer problem
+
+Assume Bob and Alice marry and divorce. The judge gives custody to
+Alice, and orders Bob to feed them. The pets side with Alice, and attack
+Bob whenever they see him. Thus, Bob must leave food for the pets in the
+yard while they are not there, signal to Alice that the food is there,
+allow Bob to leave, before Alice can release the pets.
+
+This is the producer-consumer problem, and the cans on strings
+solve this problem.
+
+Alice does:
+
+1. She waits until the can is down.
+2. Releases the pets.
+3. When the pets return, Alice checks if they finished the food. If so,
+   she resets the can.
+
+Bob does:
+
+1. He waits until the can is up.
+2. He puts food in the yard.
+3. He pulls the string and knocks the can down.
+
+This solves for the following properties:
+
+- **Mutual Exclusion**: Bob and the pets are never in the yard together.
+- **Starvation-freedom**: If Bob is willing to feed, and the pets are
+    hungry, the pets will eventually eat.
+- **Producer-consumer**: The pets will not enter the yard unless there
+    is food, and Bob will never provide more food if there is food left.
+
+Unfortunately, the protocol does not solve the waiting problem -- If Bob
+deposits food in the yard and then goes on vacation without resetting
+the can, the pets may starve despite food being in the yard.
+
+## The readers-writers problem
+
+Imagine Bob wants to send messages to Alice about the pets. Bob might
+write:
+
+`sell the cat`
+
+and Alice might transcribe:
+
+`sell the`
+
+and Bob might write out a new message:
+
+`wash the dog`
+
+which Alice would finish transcribing:
+
+`sell the dog`
+
+They could use mutual exclusion to make sure that Alice only reads
+complete sentences, at the cost of missing some sentences.
+
+Or they could use the can-and-string protocol, with Bob producing
+sentences and Alice consuming them.
+
+This can be solved without waiting, using other protocols.
+
+## The harsh realities of parallelization
+
+You might expect an upgrade from a single processor to multiprocessor to
+result in an n-way speedup. Unfortunately, it doesn't, due to Amdahl's
+law. Basically, the less distributed the work is, and how much
+communication overhead there is. For example, 10 painters painting
+rooms, with one room being twice the size only has a 5.5-fold speedup.
+
 ## Exercises
 
 Exercise 1.1. The dining philosophers problem was invented by E.W. Dijkstra, a con-

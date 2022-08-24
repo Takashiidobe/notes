@@ -38,12 +38,10 @@ fulfill your values while making decisions.
 
 Follow this table Ruthlessly:
 
-                  Urgent     Not Urgent
-
----
-
-Important Do Plan
-Not Important Delegate Eliminate
+|               | Urgent   | Not Urgent |
+|---------------|----------|------------|
+| Important     | Do       | Plan       |
+| Not Important | Delegate | Eliminate  |
 
 ## Habit 4: Think win-win
 
