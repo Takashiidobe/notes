@@ -88,5 +88,5 @@ Assume we have one leader that propagates files.
 
 - Open source project for P2P distribution.
 
-Prev: \[leader-election](leader-election.md) Next:
-\[polling-and-streaming](polling-and-streaming.md)
+Prev: [leader-election](leader-election.md) Next:
+[polling-and-streaming](polling-and-streaming.md)

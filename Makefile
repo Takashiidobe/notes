@@ -3,7 +3,7 @@ SOURCE_DOCS := $(shell find src -type f -name "*.md")
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
 all: html books fix_links copy_css
-	miniserve site --index index.html
+	firefox site/index.html
 
 deploy: html build_index
 	ntl deploy --prod

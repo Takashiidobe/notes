@@ -26,4 +26,4 @@ time room seat_number bought time_to_live
 
 unix_time number number boolean unix_time
 
-\[design-an-atm](design-an-atm.md): design an atm
+[design-an-atm](design-an-atm.md): design an atm

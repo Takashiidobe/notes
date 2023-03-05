@@ -2,8 +2,6 @@
 title: deque-in-c
 ---
 
-in C\"
-
 ```c
 #include <stdio.h>
 #include <stdlib.h>

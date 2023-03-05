@@ -2,8 +2,6 @@
 title: big-o-complexity
 ---
 
-O Complexity
-
 # Big O Complexity
 
 Big O notation loosely measures how long an algorithm takes to run.
