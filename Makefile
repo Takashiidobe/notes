@@ -2,7 +2,7 @@ SOURCE_DOCS := $(shell find src -type f -name "*.md")
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
-all: html books fix_links copy_css
+all: html books fix_links copy_css copy_js
 	firefox site/index.html
 
 deploy: html build_index
@@ -14,10 +14,13 @@ site/%.html: src/%.md templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
-	pagefind --source site
+	/usr/local/bin/pagefind --source site
 
 copy_css:
 	cp templates/styles.css site/styles.css
+
+copy_js:
+	cp templates/mark.js site/mark.js
 
 fix_links: $(HTML_FILES)
 	./bin/convert-html.sh

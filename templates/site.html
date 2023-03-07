@@ -24,8 +24,6 @@
     <link id="pagefind-styles" href="/_pagefind/pagefind-ui.css" rel="stylesheet">
     <link id="styles" href="/styles.css" rel="stylesheet">
 
-    <link id="pagefind-styles" href="/_pagefind/pagefind-ui.css" rel="stylesheet">
-    <link id="styles" href="/styles.css" rel="stylesheet">
     <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
     $if(highlighting-css)$
     <style>
@@ -74,8 +72,40 @@
         }
 
         appendJs("/home/takashiidobe/monorepo/notes/site/_pagefind/pagefind-ui.js", "/_pagefind/pagefind-ui.js");
+        appendJs("/home/takashiidobe/monorepo/notes/site/mark.js", "/mark.js");
+
         window.addEventListener('load', (event) => {
             new PagefindUI({ element: "#search" });
+            var params = new URLSearchParams(document.location.search);
+            var markInstance = new Mark(document.body);
+            var t = params.get("h") || '';
+
+            function highlight() {
+              let selected = document.getSelection();
+              if (selected.anchorNode) {
+                t = selected;
+                params.set("h", t);
+              }
+
+
+              if (window.history.replaceState) {
+                  const url = window.location.protocol
+                              + "//" + window.location.host
+                              + window.location.pathname
+                              + "?"
+                              + params.toString();
+
+                  window.history.replaceState({ path: url }, "", url);
+                  markInstance.unmark({
+                    done: () => {
+                      markInstance.mark(t.toString(), {separateWordSearch: false});
+                    }
+                  });
+                }
+            }
+
+            highlight();
+            document.addEventListener("mouseup", highlight);
         });
 
         const targetNode = document.body;
