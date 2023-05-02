@@ -2,8 +2,6 @@
 title: sync-with-android
 ---
 
-With Android\"
-
 # Sync With Android
 
 To sync your phone with android, you might want to do something like

@@ -2,8 +2,6 @@
 title: use-sbrk-to-allocate-memory
 ---
 
-sbrk to allocate memory
-
 ## Use sbrk to adjust the program break
 
 Note: sbrk and brk are used to allocate memory.

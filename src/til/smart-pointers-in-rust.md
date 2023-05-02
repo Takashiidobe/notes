@@ -2,8 +2,6 @@
 title: smart-pointers-in-rust
 ---
 
-Pointers in Rust\"
-
 # Smart Pointers in Rust
 
 ## Boxes

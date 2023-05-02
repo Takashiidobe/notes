@@ -1,11 +1,11 @@
 ---
-title: Devops
+title: "Devops"
 ---
 
 # Devops
 
-- [adding-ssl-to-nginx](adding-ssl-to-nginx.md)
-- [glances](glances.md)
-- [hardening-linux](hardening-linux.md)
-- [installing-caddy](installing-caddy.md)
-- [load-testing-with-bombardier](load-testing-with-bombardier.md)
+- [Adding Ssl to Nginx](adding-ssl-to-nginx.md)
+- [Glances](glances.md)
+- [Hardening Linux](hardening-linux.md)
+- [Installing Caddy](installing-caddy.md)
+- [Load Testing With Bombardier](load-testing-with-bombardier.md)

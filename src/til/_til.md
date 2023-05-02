@@ -1,13 +1,17 @@
 ---
-title: "Tils"
+title: "Til"
 ---
 
-# TILs
+# Til
 
-- [dtruss](dtruss.md)
-- [heredocs](heredocs.md)
-- [use-find-instead-of-globstar](use-find-instead-of-globstar.md)
-- [use-sbrk-to-allocate-memory](use-sbrk-to-allocate-memory.md)
-- [html-to-text](html-to-text.md)
-- [min-stack-in-c](min-stack-in-c.md)
-- [deque-in-c](deque-in-c.md)
+- [Deque in C](deque-in-c.md)
+- [Dtruss](dtruss.md)
+- [Heredocs](heredocs.md)
+- [Html to Text](html-to-text.md)
+- [Min Stack in C](min-stack-in-c.md)
+- [Rsync to Remote Server](rsync-to-remote-server.md)
+- [Smart Pointers in Rust](smart-pointers-in-rust.md)
+- [Sync With Android](sync-with-android.md)
+- [Traceroute](traceroute.md)
+- [Use Find Instead of Globstar](use-find-instead-of-globstar.md)
+- [Use Sbrk to Allocate Memory](use-sbrk-to-allocate-memory.md)

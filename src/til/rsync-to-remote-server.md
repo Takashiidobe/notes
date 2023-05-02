@@ -1,8 +1,6 @@
 ---
-title: rsync-to-remote-server
+title: "Rsync to remote server"
 ---
-
-to Remote Server\"
 
 # Rsync to remote server
 

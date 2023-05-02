@@ -10,6 +10,7 @@ title: "Sitemap"
 - [books](books/_books.md)
 - [compilers](compilers/_compilers.md)
 - [computer-architecture](computer-architecture/_computer-architecture.md)
+- [courses](courses/_courses.md)
 - [data-structures](data-structures/_data-structures.md)
 - [databases](databases/_databases.md)
 - [design-patterns](design-patterns/_design-patterns.md)

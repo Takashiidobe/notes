@@ -1,0 +1,20 @@
+Introduction
+Data Structures
+Sorting
+Hashing
+Linear Sorting
+Binary Trees, Part 1
+Binary Trees, Part 2: AVL
+Binary Heaps
+Breadth-First Search
+Depth-First Search
+Weighted Shortest Paths
+Bellman-Ford
+Dijkstra's Algorithm
+ASP & Johnson's Algorithm
+Dynamic Programming, Part 1: SRBOT, Fib, DAGs, Bowling
+Dynamic Programming, Part 2: LCS, LIS, Coins
+Dynamic Programming, Part 3
+Dynamic Programming, Part 4: Rods, Subsetsums, Pseudopolynomial
+Complexity
+Course Review

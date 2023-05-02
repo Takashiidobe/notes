@@ -1,11 +1,11 @@
 ---
-title: SQL
+title: "Sql"
 ---
 
-# SQL
+# Sql
 
-- [effective-sql](effective-sql.md)
-- [email-registration](email-registration.md)
-- [read-only-table-swap](read-only-table-swap.md)
-- [setup-pgtap-and-pg-prove](setup-pgtap-and-pg-prove.md)
-- [setup-postgrest-dbmate-redoc](setup-postgrest-dbmate-redoc.md)
+- [Effective Sql](effective-sql.md)
+- [Email Registration](email-registration.md)
+- [Read Only Table Swap](read-only-table-swap.md)
+- [Setup Pgtap and Pg Prove](setup-pgtap-and-pg-prove.md)
+- [Setup Postgrest Dbmate Redoc](setup-postgrest-dbmate-redoc.md)
