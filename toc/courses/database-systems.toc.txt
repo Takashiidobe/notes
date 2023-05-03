@@ -1,0 +1,26 @@
+Course Introduction and the Relational Model
+Advanced SQL
+Database Storage I
+Database Storage II
+Buffer Pools
+Hash Tables
+Trees Indexes I
+Trees Indexes II
+Index Concurrency Control
+Sorting + Aggregations
+Joins Algorithms
+Query Execution I
+Query Execution II
+Query Planning & Optimization I
+Query Planning & Optimization II
+Concurrency Control Theory
+Two-Phase Locking Concurrency Control
+Timestamp Ordering Concurrency Control
+Multi-Version Concurrency Control
+Logging Protocols + Schemes
+Crash Recovery Algorithms
+Introduction to Distributed Databases
+Distributed OLTP Database Systems
+Distributed OLAP Database Systems
+Guest Speaker Shasank Chavan Oracle In-Memory Databases
+Final Review + Other Systems

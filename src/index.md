@@ -1,8 +1,8 @@
 ---
-title: "Sitemap"
+title: "Notes"
 ---
 
-# Sitemap
+# Notes
 
 - [algorithms](algorithms/_algorithms.md)
 - [artificial-intelligence](artificial-intelligence/_artificial-intelligence.md)
