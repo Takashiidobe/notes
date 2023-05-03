@@ -2,7 +2,7 @@
 title: yoneda-embedding
 ---
 
-Embedding"
+
 
 Prev: [the-yoneda-lemma](the-yoneda-lemma.md)
 Next:

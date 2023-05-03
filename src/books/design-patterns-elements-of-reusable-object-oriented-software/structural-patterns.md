@@ -2,7 +2,7 @@
 title: structural-patterns
 ---
 
-Patterns"
+
 
 # Structural Patterns
 

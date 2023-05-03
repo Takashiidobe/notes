@@ -2,7 +2,7 @@
 title: behavioral-patterns
 ---
 
-Patterns"
+
 
 # Behavioral Patterns
 

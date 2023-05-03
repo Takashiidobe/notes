@@ -2,7 +2,7 @@
 title: monads-categorically
 ---
 
-Categorically"
+
 
 Prev:
 [monads-and-effects](monads-and-effects.md)

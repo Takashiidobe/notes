@@ -2,7 +2,7 @@
 title: data-structures
 ---
 
-Structures"
+
 
 # Data Structures
 

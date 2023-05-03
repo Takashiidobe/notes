@@ -2,7 +2,7 @@
 title: process-resources
 ---
 
-Resources"
+
 
 # The Linux Programming Interface
 

@@ -2,7 +2,7 @@
 title: postgresql-extensions
 ---
 
-Extensions"
+
 
 # PostgreSQL Extensions
 

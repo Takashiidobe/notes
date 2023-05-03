@@ -2,7 +2,7 @@
 title: authenticated-encryption
 ---
 
-encryption"
+
 
 # Authenticated encryption
 

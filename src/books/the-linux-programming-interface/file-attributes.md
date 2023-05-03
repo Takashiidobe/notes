@@ -2,7 +2,7 @@
 title: file-attributes
 ---
 
-Attributes"
+
 
 # The Linux Programming Interface
 

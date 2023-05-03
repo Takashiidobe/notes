@@ -2,7 +2,7 @@
 title: fundamental-concepts
 ---
 
-Concepts"
+
 
 # The Linux Programming Interface
 

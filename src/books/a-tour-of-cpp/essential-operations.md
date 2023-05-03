@@ -2,7 +2,7 @@
 title: essential-operations
 ---
 
-Operations"
+
 
 # Essential Operations
 

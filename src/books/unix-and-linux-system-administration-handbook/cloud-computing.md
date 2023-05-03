@@ -2,7 +2,7 @@
 title: cloud-computing
 ---
 
-Computing"
+
 
 # Cloud Computing
 

@@ -2,7 +2,7 @@
 title: operating-systems
 ---
 
-Systems"
+
 
 # Operating Systems
 

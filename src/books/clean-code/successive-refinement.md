@@ -2,7 +2,7 @@
 title: successive-refinement
 ---
 
-Refinement"
+
 
 # Successive Refinement
 

@@ -2,7 +2,7 @@
 title: creational-patterns
 ---
 
-Patterns"
+
 
 # Creational Patterns
 

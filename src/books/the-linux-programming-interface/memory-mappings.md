@@ -2,7 +2,7 @@
 title: memory-mappings
 ---
 
-Mappings"
+
 
 # The Linux Programming Interface
 

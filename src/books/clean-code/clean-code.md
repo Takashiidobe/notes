@@ -2,7 +2,7 @@
 title: clean-code
 ---
 
-Code"
+
 
 # Clean Code
 

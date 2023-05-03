@@ -2,7 +2,7 @@
 title: numerical-representations
 ---
 
-Representations"
+
 
 # Numerical Representations
 

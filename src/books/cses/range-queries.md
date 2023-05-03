@@ -2,7 +2,7 @@
 title: range-queries
 ---
 
-Queries"
+
 
 # Range Queries
 

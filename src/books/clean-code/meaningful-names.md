@@ -2,7 +2,7 @@
 title: meaningful-names
 ---
 
-Names"
+
 
 # Meaningful Names
 

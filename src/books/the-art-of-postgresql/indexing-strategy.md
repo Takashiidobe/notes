@@ -2,7 +2,7 @@
 title: indexing-strategy
 ---
 
-Strategy"
+
 
 # Indexing Strategy
 

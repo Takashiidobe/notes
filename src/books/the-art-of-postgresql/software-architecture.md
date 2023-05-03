@@ -2,7 +2,7 @@
 title: software-architecture
 ---
 
-Architecture"
+
 
 # Software Architecture
 

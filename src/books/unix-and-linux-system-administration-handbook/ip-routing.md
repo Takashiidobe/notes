@@ -2,7 +2,7 @@
 title: ip-routing
 ---
 
-Routing"
+
 
 # IP Routing
 

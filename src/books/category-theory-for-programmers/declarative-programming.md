@@ -2,7 +2,7 @@
 title: declarative-programming
 ---
 
-Programming"
+
 
 Prev:
 [natural-transformations](natural-transformations.md)

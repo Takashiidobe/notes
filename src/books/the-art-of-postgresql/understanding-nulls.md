@@ -2,7 +2,7 @@
 title: understanding-nulls
 ---
 
-Nulls"
+
 
 # Understanding Nulls
 

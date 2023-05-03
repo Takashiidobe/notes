@@ -2,7 +2,7 @@
 title: hash-functions
 ---
 
-Functions"
+
 
 # Hash Functions
 

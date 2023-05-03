@@ -2,7 +2,7 @@
 title: refactoring-serialdate
 ---
 
-SerialDate"
+
 
 # Refactoring SerialDate
 

@@ -2,7 +2,7 @@
 title: additional-strategies
 ---
 
-strategies"
+
 
 # Additional strategies
 

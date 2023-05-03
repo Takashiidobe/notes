@@ -2,7 +2,7 @@
 title: process-credentials
 ---
 
-Credentials"
+
 
 # The Linux Programming Interface
 

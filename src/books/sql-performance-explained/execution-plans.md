@@ -2,7 +2,7 @@
 title: execution-plans
 ---
 
-Plans"
+
 
 # Execution Plans
 

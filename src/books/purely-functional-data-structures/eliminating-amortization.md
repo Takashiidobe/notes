@@ -2,7 +2,7 @@
 title: eliminating-amortization
 ---
 
-Amortization"
+
 
 # Eliminating Amortization
 

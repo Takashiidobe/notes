@@ -2,7 +2,7 @@
 title: business-logic
 ---
 
-Logic"
+
 
 # Business Logic
 

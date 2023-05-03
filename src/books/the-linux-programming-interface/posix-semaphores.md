@@ -2,7 +2,7 @@
 title: posix-semaphores
 ---
 
-Semaphores"
+
 
 # The Linux Programming Interface
 

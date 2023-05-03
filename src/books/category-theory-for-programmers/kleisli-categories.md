@@ -2,7 +2,7 @@
 title: kleisli-categories
 ---
 
-Categories"
+
 
 Prev:
 [categories-great-and-small](categories-great-and-small.md)

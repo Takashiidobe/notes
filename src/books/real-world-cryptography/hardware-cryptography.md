@@ -2,7 +2,7 @@
 title: hardware-cryptography
 ---
 
-cryptography"
+
 
 # Hardware cryptography
 

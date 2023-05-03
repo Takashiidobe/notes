@@ -2,7 +2,7 @@
 title: junit-internals
 ---
 
-Internals"
+
 
 # JUnit Internals
 

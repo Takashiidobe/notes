@@ -2,7 +2,7 @@
 title: login-accounting
 ---
 
-Accounting"
+
 
 # The Linux Programming Interface
 

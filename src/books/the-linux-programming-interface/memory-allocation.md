@@ -2,7 +2,7 @@
 title: memory-allocation
 ---
 
-Allocation"
+
 
 # The Linux Programming Interface
 

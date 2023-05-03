@@ -2,7 +2,7 @@
 title: file-locking
 ---
 
-Locking"
+
 
 # The Linux Programming Interface
 

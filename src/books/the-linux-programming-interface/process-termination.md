@@ -2,7 +2,7 @@
 title: process-termination
 ---
 
-Termination"
+
 
 # The Linux Programming Interface
 

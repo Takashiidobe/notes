@@ -2,7 +2,7 @@
 title: programming-techniques
 ---
 
-Techniques"
+
 
 # Programming Techniques
 

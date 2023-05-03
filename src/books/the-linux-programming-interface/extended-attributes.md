@@ -2,7 +2,7 @@
 title: extended-attributes
 ---
 
-Attributes"
+
 
 # The Linux Programming Interface
 

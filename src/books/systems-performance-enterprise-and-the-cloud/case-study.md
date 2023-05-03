@@ -2,7 +2,7 @@
 title: case-study
 ---
 
-Study"
+
 
 # Case Study
 
