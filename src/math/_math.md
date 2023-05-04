@@ -1,5 +1,7 @@
 ---
-title: _math
+title: "Math"
 ---
 
 # Math
+
+- [MathJax Cheatsheet](./mathjax.md)

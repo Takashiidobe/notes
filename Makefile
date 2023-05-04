@@ -11,7 +11,7 @@ deploy: html fix_links copy_files build_index
 html: mkdirs $(HTML_FILES)
 
 site/%.html: src/%.md templates/site.html
-	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html
+	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --template templates/site.html --mathjax
 
 build_index: $(SOURCE_DOCS)
 	/usr/local/bin/pagefind --source site
@@ -35,3 +35,9 @@ mkdirs:
 	--include="*.jpg" \
 	--include="*.jpeg" \
 	--exclude='*' src/ site/
+	rsync -a --include='*/' \
+	--include="*.png" \
+	--include="*.jpg" \
+	--include="*.jpeg" \
+	--include="*.svg" \
+	--exclude='*' src/img/ site/img
