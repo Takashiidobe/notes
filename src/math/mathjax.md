@@ -21,6 +21,7 @@ title: Mathjax
 | Factorial                                                                     | $n!$                                                                                               | `$n!$`                                                                                                                                        |
 | Trigonometric functions                                                       | $\sin\theta$, $\cos\theta$, $\tan\theta$                                                           | `$\sin\theta$, $\cos\theta$, $\tan\theta$`                                                                                                    |
 | Greater or Less                                                               | $a\gt b$, $a\geq b$, $a\lt b$, $a\leq b$                                                           | `$a\gt b$, $a\geq b$, $a\lt b$, $a\leq b$`                                                                                                    |
+| Much Less Than, Much Greater Than | $a \ll b$, $b \gg a$                                                           | `$a \ll b$, $b \gg a$`                                                                                                    |
 | Equation                                                                      | $a=b$, $a\neq b$, $a\approx b$                                                                     | `$a=b$, $a\neq b$, $a\approx b$ `                                                                                                             |
 | Times Dot                                                                     | $a\cdot b=ab$                                                                                      | `$a\cdot b=ab$`                                                                                                                               |
 | Divide Fraction                                                               | $a/b=\frac{a}{b}$                                                                                  | `$a/b=\frac{a}{b}$`                                                                                                                           |
@@ -63,7 +64,7 @@ title: Mathjax
 
 | Name             | Running Time  | Markdown        |
 |------------------|---------------|-----------------|
-| Constant Time    | $O(n!)$       | `$O(n!)$`       |
+| Constant Time    | $O(1)$       | `$O(1)$ `        |
 | Logarithmic Time | $O(\log{}n)$  | `$O(\log{}n)$`  |
 | Linear Time      | $O(n)$        | `$O(n)$`        |
 | Quasilinear Time | $O(n\log{}n)$ | `$O(n\log{}n)$` |

@@ -41,6 +41,8 @@ There are a few main classes of decision problems:
 
 These sets are distinct, so $P$ is strictly smaller than $EXP$, and $EXP$ is strictly smaller than $\Bbb R$.
 
+![Complexity Classes](../../img/complexity-classes.png)
+
 ## Nondeterministic Polynomial Time (NP)
 
 $P$ is the set of decision problems for which there is an algorithm A that for every input of size N runs in polynomial time and solves it correctly.

@@ -1,0 +1,18 @@
+Introduction Consistent hashing.
+Property-preserving lossy compression
+Similarity Search
+Curse of Dimensionality
+Generalization
+Regularization
+Understanding Principal Component Analysis
+How PCA works
+Low-rank matrix approximations
+Tensor methods
+Graphs as matrices and the Laplacian of a graph
+Spectral techniques
+Reservoir sampling
+Markov Chains
+Fourier methods
+Fourier methods
+Compressive sensing
+Linear and convex programming
