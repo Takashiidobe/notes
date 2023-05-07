@@ -2,8 +2,6 @@
 title: api-design
 ---
 
-Design
-
 # API Design
 
 ## Pagination
@@ -96,4 +94,4 @@ Design
 - Delete (DELETE in HTTP) is used to delete an existing resource.
 
 Prev:
-\[security-and-https](security-and-https.md)
+[security-and-https](security-and-https.md)

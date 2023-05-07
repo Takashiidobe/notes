@@ -2,8 +2,6 @@
 title: design-a-movie-ticketing-system
 ---
 
-A Movie Ticketing System
-
 # Design a Movie Ticketing System
 
 Let\'s assume that this is an online system; we have many movie theaters
@@ -20,10 +18,8 @@ seat to bought.
 When a user visits the site, they can see all chairs that are not
 reserved and not bought.
 
-time room seat_number bought time_to_live
+| time      | room   | seat_number | bought  | time_to_live |
+|-----------|--------|-------------|---------|--------------|
+| unix_time | number | number      | boolean | unix_time    |
 
----
-
-unix_time number number boolean unix_time
-
-[design-an-atm](design-an-atm.md): design an atm
+[design-an-atm](design-an-atm.md)

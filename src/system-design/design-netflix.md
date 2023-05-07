@@ -1,7 +1,5 @@
 ---
-title: design-netflix
+title: "design-netflix"
 ---
-
-Netflix
 
 # Design Netflix

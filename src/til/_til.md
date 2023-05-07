@@ -8,6 +8,7 @@ title: "Til"
 - [Dtruss](dtruss.md)
 - [Heredocs](heredocs.md)
 - [Html to Text](html-to-text.md)
+- [Linux File Partitions](linux-file-partitions.md)
 - [Min Stack in C](min-stack-in-c.md)
 - [Rsync to Remote Server](rsync-to-remote-server.md)
 - [Smart Pointers in Rust](smart-pointers-in-rust.md)

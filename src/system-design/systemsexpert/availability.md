@@ -1,6 +1,9 @@
 ---
-title: availability
+title: Availability
 ---
+
+Prev: [latency-and-throughput](latency-and-throughput.md)
+Next: [caching](caching.md)
 
 # Availability
 
@@ -31,7 +34,7 @@ title: availability
 
 - eliminate single points of failure.
 
-- Make sure there\'s redundancy.
+- Make sure there's redundancy.
 
   - If you have one server, have multiple.
   - If you have multiple servers, get more load balancers.
@@ -39,6 +42,5 @@ title: availability
 - Active redundancy is like leader election, when a node crash
   reconfigures itself.
 
-Prev:
-\[latency-and-throughput](latency-and-throughput.md)
-Next: \[caching](caching.md)
+Prev: [latency-and-throughput](latency-and-throughput.md)
+Next: [caching](caching.md)
