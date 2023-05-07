@@ -1,0 +1,20 @@
+Introduction
+Linear Regression and Gradient Descent
+Locally Weighted and Logicistic Regression
+Perceptron & Generalized Linear Model
+GDA & Naive Bayes
+Support Vector Machines
+Kernels
+Data Splits, Models & Cross Validation
+Approximation, Estimation Error & ERM
+Decision Trees and Ensemble Methods
+Introduction to Neural Networks
+Back Propagation and Improving Neural Networks
+Debugging ML Models and Error Analysis
+Expectation Maximization Algorithms
+EM Algorithm & Factor Analysis
+Independent Component Analysis and Reinforcement Learning
+MDPs & Value/Policy Iteration
+MDPs & Model Simulation
+Reward Model and Linear Dynamical System
+Debugging and Diagnostics
