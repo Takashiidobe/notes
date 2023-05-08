@@ -16,6 +16,7 @@ title: "Notes"
 - [design-patterns](design-patterns/_design-patterns.md)
 - [devops](devops/_devops.md)
 - [frontend](frontend/_frontend.md)
+- [interviews](interviews/_interviews.md)
 - [math](math/_math.md)
 - [music](music/_music.md)
 - [operating-systems](operating-systems/_operating-systems.md)

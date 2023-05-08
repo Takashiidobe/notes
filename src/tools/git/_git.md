@@ -1,14 +1,14 @@
 ---
-title: _git
+title: "Git"
 ---
 
 # Git
 
-- \[checkout-file-from-another-branch](checkout-file-from-another-branch.md)
-- \[empty-git-commits](empty-git-commits.md)
-- \[follow-changes-made-to-file](follow-changes-made-to-file.md)
-- \[push-to-multiple-remotes-at-the-same-time](push-to-multiple-remotes-at-the-same-time.md)
-- \[setup-git-on-server](setup-git-on-server.md)
-- \[setup-gitea](setup-gitea.md)
-- \[git-instaweb](git-instaweb.md)
-- \[delta](delta.md)
+- [Checkout File From Another Branch](checkout-file-from-another-branch.md)
+- [Delta](delta.md)
+- [Empty Git Commits](empty-git-commits.md)
+- [Follow Changes Made to File](follow-changes-made-to-file.md)
+- [Git Instaweb](git-instaweb.md)
+- [Push to Multiple Remotes at the Same Time](push-to-multiple-remotes-at-the-same-time.md)
+- [Setup Git on Server](setup-git-on-server.md)
+- [Setup Gitea](setup-gitea.md)

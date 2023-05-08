@@ -1,17 +1,17 @@
 ---
-title: Packages
+title: "Packages"
 ---
 
 # Packages
 
 - [Aerc](aerc.md)
+- [Gooey](gooey.md)
+- [Id3tool](id3tool.md)
 - [Jenv](jenv.md)
+- [Lazy Docker](lazy-docker.md)
+- [Local Stack](local-stack.md)
+- [Miniserve](miniserve.md)
 - [Newsboat](newsboat.md)
-- [gooey](gooey.md)
-- [id3tool](id3tool.md)
-- [lazy-docker](lazy-docker.md)
-- [local-stack](local-stack.md)
-- [miniserve](miniserve.md)
-- [responsively](responsively.md)
-- [sdcv](sdcv.md)
-- [watchexec](watchexec.md)
+- [Responsively](responsively.md)
+- [Sdcv](sdcv.md)
+- [Watchexec](watchexec.md)
