@@ -2,8 +2,6 @@
 title: a-dialogue-on-persistence
 ---
 
-Dialogue on Persistence"
-
 # A Dialogue on Persistence
 
 Prev:

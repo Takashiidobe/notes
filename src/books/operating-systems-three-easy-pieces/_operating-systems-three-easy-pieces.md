@@ -2,8 +2,6 @@
 title: _operating-systems-three-easy-pieces
 ---
 
-Systems: Three Easy Pieces"
-
 # Operating Systems: Three Easy Pieces
 
 1.  [a-dialogue-on-the-book](a-dialogue-on-the-book.md)

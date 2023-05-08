@@ -2,8 +2,6 @@
 title: a-dialogue-on-concurrency
 ---
 
-Dialogue on Concurrency"
-
 # A Dialogue on Concurrency
 
 Prev:
