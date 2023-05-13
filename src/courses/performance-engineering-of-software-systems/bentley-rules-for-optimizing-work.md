@@ -160,17 +160,17 @@ You can save the overhead of looping twice by fusing two loops over the same ind
 
 ```c
 for (int i = 0; i < n; i++) {
-    C[i] = (A[i] <= B[i]) ? A[i] : B[i]);
+    C[i] = (A[i] <= B[i]) ? A[i] : B[i];
 }
 for (int i = 0; i < n; i++) {
-    D[i] = (A[i] <= B[i]) ? B[i] : A[i]);
+    D[i] = (A[i] <= B[i]) ? B[i] : A[i];
 }
 ```
 
 ```c
 for (int i = 0; i < n; i++) {
-    C[i] = (A[i] <= B[i]) ? A[i] : B[i]);
-    D[i] = (A[i] <= B[i]) ? B[i] : A[i]);
+    C[i] = (A[i] <= B[i]) ? A[i] : B[i];
+    D[i] = (A[i] <= B[i]) ? B[i] : A[i];
 }
 ```
 
