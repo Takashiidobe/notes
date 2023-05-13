@@ -26,6 +26,7 @@ title: "Notes"
 - [recipes](recipes/recipes/_recipes.md)
 - [security](security/_security.md)
 - [system-design](system-design/_system-design.md)
+- [personal finance](personal-finance/personal-finance.md)
 - [talks](talks/_talks.md)
 - [til](til/_til.md)
 - [tools](tools/_tools.md)
