@@ -1,8 +1,7 @@
+
 ---
 title: Books
 ---
-
-# Books
 
 - [A Tour of C++](a-tour-of-cpp/_a-tour-of-cpp.md)
 - [A World Without Email](nan.md)
