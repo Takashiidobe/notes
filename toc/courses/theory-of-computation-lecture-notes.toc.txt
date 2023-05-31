@@ -1,0 +1,11 @@
+Introduction
+String Theory
+Deterministic finite automata
+Declarative models of computation
+Closure of language classes under set operations
+Equivalence of models
+Proving problems are not solvable in a model of computation
+Turing machines
+Efficient solution of problems: The class P
+Efficient verification of solutions: The class NP
+Undecidability

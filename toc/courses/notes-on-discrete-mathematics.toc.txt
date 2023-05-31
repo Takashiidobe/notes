@@ -1,0 +1,16 @@
+Introduction
+Let us count!
+Induction
+Counting subsets
+Pascal’s Triangle
+Fibonacci numbers
+Combinatorial probability
+Integers, divisors, and primes
+Graphs
+Trees
+Finding the optimum
+Matchings in graphs
+Graph coloring
+A Connecticut class in King Arthur’s court
+A glimpse of cryptography
+One-time pads

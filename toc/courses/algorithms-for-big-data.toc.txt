@@ -1,0 +1,25 @@
+logistics, course topics, basic tail bounds (Markov, Chebyshev, Chernoff, Bernstein), Morris' algorithm
+distinct elements, k-wise independence, geometric subsampling of streams
+necessity of randomized/approximate guarantees, linear sketching, AMS sketch, p-stable sketch 0<p<2
+p-stable sketch analysis, Nisan's PRG, high ℓp norms (p>2) via max-stability
+analysis of ℓp estimation algorithm via max-stability, deterministic point query via incoherent matrices
+CountMin sketch, point query, heavy hitters, sparse approximation
+CountSketch, ℓ0 sampling, graph sketching
+amnesic dynamic programming (approximate distance to monotonicity)
+communication complexity (indexing, gap hamming) + application to median and F0 lower bounds
+randomized and approximate F0 lower bounds, disjointness, Fp lower bound, dimensionality reduction (JL lemma)
+Khintchine, decoupling, Hanson-Wright, proof of distributional JL lemma
+Alon's JL lower bound, beyond worst case analysis: suprema of gaussian processes, Gordon's theorem
+ORS theorem (distributional JL implies Gordon's theorem), sparse JL
+sparse JL proof wrap-up, Fast JL Transform, approximate nearest neighbor
+approximate matrix multiplication with Frobenius error via sampling / JL, matrix median trick, subspace embeddings
+linear least squares via subspace embeddings, leverage score sampling, non-commutative Khintchine, oblivious subspace embeddings
+oblivious subspace embeddings, faster iterative regression, sketch-and-solve regression
+low-rank approximation, column-based matrix reconstruction, k-means, compressed sensing
+RIP and connection to incoherence, basis pursuit, Krahmer-Ward theorem
+Krahmer-Ward proof, Iterative Hard Thresholding
+L1 & L1 recovery, RIP1, unbalanced expanders, Sequential Sparse Matching Pursuit
+matrix completion
+external memory model: linked list, matrix multiplication, B-tree, buffered repository tree, sorting
+competitive paging, cache-oblivious algorithms: matrix multiplication, self-organizing linked list, static B-tree, lazy funnelsort
+MapReduce: TeraSort, minimum spanning tree, triangle counting

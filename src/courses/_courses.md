@@ -13,3 +13,7 @@ title: "Courses"
 - [Algorithmic Game Theory](algorithmic-game-theory/_algorithmic-game-theory.md)
 - [Machine Learning](machine-learning/_machine-learning.md)
 - [Randomized Algorithms](randomized-algorithms/_randomized-algorithms.md)
+- [Algorithms for Big Data](algorithms-for-big-data/_algorithms-for-big-data.md)
+- [Notes on Discrete Mathematics](notes-on-discrete-mathematics/_notes-on-discrete-mathematics.md)
+- [Statistics Lecture Notes](statistics-lecture-notes/_statistics-lecture-notes.md)
+- [Theory of Computation Lecture Notes](theory-of-computation-lecture-notes/_theory-of-computation-lecture-notes.md)

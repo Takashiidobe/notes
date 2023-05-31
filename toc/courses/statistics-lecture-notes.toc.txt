@@ -1,0 +1,7 @@
+Principles of experimental design
+Test statistics and randomization distributions
+Tests based on population models
+Confidence intervals and power
+Introduction to ANOVA
+Factorial Designs
+Nested Designs
