@@ -19,6 +19,7 @@ title: "Notes"
 - [interviews](interviews/_interviews.md)
 - [math](math/_math.md)
 - [music](music/_music.md)
+- [networks](networks/_networks.md)
 - [operating-systems](operating-systems/_operating-systems.md)
 - [papers](papers/_papers.md)
 - [programming-languages](programming-languages/_programming-languages.md)

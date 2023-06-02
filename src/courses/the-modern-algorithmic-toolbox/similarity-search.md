@@ -85,7 +85,5 @@ If $d$ = 1: At most 2.
 If $d$ = 2: At most 3 points.
 If $d$ = 100: At least several thousand.
 
-
-
 Prev: [property-preserving-lossy-compression](property-preserving-lossy-compression.md)
 Next: [curse-of-dimensionality](curse-of-dimensionality.md)
