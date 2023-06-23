@@ -17,3 +17,4 @@ title: "Courses"
 - [Notes on Discrete Mathematics](notes-on-discrete-mathematics/_notes-on-discrete-mathematics.md)
 - [Statistics Lecture Notes](statistics-lecture-notes/_statistics-lecture-notes.md)
 - [Theory of Computation Lecture Notes](theory-of-computation-lecture-notes/_theory-of-computation-lecture-notes.md)
+- [Lectures notes on game theory](lectures-notes-on-game-theory/_lectures-notes-on-game-theory.md)

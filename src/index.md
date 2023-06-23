@@ -7,6 +7,7 @@ title: "Notes"
 - [algorithms](algorithms/_algorithms.md)
 - [artificial-intelligence](artificial-intelligence/_artificial-intelligence.md)
 - [blockchain](blockchain/_blockchain.md)
+- [business](business/_business.md)
 - [books](books/_books.md)
 - [compilers](compilers/_compilers.md)
 - [computer-architecture](computer-architecture/_computer-architecture.md)
@@ -31,3 +32,4 @@ title: "Notes"
 - [talks](talks/_talks.md)
 - [til](til/_til.md)
 - [tools](tools/_tools.md)
+- [real world systems](real-world-systems/_real-world-systems.md)

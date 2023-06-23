@@ -86,7 +86,7 @@ Neither point is necessarily interesting. The mean of $X_1$ + $X_2$ is always $m
 
 ## Step 1: Unbiased Estimator of Squared $L_{2}$ Distance
 
-Returning to the random projection function $f_r$ with the random coefficients $r_1,\dots,r_k$, chosen independently from a standard Gaussian distribution, for every pair $x, y \in \Bbb $^k$, the square of $f_r(x) - f_r(y)$ is an unbiased estimator of the squared Euclidean distance between $x$ and $y$.
+Returning to the random projection function $f_r$ with the random coefficients $r_1,\dots,r_k$, chosen independently from a standard Gaussian distribution, for every pair $x, y \in \Bbb R^k$, the square of $f_r(x) - f_r(y)$ is an unbiased estimator of the squared Euclidean distance between $x$ and $y$.
 
 Fix $x, y \in \Bbb R^k$. The $L_{2}$ distance between $x$ and $y$, is $\|x - y\|_2$, or $\sqrt{\displaystyle \sum_{i=1}^k(x_{i}-y_{i})^2}$
 
