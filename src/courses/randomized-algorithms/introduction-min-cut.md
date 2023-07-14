@@ -81,6 +81,4 @@ Assuming a binary tree built from the `NOR` function. The leaves contain the iit
 
 ## The Global Min-Cut Problem
 
-
-
 Next: [concentration-inequalities](concentration-inequalities.md)
