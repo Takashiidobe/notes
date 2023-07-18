@@ -1,0 +1,23 @@
+Introduction
+Logic
+Circuits and finite automata
+Turing machines
+Reducibility and Gödel
+Minds and machines
+Complexity
+Polynomial time
+P and NP
+NP-completeness
+NP-completeness in practice
+Space complexity and more
+Randomness
+Probabilistic complexity classes
+Derandomization, cryptography double feature
+Private-key cryptography
+Public-key cryptography
+Cryptographic protocols
+Interactive proofs, machine learning
+Probably Approximately Correct (PAC) learning
+Learning, Chomsky, RSA, quantum
+Quantum computing
+Quantum algorithms

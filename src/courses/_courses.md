@@ -18,3 +18,4 @@ title: "Courses"
 - [Statistics Lecture Notes](statistics-lecture-notes/_statistics-lecture-notes.md)
 - [Theory of Computation Lecture Notes](theory-of-computation-lecture-notes/_theory-of-computation-lecture-notes.md)
 - [Lectures notes on game theory](lectures-notes-on-game-theory/_lectures-notes-on-game-theory.md)
+- [Great Ideas in Theoretical Computer Science](great-ideas-in-theoretical-computer-science/_great-ideas-in-theoretical-computer-science.md)

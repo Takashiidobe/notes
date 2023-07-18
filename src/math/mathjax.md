@@ -32,6 +32,7 @@ title: Mathjax
 | Set                                                                           | $x\in A$, $A\ni x$, $x\notin A$                                                                    | `$x\in A$, $A\ni x$, $x\notin A$`                                                                                                             |
 | Subset                                                                        | $A\subset B$, $A\subseteq B$, $A \not \subset B$                                                   | `$A\subset B$, $A\subseteq B$, $A \not \subset B$`                                                                                            |
 | Intersection & Union                                                          | $A\cap B$, $A\cup B$, $\overline{A}$                                                               | `$A\cap B$, $A\cup B$, $\overline{A}$`                                                                                                        |
+| Logical Operators                                                             | $$ \forall X, \wedge X, \vee X, \neg X, \exists A, A \implies B $$                                 | `$$ \forall X, \wedge X, \vee X, \neg X, \exists A A \implies B $$`                                                                           |
 | Quadratic Formula                                                             | $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$                                                             | `$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$`                                                                                                      |
 | Binomial                                                                      | $\sqrt{3x-1}+(1+x)^2$                                                                              | `$\sqrt{3x-1}+(1+x)^2$`                                                                                                                       |
 | Differentiation                                                               | $f'$, $f^{(n)}$, $D_x f$                                                                           | `$f'$, $f^{(n)}$, $D_x f$`                                                                                                                    |
@@ -42,11 +43,6 @@ title: Mathjax
 | Piecewise Equations                                                           | $$f(n) = \begin{cases} n/2,  & \text{if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases}$$ | `$$f(n) = \begin{cases} n/2,  & \text{if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases}$$`                                          |
 | Tables                                                                        | $$\begin{array}{c                                                                                  | lcr} n & \text{Left} & \text{Center} & \text{Right} \\ \hline 1 & 0.24 & 1 & 125 \\ 2 & -1 & 189 & -8 \\ 3 & -20 & 2000 & 1+10i \end{array}$$ | `$$\begin{array}{c | lcr} n & \text{Left} & \text{Center} & \text{Right} \\ \hline 1 & 0.24 & 1 & 125 \\ 2 & -1 & 189 & -8 \\ 3 & -20 & 2000 & 1+10i \end{array}$$` |
 | Set Comprehensions                                                            | $\{x \text{ if $x$ is even} \mid x^2\in\Bbb Z\}$                                                   | `$\{x \text{ if $x$ is even} \mid x^2\in\Bbb Z\}$`                                                                                            |
-
-
-
-
-
 
 
 ## Big O and related notations
