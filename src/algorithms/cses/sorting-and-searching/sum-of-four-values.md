@@ -2,8 +2,6 @@
 title: sum-of-four-values
 ---
 
-of Four Values\"
-
 # Sum of Four Values
 
 Prev:

@@ -2,8 +2,6 @@
 title: sliding-median
 ---
 
-Median\"
-
 # Sliding Median
 
 Prev: \[array-division](array-division.md) Next:

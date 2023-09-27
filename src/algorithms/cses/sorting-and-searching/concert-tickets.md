@@ -2,12 +2,10 @@
 title: concert-tickets
 ---
 
-Tickets\"
-
 # Concert Tickets
 
-Prev: \[ferris-wheel](ferris-wheel.md) Next:
-\[restaurant-customers](restaurant-customers.md)
+Prev: [ferris-wheel](ferris-wheel.md)
+Next: [restaurant-customers](restaurant-customers.md)
 
 There are n concert tickets available, each with a certain price. Then,
 m customers arrive, one after another.
@@ -49,5 +47,5 @@ the price we found and erase that price from the map and move on.
 
 ## Solution
 
-Prev: \[ferris-wheel](ferris-wheel.md) Next:
-\[restaurant-customers](restaurant-customers.md)
+Prev: [ferris-wheel](ferris-wheel.md)
+Next: [restaurant-customers](restaurant-customers.md)

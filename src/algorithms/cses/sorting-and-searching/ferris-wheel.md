@@ -2,12 +2,10 @@
 title: ferris-wheel
 ---
 
-Wheel\"
-
 # Ferris Wheel
 
-Prev: \[apartments](apartments.md) Next:
-\[concert-tickets](concert-tickets.md)
+Prev: [apartments](apartments.md)
+Next: [concert-tickets](concert-tickets.md)
 
 There are n children who want to go to a Ferris wheel, and your task is
 to find a gondola for each child.
@@ -52,5 +50,5 @@ remove our current child and move on.
 {{# include _include/code/algorithms/cses/cpp/sorting-and-searching/ferris-wheel.cc }}
 ```
 
-Prev: \[apartments](apartments.md) Next:
-\[concert-tickets](concert-tickets.md)
+Prev: [apartments](apartments.md)
+Next: [concert-tickets](concert-tickets.md)
