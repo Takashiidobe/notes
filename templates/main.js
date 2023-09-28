@@ -1,34 +1,5 @@
-window.addEventListener('load', (event) => {
+window.addEventListener('load', (_) => {
   new PagefindUI({ element: "#search" });
-  var params = new URLSearchParams(document.location.search);
-  var markInstance = new Mark(document.body);
-  var t = params.get("h") || '';
-
-  function highlight() {
-    let selected = document.getSelection();
-    if (selected.anchorNode) {
-      t = selected;
-      params.set("h", t);
-    }
-
-    if (window.history.replaceState) {
-      const url = window.location.protocol
-        + "//" + window.location.host
-        + window.location.pathname
-        + "?"
-        + params.toString();
-
-      window.history.replaceState({ path: url }, "", url);
-      markInstance.unmark({
-        done: () => {
-          markInstance.mark(t.toString(), {separateWordSearch: false});
-        }
-      });
-    }
-  }
-
-  highlight();
-  document.addEventListener("mouseup", highlight);
 });
 
 const targetNode = document.body;
@@ -40,20 +11,27 @@ const callback = (mutationList, observer) => {
   }
 };
 
+
 const observer = new MutationObserver(callback);
 observer.observe(targetNode, config);
 
-function appendCss(link, filepath, serverpath) {
+function appendCss(link, filepath) {
   var protocol = window.location.protocol;
   if (protocol === 'file:') {
     link.href = filepath;
   }
 }
 
-var linkStyles = document.querySelector('#styles');
+var tufteStyles = document.querySelector('#tufte-styles');
+var tufteExtraStyles = document.querySelector('#tufte-extra-styles');
+var pandocStyles = document.querySelector('#pandoc-styles');
+var pandocSolarizedStyles = document.querySelector('#pandoc-solarized-styles');
 var pagefindStyles = document.querySelector('#pagefind-styles');
 
-appendCss(linkStyles, "/home/takashi/monorepo/notes/site/styles.css", "/styles.css");
+appendCss(tufteStyles, "/home/takashi/monorepo/notes/site/tufte.css", "/tufte.css");
+appendCss(tufteExtraStyles, "/home/takashi/monorepo/notes/site/tufte-extra.css", "/tufte-extra.css");
+appendCss(pandocStyles, "/home/takashi/monorepo/notes/site/pandoc.css", "/pandoc.css");
+appendCss(pandocSolarizedStyles, "/home/takashi/monorepo/notes/site/pandoc-solarized.css", "/pandoc-solarized.css");
 appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/_pagefind/pagefind-ui.css", "/_pagefind/pagefind-ui.css");
 
 var previousLinks = Array.from(document.querySelectorAll('p > a')).map(a => a.previousSibling.textContent.includes('Prev:') && a.href).filter(a => a);
@@ -75,3 +53,6 @@ if (nextLinks.length > 0) {
     }
   });
 }
+
+const hidePageNode = document.head.querySelector('#hide-page');
+hidePageNode.remove();
