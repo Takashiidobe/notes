@@ -9,7 +9,9 @@ general methods that leverage computation are ultimately the most
 effective, and by a large margin.
 
 Search and learning are the two most important classes of techniques
-that use massive amounts of computation.
+that use massive amounts of computation. [^1]
+
+[^1]: Almost all methods these days use ever increasing computation.
 
 Researchers have tried to make systems the way the researchers thought
 their minds worked, which proved counterproductive.

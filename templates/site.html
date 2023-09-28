@@ -21,10 +21,13 @@
     $endif$ $if(keywords)$
     <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
     $endif$
-    <style>html{visibility: hidden;opacity:0;}</style>
+    <style id="hide-page">html{visibility: hidden;opacity:0;}</style>
     <link rel="icon" href="data:,">
     <link id="pagefind-styles" href="/_pagefind/pagefind-ui.css" rel="stylesheet">
-    <link id="styles" href="/styles.css" rel="stylesheet">
+    <link id="pandoc-styles" href="/pandoc.css" rel="stylesheet">
+    <link id="pandoc-solarized-styles" href="/pandoc-solarized.css" rel="stylesheet">
+    <link id="tufte-styles" href="/tufte.css" rel="stylesheet">
+    <link id="tufte-extra-styles" href="/tufte-extra.css" rel="stylesheet">
 
     <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
     $if(highlighting-css)$
