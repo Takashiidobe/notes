@@ -57,8 +57,11 @@ Both accounts allow you to contribute $6,000 a year.
 If you expect to be in a higher tax bracket when making withdrawals, go with the Roth.
 If you expect to be in a lower tax bracket when making withdrawals, go with the Traditional.
 
-You are only allowed to contribute to a Roth IRA if you make less than $140,000 if filing as Single, or $208,000 if filling as married.
-There are no limits to contribute to a traditional IRA.
+You are only allowed to contribute to a Roth IRA if you make less than $140,000 if filing as Single, or $208,000 if filling as married. [^1]
+
+[^1]: It is possible to invest money into a traditional IRA and then roll it over to a Roth IRA even over the income limit. You can read more about this on [Investopedia](https://www.investopedia.com/roth-ira-conversion-rules-4770480)
+
+There are no income limits to contribute to a traditional IRA.
 
 #### Traditional IRA
 

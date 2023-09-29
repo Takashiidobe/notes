@@ -16,7 +16,7 @@ site/%.html: src/%.md templates/site.html
 build_index: $(SOURCE_DOCS)
 	pagefind --source site
 
-copy_files: templates/main.js templates/styles.css
+copy_files: templates/main.js
 	cp templates/*{.css,.js} site/
 
 fix_links: $(HTML_FILES)
