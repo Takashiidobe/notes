@@ -34,10 +34,12 @@ mkdirs:
 	--include="*.png" \
 	--include="*.jpg" \
 	--include="*.jpeg" \
+	--include="*.gif" \
 	--exclude='*' src/ site/
 	rsync -a --include='*/' \
 	--include="*.png" \
 	--include="*.jpg" \
 	--include="*.jpeg" \
 	--include="*.svg" \
+	--include="*.gif" \
 	--exclude='*' src/img/ site/img
