@@ -5,6 +5,7 @@ title: "Papers"
 # Papers
 
 - [Sorting Networks and Their Applications](algorithms/sorting-networks-and-their-applications.md)
+- [Ten Quick Tips for Effective Dimensionality Reduction](artificial-intelligence/ten-quick-tips-for-effective-dimensionality-reduction.md)
 - [The Unreasonable Effectiveness of Data](artificial-intelligence/the-unreasonable-effectiveness-of-data.md)
 - [A Behavioral Notion of Subtyping](classics-of-cs/a-behavioral-notion-of-subtyping.md)
 - [A Case of Redundant Array of Inexpensive Disks](classics-of-cs/a-case-of-redundant-array-of-inexpensive-disks.md)
