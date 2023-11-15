@@ -11,7 +11,7 @@ deploy: html fix_links copy_files build_index
 html: mkdirs $(HTML_FILES)
 
 site/%.html: src/%.md templates/site.html
-	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --mathjax --filter pandoc-sidenote --section-divs --template templates/site.html
+	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --mathjax --filter pandoc-sidenote --filter d2-filter --section-divs --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
 	pagefind --source site

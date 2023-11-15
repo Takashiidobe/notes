@@ -65,11 +65,88 @@ If a process tries to access memory without a corresponding page-table entry, it
 
 ## The Stack and Stack Frames
 
+The stack grows and shrinks as functions are called and return. Each process has its own stack with the following:
+
+- **Function arguments and local variables**: Automatic variables and function arguments are allocated and deallocated.
+- **Call Linkage information**: Each function has certain CPU registers, like the program counter which points to the next instruction to be executed.
+
 ## Command-Line Arguments (argc, argv)
+
+Every C program must have a function called main. The first argument is `int argc`, which indicates how many arguments there are. `char* argv[]` is an array of pointers to the command line arguments provided. The first, `argv[0]` is normally the name of the program itself. This allows for a nice trick, used by some utilities, like `busybox`, to run different programs based on the name the program is called.
 
 ## Environment List
 
+Each process maintains an array of strings called the environment list, which holds strings of form `name=value`. Each name is referred to as an environment variable. When a new process is created, it inherits a copy of its parent's environment.
+
+To add a value to the environment, the `export` command can be used:
+
+`export SHELL=/bin/bash`
+
+Or, to affect a single program:
+
+`NAME=value ./program`
+
+As well, `setenv` in the shell can be used.
+
+To print the current environment list, `printenv` can be used.
+
+To access the current environment in a program, you can iterate through `environ`.
+
+```c
+extern char **environ;
+int main(int argc, char *argv[]) {
+    char **ep;
+    for (ep = environ; *ep != NULL; ep++)
+    puts(*ep);
+    exit(EXIT_SUCCESS);
+}
+```
+
+To get a specific environment variable, use `getenv`.
+
+```c
+#include <stdlib.h>
+char *getenv(const char *name); // Returns pointer to (value) string, or NULL if no such variable
+```
+
+To set a specific environment variable, use `setenv`.
+
+```c
+#include <stdlib.h>
+int setenv(const char *name, const char *value, int overwrite); // Returns 0 on success, or –1 on err
+```
+
+To unset a variable, use `unsetenv`.
+
+```c
+#include <stdlib.h>
+int unsetenv(const char *name); // Returns 0 on success, or –1 on error
+```
+
+To clear the entire environment, use `clearenv`.
+
+```c
+#define _BSD_SOURCE /* Or: #define _SVID_SOURCE */
+#include <stdlib.h>
+int clearenv(void)
+Returns 0 on success, or a nonzero on error
+```
+
+
 ## Performing a Nonlocal Goto: `setjmp` and `longjmp`
+
+`setjmp` and `longjmp` are libc functions that perform a nonlocal goto. C's `goto` does not allow jumping from the current function to another function. Imagine there is a function that errors out, and the code to handle the error is in another function that is up the stack. Without non-local goto, you'd have to jump through all those functions and go to the error handling function, and hope that the call stack doesn't terminate before then.
+
+```c
+#include <setjmp.h>
+int setjmp(jmp_buf env); // Returns 0 on initial call, nonzero on return via longjmp()
+void longjmp(jmp_buf env, int val);
+```
+
+`setjmp` establishes a target for a later jump performed by `longjmp`.
+
+`longjmp` and `setjmp` make code worse to read but also are optimized away by compilers, which can lead to bugs. Avoid their use.
+
 
 Prev:
 [file-io-further-details](file-io-further-details.md) Next: [memory-allocation](memory-allocation.md)

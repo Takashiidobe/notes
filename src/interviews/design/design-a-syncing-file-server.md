@@ -89,4 +89,3 @@ EB of data.
 - Some metadata server which holds pointers to the file in S3.
 - We may need some queues for messages to send from S3 to the metadata
   server for completed file syncs (DAG Processing).
-

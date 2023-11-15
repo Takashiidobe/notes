@@ -1,0 +1,28 @@
+Preface and Contents
+Before We Start: Some Mathematical Basics
+Probability on Events
+Common Discrete Random Variables
+Expectation
+Variance, Higher Moments, and Random Sums
+z-Transforms
+Continuous Random Variables: Single Distribution
+Continuous Random Variables: Joint Distributions
+Normal Distribution
+Heavy Tails: The Distributions of Computing
+Laplace Transforms
+The Poisson Process
+Generating Random Variables for Simulation
+Event-Driven Simulation
+Estimators for Mean and Variance
+Classical Statistical Inference
+Bayesian Statistical Inference
+Tail Bounds
+Applications of Tail Bounds: Confidence Intervals: Balls and Bins
+Hashing Algorithms
+Las Vegas Randomized Algorithms
+Monte Carlo Randomized Algorithms
+Primality Testing
+Discrete-Time Markov Chains: Finite-State
+Ergodicity for Finite-State Discrete-Time Markov Chains
+Discrete-Time Markov Chains: Infinite-State
+A Little Bit of Queueing Theory

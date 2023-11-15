@@ -7,7 +7,7 @@ Only reading with io_uring comes close to using the full bandwidth of the SSD on
 
 Fsync also seems to have a lot of overhead when using `write()` and `aio_write()` (causing a 3x slowdown), but far less overhead with `io_uring` (20% overhead on sequential writes, 50% overhead on random writes).
 
-- synchronous sequential write - fsync (1MB bs): 248 ops/s, (1041MB/s)
+- synchronous sequential write - fsync (1MB bs): 248 ops/s, (248MB/s)
 - synchronous sequential write - fsync (256KB bs): ~2.4k ops/s, (623MB/s)
 - synchronous sequential write + fsync: ~850 ops/s, (222MB/s)
 - synchronous random write - fsync: ~2.4k ops/s, (644MB/s)
@@ -26,6 +26,13 @@ Fsync also seems to have a lot of overhead when using `write()` and `aio_write()
 - io_uring random write + fsync: ~2.4k ops/s, (639MB/s)
 - io_uring sequential read: ~15k ops/s, (3876MB/s)
 - io_uring random read: ~7.5k ops/s, (1997MB/s)
+
+## Fsync Latency
+
+On the same SSD: ~660μs per fsync, so 1380 fsyncs/second.
+
+On an external SSD, closer to 460 fsyncs/second, or about ~2ms per fsync, so 3x slower.
+
 
 ## Databases
 
