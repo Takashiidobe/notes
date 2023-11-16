@@ -80,4 +80,5 @@ title: Books
 - [Computer Networks: A Systems Approach](nan.md)
 - [System Design Interview: An Insiders guide Volume 2](nan.md)
 - [Kill it with Fire](nan.md)
-- [Introduction to Probability for Computing](introduction-to-probability-for-computing/_introduction-to-probability-for-computing.md)
+- [Introduction to Probability for Computing](nan.md)
+- [The Algorithm Design Manual](nan.md)

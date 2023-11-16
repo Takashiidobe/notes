@@ -32,7 +32,7 @@ appendCss(tufteStyles, "/home/takashi/monorepo/notes/site/tufte.css", "/tufte.cs
 appendCss(tufteExtraStyles, "/home/takashi/monorepo/notes/site/tufte-extra.css", "/tufte-extra.css");
 appendCss(pandocStyles, "/home/takashi/monorepo/notes/site/pandoc.css", "/pandoc.css");
 appendCss(pandocSolarizedStyles, "/home/takashi/monorepo/notes/site/pandoc-solarized.css", "/pandoc-solarized.css");
-appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/_pagefind/pagefind-ui.css", "/_pagefind/pagefind-ui.css");
+appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/pagefind/pagefind-ui.css", "/pagefind/pagefind-ui.css");
 
 var previousLinks = Array.from(document.querySelectorAll('p > a')).map(a => a.previousSibling.textContent.includes('Prev:') && a.href).filter(a => a);
 

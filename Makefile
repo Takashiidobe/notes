@@ -14,7 +14,7 @@ site/%.html: src/%.md templates/site.html
 	pandoc -f markdown+fenced_divs -s $< -o $@ --table-of-contents --mathjax --filter pandoc-sidenote --filter d2-filter --section-divs --template templates/site.html
 
 build_index: $(SOURCE_DOCS)
-	pagefind --source site
+	pagefind --site site
 
 copy_files: templates/main.js
 	cp templates/*{.css,.js} site/
