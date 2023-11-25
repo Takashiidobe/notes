@@ -82,3 +82,7 @@ title: Books
 - [Kill it with Fire](nan.md)
 - [Introduction to Probability for Computing](nan.md)
 - [The Algorithm Design Manual](nan.md)
+- [Perfbook](nan.md)
+- [Computer Networking: A Top Down Approach](nan.md)
+- [Introduction to Probability](nan.md)
+- [Database Design and Implementation](nan.md)

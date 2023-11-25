@@ -1,0 +1,15 @@
+Database Systems
+JDBC
+Disk and File Management
+Memory Management
+Transaction Management
+Record Management
+Metadata Management
+Query Processing
+Parsing
+Planning
+JDBC interfaces
+Indexing
+Materialization and Sorting
+Efficient Buffer Utilization
+Query Optimization

@@ -9,6 +9,8 @@ Next: [divide-and-conquer](divide-and-conquer.md)
 
 ## Exercises
 
+### Applications of Sorting: Numbers
+
 4-1. The Grinch is given the job of partitioning $2n$ players into two teams of $n$
 players each. Each player has a numerical rating that measures how good he or
 she is at the game. The Grinch seeks to divide the players as unfairly as possible,
@@ -96,6 +98,148 @@ numbers $(1,3,5,9)$. The possible partitions are $((1,3),(5,9))$, $((1,5),(3,9))
 
 The way the pair sums could be minimized is by sorting the list of $2n$ numbers, and then pairing the first and last numbers of the array. This minimizes the total sum of the entire partition.
 
+4-4. Assume that we are given n pairs of items as input, where the first item
+is a number and the second item is one of three colors (red, blue, or yellow).
+Further assume that the items are sorted by number. Give an $O(n)$ algorithm
+to sort the items by color (all reds before all blues before all yellows) such that
+the numbers for identical colors stay sorted.
+For example: (1,blue), (3,red), (4,blue), (6,yellow), (9,red) should become (3,red),
+(9,red), (1,blue), (4,blue), (6,yellow).
+
+Since the numbers are already sorted, and we just need to sort the colors, we can allocate three arrays, one for red, one for blue, and one for yellow. Then, as we encounter items, we put them into their respective arrays. Finally, we join the three arrays in order. This takes $O(n)$ time.
+
+4-5. The mode of a bag of numbers is the number that occurs most frequently in
+the set. The set {4, 6, 2, 4, 3, 1} has a mode of 4. Give an efficient and correct
+algorithm to compute the mode of a bag of n numbers.
+
+One way to do this without any extra space is to sort the numbers and count the longest group. This would take $O(n log n)$ time.
+Another way is to allocate a hashmap, which tracks count -> {numbers}. We then allocate another variable that contains the highest count, returning that at the end.
+
+4-6.  Given two sets $S_1$ and $S_2$ (each of size $n$), and a number $x$, describe an
+$O(n log n)$ algorithm for finding whether there exists a pair of elements, one
+from $S_1$ and one from $S_2$, that add up to x. (For partial credit, give a $Θ(n^2)$
+algorithm for this problem.)
+
+Sort both $S_1$ and $S_2$, and then take any element in $S_1$, and binary search $S_2$ to see if the complement exists.
+
+4-7.  Give an efficient algorithm to take the array of citation counts (each count
+is a non-negative integer) of a researcher’s papers, and compute the researcher’s
+h-index. By definition, a scientist has index h if h of his or her n papers have
+been cited at least h times, while the other n − h papers each have no more than
+h citations.
+
+Sort the array and reverse it. Then, we keep taking citations until the condition of not having enough citations as the length of the papers we took. Once we cannot accept any more papers, that's the h-index.
+
+4-8.  Outline a reasonable method of solving each of the following problems. Give
+the order of the worst-case complexity of your methods.
+
+(a) You are given a pile of thousands of telephone bills and thousands of checks
+sent in to pay the bills. Find out who did not pay.
+
+Assuming that the bills have the real name of the person who should pay the bill and the checks have the same payer, there are two ways:
+
+For an $O(n log n)$ solution, we would sort both the bills and checks by said name, and match bills to checks.
+
+For an $O(n)$ solution, we would put the bills in a hashset and then for each check see if the bill has been paid. The remaining bills would be the unpaid ones.
+
+(b) You are given a printed list containing the title, author, call number, and
+publisher of all the books in a school library and another list of thirty
+publishers. Find out how many of the books in the library were published
+by each company.
+
+Another $O(n log n)$ solution vs $O(n)$.
+
+For an $O(n log n)$ solution: sort the books by publisher. For each block, check if its in the list. If so, add all the items to the list.
+
+For an $O(n)$ solution, create a hashmap of publisher -> [books]. Then, at the end, count the publishers and the length of the array of books they published.
+
+(c) You are given all the book checkout cards used in the campus library during
+the past year, each of which contains the name of the person who took out
+the book. Determine how many distinct people checked out at least one
+book.
+
+Same idea:
+
+For an $O(n log n)$ solution, sort the cards by who checked them out, and then group by the author. That returns the distinct borrowers.
+
+For an $O(n)$ solution, populate a counter with the items and then return the length of the counter, which is the distinct borrowers.
+
+4-9. Given a set S of n integers and an integer T , give an $O(n^{k−1} log n)$ algorithm
+to test whether k of the integers in S add up to T .
+
+This is n-sum. You would sort the numbers in the set and then create a hashmap of $n^{k-1}$ of all combinations of length k - 1 in the set. Then, we iterate through the hashmap once and binary search to see if the desired complement exists in the array.
+
+4-10. We are given a set of S containing n real numbers and a real number x, and
+seek efficient algorithms to determine whether two elements of S exist whose
+sum is exactly x.
+
+(a) Assume that S is unsorted. Give an $O(n log n)$ algorithm for the problem.
+
+This is two sum. To give an $O(n log n)$ algorithm, we could sort the numbers. Then, for each number $S[i]$ we subtract it from x and binary search for it in the sorted array. The sort takes $O(n log n)$ time, and binary searching for $n$ elements takes $O(n log n)$ time as well.
+
+(b) Assume that S is sorted. Give an $O(n)$ algorithm for the problem.
+
+If S is sorted, we could start off with a start and end pointer. We would add up the start and end items and compare them to x. If they sum to greater than x, we decrement the end pointer, since that always decreases the sum. If the sum is less than x, we increment the start pointer, since that increases the sum. Either we find the two numbers that sum to x, or left == right and the algorithm terminates.
+
+4-11.  Design an $O(n)$ algorithm that, given a list of n elements, finds all the
+elements that appear more than $n/2$ times in the list. Then, design an $O(n)$
+algorithm that, given a list of n elements, finds all the elements that appear
+more than $n/4$ times.
+
+The first one, finding majority elements, can be done with a counter counting element -> count. We would then iterate through the counter and return the counts that are greater than $n/2$.
+
+The same algorithm can be applied to the second question as well.
+
+### Applications of Sorting: Intervals and Sets
+
+4-12. Give an efficient algorithm to compute the union of sets A and B, where
+$n = max(|A|, |B|)$. The output should be an array of distinct elements that form
+the union of the sets.
+
+(a) Assume that A and B are unsorted arrays. Give an $O(n log n)$ algorithm
+for the problem.
+
+With two unsorted arrays, we could sort A and B, and point to the beginning for both arrays.
+Afterwards, if both items pointed to are equal, we increment both keys and add it to the union set.
+Otherwise, one item is smaller than the other. We increment the pointer pointing to the item that is smaller.
+
+This will guarantee the unions show up.
+
+(b) Assume that A and B are sorted arrays. Give an $O(n)$ algorithm for the
+problem.
+
+We do the same algorithm as above, without sorting.
+
+4-13. A camera at the door tracks the entry time $a_i$ and exit time $b_i$ (assume
+$b_i$ > $a_i$) for each of n persons $p_i$ attending a party. Give an $O(n log n)$ algorithm
+that analyzes this data to determine the time when the most people were
+simultaneously present at the party. You may assume that all entry and exit
+times are distinct (no ties).
+
+Assuming that our input is an array of tuples with (entrance_time, exit_time). We would allocate an array of $2n$ size that splits up the times into tuples of (entrance_time, 1) and (exit_time, -1). We start off with a count of 0 and sort the array.
+
+After we sort the array, we iterate through, adding either 1 for an entrance or -1 for an exit. Every time a person enters, we check if we have a new max. At the end, we return the max.
+
+4-14. Given a list I of n intervals, specified as $(x_i, y_i)$ pairs, return a list where
+the overlapping intervals are merged. For $I = {(1, 3), (2, 6), (8, 10), (7, 18)}$ the
+output should be ${(1, 6), (7, 18)}$. Your algorithm should run in worst-case
+$O(n log n)$ time complexity.
+
+First, we sort the array in $O(n log n)$ time. Then, we iterate through neighbors. If the end time of the left item is less than the start time of the right item, we merge the intervals.
+
+4-15. You are given a set S of n intervals on a line, with the ith interval described
+by its left and right endpoints $(l_i, r_i)$. Give an O(n log n) algorithm to identify
+a point p on the line that is in the largest number of intervals.
+As an example, for $S = {(10, 40), (20, 60), (50, 90), (15, 70)}$ no point exists in
+all four intervals, but p = 50 is an example of a point in three intervals. You
+can assume an endpoint counts as being in its interval.
+
+4-16.  You are given a set S of n segments on the line, where segment $S_i$ ranges
+from $l_i$ to $r_i$. Give an efficient algorithm to select the fewest number of segments
+whose union completely covers the interval from $0 to m$.
+
+We sort first by $r_i$. For each item, we wait until we find the last segment that connects to our current segment, since that makes the furthest choice. Then, we connect all of these segments until we cover the area.
+
 ### Heaps
 
 4-17. Devise an algorithm for finding the $k$ smallest elements of an unsorted set of n integers in $O(n + k log n)$.
@@ -178,10 +322,10 @@ The algorithm would start with two pointers, one at the start and one at the end
 
 There are four possible cases:
 
-1. $$ start \lt 0 & end \lt 0 $$
-2. $$ start \lt 0 & end \gte 0 $$
-3. $$ start \gte 0 & end \gte 0 $$
-4. $$ start \gte 0 & end \lt 0 $$
+1. $$ start \lt 0 \&\& end \lt 0 $$
+2. $$ start \lt 0 \&\& end \ge 0 $$
+3. $$ start \ge 0 \&\& end \ge 0 $$
+4. $$ start \ge 0 \&\& end \lt 0 $$
 
 In the first case, since both items are negative, we increment the start pointer to the next item.
 In the second case, both items are correctly sorted, so we increment the start pointer and decrement the end pointer.

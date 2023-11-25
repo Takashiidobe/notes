@@ -1,0 +1,16 @@
+How To Use This Book
+Hardware and its Habits
+Tools of the Trade
+Counting
+Partitioning and Synchronization Design
+Locking
+Data Ownership
+Deferred Processing
+Data Structures
+Validation
+Formal Verification
+Putting It All Together
+Advanced Synchronization
+Advanced Synchronization: Memory Ordering
+Ease of Use
+Conflicting Visions of the Future
