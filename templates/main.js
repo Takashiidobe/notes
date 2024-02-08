@@ -34,24 +34,28 @@ appendCss(pandocStyles, "/home/takashi/monorepo/notes/site/pandoc.css", "/pandoc
 appendCss(pandocSolarizedStyles, "/home/takashi/monorepo/notes/site/pandoc-solarized.css", "/pandoc-solarized.css");
 appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/pagefind/pagefind-ui.css", "/pagefind/pagefind-ui.css");
 
-var previousLinks = Array.from(document.querySelectorAll('p > a')).map(a => a.previousSibling.textContent.includes('Prev:') && a.href).filter(a => a);
+var possibleLinks = Array.from(document.querySelectorAll('p > a')) || []
 
-var nextLinks = Array.from(document.querySelectorAll('p > a')).map(a => a.previousSibling.textContent.includes('Next:') && a.href).filter(a => a);
+if (possibleLinks.length > 0) {
+  var previousLinks = possibleLinks.map(a => a?.previousSibling?.textContent?.includes('Prev:') && a.href).filter(a => a);
 
-if (previousLinks.length > 0) {
-  document.addEventListener('keydown', (e) => {
-    if (e.keyCode == '104' || e.keyCode == '37') {
-      window.location = previousLinks[0];
-    }
-  });
-}
+  var nextLinks = possibleLinks.map(a => a?.previousSibling?.textContent?.includes('Next:') && a.href).filter(a => a);
 
-if (nextLinks.length > 0) {
-  document.addEventListener('keydown', (e) => {
-    if (e.keyCode == '108' || e.keyCode == '39') {
-      window.location = nextLinks[0];
-    }
-  });
+  if (previousLinks.length > 0) {
+    document.addEventListener('keydown', (e) => {
+      if (e.keyCode == '104' || e.keyCode == '37') {
+        window.location = previousLinks[0];
+      }
+    });
+  }
+
+  if (nextLinks.length > 0) {
+    document.addEventListener('keydown', (e) => {
+      if (e.keyCode == '108' || e.keyCode == '39') {
+        window.location = nextLinks[0];
+      }
+    });
+  }
 }
 
 const hidePageNode = document.head.querySelector('#hide-page');

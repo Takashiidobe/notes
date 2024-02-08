@@ -1,0 +1,8 @@
+md5: 391.14 MiB/sec
+crc32c: 14255.49 MiB/sec
+sha3-256: 217.77 MiB/sec
+sha1: 334.32 MiB/sec
+xxhash: 2037.18 MiB/sec
+murmur3: 1328.81 MiB/sec
+jhash: 1754.98 MiB/sec
+fnv: 2928.83 MiB/sec

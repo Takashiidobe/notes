@@ -15,3 +15,4 @@ title: "Packages"
 - [Responsively](responsively.md)
 - [Sdcv](sdcv.md)
 - [Watchexec](watchexec.md)
+- [pdf.tocgen](pdf-tocgen.md)

@@ -1,0 +1,9 @@
+Running 5s test @ http://localhost:3000
+  48 goroutine(s) running concurrently
+96693 requests in 4.870709301s, 10.14MB read
+Requests/sec:		19851.93
+Transfer/sec:		2.08MB
+Avg Req Time:		2.4179ms
+Fastest Request:	91.979µs
+Slowest Request:	37.009115ms
+Number of Errors:	0

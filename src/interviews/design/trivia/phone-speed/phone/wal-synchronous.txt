@@ -1,0 +1,6 @@
+$ ./sqlite-bench -batch-count 1000 -batch-size 1000 -row-size 1000 -journal-mode wal -synchronous normal ./bench.db
+
+Inserts: 1000000 rows
+Elapsed: 66.006s
+Rate: 15150.53 insert/sec
+File size: 1026584576 bytes

@@ -33,7 +33,6 @@ On the same SSD: ~660μs per fsync, so 1380 fsyncs/second.
 
 On an external SSD, closer to 460 fsyncs/second, or about ~2ms per fsync, so 3x slower.
 
-
 ## Databases
 
 ### Sqlite3
@@ -106,25 +105,6 @@ Microseconds per write:
 Count: 10000000 Average: 5.2883  StdDev: 128.83
 Min: 4  Median: 4.7066  Max: 406752
 Percentiles: P50: 4.71 P75: 5.57 P99: 9.89 P99.9: 24.10 P99.99: 49.45
-------------------------------------------------------
-(       3,       4 ]  2961392  29.614%  29.614% ######
-(       4,       6 ]  5769853  57.699%  87.312% ############
-(       6,      10 ]  1201190  12.012%  99.324% ##
-(      10,      15 ]    41125   0.411%  99.736%
-(      15,      22 ]    14999   0.150%  99.886%
-(      22,      34 ]     8230   0.082%  99.968%
-(      34,      51 ]     2433   0.024%  99.992%
-(      51,      76 ]      567   0.006%  99.998%
-(      76,     110 ]       99   0.001%  99.999%
-(     110,     170 ]       39   0.000%  99.999%
-(     170,     250 ]       39   0.000% 100.000%
-(     250,     380 ]       20   0.000% 100.000%
-(     380,     580 ]        5   0.000% 100.000%
-(    1900,    2900 ]        1   0.000% 100.000%
-(    2900,    4400 ]        3   0.000% 100.000%
-(    4400,    6600 ]        3   0.000% 100.000%
-(   14000,   22000 ]        1   0.000% 100.000%
-(  380000,  570000 ]        1   0.000% 100.000%
 ```
 
 Reading 10M keys in database in random order
@@ -155,34 +135,6 @@ Microseconds per read:
 Count: 160000000 Average: 4.2148  StdDev: 21.70
 Min: 0  Median: 0.7457  Max: 44209
 Percentiles: P50: 0.75 P75: 1.50 P99: 44.33 P99.9: 74.35 P99.99: 329.00
-------------------------------------------------------
-[       0,       1 ] 107281798  67.051%  67.051% #############
-(       1,       2 ] 25259726  15.787%  82.838% ###
-(       2,       3 ]  2895362   1.810%  84.648%
-(       3,       4 ]  2543108   1.589%  86.237%
-(       4,       6 ]  2390091   1.494%  87.731%
-(       6,      10 ]  1447670   0.905%  88.636%
-(      10,      15 ]  2769450   1.731%  90.367%
-(      15,      22 ]  6410362   4.006%  94.373% #
-(      22,      34 ]  6005435   3.753%  98.127% #
-(      34,      51 ]  2298089   1.436%  99.563%
-(      51,      76 ]   576871   0.361%  99.924%
-(      76,     110 ]    60092   0.038%  99.961%
-(     110,     170 ]    24378   0.015%  99.977%
-(     170,     250 ]    14875   0.009%  99.986%
-(     250,     380 ]    11014   0.007%  99.993%
-(     380,     580 ]     5221   0.003%  99.996%
-(     580,     870 ]     2593   0.002%  99.998%
-(     870,    1300 ]     1249   0.001%  99.998%
-(    1300,    1900 ]      826   0.001%  99.999%
-(    1900,    2900 ]      659   0.000%  99.999%
-(    2900,    4400 ]      337   0.000% 100.000%
-(    4400,    6600 ]      215   0.000% 100.000%
-(    6600,    9900 ]      532   0.000% 100.000%
-(    9900,   14000 ]       26   0.000% 100.000%
-(   14000,   22000 ]       19   0.000% 100.000%
-(   22000,   33000 ]        1   0.000% 100.000%
-(   33000,   50000 ]        1   0.000% 100.000%
 ```
 Overwriting 10M keys in database in random order
 
@@ -211,22 +163,6 @@ Microseconds per write:
 Count: 10000000 Average: 8.5534  StdDev: 2.73
 Min: 4  Median: 8.1227  Max: 4990
 Percentiles: P50: 8.12 P75: 9.34 P99: 14.97 P99.9: 30.69 P99.99: 50.85
-------------------------------------------------------
-(       3,       4 ]      404   0.004%   0.004%
-(       4,       6 ]   643400   6.434%   6.438% #
-(       6,      10 ]  8208743  82.087%  88.525% ################
-(      10,      15 ]  1052781  10.528%  99.053% ##
-(      15,      22 ]    74116   0.741%  99.794%
-(      22,      34 ]    14574   0.146%  99.940%
-(      34,      51 ]     5025   0.050%  99.990%
-(      51,      76 ]      782   0.008%  99.998%
-(      76,     110 ]      125   0.001% 100.000%
-(     110,     170 ]       16   0.000% 100.000%
-(     170,     250 ]        1   0.000% 100.000%
-(     250,     380 ]       30   0.000% 100.000%
-(     380,     580 ]        1   0.000% 100.000%
-(     870,    1300 ]        1   0.000% 100.000%
-(    4400,    6600 ]        1   0.000% 100.000%
 ```
 
 Read while writing 1M keys in database in random order
@@ -261,34 +197,309 @@ Microseconds per read:
 Count: 16000000 Average: 20.4782  StdDev: 109.17
 Min: 1  Median: 13.5473  Max: 40204
 Percentiles: P50: 13.55 P75: 18.12 P99: 187.27 P99.9: 814.39 P99.99: 5044.78
-------------------------------------------------------
-[       0,       1 ]       13   0.000%   0.000%
-(       1,       2 ]     2093   0.013%   0.013%
-(       2,       3 ]    35688   0.223%   0.236%
-(       3,       4 ]   167412   1.046%   1.283%
-(       4,       6 ]   808517   5.053%   6.336% #
-(       6,      10 ]  2486403  15.540%  21.876% ###
-(      10,      15 ]  6342635  39.641%  61.517% ########
-(      15,      22 ]  4841790  30.261%  91.778% ######
-(      22,      34 ]   805031   5.031%  96.810% #
-(      34,      51 ]   188910   1.181%  97.991%
-(      51,      76 ]    53533   0.335%  98.325%
-(      76,     110 ]    30191   0.189%  98.514%
-(     110,     170 ]    66102   0.413%  98.927%
-(     170,     250 ]    54117   0.338%  99.265%
-(     250,     380 ]    54068   0.338%  99.603%
-(     380,     580 ]    35823   0.224%  99.827%
-(     580,     870 ]    14444   0.090%  99.917%
-(     870,    1300 ]     6484   0.041%  99.958%
-(    1300,    1900 ]     2453   0.015%  99.973%
-(    1900,    2900 ]     1419   0.009%  99.982%
-(    2900,    4400 ]     1041   0.007%  99.989%
-(    4400,    6600 ]      795   0.005%  99.994%
-(    6600,    9900 ]      552   0.003%  99.997%
-(    9900,   14000 ]      465   0.003% 100.000%
-(   14000,   22000 ]       18   0.000% 100.000%
-(   22000,   33000 ]        2   0.000% 100.000%
-(   33000,   50000 ]        1   0.000% 100.000%
+```
+
+## HTTP Server Benchmark
+
+~200k RPS for an HTTP server.
+
+```
+Running 5s test @ http://localhost:3000
+  256 goroutine(s) running concurrently
+975712 requests in 4.929485946s, 105.15MB read
+Requests/sec:		197933.82
+Transfer/sec:		21.33MB
+Avg Req Time:		1.293361ms
+Fastest Request:	21.095µs
+Slowest Request:	67.116949ms
+Number of Errors:	0
+```
+
+## Redis Benchmark
+
+~200k RPS for insert/set/delete.
+
+```
+====== PING_INLINE ======
+  100000 requests completed in 0.54 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 186915.88 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.142     0.040     0.135     0.231     0.375     1.415
+====== PING_MBULK ======
+  100000 requests completed in 0.52 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 193798.45 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.141     0.032     0.127     0.263     0.391     1.655
+====== SET ======
+  100000 requests completed in 0.53 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 187265.92 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.141     0.032     0.135     0.207     0.335     1.055
+====== GET ======
+  100000 requests completed in 0.54 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 184501.84 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.143     0.032     0.135     0.239     0.367     1.575
+====== INCR ======
+  100000 requests completed in 0.51 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 194931.77 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.140     0.032     0.127     0.255     0.399     1.815
+====== LPUSH ======
+  100000 requests completed in 0.51 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 194174.77 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.135     0.072     0.127     0.207     0.319     1.095
+====== RPUSH ======
+  100000 requests completed in 0.52 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 193423.59 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.140     0.040     0.127     0.263     0.383     3.407
+====== LPOP ======
+  100000 requests completed in 0.51 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 194931.77 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.136     0.064     0.127     0.199     0.367     1.527
+====== RPOP ======
+  100000 requests completed in 0.51 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 194174.77 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.137     0.032     0.127     0.207     0.359     2.055
+====== SADD ======
+  100000 requests completed in 0.52 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 190839.70 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.137     0.064     0.135     0.199     0.343     0.967
+====== HSET ======
+  100000 requests completed in 0.51 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 194552.53 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.137     0.040     0.127     0.215     0.359     0.999
+====== SPOP ======
+  100000 requests completed in 0.52 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 191570.88 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.140     0.032     0.135     0.247     0.359     1.199
+====== ZADD ======
+  100000 requests completed in 0.55 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 183486.23 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.145     0.040     0.135     0.231     0.407     1.191
+====== ZPOPMIN ======
+  100000 requests completed in 0.53 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 189753.31 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.141     0.032     0.127     0.255     0.367     1.279
+====== LPUSH (needed to benchmark LRANGE) ======
+  100000 requests completed in 0.52 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 192307.70 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.140     0.032     0.127     0.239     0.375     2.647
+====== LRANGE_100 (first 100 elements) ======
+  100000 requests completed in 0.90 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 110864.74 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.235     0.112     0.231     0.335     0.495     1.759
+====== LRANGE_300 (first 300 elements) ======
+  100000 requests completed in 2.40 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 41666.66 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.609     0.200     0.599     0.767     1.023     3.127
+====== LRANGE_500 (first 500 elements) ======
+  100000 requests completed in 3.58 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 27932.96 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.911     0.168     0.887     1.135     1.575     4.071
+====== LRANGE_600 (first 600 elements) ======
+  100000 requests completed in 4.11 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 24360.54 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        1.038     0.216     1.015     1.279     1.839     4.575
+====== MSET (10 keys) ======
+  100000 requests completed in 0.50 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 3600 1 300 100 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+Summary:
+  throughput summary: 198019.80 requests per second
+  latency summary (msec):
+          avg       min       p50       p95       p99       max
+        0.161     0.040     0.143     0.271     0.391     1.495
 ```
 
 ## Networks

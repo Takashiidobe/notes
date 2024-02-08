@@ -4,8 +4,7 @@ title: vegetarian-pad-see-ew
 
 Pad See Ew
 
-![Vegetarian Pad See
-Ew](https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/207188.jpg)
+![Vegetarian Pad See Ew](https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/207188.jpg)
 
 # Vegetarian Pad See Ew
 

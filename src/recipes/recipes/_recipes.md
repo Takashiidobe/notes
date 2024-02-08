@@ -74,3 +74,8 @@ title: "Recipes"
 - [Biryani](./chicken-biryani.md)
 - [Spiced Roast Chicken With Tangy Yogurt Sauce](./spiced-roast-chicken-with-tangy-yogurt-sauce.md)
 - [Potato Korokke](./potato-korokke.md)
+- [Copycat Chipotle Guacamole Recipe](./copycat-chipotle-guacamole-recipe.md)
+- [Chipotle Cilantro Lime Rice Copycat](./chipotle-cilantro-lime-rice-copycat.md)
+- [Copycat Chipotle Black Beans](./copycat-chipotle-black-beans.md)
+- [Chipotle Steak Copycat](./chipotle-steak-copycat.md)
+- [Chipotle Chicken Copycat](./chipotle-chicken-copycat.md)
