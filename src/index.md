@@ -34,3 +34,8 @@ title: "Notes"
 - [talks](talks/_talks.md)
 - [til](til/_til.md)
 - [tools](tools/_tools.md)
+
+## Misc
+
+- [RSS feed](./rss.xml)
+- [Sitemap](./sitemap.xml)

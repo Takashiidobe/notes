@@ -1,4 +1,5 @@
 SOURCE_DOCS := $(shell find src -type f -name "*.md")
+OUT_DIR=site
 
 HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
@@ -28,6 +29,17 @@ clean:
 books:
 	./bin/generate_books_md.py
 
+$(OUT_DIR)/robots.txt:
+	@echo "User-agent: *" > $@
+	@echo "Allow: *" >> $@
+	@echo "Sitemap: $(BASE_URL)/sitemap.xml" >> $@
+
+$(OUT_DIR)/sitemap.xml: $(HTML_FILES)
+	./bin/sitemap.py > site/sitemap.xml
+
+$(OUT_DIR)/rss.xml: $(HTML_FILES)
+	./bin/rss.sh
+
 .PHONY: mkdirs
 mkdirs:
 	rsync -a --include='*/' \
@@ -43,3 +55,7 @@ mkdirs:
 	--include="*.svg" \
 	--include="*.gif" \
 	--exclude='*' src/img/ site/img
+	rsync -a --include='*/' \
+	--include="*.xml" \
+	--include="*.xsl" \
+	--exclude='*' assets/ site/
