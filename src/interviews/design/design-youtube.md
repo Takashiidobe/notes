@@ -53,7 +53,7 @@ Using the estimations of users watching 5 videos a day:
 
 We have 37.5PB of bandwidth to transfer over the wire.
 
-The authors note CDN costs, $0.02 a GB, so our daily bill is $750k if we choose to serve our daily bill through CDNs.
+The authors note CDN costs, `$0.02 a GB`, so our daily bill is `$750k` if we choose to serve our daily bill through CDNs.
 
 ```
 >>> 5e6 * 5 * 1.5GB * 0.02$ -> GB * USD
@@ -69,7 +69,7 @@ Let's beat that with bare metal.
 
 To do so, let's make a simplifying assumption: SSDs are going to sit in for CDNs.
 
-I'm going to use the SSD I have on my laptop: The SN750 from Western Digital. Nowadays, this costs about $75/TB.
+I'm going to use the SSD I have on my laptop: The SN750 from Western Digital. Nowadays, this costs about `$75/TB`.
 
 To store 750TB:
 
@@ -119,7 +119,7 @@ Still coming out on top.
 
 ## Serving 37.5PB/day over the internet
 
-Let's assume for 10Gbps internet, the monthly cost will be about $600 in a datacenter. This can vary widely, but let's take this as best case. For our reads, we want to serve about 37.5PB/day, or about 1.125EB per month.
+Let's assume for 10Gbps internet, the monthly cost will be about `$600` in a datacenter. This can vary widely, but let's take this as best case. For our reads, we want to serve about 37.5PB/day, or about 1.125EB per month.
 
 At best case, let's saturate that line we need about 350 of these 10Gbps lines.
 
@@ -131,8 +131,8 @@ At best case, let's saturate that line we need about 350 of these 10Gbps lines.
    = 342.238 month
 ```
 
-And the cost per day to serve this while saturating all lines is about $7000.
-This is pretty unrealistic: let's assume 10% usage at all times, for a cost of $70000 per day of bandwidth.
+And the cost per day to serve this while saturating all lines is about `$7000`.
+This is pretty unrealistic: let's assume 10% usage at all times, for a cost of `$70000` per day of bandwidth.
 So we have about a 10-fold improvement in cost.
 
 ```
@@ -155,9 +155,9 @@ Let's take the assumption that we're going to save all of this to disk.
    = 164.25 EB
 ```
 
-And it costs us $10/TB:
+And it costs us `$10/TB`:
 
-To store the entirety of this data will cost $1.6B.
+To store the entirety of this data will cost `$1.6B`.
 
 ```
 >>> 750TB * 30 * 365 * 20 * 10$/TB -> USD
@@ -167,11 +167,11 @@ To store the entirety of this data will cost $1.6B.
    = 1,642,500,000 USD
 ```
 
-Let's try to store this on AWS on EBS, where storage is $0.08/month.
+Let's try to store this on AWS on EBS, where storage is `$0.08`/GB/month.
 
 One month of storage, storing all of this data:
 
-$1.8M/month.
+`$1.8M/month`.
 
 ```
 >>> 750TB * 30 * 0.08$/GB/month
@@ -191,7 +191,7 @@ There's 26,648,650 months of storing 750TB per day per month over 20 years:
    = 47,967,570,000,000 USD
 ```
 
-so this would cost about $48T. That's a lot more than $1.6B.
+so this would cost about `$48T`. That's a lot more than `$1.6B`.
 
 ## Calculating Bandwidth
 

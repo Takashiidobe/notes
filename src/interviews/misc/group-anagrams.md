@@ -32,3 +32,17 @@ class Solution:
 
         return list(dt.values())
 ```
+
+```rust
+pub fn group_anagrams(strs: Vec<String>) -> Vec<Vec<String>> {
+    let mut h = HashMap::new();
+
+    for s in strs {
+        let mut key: Vec<char> = s.chars().collect();
+        key.sort();
+        h.entry(key).or_insert(vec![]).push(s);
+    }
+
+    h.values().cloned().collect()
+}
+```
