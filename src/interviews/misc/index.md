@@ -10,5 +10,6 @@ title: "Misc"
 - [Index](index.md)
 - [Lfu Cache](lfu-cache.md)
 - [Minimum Number of Arrows to Burst Balloons](minimum-number-of-arrows-to-burst-balloons.md)
+- [Print Binary Tree](print-binary-tree.md)
 - [Top K Frequent Elements](top-k-frequent-elements.md)
 - [Valid Sudoku](valid-sudoku.md)

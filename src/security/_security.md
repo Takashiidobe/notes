@@ -6,3 +6,4 @@ title: Security
 
 - [constant-time-comparison](constant-time-comparison.md)
 - [fail2ban](fail2ban.md)
+- [CVEs](./cves/index.md)
