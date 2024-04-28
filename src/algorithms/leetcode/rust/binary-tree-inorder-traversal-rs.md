@@ -2,8 +2,6 @@
 title: binary-tree-inorder-traversal-rs
 ---
 
-Tree Inorder Traversal Rs
-
 # Binary Tree Inorder Traversal
 
 ```rs

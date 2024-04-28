@@ -4,5 +4,5 @@ title: Leetcode
 
 # Leetcode
 
-- [\_explanations](explanations/_explanations.md)
-- [\_leetcode-rust](rust/_leetcode-rust.md)
+- [explanations](explanations/_explanations.md)
+- [leetcode-rust](rust/_leetcode-rust.md)

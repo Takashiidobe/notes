@@ -1,0 +1,20 @@
+Lesson 1 Welcome and Overview
+Lesson 2: Representing Programs
+Lesson 2: Introduction To Bril
+Lesson 3: Local Optimization & Dead Code Elimination
+Lesson 3: Local Value Numbering
+Lesson 4: Data Flow
+Lesson 4: Implementation Task
+Lesson 5: Global Analysis & Optimization
+Lesson 5: Static Single Assignment
+Lesson 6: Introduction To Llvm
+Lesson 6: Writing An Llvm Pass
+Lesson 7: Interprocedural Analysis
+Lesson 8: Interprocedural Analysis
+Lesson 9: Alias Analysis
+Lesson 10: Memory Management
+Lesson 11: Dynamic Compilers
+Lesson 11: Tracing Via Speculation
+Lesson 12: Program Synthesis
+Lesson 13: Concurrency & Parallelism
+

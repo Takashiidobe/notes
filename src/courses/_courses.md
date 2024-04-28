@@ -19,3 +19,5 @@ title: "Courses"
 - [Theory of Computation Lecture Notes](theory-of-computation-lecture-notes/_theory-of-computation-lecture-notes.md)
 - [Lectures notes on game theory](lectures-notes-on-game-theory/_lectures-notes-on-game-theory.md)
 - [Great Ideas in Theoretical Computer Science](great-ideas-in-theoretical-computer-science/_great-ideas-in-theoretical-computer-science.md)
+- [Mit Distributed Systems 6.824](mit-distributed-systems-6824/_mit-distributed-systems-6824.md)
+- [CS 6120: Advanced Compilers](cs-6120-advanced-compilers/_cs-6120-advanced-compilers.md)
