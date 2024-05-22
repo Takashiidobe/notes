@@ -4,5 +4,6 @@ title: "Math"
 
 # Math
 
-- [Principal Components Analysis](./pca.md)
-- [MathJax Cheatsheet](./mathjax.md)
+- [Combinatorics a Problem Based Approach](combinatorics-a-problem-based-approach.md)
+- [Mathjax](mathjax.md)
+- [Pca](pca.md)

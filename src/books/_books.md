@@ -86,3 +86,4 @@ title: Books
 - [Computer Networking: A Top Down Approach](nan.md)
 - [Introduction to Probability](nan.md)
 - [Database Design and Implementation](nan.md)
+- [The Anatomy of a High Performance Microprocessor](nan.md)
