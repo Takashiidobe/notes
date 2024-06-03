@@ -87,3 +87,4 @@ title: Books
 - [Introduction to Probability](nan.md)
 - [Database Design and Implementation](nan.md)
 - [The Anatomy of a High Performance Microprocessor](nan.md)
+- [Understanding Software Dynamics](nan.md)

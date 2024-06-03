@@ -1,0 +1,37 @@
+---
+title: "Understanding Software Dynamics"
+---
+
+# Understanding Software Dynamics
+
+1. [measurement](measurement.md)
+2. [my-program-is-too-slow](my-program-is-too-slow.md)
+3. [measuring-cpus](measuring-cpus.md)
+4. [measuring-memory](measuring-memory.md)
+5. [cpu-and-memory-interaction](cpu-and-memory-interaction.md)
+6. [measuring-diskssd](measuring-diskssd.md)
+7. [measuring-networks](measuring-networks.md)
+8. [disk-and-network-database-interaction](disk-and-network-database-interaction.md)
+9. [logging](logging.md)
+10. [aggregate-measures](aggregate-measures.md)
+11. [dashboards](dashboards.md)
+12. [other-existing-tools](other-existing-tools.md)
+13. [traces](traces.md)
+14. [observation-tool-design-principles](observation-tool-design-principles.md)
+15. [kutrace-goals-design-implementation](kutrace-goals-design-implementation.md)
+16. [kutrace-linux-kernel-patches](kutrace-linux-kernel-patches.md)
+17. [kutrace-linux-loadable-module](kutrace-linux-loadable-module.md)
+18. [kutrace-user-mode-runtime-control](kutrace-user-mode-runtime-control.md)
+19. [kutrace-postprocessing](kutrace-postprocessing.md)
+20. [kutrace-display-of-software-dynamics](kutrace-display-of-software-dynamics.md)
+21. [what-to-look-for](what-to-look-for.md)
+22. [executing-too-much](executing-too-much.md)
+23. [executing-slowly](executing-slowly.md)
+24. [waiting-for-cpu](waiting-for-cpu.md)
+25. [waiting-for-memory](waiting-for-memory.md)
+26. [waiting-for-disk](waiting-for-disk.md)
+27. [waiting-for-network](waiting-for-network.md)
+28. [waiting-for-locks](waiting-for-locks.md)
+29. [waiting-for-time](waiting-for-time.md)
+30. [waiting-for-queues](waiting-for-queues.md)
+31. [recap](recap.md)

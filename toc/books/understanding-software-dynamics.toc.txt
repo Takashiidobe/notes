@@ -1,0 +1,31 @@
+Measurement
+My Program Is Too Slow
+Measuring CPUs
+Measuring Memory
+CPU and Memory Interaction
+Measuring Disk/SSD
+Measuring Networks
+Disk and Network Database Interaction
+Logging
+Aggregate Measures
+Dashboards
+Other Existing Tools
+Traces
+Observation Tool Design Principles
+KUtrace: Goals, Design, Implementation
+KUtrace: Linux Kernel Patches
+KUtrace: Linux Loadable Module
+KUtrace: User-Mode Runtime Control
+KUtrace: Postprocessing
+KUtrace: Display of Software Dynamics
+What to Look For
+Executing Too Much
+Executing Slowly
+Waiting for CPU
+Waiting for Memory
+Waiting for Disk
+Waiting for Network
+Waiting for Locks
+Waiting for Time
+Waiting for Queues
+Recap
