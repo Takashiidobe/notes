@@ -79,3 +79,4 @@ title: "Recipes"
 - [Copycat Chipotle Black Beans](./copycat-chipotle-black-beans.md)
 - [Chipotle Steak Copycat](./chipotle-steak-copycat.md)
 - [Chipotle Chicken Copycat](./chipotle-chicken-copycat.md)
+- [Chipotle Recipes](./chipotle-recipes.md)

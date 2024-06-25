@@ -88,4 +88,4 @@ title: Books
 - [Database Design and Implementation](nan.md)
 - [The Anatomy of a High Performance Microprocessor](nan.md)
 - [Understanding Software Dynamics](nan.md)
-- [Postgres Internals](postgres-internals/_postgres-internals.md)
+- [Postgres Internals](nan.md)
