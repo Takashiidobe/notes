@@ -10,6 +10,7 @@ title: "Notes"
 - [books](books/_books.md)
 - [business](business/_business.md)
 - [compilers](compilers/_compilers.md)
+- [cryptography](cryptography/_cryptography.md)
 - [computer-architecture](computer-architecture/_computer-architecture.md)
 - [courses](courses/_courses.md)
 - [data-structures](data-structures/_data-structures.md)
