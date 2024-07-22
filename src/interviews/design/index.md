@@ -10,6 +10,7 @@ title: "Design"
 - [Bank Service](bank-service.md)
 - [Bare Metal Hardware](bare-metal-hardware.md)
 - [Chat Service](chat-service.md)
+- [Clock Speeds](clock-speeds.md)
 - [Concurrent Median](concurrent-median.md)
 - [Cpp Trivia](cpp-trivia.md)
 - [Dependency Manager](dependency-manager.md)
