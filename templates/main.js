@@ -22,16 +22,10 @@ function appendCss(link, filepath) {
   }
 }
 
-var tufteStyles = document.querySelector('#tufte-styles');
-var tufteExtraStyles = document.querySelector('#tufte-extra-styles');
-var pandocStyles = document.querySelector('#pandoc-styles');
-var pandocSolarizedStyles = document.querySelector('#pandoc-solarized-styles');
+var newStyles = document.querySelector('#new-styles');
 var pagefindStyles = document.querySelector('#pagefind-styles');
 
-appendCss(tufteStyles, "/home/takashi/monorepo/notes/site/tufte.css", "/tufte.css");
-appendCss(tufteExtraStyles, "/home/takashi/monorepo/notes/site/tufte-extra.css", "/tufte-extra.css");
-appendCss(pandocStyles, "/home/takashi/monorepo/notes/site/pandoc.css", "/pandoc.css");
-appendCss(pandocSolarizedStyles, "/home/takashi/monorepo/notes/site/pandoc-solarized.css", "/pandoc-solarized.css");
+appendCss(newStyles, "/home/takashi/monorepo/notes/site/new.css", "/new.css");
 appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/pagefind/pagefind-ui.css", "/pagefind/pagefind-ui.css");
 
 var possibleLinks = Array.from(document.querySelectorAll('p > a')) || []
