@@ -4,7 +4,6 @@ title: Tools
 
 # Tools
 
-- [comby](comby/_comby.md)
 - [caddy](caddy/_caddy.md)
 - [git](git/_git.md)
 - [homebrew](homebrew/_homebrew.md)

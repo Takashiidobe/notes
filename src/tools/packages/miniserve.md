@@ -13,7 +13,32 @@ http.
 brew install miniserve
 ```
 
-## Running
+```sh
+cargo binstall miniserve
+```
 
-`miniserve ${directory}` will serve that directory at
-`http://localhost:8080`
+## Usage
+
+Serve a directory:
+
+```sh
+$ miniserve path/to/directory
+```
+
+Serving `$PWD` on the current port with an index file.
+
+```sh
+$ miniserve . --port=3000 --index index.html
+```
+
+Serve a single file:
+
+```sh
+$ miniserve path/to/file
+```
+
+Serve a directory using HTTP basic authentication:
+
+```sh
+$ miniserve --auth username:password path/to/directory
+```
