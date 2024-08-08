@@ -16,6 +16,7 @@ title: "Postgres"
 - [Formatting Timestamps](formatting-timestamps.md)
 - [Gin Index](gin-index.md)
 - [Hash Index](hash-index.md)
+- [Locking Select](locking-select.md)
 - [Make Indexes Invisible](make-indexes-invisible.md)
 - [Partial Indexes](partial-indexes.md)
 - [Row Level Security](row-level-security.md)

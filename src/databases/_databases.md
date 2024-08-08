@@ -4,5 +4,5 @@ title: Databases
 
 # Databases
 
-- [\_postgres](postgres/\_postgres.md)
-- [\_sql](sql/\_sql.md)
+- [postgres](postgres/_postgres.md)
+- [sql](sql/_sql.md)
