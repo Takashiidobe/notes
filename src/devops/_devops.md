@@ -10,3 +10,4 @@ title: "Devops"
 - [Hardening Linux](hardening-linux.md)
 - [Installing Caddy](installing-caddy.md)
 - [Load Testing With Bombardier](load-testing-with-bombardier.md)
+- [Running a Github Actions Worker](running-a-github-actions-worker.md)
