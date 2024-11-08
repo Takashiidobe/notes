@@ -11,7 +11,7 @@ A membership problem for a dataset is a task to decide whether some
 element belongs to the dataset or not.
 
 For small sets, this is easy. Place into an array, sort, and lookup.
-This costs O(n) space to hold the items and O(log n) comparisons to
+This costs $O(n)$ space to hold the items and $O(\log{} n)$ comparisons to
 find.
 
 In some cases, we only want to know that a match was found. Therefore we
