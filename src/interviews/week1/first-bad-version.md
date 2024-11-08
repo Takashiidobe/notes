@@ -24,7 +24,7 @@ Output: 1
 ## Solution
 
 This is what `git bisect` does: It hunts for the troublesome commit in
-O(log n) time (n being the number of commits).
+$O(\log{} n)$ time (n being the number of commits).
 
 This requires a binary search, where we check if the midpoint and its
 previous commit are (false, true), i.e. the previous version is not bad,
