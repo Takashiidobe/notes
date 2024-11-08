@@ -11,13 +11,14 @@
             "id": "c222e60dd1cb1258",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/Untitled.canvas",
-                "staged": false
+                "file": "books/probabilistic-data-structures-and-algorithms-for-big-data-applications/membership.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (Untitled.canvas)"
+              "icon": "lucide-file",
+              "title": "membership"
             }
           }
         ]
@@ -51,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"O(log\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,9 +176,18 @@
   },
   "active": "c222e60dd1cb1258",
   "lastOpenFiles": [
+    "books/high-performance-mysql/indexing-for-high-performance.md",
+    "papers/data-structures/dont-thrash-how-to-cache-your-hash-on-flash.md",
+    "interviews/week1/first-bad-version.md",
+    "books/the-algorithm-design-manual/divide-and-conquer.md",
+    "books/the-algorithm-design-manual/data-structures.md",
+    "algorithms/binary-search/count-nodes-in-complete-binary-tree.md",
+    "interviews/week1/binary-search.md",
+    "algorithms/cp-algorithms/binary-exponentation.md",
     "data-structures/time-complexity.md",
     "data-structures/singly-linked-lists.md",
     "data-structures/pointers.md",
+    "data-structures/memory.md",
     "data-structures/nodes.md",
     "2024-11-08.md",
     "Untitled.canvas",

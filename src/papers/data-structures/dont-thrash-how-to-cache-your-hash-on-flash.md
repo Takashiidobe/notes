@@ -62,10 +62,10 @@ There are three additional bits in each slot:
 
 A Quotient Filter may store one filter in RAM, and two layers in flash:
 
-| 0 | E | G | Q | R | T | W |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | B | I | K | N | S | U |   |   |   |   |   |   |
-| 2 | A | C | D | F | H | J | L | M | O | P | V | X |
+| 0   | E   | G   | Q   | R   | T   | W   |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1   | B   | I   | K   | N   | S   | U   |     |     |     |     |     |     |
+| 2   | A   | C   | D   | F   | H   | J   | L   | M   | O   | P   | V   | X   |
 
 This can then be merged in a few I/O operations: (The merge is fast
 because all three lists are guaranteed to be sorted by linear probing,
@@ -81,7 +81,7 @@ A false positive occurs when two elements map to the same fingerprint.
 
 The space usage is roughly the same as a bloom filter (1.2x a BF).
 
-As well, reads only require O(log(n/M)) block reads, and an insert only
+As well, reads only require $O(log(n/M))$ block reads, and an insert only
 requires O((log(n/M))/B) amortized block reads.
 
 ## Evaluation
