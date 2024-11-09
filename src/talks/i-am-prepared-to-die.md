@@ -2,7 +2,6 @@
 title: "I am Prepared to Die"
 author: "Nelson Mandela"
 ---
-
  My Lord, I am the First Accused.
 
 I hold a Bachelor's Degree in Arts and practised as an attorney in Johannesburg for a number of years in partnership with Mr. Oliver Tambo, a co-conspirator in this case. I am a convicted prisoner serving five years for leaving the country without a permit and for inciting people to go on strike at the end of May 1961.

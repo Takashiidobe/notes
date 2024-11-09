@@ -4,8 +4,7 @@ title: uzbek-plov
 
 Plov
 
-![Uzbek
-plov](https://user-images.immediate.co.uk/bbcgoodfood/recipes/user-recipe/ready_4.jpg)
+![Uzbek plov](https://user-images.immediate.co.uk/bbcgoodfood/recipes/user-recipe/ready_4.jpg)
 
 # Uzbek plov
 

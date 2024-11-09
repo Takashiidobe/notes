@@ -2,7 +2,6 @@
 title: "Enough"
 author: "John Bogle"
 ---
-
 # Enough
 
 ## Background

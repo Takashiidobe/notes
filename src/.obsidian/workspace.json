@@ -11,10 +11,14 @@
             "id": "95a77f185dfed108",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "talks/on-the-death-of-martin-luther-king.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "on-the-death-of-martin-luther-king"
             }
           }
         ]
@@ -156,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,34 +175,34 @@
   },
   "active": "95a77f185dfed108",
   "lastOpenFiles": [
-    "music/radiohead/ok-computer.md",
-    "music/miles-davis/kind-of-blue.md",
-    "music/radiohead.md",
-    "music/miles-davis.md",
+    "talks/reshma-saujani-smith-college-commencement-speech.md",
+    "talks/on-the-death-of-martin-luther-king.md",
+    "talks/obama-at-the-democratic-national-convention.md",
+    "talks/1999-mount-holyoke-commencement-speech.md",
+    "talks/_talks.md",
+    "talks/cross-of-iron.md",
+    "talks/atoms-for-peace.md",
+    "talks/gettysburg-address.md",
+    "talks/enough.md",
+    "talks/george-washingtons-resignation.md",
+    "talks/i-am-prepared-to-die.md",
+    "talks/inventing-on-principle.md",
+    "talks/learning-to-learn.md",
+    "talks/make-your-bed.md",
+    "system-design/design-netflix.md",
+    "system-design/design-a-voting-system.md",
+    "system-design/design-a-movie-ticketing-system.md",
+    "recipes/README.md",
+    "recipes/recipes/vegetarian-pad-see-ew.md",
+    "recipes/recipes/vegan-hawaiian-tofu-and-pineapple-sandwich.md",
+    "recipes/recipes/uzbek-plov.md",
+    "recipes/recipes/the-classic-kimchi-jjigae.md",
+    "recipes/recipes/sheet-pan-bibimbap.md",
+    "recipes/recipes/slow-roast-leg-of-lamb.md",
+    "recipes/recipes/spicy-pan-fried-chickpeas-with-beef.md",
+    "recipes/recipes/the-perfect-rice-recipe-spanish-paella.md",
     "music/radiohead",
     "music/miles-davis",
-    "music/the-national.md",
-    "operating-systems/virtualization.md",
-    "operating-systems/_operating-systems.md",
-    "papers/networking/a-protocol-for-packet-network-intercommunication.md",
-    "papers/_papers.md",
-    "programming-languages/c/tuples-in-c.md",
-    "programming-languages/c/polymorphism-in-c.md",
-    "programming-languages/c/-the-c-programming-language.md",
-    "quotes/_quotes.md",
-    "real-world-systems/lambda.md",
-    "real-world-systems/aurora.md",
-    "frontend/_frontend.md",
-    "frontend/analyze-webpack-bundle-size.md",
-    "information-theory/_information-theory.md",
-    "papers/distributed-systems/the-akamai-network.md",
-    "tools/packages/sdcv.md",
-    "tools/packages/sc-im.md",
-    "tools/packages/pdf-tocgen.md",
-    "tools/packages/id3tool.md",
-    "tools/packages/aerc.md",
-    "tools/packages/_packages.md",
-    "tools/packages/_comby.md",
     "interviews/design/images/tcp-three-way-handshake.png",
     "interviews/design/images/tfo-cookie-generation.png",
     "interviews/design/images/using-tfo-cookie.png",

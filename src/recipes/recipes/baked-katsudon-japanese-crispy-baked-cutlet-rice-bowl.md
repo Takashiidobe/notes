@@ -2,10 +2,7 @@
 title: baked-katsudon-japanese-crispy-baked-cutlet-rice-bowl
 ---
 
-Katsudon Japanese Crispy Baked Cutlet Rice Bowl
-
-![Baked Katsudon (Japanese Crispy Baked Cutlet Rice
-Bowl)](https://www.justonecookbook.com/wp-content/uploads/2020/05/Baked-Katsudon-9603-I.jpg)
+![Baked Katsudon: Japanese Crispy Baked Cutlet Rice Bowl](https://www.justonecookbook.com/wp-content/uploads/2020/05/Baked-Katsudon-9603-I.jpg)
 
 # Baked Katsudon (Japanese Crispy Baked Cutlet Rice Bowl)
 

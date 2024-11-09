@@ -2,7 +2,6 @@
 title: "Obama at the Democratic National Convention"
 author: "Barack Obama"
 ---
-
 Crossroads of a nation, land of Lincoln, let me express my deep gratitude for the privilege of addressing this convention. Tonight is a particular honor for me because, let's face it, my presence on this stage is pretty unlikely.
 
 My father was a foreign student, born and raised in a small village in Kenya. He grew up herding goats, went to school in a tin- roof shack. His father, my grandfather, was a cook, a domestic servant to the British.
