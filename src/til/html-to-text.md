@@ -1,8 +1,8 @@
 ---
-title: html-to-text
+title: HTML to Text
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:30:57 pm
 ---
-
--to-text
 
 # HTML to Text
 

@@ -1,3 +1,8 @@
+---
+title: How TLS Works
+date created: Saturday, August 3rd 2024, 6:46:50 pm
+date modified: Saturday, November 9th 2024, 7:20:46 am
+---
 # How TLS Works
 
 TLS encrypts traffic on the internet, so sensitive messages can't be

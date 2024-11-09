@@ -1,8 +1,8 @@
 ---
 title: min-stack-in-c
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, November 9th 2024, 7:19:43 am
 ---
-
-Stack in C\"
 
 ```c
 #include <stdio.h>

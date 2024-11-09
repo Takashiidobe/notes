@@ -1,6 +1,8 @@
 ---
-title: "You and Your Research"
+title: you-and-your-research
 author: "Richard Hamming"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:28:22 pm
 ---
 
 It’s a pleasure to be here. The title of my talk is, “You and Your Research.” It is not about managing research, it is about how you individually do your research. I could give a talk on the other subject – but it’s not, it’s about you. I’m not talking about ordinary run-of-the-mill research; I’m talking about great research. And for the sake of describing great research I’ll occasionally say Nobel-Prize type of work. It doesn’t have to gain the Nobel Prize, but I mean those kinds of things which we perceive are significant things. Relativity, if you want, Shannon’s information theory, any number of outstanding theories – that’s the kind of thing I’m talking about.

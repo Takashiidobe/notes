@@ -1,4 +1,9 @@
-# How Logic Gates make Computers
+---
+title: How Logic Gates Make Computers
+date created: Saturday, August 3rd 2024, 7:29:52 pm
+date modified: Saturday, November 9th 2024, 7:20:57 am
+---
+# How Logic Gates Make Computers
 
 Sources:  <https://www.youtube.com/watch?v=QZwneRb-zqA>
 <https://www.youtube.com/watch?v=I0-izyq6q5s>

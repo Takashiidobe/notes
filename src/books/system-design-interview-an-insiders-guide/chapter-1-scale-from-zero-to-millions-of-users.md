@@ -1,10 +1,12 @@
 ---
-title: system-design-interview-an-insiders-guide-chapter-1
+title: Scale from Zero to Millions of Users
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:28:04 pm
 ---
 
 Next: [chapter-2-back-of-the-envelope-estimation](chapter-2-back-of-the-envelope-estimation.md)
 
-# Scale from zero to millions of users
+# Scale from Zero to Millions of Users
 
 ## Single Server Setup
 
@@ -35,7 +37,7 @@ Non-Relational Databases (NoSQL) are grouped into four categories:
 - Column
 - Document
 
-## Vertical Scaling vs Horizontal Scaling
+## Vertical Scaling Vs Horizontal Scaling
 
 Vertical Scaling means adding more power to your servers. Horizontal
 Scaling means adding more servers to your pool of servers.
@@ -72,7 +74,7 @@ partitioning](./assets/chapter_1/master-slave-partitioning.png)
 Advantages:
 
 - Better Performance: More queries are processed in parallel.
-- Reliablity: data is still preserved even if a server goes down since
+- Reliability: data is still preserved even if a server goes down since
   you have 4 copies of the same data
 - High availability: your site is up as long as one database instance
   is up, and if master goes down, one of the slaves will replace it.
@@ -108,7 +110,7 @@ the TTL has not expired.
 
 ![Current Setup](./assets/chapter_1/cdn-lb-db-cache-arch.png)
 
-## Stateful vs Stateless Architecture
+## Stateful Vs Stateless Architecture
 
 ![Stateful](./assets/chapter_1/stateful-arch.png)
 
@@ -149,7 +151,7 @@ task, then notifies consumers who are subscribed.
 
 ![Message Queue](./assets/chapter_1/message-queue.png)
 
-## Loggin, metrics, automation
+## Logging, Metrics, Automation
 
 When working with a large system, you must have logging and metrics.
 
@@ -157,8 +159,7 @@ When working with a large system, you must have logging and metrics.
 - Metrics help you understand the performance of the system and the
   business.
 
-![Current
-Architecture](./assets/chapter_1/total-arch-with-message-queues.png)
+![Current Architecture](./assets/chapter_1/total-arch-with-message-queues.png)
 
 ## Database Scaling
 
@@ -171,7 +172,7 @@ Pros:
 
 Cons:
 
-- $$$
+- \$\$\$
 
 ### Horizontal Scaling
 

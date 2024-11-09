@@ -1,11 +1,12 @@
 ---
-title: chicken-gyros
+title: Chicken Gyros
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:28:29 pm
 ---
 
 Gyros
 
-![Chicken
-Gyros](https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Gyros_exps23685_BOS3149327B02_08_4bC_RMS.jpg)
+![Chicken Gyros](https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Gyros_exps23685_BOS3149327B02_08_4bC_RMS.jpg)
 
 # Chicken Gyros
 

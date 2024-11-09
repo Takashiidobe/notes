@@ -1,12 +1,13 @@
 ---
-title: the-art-of-doing-science-and-engineering
+title: The-art-of-doing-science-and-engineering
 author: "Richard Hamming"
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Friday, November 8th 2024, 10:20:17 pm
+date modified: Friday, November 8th 2024, 10:28:26 pm
 ---
-## The-art-of-doing-science-and-engineering
 
-### Transcript
+# The-art-of-doing-science-and-engineering
+
+## Transcript
 
 The first lecture is on orientation. What am I trying to do? The purpose of this course is to prepare you for your technical future. There really isn't this course any technical content, although I'm going to talk about digital fillers and all kinds of things. There are things you presumably know. I am concerned about style.
 

@@ -1,5 +1,7 @@
 ---
-title: "AES"
+title: History
+date created: Tuesday, June 25th 2024, 4:30:02 pm
+date modified: Saturday, November 9th 2024, 7:20:44 am
 ---
 
 AES stands for the "Advanced Encryption Standard", which was established
@@ -9,33 +11,33 @@ The underlying algorithm is Rijndael, a block cipher used for
 symmetric-key encryption, with 3 different key lengths, 128, 192, 256
 bits and with block sizes of 128 bits.
 
-## History
+# History
 
 AES obsoletes the previous standard from 1977, DES. DES was deemed
 insecure -- it supported key sizes of 56 bits and had to be run three
 times to be considered secure, which is called 3DES (Triple-DES). This
 is computationally very slow, so AES improves upon this.
 
-## Desiderata
+# Desiderata
 
 An encryption algorithm should aim to make the plaintext as different
 from its generated ciphertext as possible. Claude Shannon codified these
 in two terms, `Confusion` and `Diffusion`.
 
-### Confusion
+## Confusion
 
 Confusion means that each output bit of the ciphertext should ideally
 depend on several parts of the key, making it hard to figure out the
 connection between the pair.
 
-### Diffusion
+## Diffusion
 
 Diffusion means that changing any part of the plaintext should change
 half of the ciphertext, and vice-versa. This diffuses the changes
 between the bits, making it hard to see the relation between the bits
 on the input and output.
 
-## Overview
+# Overview
 
 AES does the following steps:
 
@@ -88,9 +90,9 @@ fn aes_encrypt(block: &[u8; AES_BLOCK_SIZE], key: &[u8]) ->
 }
 ```
 
-## Steps
+# Steps
 
-### SubBytes
+## SubBytes
 
 The SubBytes step maps a byte to another byte, using a 256-bit lookup
 table. The lookup table is public knowledge and can be used as is, but
@@ -152,7 +154,7 @@ for c in 0..16 {
 }
 ```
 
-### ShiftRows
+## ShiftRows
 
 ShiftRows is a simple left rotation on all bytes in the state by column.
 
@@ -164,7 +166,7 @@ pub fn shift_rows(state: &mut [[u8; 4]; 4]) {
 }
 ```
 
-### MixColumns
+## MixColumns
 
 MixColumns XORs each column of the state where each column is
 transformed using a fixed matrix in a Galois Field.
@@ -250,7 +252,7 @@ fn mix_columns(word: [u8; 4]) -> [u8; 4] {
 }
 ```
 
-### AddRoundKey
+## AddRoundKey
 
 The AddRoundKey XORs each byte of the state with its current round key.
 

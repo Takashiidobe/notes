@@ -1,5 +1,7 @@
 ---
-title: "Notes"
+title: Notes
+date created: Saturday, August 3rd 2024, 6:47:12 pm
+date modified: Saturday, November 9th 2024, 7:22:02 am
 ---
 
 # Notes
