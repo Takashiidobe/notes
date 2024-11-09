@@ -1,9 +1,6 @@
 ---
 title: polymorphism-in-c
 ---
-
-In C
-
 # Polymorphism in C
 
 Here\'s a fun little one. Implementing some object oriented features in

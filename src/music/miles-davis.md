@@ -1,3 +1,3 @@
 ## Albums
 
-- [Kind of Blue](./kind-of-blue.md)
+- [Kind of Blue](./miles-davis/kind-of-blue.md)

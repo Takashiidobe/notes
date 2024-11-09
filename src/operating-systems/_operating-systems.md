@@ -1,7 +1,6 @@
 ---
 title: "Operating-Systems"
 ---
-
 # Operating-Systems
 
 - [Virtualization](virtualization.md)
