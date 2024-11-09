@@ -1,5 +1,7 @@
 ---
-title: sync-with-android
+title: Sync With Android
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:24:25 pm
 ---
 
 # Sync With Android

@@ -1,6 +1,8 @@
 ---
-title: "George Washington's Resignation Speech"
+title: george-washingtons-resignation
 author: "George Washington"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:23:02 pm
 ---
 
 The great events on which my resignation depended having at length taken place; I have now the honor of offering my sincere Congratulations to Congress and of presenting myself before them to surrender into their hands the trust committed to me, and to claim the indulgence of retiring from the Service of my Country.

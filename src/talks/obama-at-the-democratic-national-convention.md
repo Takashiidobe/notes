@@ -1,10 +1,11 @@
 ---
-title: obama-at-the-democratic-national-convention
+title: Obama-at-the-democratic-national-convention
 author: "Barack Obama"
 date created: Monday, June 12th 2023, 9:33:18 pm
-date modified: Friday, November 8th 2024, 10:10:11 pm
+date modified: Friday, November 8th 2024, 10:23:08 pm
 ---
-## Obama-at-the-democratic-national-convention
+
+# Obama-at-the-democratic-national-convention
 
 Crossroads of a nation, land of Lincoln, let me express my deep gratitude for the privilege of addressing this convention. Tonight is a particular honor for me because, let's face it, my presence on this stage is pretty unlikely.
 

@@ -1,8 +1,10 @@
 ---
-title: "Rsync to remote server"
+title: Rsync to Remote Server
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:24:45 pm
 ---
 
-# Rsync to remote server
+# Rsync to Remote Server
 
 You may want to sync a remote with a your local computer. This happens a
 lot when working on a VM.

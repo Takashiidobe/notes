@@ -1,5 +1,7 @@
 ---
-title: smart-pointers-in-rust
+title: Smart Pointers in Rust
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:24:38 pm
 ---
 
 # Smart Pointers in Rust
@@ -37,7 +39,7 @@ reference count.
 It is automatically dropped at the end of its scope, or you can
 explicitly drop it.
 
-```rs
+```rust
 enum List {
     Cons(i32, Rc<List>),
     Nil,
@@ -70,7 +72,7 @@ value inside a `Refcell<T>` even if it is labeled as immutable.
 
 You can use Refcell with Rc to have multiple owners of data.
 
-```rs
+```rust
 #[derive(Debug)]
 enum List {
     Cons(Rc<RefCell<i32>>, Rc<List>),

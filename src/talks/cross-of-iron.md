@@ -1,9 +1,11 @@
 ---
-title: "Cross of Iron"
+title: Transcript
 author: "Dwight Eisenhower"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:27 pm
 ---
 
-## Transcript
+# Transcript
 
 President Bryan, distinguished guests of this Association, and ladies and gentlemen:
 

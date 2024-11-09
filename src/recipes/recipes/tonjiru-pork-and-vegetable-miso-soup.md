@@ -1,8 +1,10 @@
 ---
 title: Tonjiru (Pork and Vegetable Miso Soup)
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:25:10 pm
 ---
 
-![Tonjiru (Pork and Vegetable Miso Soup)](https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2017/03/Tonjiru_0806.jpg)
+![Tonjiru Pork and Vegetable Miso Soup](https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2017/03/Tonjiru_0806.jpg)
 
 # Tonjiru (Pork and Vegetable Miso Soup)
 

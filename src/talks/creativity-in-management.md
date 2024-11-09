@@ -1,13 +1,15 @@
 ---
-title: "Creativity in Management"
+title: creativity-in-management
 author: "John Cleese"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:30 pm
 ---
 
 You know, when Video Arts asked me if I’d like to talk about creativity I said “no problem!” No problem! Because telling people how to be creative is easy, it’s only being it that’s difficult.
 
 I knew it would be particularly easy for me because I’ve spent the last 25 years watching how various creative people produce their stuff, and being fascinating to see if I could figure out what makes folk, including me, more creative.
 
-What is more, a couple of years ago I got very excited because a friend of mine who runs the psychology department at Sussex University, Brian Bates, showed me some research on creativity done at Berkley in the 70s by a brilliant psychologist called Donald MacKinnon which seemed to confirm in the most impressively scientific way all the vague observations and intuitions that I’d had over the years.
+What is more, a couple of years ago I got very excited because a friend of mine who runs the psychology department at Sussex University, Brian Bates, showed me some research on creativity done at Berkeley in the 70s by a brilliant psychologist called Donald MacKinnon which seemed to confirm in the most impressively scientific way all the vague observations and intuitions that I’d had over the years.
 
 The prospect of settling down for quite serious study of creativity for the purpose of tonight’s gossip was delightful. Having spent several weeks on it, I can state categorically that what I have to tell you tonight about how you can all become more creative is a complete waste of time.
 

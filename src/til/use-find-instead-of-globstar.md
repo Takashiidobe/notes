@@ -1,5 +1,7 @@
 ---
-title: use-find-instead-of-globstar
+title: Use Find instead of Globstar
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:24:21 pm
 ---
 
 Find instead of Globstar

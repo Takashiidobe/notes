@@ -1,9 +1,11 @@
 ---
-title: "Atoms for Peace"
+title: Transcript
 author: "Dwight Eisenhower"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:47 pm
 ---
 
-## Transcript
+# Transcript
 
 Madam President, Members of the General Assembly:
 

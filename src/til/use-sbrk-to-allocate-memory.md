@@ -1,8 +1,10 @@
 ---
-title: use-sbrk-to-allocate-memory
+title: Use Sbrk to Adjust the Program Break
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:24:23 pm
 ---
 
-## Use sbrk to adjust the program break
+# Use Sbrk to Adjust the Program Break
 
 Note: sbrk and brk are used to allocate memory.
 
@@ -46,7 +48,7 @@ int main(void) {
 }
 ```
 
-## Use brk to set the program break
+# Use Brk to Set the Program Break
 
 Here\'s a possible implementation of brk.
 
@@ -69,7 +71,7 @@ int main(void) {
 }
 ```
 
-## Caveats
+# Caveats
 
 Since a lot of libc functions end up using `sbrk` and `brk` under the
 hood, be careful with adjusting the heap with `sbrk` and `brk`. It

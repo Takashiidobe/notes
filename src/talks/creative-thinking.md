@@ -1,6 +1,8 @@
 ---
-title: "Creative Thinking"
+title: creative-thinking
 author: "Claude Shannon"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:31 pm
 ---
 
 A very small percentage of the population produces the greatest proportion of the important ideas. This is akin to an idea presented by an English mathematician, Turing, that the human brain is something like a piece of uranium. The human brain, if it is below the critical lap and you shoot one neutron into it, additional more would be produced by impact. It leads to an extremely explosive of the issue, increase the size of the uranium. Turing says this is something like ideas in the human brain. There are some people if you shoot one idea into the brain, you will get a half an idea out. There are other people who are beyond this point at which they produce two ideas for each idea sent in. those are the people beyond the knee of the curve. I don’t want to sound egotistical here, I don’t think that I am beyond the knee of this curve and I don’t know anyone who is. I do know some people that were. I think, for example, that anyone will agree that Isaac Newton would be well on the top of this curve. When you think that at the age of 25 he had produced enough science, physics and mathematics to make 10 or 20 men famous – he produced binomial theorem, differential and integral calculus, laws of gravitation, laws of motion, decomposition of white light, and so on. Now what is it that shoots one up to this part of the curve? What are the basic requirements? I think we could set down three things that are fairly necessary for scientific research or for any sort of inventing or mathematics or physics or anything along that line. I don’t think a person can get along without any one of these three.

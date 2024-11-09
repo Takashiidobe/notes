@@ -1,6 +1,8 @@
 ---
-title: "1999 Mount Holyoke Commencement Speech"
+title: 1999-mount-holyoke-commencement-speech
 author: "Anna Quindlen"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:38 pm
 ---
 
 I look at all of you today and I cannot help but see myself twenty-five years ago, at my own Barnard commencement. I sometimes seem, in my mind, to have as much in common with that girl as I do with any stranger I might pass in the doorway of a Starbucks or in the aisle of an airplane. I cannot remember what she wore or how she felt that day. But I can tell you this about her without question: she was perfect.

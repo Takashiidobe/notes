@@ -1,5 +1,7 @@
 ---
-title: "Reshma Saujani's Commencement Speech at Smith College"
+title: reshma-saujani-smith-college-commencement-speech
+date created: Monday, June 12th 2023, 9:33:09 pm
+date modified: Friday, November 8th 2024, 10:23:15 pm
 ---
 
 people ask me all the time reshma how do I overcome imposter syndrome

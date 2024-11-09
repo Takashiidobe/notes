@@ -1,6 +1,8 @@
 ---
-title: "The Third Philippic"
+title: The Third Philippic
 author: "Demosthenes"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:23:17 pm
 ---
 
 # The Third Philippic

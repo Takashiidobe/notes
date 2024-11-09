@@ -1,6 +1,8 @@
 ---
-title: "A Lesson on elementary, Worldly Wisdom"
+title: Background
 author: "Charlie Munger"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:45 pm
 ---
 
 # Background

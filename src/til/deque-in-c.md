@@ -1,6 +1,9 @@
 ---
 title: deque-in-c
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:23:33 pm
 ---
+You can make a deque in C like this:
 
 ```c
 #include <stdio.h>

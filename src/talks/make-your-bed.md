@@ -1,12 +1,13 @@
 ---
-title: make-your-bed
+title: Make-your-bed
 author: "William H. McRaven"
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Friday, November 8th 2024, 10:20:20 pm
+date modified: Friday, November 8th 2024, 10:23:07 pm
 ---
-## Make-your-bed
 
-### Transcript
+# Make-your-bed
+
+## Transcript
 
 President Powers, Provost Fenves, Deans, members of the faculty, family and friends and most importantly, the class of 2014. Congratulations on your achievement.
 
