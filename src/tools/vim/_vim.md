@@ -1,9 +1,9 @@
 ---
 title: Vim
 ---
-
 # Vim
 
+- [refer-to-current-file](./refer-to-current-file.md)
 - [add-tab-to-vim](add-tab-to-vim.md)
 - [diffing-with-vim](diffing-with-vim.md)
 - [search-and-replace-with-vim](search-and-replace-with-vim.md)

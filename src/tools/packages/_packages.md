@@ -1,7 +1,6 @@
 ---
 title: "Packages"
 ---
-
 # Packages
 
 - [Aerc](aerc.md)

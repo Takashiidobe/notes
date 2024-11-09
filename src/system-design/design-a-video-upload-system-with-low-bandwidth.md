@@ -1,17 +1,8 @@
 ---
 title: design-a-video-upload-system-with-low-bandwidth
 ---
-
-A Video Upload System With Low Bandwidth
-
 # Design a Video Upload System with Low Bandwidth
 
-Users have to upload videos which are larger than 1GB. Network Bandwidth
-is too low, and video uploads are dropped often. Design a solution to
-address this issue.
+To handle the upload side of a video service, we can, on the client side, cut up the video into chunks and have the backend confirm that it's gotten each chunk and stitch up the video on its side.
 
-Divide video into small chunks.
-
-Tell backend how many chunks there are, the current chunk number, and
-the hash of the chunk. The user will upload a chunk, and the backend can
-verify that it was not tampered with by looking at the chunk hash.
+There can be hashing + checksums in order to confirm that the upload worked as expected.

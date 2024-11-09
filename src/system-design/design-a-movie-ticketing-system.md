@@ -1,7 +1,6 @@
 ---
 title: design-a-movie-ticketing-system
 ---
-
 # Design a Movie Ticketing System
 
 Let\'s assume that this is an online system; we have many movie theaters

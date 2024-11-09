@@ -1,7 +1,6 @@
 ---
 title: epub-to-html-with-pandoc
 ---
-
 # EPUB to HTML with Pandoc
 
 To turn an epub to HTML with Pandoc, you'll need to extract the html

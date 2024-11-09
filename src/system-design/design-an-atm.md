@@ -1,9 +1,6 @@
 ---
 title: design-an-atm
 ---
-
-An Atm
-
 # Design an ATM
 
 What are some of the core features of an ATM? You can do three main

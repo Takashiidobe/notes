@@ -1,7 +1,6 @@
 ---
 title: "The Slab Allocator"
 ---
-
 ## Introduction
 
 The Slab Allocator is an allocator for SunOS 5.4. The allocator notes

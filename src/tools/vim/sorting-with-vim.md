@@ -1,7 +1,6 @@
 ---
 title: "Sorting with Vim"
 ---
-
 # Sorting with Vim
 
 - You can sort in vim by highlighting text and running `sort`

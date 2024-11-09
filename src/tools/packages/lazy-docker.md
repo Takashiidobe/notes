@@ -1,9 +1,6 @@
 ---
 title: lazy-docker
 ---
-
-Docker
-
 # Lazy Docker
 
 Lazy Docker is a way to issue Docker commands in a terminal GUI.

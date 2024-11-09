@@ -1,9 +1,6 @@
 ---
 title: analyze-webpack-bundle-size
 ---
-
-Webpack Bundle Size
-
 # Analyze Webpack Bundle Size
 
 - Install source-map-explorer with `yarn add source-map-explorer`.

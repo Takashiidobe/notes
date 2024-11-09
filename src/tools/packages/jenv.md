@@ -1,7 +1,6 @@
 ---
 title: jenv
 ---
-
 `Jenv` is a java package manager.
 
 Install it with `brew install jenv`.

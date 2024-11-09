@@ -1,7 +1,6 @@
 ---
 title: "pdf.tocgen"
 ---
-
 [`pdf.tocgen`](https://krasjet.com/voice/pdf.tocgen/) is a set of command-line tools for extracting and generating the table of contents from a PDF file.
 
 It can be installed with pip: `pip install pdf.tocgen`, which installs a set of tools to extract and generate a toc for a pdf that doesn't have one.

@@ -1,7 +1,6 @@
 ---
 title: "Til"
 ---
-
 # Til
 
 - [Deque in C](deque-in-c.md)

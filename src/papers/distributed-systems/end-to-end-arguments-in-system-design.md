@@ -1,7 +1,6 @@
 ---
 title: "End to End Arguments in System Design"
 ---
-
 # End to End Arguments in System Design
 
 The End to End argument states that some functions can only be completely and correctly implemented only at an application level.

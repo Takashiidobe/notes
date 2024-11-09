@@ -1,7 +1,6 @@
 ---
 title: _comby
 ---
-
 # Comby
 
 Comby is a tool for Refactoring codebases in any language:

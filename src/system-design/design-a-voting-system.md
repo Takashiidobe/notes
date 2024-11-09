@@ -1,9 +1,6 @@
 ---
 title: design-a-voting-system
 ---
-
-A Voting System
-
 # Design a Voting System
 
 Design a voting system. 100M users will be logging in within a window of

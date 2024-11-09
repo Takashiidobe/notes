@@ -1,9 +1,6 @@
 ---
 title: search-and-replace-with-vim
 ---
-
-And Replace With Vim
-
 # Search and Replace with Vim
 
 I gave up and looked up how to do it using VIM, I was sure there was a

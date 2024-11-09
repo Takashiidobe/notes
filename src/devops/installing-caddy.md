@@ -1,9 +1,6 @@
 ---
 title: installing-caddy
 ---
-
-Caddy
-
 # Installing Caddy
 
 - Install caddy by going to the github page: -

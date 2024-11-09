@@ -1,9 +1,6 @@
 ---
 title: types-in-system-design
 ---
-
-In System Design
-
 # Types in System Design
 
 You can use types to model what states something can be in.

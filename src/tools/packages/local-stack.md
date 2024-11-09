@@ -1,9 +1,6 @@
 ---
 title: local-stack
 ---
-
-Stack
-
 # LocalStack
 
 LocalStack is a python package that allows you to run a local instance
