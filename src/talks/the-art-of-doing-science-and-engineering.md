@@ -1,9 +1,12 @@
 ---
-title: "The Art of Doing Science and Engineering"
+title: the-art-of-doing-science-and-engineering
 author: "Richard Hamming"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:20:17 pm
 ---
+## The-art-of-doing-science-and-engineering
 
-## Transcript
+### Transcript
 
 The first lecture is on orientation. What am I trying to do? The purpose of this course is to prepare you for your technical future. There really isn't this course any technical content, although I'm going to talk about digital fillers and all kinds of things. There are things you presumably know. I am concerned about style.
 
@@ -15,7 +18,7 @@ Now I will examine, criticize and talk about various people's style. Mainly my o
 
 Now style cannot be put into words. I can only approach you by particular examples and let you infer what it is. Now, there's a belief that you probably have, that anything can be talked about. This goes back to Socrates, Plato, Aristotle and the early Greek times. They thought they could talk about the gods, truth, beauty, justice, love, all those things. At the time they were saying these things, there were the mystery cults in Greece. Who said you must experience, you cannot talk.
 
-And if you remember the Middle Ages, various saints said, you can't talk about God. You got to experience him. The same way the Mohammedans about Allah, you can't portray him, you can't put pictures. You must sense. So there is a long minuscule that says you cannot put everything into words. And one of them is style. I really cannot say what I mean, I can only give you these examples of struggle. Hopefully, you will get the idea.
+And if you remember the Middle Ages, various saints said, you can't talk about God. You got to experience him. The same way the Muslims about Allah, you can't portray him, you can't put pictures. You must sense. So there is a long minuscule that says you cannot put everything into words. And one of them is style. I really cannot say what I mean, I can only give you these examples of struggle. Hopefully, you will get the idea.
 
 Now to be effective at a course like this, I have found that I have to talk about myself. If I make abstract remarks. It just sounds like so many pious words. If I talk about me and what I've done, maybe it will penetrate you. Now it gives a course, attitude of bragging. I'm always talking about myself. But I will tell you several mistakes that I made, so you won't do the same sort of thing.
 

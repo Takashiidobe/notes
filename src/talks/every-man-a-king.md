@@ -1,9 +1,11 @@
 ---
-title: "Every Man a King"
+title: Transcript
 author: "Huey Long"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:21:33 pm
 ---
 
-## Transcript
+# Transcript
 
 Is that a right of life, when the young children of this country are being reared into a sphere which is more owned by 12 men that is by 120 million people?
 

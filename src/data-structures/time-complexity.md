@@ -1,5 +1,7 @@
 ---
 title: Time Complexity of Data Structures
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:22:04 pm
 ---
 
 # Time Complexity of Data Structures
@@ -9,7 +11,7 @@ title: Time Complexity of Data Structures
 | Data Structure         | Access     | Search        | Insertion/begin/end          | Deletion/begin/end           | Concat     | Space  |
 | ---------------------- | ---------- | ------------- | ---------------------------- | ---------------------------- | ---------- | ------ |
 | Array                  | $O(1)$     | $O(n)$        | $O(n)$ / $O(N)$ / $O(1)$     | $O(N)$ / $O(N)$ / $O(1)$     | $O(n)$     | $O(n)$ |
-| Catenable Sorted Lists | $O(log N)$ | $O(log \{N})$ | $O(log N)$ / $O(1)$ / $O(1)$ | $O(log N)$ / $O(1)$ / $O(1)$ | $O(1)$     | $O(n)$ |
+| Catenable Sorted Lists | $O(log N)$ | $O(\log {}N)$ | $O(log N)$ / $O(1)$ / $O(1)$ | $O(log N)$ / $O(1)$ / $O(1)$ | $O(1)$     | $O(n)$ |
 | RRB Trees              | $O(log N)$ | $O(log N)$    | $O(log N)$ / $O(1)$ / $O(1)$ | $O(log N)$ / $O(1)$ / $O(1)$ | $O(log N)$ | $O(n)$ |
 | Singly Linked List     | $O(N)$     | $O(N)$        | $O(N)$  / $O(1)$ / $O(1)$    | $O(N)$ / $O(1)$ / $O(1)$     | $O(1)$     | $O(N)$ |
 | Doubly Linked List     | $O(N)$     | $O(N)$        | $O(N)$  / $O(1)$ / $O(1)$    | $O(N)$ / $O(1)$ / $O(1)$     | $O(1)$     | $O(N)$ |
@@ -35,14 +37,14 @@ title: Time Complexity of Data Structures
 
 ## Trie ADT
 
-## By use
+## By Use
 
 ### Geographic Data
 
 ### Sorted Data
 
 ### Least Frequently Used
- ### Caching
+### Caching
 
 ### Indexing
 

@@ -1,7 +1,11 @@
 ---
-title: "Obama at the Democratic National Convention"
+title: obama-at-the-democratic-national-convention
 author: "Barack Obama"
+date created: Monday, June 12th 2023, 9:33:18 pm
+date modified: Friday, November 8th 2024, 10:10:11 pm
 ---
+## Obama-at-the-democratic-national-convention
+
 Crossroads of a nation, land of Lincoln, let me express my deep gratitude for the privilege of addressing this convention. Tonight is a particular honor for me because, let's face it, my presence on this stage is pretty unlikely.
 
 My father was a foreign student, born and raised in a small village in Kenya. He grew up herding goats, went to school in a tin- roof shack. His father, my grandfather, was a cook, a domestic servant to the British.

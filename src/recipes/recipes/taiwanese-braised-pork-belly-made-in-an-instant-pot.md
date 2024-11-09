@@ -2,10 +2,9 @@
 title: taiwanese-braised-pork-belly-made-in-an-instant-pot
 ---
 
-Braised Pork Belly Made In An Instant Pot
+# Braised Pork Belly Made In An Instant Pot
 
-![Taiwanese Braised Pork Belly made in an Instant
-Pot](https://tiffycooks.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-24-at-10.07.12-PM.png)
+![Taiwanese Braised Pork Belly made in an Instant Pot](https://tiffycooks.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-24-at-10.07.12-PM.png)
 
 # Taiwanese Braised Pork Belly made in an Instant Pot
 

@@ -1,7 +1,10 @@
 ---
-title: "Statement to the U.S. House Committee on the Judiciary"
+title: antitrust-commission-jeff-bezos
 author: "Jeff Bezos"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:09:51 pm
 ---
+## Antitrust-commission-jeff-bezos
 
 Thank you, Chairman Cicilline, Ranking Member Sensenbrenner, and members of the Subcommittee. I’m Jeff Bezos. I founded Amazon 26 years ago with the long-term mission of making it Earth’s most customer-centric company.
 

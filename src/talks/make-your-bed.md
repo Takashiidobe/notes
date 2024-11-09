@@ -1,9 +1,12 @@
 ---
-title: "Make Your Bed"
+title: make-your-bed
 author: "William H. McRaven"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Friday, November 8th 2024, 10:20:20 pm
 ---
+## Make-your-bed
 
-## Transcript
+### Transcript
 
 President Powers, Provost Fenves, Deans, members of the faculty, family and friends and most importantly, the class of 2014. Congratulations on your achievement.
 
@@ -27,7 +30,7 @@ Well, I am confident that it will look much, much better. But if you will humor 
 
 Our struggles in this world are similar, and the lessons to overcome those struggles and to move forward — changing ourselves and the world around us — will apply equally to all.
 
-I have been a Navy SEAL for 36 years. But it all began when I left UT for Basic SEAL training in Coronado, California. Basic SEAL training is six months of long torturous runs in the soft sand, midnight swims in the cold water off San Diego, obstacles courses, unending calisthenics, days without sleep and always being cold, wet and miserable. It is six months of being constantly harrassed by professionally trained warriors who seek to find the weak of mind and body and eliminate them from ever becoming a Navy SEAL.
+I have been a Navy SEAL for 36 years. But it all began when I left UT for Basic SEAL training in Coronado, California. Basic SEAL training is six months of long torturous runs in the soft sand, midnight swims in the cold water off San Diego, obstacles courses, unending calisthenics, days without sleep and always being cold, wet and miserable. It is six months of being constantly harassed by professionally trained warriors who seek to find the weak of mind and body and eliminate them from ever becoming a Navy SEAL.
 
 But, the training also seeks to find those students who can lead in an environment of constant stress, chaos, failure and hardships. To me basic SEAL training was a lifetime of challenges crammed into six months.
 

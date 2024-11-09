@@ -1,7 +1,10 @@
 ---
-title: On the Death of Martin Luther King
+title: on-the-death-of-martin-luther-king
 author: Robert F. Kennedy
+date created: Friday, November 8th 2024, 9:22:01 pm
+date modified: Friday, November 8th 2024, 10:21:15 pm
 ---
+
  Ladies and Gentlemen - I'm only going to talk to you just for a minute or so this evening. Because...
 
  I have some very sad news for all of you, and I think sad news for all of our fellow citizens, and people who love peace all over the world, and that is that Martin Luther King was shot and was killed tonight in Memphis, Tennessee.
