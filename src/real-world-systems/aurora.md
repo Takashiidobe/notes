@@ -1,7 +1,6 @@
 ---
-title: "AWS Aurora"
+title: AWS Aurora
 ---
-
 # How does Aurora Work?
 
 Aurora improves a traditional database by distributing the storage backend. It replicates WALs to remote storage, and employs a primary-replica setup. By default, aurora replicates the data 6 times in 3 different data centers.

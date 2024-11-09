@@ -1,7 +1,6 @@
 ---
 title: "eBPF tools"
 ---
-
 # eBPF
 
 eBPF (extended Berkley Packet Filter) lets you listen to events that the operating system does, namely system calls, and take actions based on that.

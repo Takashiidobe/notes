@@ -1,7 +1,6 @@
 ---
 title: "AWS Lambda"
 ---
-
 # Lambda
 
 AWS Lambda is an event-driven, serverless computing platform. Functions can respond in ~10ms if they don't hit a cold start penalty, but 100ms - 1s cold starts are common, with an average of about 300ms.

@@ -1,9 +1,6 @@
 ---
 title: hardening-linux
 ---
-
-Linux
-
 # Hardening Linux
 
 First, create a new Debian based VM (Debian or Ubuntu).

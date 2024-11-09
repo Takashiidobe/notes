@@ -1,7 +1,6 @@
 ---
 title: Glances
 ---
-
 Glances is monitoring software for your VM.
 
 Install it with `pip install glances`.
