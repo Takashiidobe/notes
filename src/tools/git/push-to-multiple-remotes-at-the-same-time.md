@@ -1,8 +1,8 @@
 ---
-title: push-to-multiple-remotes-at-the-same-time
+title: Push to Multiple Remotes at the Same Time
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:34:48 pm
 ---
-
-To Multiple Remotes At The Same Time
 
 # Push to Multiple Remotes at the Same Time
 

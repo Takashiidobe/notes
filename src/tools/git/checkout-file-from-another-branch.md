@@ -1,8 +1,8 @@
 ---
-title: checkout-file-from-another-branch
+title: Checkout File from Another Branch
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:35:09 pm
 ---
-
-File From Another Branch
 
 # Checkout File from Another Branch
 

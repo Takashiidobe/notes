@@ -1,6 +1,8 @@
 ---
-title: "What Matters More Than Your Talents"
+title: What Matters More Than Your Talents
 author: "Jeff Bezos"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:35:45 pm
 ---
 
 # What Matters More Than Your Talents

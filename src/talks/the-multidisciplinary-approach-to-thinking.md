@@ -1,9 +1,11 @@
 ---
-title: "The Multidisciplinary Approach to Thinking"
+title: Transcript
 author: "Peter Kaufman"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:35:51 pm
 ---
 
-## Transcript
+# Transcript
 
 I was asked to talk about the multidisciplinary approach to thinking. So I’ll start out with that. But if you guys get bored or something and say ‘Well I thought we were supposed to have fun listening to this today.’ You can raise your hand and say ‘Could you talk about leadership or team building or business strategy or ethics or something else?’ I gave a talk recently at Google, in fact I’ve given three talks at Google. And the first talk I gave they said ‘What are you going to talk about?’ And I said, ‘Well, what do you want to talk about?’ They said, ‘About whatever you want. What do you usually talk about?’ Well I usually talk about leadership, culture, team building, strategy, ethics. And they said, ‘We don’t want to hear about that team building crap. We get that all the time. We want to hear about self-improvement.’ So I will mix in with our multidisciplinary topic a little bit of self-improvement as well. Is that OK? OK.
 
