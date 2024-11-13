@@ -1,8 +1,8 @@
 ---
-title: pad-thai
+title: Pad Thai
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:31:39 pm
 ---
-
-Thai
 
 ![Pad
 Thai](https://static01.nyt.com/images/2016/05/28/dining/28COOKING-PAD-THAI1/28COOKING-PAD-THAI1-articleLarge.jpg)

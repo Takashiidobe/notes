@@ -1,12 +1,12 @@
 ---
-title: looping-in-bash
+title: Looping in Bash
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:30:55 pm
 ---
-
-In Bash
 
 # Looping in Bash
 
-## Basic loops
+## Basic Loops
 
 In bash, looping can be done like so:
 

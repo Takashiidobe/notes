@@ -1,5 +1,7 @@
 ---
 title: Mathjax
+date created: Wednesday, January 24th 2024, 2:28:43 pm
+date modified: Tuesday, November 12th 2024, 8:30:18 pm
 ---
 
 # Mathjax
@@ -45,7 +47,7 @@ title: Mathjax
 | Set Comprehensions                                                            | $\{x \text{ if $x$ is even} \mid x^2\in\Bbb Z\}$                                                   | `$\{x \text{ if $x$ is even} \mid x^2\in\Bbb Z\}$`                                                                                            |
 
 
-## Big O and related notations
+## Big O and Related Notations
 
 | Name             | Running Time         | Markdown               |
 |------------------|----------------------|------------------------|

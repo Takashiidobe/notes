@@ -1,3 +1,8 @@
+---
+title: Problems
+date created: Thursday, June 20th 2024, 9:11:49 pm
+date modified: Tuesday, November 12th 2024, 8:30:15 pm
+---
 # Problems
 
 ## 1. To Begin or Not to Begin?

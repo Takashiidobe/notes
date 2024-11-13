@@ -1,3 +1,8 @@
+---
+title: Virtualization
+date created: Saturday, August 10th 2024, 2:38:48 pm
+date modified: Tuesday, November 12th 2024, 8:31:16 pm
+---
 # Virtualization
 
 Virtualization allows a computer to emulate another computer that may

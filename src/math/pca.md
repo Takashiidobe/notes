@@ -1,3 +1,8 @@
+---
+title: Principal Components Analysis
+date created: Thursday, April 25th 2024, 8:06:11 pm
+date modified: Tuesday, November 12th 2024, 8:30:23 pm
+---
 # Principal Components Analysis
 
 PCA is an effective dimension reduction technique. If you have a dataset

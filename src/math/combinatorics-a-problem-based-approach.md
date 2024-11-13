@@ -1,3 +1,8 @@
+---
+title: Combinatorics a Problem Based Approach
+date created: Thursday, May 23rd 2024, 11:21:47 am
+date modified: Tuesday, November 12th 2024, 8:30:16 pm
+---
 # Combinatorics a Problem Based Approach
 
 ## Chapter 1

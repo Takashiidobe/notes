@@ -1,4 +1,9 @@
-## Albums
+---
+title: Albums
+date created: Friday, November 8th 2024, 7:09:41 pm
+date modified: Tuesday, November 12th 2024, 8:30:38 pm
+---
+# Albums
 
 - [Pablo Honey](radiohead/pablo-honeyradiohead.md)
 - [The Bends](radiohead/the-bendsradiohead.md)

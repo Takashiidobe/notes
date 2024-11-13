@@ -3,8 +3,12 @@ year: "1997"
 artist: Radiohead
 genre: Alternative Rock
 rating: "10"
+title: Tracklist
+date created: Friday, November 8th 2024, 8:25:46 pm
+date modified: Tuesday, November 12th 2024, 8:30:34 pm
 ---
-## Tracklist
+
+# Tracklist
 
  - Airbag (4:44)
  - Paranoid Android (6:23)
@@ -18,7 +22,7 @@ rating: "10"
  - No Surprises (3:48)
  - Lucky (4:19)
  - The Tourist (5:24)
-## Background
+# Background
 
 This was Radiohead's third studio album, and came after The Bends. It influenced many Brit rock bands (The Verve, Coldplay, Muse, Travis, etc). The influence of the LP led them to pursue a different sound in their next LP, Kid A.
 

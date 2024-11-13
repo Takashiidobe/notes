@@ -1,3 +1,8 @@
+---
+title: Math Problem Books
+date created: Wednesday, June 19th 2024, 8:40:41 pm
+date modified: Tuesday, November 12th 2024, 8:30:25 pm
+---
 # Math Problem Books
 
 - [Probability for the Enthusiastic Beginner](./probability-for-the-enthusiastic-beginner.md)
