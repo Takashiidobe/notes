@@ -1,9 +1,11 @@
 ---
 title: delta
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, November 9th 2024, 7:27:44 am
 ---
 
 If you want cleaner diffs for git, install delta with
-`brew install delta`. [Delta](https://github.com/dandavison/delta.md).
+`brew install delta`. [Delta](https://github.com/dandavison/delta).
 
 Here\'s an example .gitconfig file that allows github style diffs.
 

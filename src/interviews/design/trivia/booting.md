@@ -1,4 +1,9 @@
-# How does an x86 Computer Boot?
+---
+title: How Does an X86 Computer Boot?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:08:38 pm
+---
+# How Does an X86 Computer Boot?
 
 When power starts, the motherboard sends a signal to the power supply. Once it receives a power good signal, it starts the CPU.
 
@@ -28,11 +33,11 @@ The console is initialized with the `console_init` function, which writes to the
 
 The heap is then initialized to grow to the stack, and corrected if it has grown past the stack.
 
-## CPU validation
+## CPU Validation
 
 Then the Kernel checks the CPU's flags, like SSE or or 1GB pages.
 
-## Memory detection
+## Memory Detection
 
 The kernel checks to see the memory enabled for the kernel.
 

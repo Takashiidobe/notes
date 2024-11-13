@@ -1,4 +1,9 @@
-# Spaceship operator
+---
+title: Spaceship Operator
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:55 pm
+---
+# Spaceship Operator
 
 The spaceship operator overloads all relation and equality operators for a class. It is a new feature in C++20:
 

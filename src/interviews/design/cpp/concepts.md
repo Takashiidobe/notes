@@ -1,6 +1,11 @@
+---
+title: Concepts
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:25 pm
+---
 # Concepts
 
-Concepts allow functions, class templates, and function templates to be constrainted by some binary condition:
+Concepts allow functions, class templates, and function templates to be constrained by some binary condition:
 
 ```cpp
 template<typename T>

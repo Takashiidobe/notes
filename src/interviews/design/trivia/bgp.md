@@ -1,4 +1,9 @@
-# What is BGP? How does it work?
+---
+title: What is BGP? How Does it Work?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:08:34 pm
+---
+# What is BGP? How Does it Work?
 
 BGP (Border Gateway Protocol) is the postal service of the internet.
 

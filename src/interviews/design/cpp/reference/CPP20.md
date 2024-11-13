@@ -1,3 +1,8 @@
+---
+title: C++20
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:12 pm
+---
 # C++20
 
 ## Overview
@@ -235,7 +240,7 @@ concept C = requires(T x) {
 ```
 See also: [concepts library](#concepts-library).
 
-### Designated initializers
+### Designated Initializers
 C-style designated initializer syntax. Any member fields that are not explicitly listed in the designated initializer list are default-initialized.
 ```c++
 struct A {
@@ -247,7 +252,7 @@ struct A {
 A a {.x = 1, .z = 2}; // a.x == 1, a.y == 0, a.z == 2
 ```
 
-### Template syntax for lambdas
+### Template Syntax for Lambdas
 Use familiar template syntax in lambda expressions.
 ```c++
 auto f = []<typename T>(std::vector<T> v) {
@@ -255,7 +260,7 @@ auto f = []<typename T>(std::vector<T> v) {
 };
 ```
 
-### Range-based for loop with initializer
+### Range-based for Loop with Initializer
 This feature simplifies common code patterns, helps keep scopes tight, and offers an elegant solution to a common lifetime problem.
 ```c++
 for (auto v = std::vector{1, 2, 3}; auto& e : v) {
@@ -264,7 +269,7 @@ for (auto v = std::vector{1, 2, 3}; auto& e : v) {
 // prints "123"
 ```
 
-### likely and unlikely attributes
+### Likely and Unlikely Attributes
 Provides a hint to the optimizer that the labelled statement has a high probability of being executed.
 ```c++
 switch (n) {
@@ -296,7 +301,7 @@ while (unlikely_truthy_condition) [[unlikely]] {
 }
 ```
 
-### Deprecate implicit capture of this
+### Deprecate Implicit Capture of This
 Implicitly capturing `this` in a lambda capture using `[=]` is now deprecated; prefer capturing explicitly using `[=, this]` or `[=, *this]`.
 ```c++
 struct int_value {
@@ -311,7 +316,7 @@ struct int_value {
 };
 ```
 
-### Class types in non-type template parameters
+### Class Types in Non-type Template Parameters
 Classes can now be used in non-type template parameters. Objects passed in as template arguments have the type `const T`, where `T` is the type of the object, and has static storage duration.
 ```c++
 struct foo {
@@ -328,7 +333,7 @@ get_foo(); // uses implicit constructor
 get_foo<foo{123}>();
 ```
 
-### constexpr virtual functions
+### Constexpr Virtual Functions
 Virtual functions can now be `constexpr` and evaluated at compile-time. `constexpr` virtual functions can override non-`constexpr` virtual functions and vice-versa.
 ```c++
 struct X1 {
@@ -365,7 +370,7 @@ foo b = "123"; // ERROR: explicit constructor is not a candidate (explicit speci
 foo c {"123"}; // OK
 ```
 
-### Immediate functions
+### Immediate Functions
 Similar to `constexpr` functions, but functions with a `consteval` specifier must produce a constant. These are called `immediate functions`.
 ```c++
 consteval int sqr(int n) {
@@ -378,7 +383,7 @@ int r2 = sqr(x); // ERROR: the value of 'x' is not usable in a constant expressi
                  // OK if `sqr` were a `constexpr` function
 ```
 
-### using enum
+### Using Enum
 Bring an enum's members into scope to improve readability. Before:
 ```c++
 enum class rgba_color_channel { red, green, blue, alpha };
@@ -407,7 +412,7 @@ std::string_view to_string(rgba_color_channel my_channel) {
 }
 ```
 
-### Lambda capture of parameter pack
+### Lambda Capture of Parameter Pack
 Capture parameter packs by value:
 ```c++
 template <typename... Args>
@@ -437,7 +442,7 @@ char8_t utf8_str[] = u8"\u0123";
 
 ## C++20 Library Features
 
-### Concepts library
+### Concepts Library
 Concepts are also provided by the standard library for building more complicated concepts. Some of these include:
 
 **Core language concepts:**
@@ -464,7 +469,7 @@ Concepts are also provided by the standard library for building more complicated
 
 See also: [concepts](#concepts).
 
-### Synchronized buffered outputstream
+### Synchronized Buffered Outputstream
 Buffers output operations for the wrapped output stream ensuring synchronization (i.e. no interleaving of output).
 ```c++
 std::osyncstream{std::cout} << "The value of x is:" << x << std::endl;
@@ -507,7 +512,7 @@ std::span<double, LENGTH_ELEMENTS> span2 = arr; // ERROR
 std::span<int, 1> span3 = arr; // ERROR
 ```
 
-### Bit operations
+### Bit Operations
 C++20 provides a new `<bit>` header which provides some bit operations including popcount.
 ```c++
 std::popcount(0u); // 0
@@ -515,7 +520,7 @@ std::popcount(1u); // 1
 std::popcount(0b1111'0000u); // 4
 ```
 
-### Math constants
+### Math Constants
 Mathematical constants including PI, Euler's number, etc. defined in the `<numbers>` header.
 ```c++
 std::numbers::pi; // 3.14159...
@@ -533,14 +538,14 @@ constexpr bool a = is_compile_time(); // true
 bool b = is_compile_time(); // false
 ```
 
-### std::make_shared supports arrays
+### std::make_shared Supports Arrays
 ```c++
 auto p = std::make_shared<int[]>(5); // pointer to `int[5]`
 // OR
 auto p = std::make_shared<int[5]>(); // pointer to `int[5]`
 ```
 
-### starts_with and ends_with on strings
+### starts_with And ends_with on Strings
 Strings (and string views) now have the `starts_with` and `ends_with` member functions to check if a string starts or ends with the given string.
 ```c++
 std::string str = "foobar";
@@ -548,7 +553,7 @@ str.starts_with("foo"); // true
 str.ends_with("baz"); // false
 ```
 
-### Check if associative container has element
+### Check if Associative Container Has Element
 Associative containers such as sets and maps have a `contains` member function, which can be used instead of the "find and check end of iterator" idiom.
 ```c++
 std::map<int, char> map {{1, 'a'}, {2, 'b'}};

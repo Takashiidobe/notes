@@ -1,3 +1,8 @@
+---
+title: Constexpr
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:30 pm
+---
 # Constexpr
 
 `Constexpr` is a keyword in C++ that allows the compiler to generate some code at compiler time and inject it into the static part of your executable.

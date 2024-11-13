@@ -1,4 +1,9 @@
-# What is the rule of 5?
+---
+title: What is the Rule of 5?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:53 pm
+---
+# What is the Rule of 5?
 
 The rule of five stipulates that any constructible, copyable, and movable type that manages a resource should have the following five member functions declared:
 

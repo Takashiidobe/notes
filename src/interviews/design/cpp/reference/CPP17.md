@@ -1,3 +1,8 @@
+---
+title: C++17
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:09 pm
+---
 # C++17
 
 ## Overview
@@ -34,7 +39,7 @@ C++17 includes the following new library features:
 
 ## C++17 Language Features
 
-### Template argument deduction for class templates
+### Template Argument Deduction for Class Templates
 Automatic template argument deduction much like how it's done for functions, but now including class constructors.
 ```c++
 template <typename T = float>
@@ -48,7 +53,7 @@ MyContainer c1 {1}; // OK MyContainer<int>
 MyContainer c2; // OK MyContainer<float>
 ```
 
-### Declaring non-type template parameters with auto
+### Declaring Non-type Template Parameters with Auto
 Following the deduction rules of `auto`, while respecting the non-type template parameter list of allowable types[\*], template arguments can be deduced from the types of its arguments:
 ```c++
 template <auto... seq>
@@ -63,7 +68,7 @@ auto seq2 = my_integer_sequence<0, 1, 2>();
 ```
 \* - For example, you cannot use a `double` as a template parameter type, which also makes this an invalid deduction using `auto`.
 
-### Folding expressions
+### Folding Expressions
 A fold expression performs a fold of a template parameter pack over a binary operator.
 * An expression of the form `(... op e)` or `(e op ...)`, where `op` is a fold-operator and `e` is an unexpanded parameter pack, are called _unary folds_.
 * An expression of the form `(e1 op ... op e2)`, where `op` are fold-operators, is called a _binary fold_. Either `e1` or `e2` is an unexpanded parameter pack, but not both.
@@ -86,7 +91,7 @@ auto sum(Args... args) {
 sum(1.0, 2.0f, 3); // == 6.0
 ```
 
-### New rules for auto deduction from braced-init-list
+### New Rules for Auto Deduction from Braced-init-list
 Changes to `auto` deduction when used with the uniform initialization syntax. Previously, `auto x {3};` deduces a `std::initializer_list<int>`, which now deduces to `int`.
 ```c++
 auto x1 {1, 2, 3}; // error: not a single element
@@ -95,7 +100,7 @@ auto x3 {3}; // x3 is int
 auto x4 {3.0}; // x4 is double
 ```
 
-### constexpr lambda
+### Constexpr Lambda
 Compile-time lambdas using `constexpr`.
 ```c++
 auto identity = [](int n) constexpr { return n; };
@@ -118,7 +123,7 @@ constexpr int addOne(int n) {
 static_assert(addOne(1) == 2);
 ```
 
-### Lambda capture `this` by value
+### Lambda Capture `this` by Value
 Capturing `this` in a lambda's environment was previously reference-only. An example of where this is problematic is asynchronous code using callbacks that require an object to be available, potentially past its lifetime. `*this` (C++17) will now make a copy of the current object, while `this` (C++11) continues to capture by reference.
 ```c++
 struct MyObj {
@@ -138,7 +143,7 @@ valueCopy(); // 123
 valueRef(); // 321
 ```
 
-### Inline variables
+### Inline Variables
 The inline specifier can be applied to variables as well as to functions. A variable declared inline has the same semantics as a function declared inline.
 ```c++
 // Disassembly example using compiler explorer.
@@ -161,7 +166,7 @@ struct S {
 };
 ```
 
-### Nested namespaces
+### Nested Namespaces
 Using the namespace resolution operator to create nested namespace definitions.
 ```c++
 namespace A {
@@ -180,7 +185,7 @@ namespace A::B::C {
 }
 ```
 
-### Structured bindings
+### Structured Bindings
 A proposal for de-structuring initialization, that would allow writing `auto [ x, y, z ] = expr;` where the type of `expr` was a tuple-like object, whose elements would be bound to the variables `x`, `y`, and `z` (which this construct declares). _Tuple-like objects_ include [`std::tuple`](README.md#tuples), `std::pair`, [`std::array`](README.md#stdarray), and aggregate structures.
 ```c++
 using Coordinate = std::pair<int, int>;
@@ -205,7 +210,7 @@ for (const auto& [key, value] : mapping) {
 }
 ```
 
-### Selection statements with initializer
+### Selection Statements with Initializer
 New versions of the `if` and `switch` statements which simplify common code patterns and help users keep scopes tight.
 ```c++
 {
@@ -230,7 +235,7 @@ switch (Foo gadget(args); auto s = gadget.status()) {
 }
 ```
 
-### constexpr if
+### Constexpr if
 Write code that is instantiated depending on a compile-time condition.
 ```c++
 template <typename T>
@@ -248,13 +253,13 @@ struct S {};
 static_assert(isIntegral<S>() == false);
 ```
 
-### UTF-8 character literals
+### UTF-8 Character Literals
 A character literal that begins with `u8` is a character literal of type `char`. The value of a UTF-8 character literal is equal to its ISO 10646 code point value.
 ```c++
 char x = u8'x';
 ```
 
-### Direct list initialization of enums
+### Direct List Initialization of Enums
 Enums can now be initialized using braced syntax.
 ```c++
 enum byte : unsigned char {};
@@ -264,7 +269,7 @@ byte d = byte{1}; // OK
 byte e = byte{256}; // ERROR
 ```
 
-### fallthrough, nodiscard, maybe_unused attributes
+### Fallthrough, Nodiscard, maybe_unused Attributes
 C++17 introduces three new attributes: `[[fallthrough]]`, `[[nodiscard]]` and `[[maybe_unused]]`.
 * `[[fallthrough]]` indicates to the compiler that falling through in a switch statement is intended behavior. This attribute may only be used in a switch statement, and must be placed before the next case/default label.
 ```c++
@@ -471,7 +476,7 @@ int j = std::to_integer<int>(c); // 0
 ```
 Note that `std::byte` is simply an enum, and braced initialization of enums become possible thanks to [direct-list-initialization of enums](#direct-list-initialization-of-enums).
 
-### Splicing for maps and sets
+### Splicing for Maps and Sets
 Moving nodes and merging containers without the overhead of expensive copies, moves, or heap allocations/deallocations.
 
 Moving elements from one map to another:
@@ -511,7 +516,7 @@ m.insert(std::move(e));
 // m == { { 1, "one" }, { 3, "three" }, { 4, "two" } }
 ```
 
-### Parallel algorithms
+### Parallel Algorithms
 Many of the STL algorithms, such as the `copy`, `find` and `sort` methods, started to support the *parallel execution policies*: `seq`, `par` and `par_unseq` which translate to "sequentially", "parallel" and "parallel unsequenced".
 
 ```c++

@@ -1,3 +1,8 @@
+---
+title: Structured Bindings
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:58 pm
+---
 # Structured Bindings
 
 Structured bindings allow you to initialize multiple entries by the elements or members of an object:

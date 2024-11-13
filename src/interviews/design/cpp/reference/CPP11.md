@@ -1,3 +1,9 @@
+---
+title: C++11
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:06:56 pm
+---
+
 # C++11
 
 ## Overview
@@ -57,7 +63,7 @@ C++11 includes the following new library features:
 
 ## C++11 Language Features
 
-### Move semantics
+### Move Semantics
 Moving an object means to transfer ownership of some resource it manages to another object.
 
 The first benefit of move semantics is performance optimization. When an object is about to reach the end of its lifetime, either because it's a temporary or by explicitly calling `std::move`, a move is often a cheaper way to transfer resources. For example, moving a `std::vector` is just copying some pointers and internal state over to the new vector -- copying would involve having to copy every single contained element in the vector, which is expensive and unnecessary if the old vector will soon be destroyed.
@@ -66,7 +72,7 @@ Moves also make it possible for non-copyable types such as `std::unique_ptr`s ([
 
 See the sections on: [rvalue references](#rvalue-references), [special member functions for move semantics](#special-member-functions-for-move-semantics), [`std::move`](#stdmove), [`std::forward`](#stdforward), [`forwarding references`](#forwarding-references).
 
-### Rvalue references
+### Rvalue References
 C++11 introduces a new reference termed the _rvalue reference_. An rvalue reference to `T`, which is a non-template type parameter (such as `int`, or a user-defined type), is created with the syntax `T&&`. Rvalue references only bind to rvalues.
 
 Type deduction with lvalues and rvalues:
@@ -90,7 +96,7 @@ f(std::move(xr2)); // calls f(int&& x)
 
 See also: [`std::move`](#stdmove), [`std::forward`](#stdforward), [`forwarding references`](#forwarding-references).
 
-### Forwarding references
+### Forwarding References
 Also known (unofficially) as _universal references_. A forwarding reference is created with the syntax `T&&` where `T` is a template type parameter, or using `auto&&`. This enables _perfect forwarding_: the ability to pass arguments while maintaining their value category (e.g. lvalues stay as lvalues, temporaries are forwarded as rvalues).
 
 Forwarding references allow a reference to bind to either an lvalue or rvalue depending on the type. Forwarding references follow the rules of _reference collapsing_:
@@ -133,7 +139,7 @@ f(std::move(z)); // T is int, deduces as f(int &&) => f(int&&)
 
 See also: [`std::move`](#stdmove), [`std::forward`](#stdforward), [`rvalue references`](#rvalue-references).
 
-### Variadic templates
+### Variadic Templates
 The `...` syntax creates a _parameter pack_ or expands one. A template _parameter pack_ is a template parameter that accepts zero or more template arguments (non-types, types, or templates). A template with at least one parameter pack is called a _variadic template_.
 ```c++
 template <typename... T>
@@ -157,7 +163,7 @@ sum(1, 2, 3);       // 6
 sum(1.5, 2.0, 3.7); // 7.2
 ```
 
-### Initializer lists
+### Initializer Lists
 A lightweight array-like container of elements created using a "braced list" syntax. For example, `{ 1, 2, 3 }` creates a sequences of integers, that has type `std::initializer_list<int>`. Useful as a replacement to passing a vector of objects to a function.
 ```c++
 int sum(const std::initializer_list<int>& list) {
@@ -175,7 +181,7 @@ sum({1, 2, 3}); // == 6
 sum({}); // == 0
 ```
 
-### Static assertions
+### Static Assertions
 Assertions that are evaluated at compile-time.
 ```c++
 constexpr int x = 0;
@@ -183,7 +189,7 @@ constexpr int y = 1;
 static_assert(x == y, "x != y");
 ```
 
-### auto
+### Auto
 `auto`-typed variables are deduced by the compiler according to the type of their initializer.
 ```c++
 auto a = 3.14; // double
@@ -219,7 +225,7 @@ add(1.5, 1.5); // == 3.0
 ```
 The trailing return type in the above example is the _declared type_ (see section on [`decltype`](#decltype)) of the expression `x + y`. For example, if `x` is an integer and `y` is a double, `decltype(x + y)` is a double. Therefore, the above function will deduce the type depending on what type the expression `x + y` yields. Notice that the trailing return type has access to its parameters, and `this` when appropriate.
 
-### Lambda expressions
+### Lambda Expressions
 A `lambda` is an unnamed function object capable of capturing variables in scope. It features: a _capture list_; an optional set of parameters with an optional trailing return type; and a body. Examples of capture lists:
 * `[]` - captures nothing.
 * `[=]` - capture local objects (local variables, parameters) in scope by value.
@@ -250,7 +256,7 @@ auto f2 = [x] { x = 2; }; // ERROR: the lambda can only perform const-operations
 auto f3 = [x]() mutable { x = 2; }; // OK: the lambda can perform any operations on the captured value
 ```
 
-### decltype
+### Decltype
 `decltype` is an operator which returns the _declared type_ of an expression passed to it. cv-qualifiers and references are maintained if they are part of the expression. Examples of `decltype`:
 ```c++
 int a = 1; // `a` is declared as type `int`
@@ -272,7 +278,7 @@ add(1, 2.0); // `decltype(x + y)` => `decltype(3.0)` => `double`
 
 See also: [`decltype(auto) (C++14)`](README.md#decltypeauto).
 
-### Type aliases
+### Type Aliases
 Semantically similar to using a `typedef` however, type aliases with `using` are easier to read and are compatible with templates.
 ```c++
 template <typename T>
@@ -283,7 +289,7 @@ using String = std::string;
 String s {"foo"};
 ```
 
-### nullptr
+### Nullptr
 C++11 introduces a new null pointer type designed to replace C's `NULL` macro. `nullptr` itself is of type `std::nullptr_t` and can be implicitly converted into pointer types, and unlike `NULL`, not convertible to integral types except `bool`.
 ```c++
 void foo(int);
@@ -292,7 +298,7 @@ foo(NULL); // error -- ambiguous
 foo(nullptr); // calls foo(char*)
 ```
 
-### Strongly-typed enums
+### Strongly-typed Enums
 Type-safe enums that solve a variety of problems with C-style enums including: implicit conversions, inability to specify the underlying type, scope pollution.
 ```c++
 // Specifying underlying type as `unsigned int`
@@ -311,7 +317,7 @@ Attributes provide a universal syntax over `__attribute__(...)`, `__declspec`, e
 }
 ```
 
-### constexpr
+### Constexpr
 Constant expressions are expressions evaluated by the compiler at compile-time. Only non-complex computations can be carried out in a constant expression. Use the `constexpr` specifier to indicate the variable, function, etc. is a constant expression.
 ```c++
 constexpr int square(int x) {
@@ -350,7 +356,7 @@ private:
 constexpr Complex I(0, 1);
 ```
 
-### Delegating constructors
+### Delegating Constructors
 Constructors can now call other constructors in the same class using an initializer list.
 ```c++
 struct Foo {
@@ -363,7 +369,7 @@ Foo foo;
 foo.foo; // == 0
 ```
 
-### User-defined literals
+### User-defined Literals
 User-defined literals allow you to extend the language and add your own syntax. To create a literal, define a `T operator "" X(...) { ... }` function that returns a type `T`, with a name `X`. Note that the name of this function defines the name of the literal. Any literal names not starting with an underscore are reserved and won't be invoked. There are rules on what parameters a user-defined literal function should accept, according to what type the literal is called on.
 
 Converting Celsius to Fahrenheit:
@@ -385,7 +391,7 @@ int operator "" _int(const char* str, std::size_t) {
 "123"_int; // == 123, with type `int`
 ```
 
-### Explicit virtual overrides
+### Explicit Virtual Overrides
 Specifies that a virtual function overrides another virtual function. If the virtual function does not override a parent's virtual function, throws a compiler error.
 ```c++
 struct A {
@@ -400,7 +406,7 @@ struct B : A {
 };
 ```
 
-### Final specifier
+### Final Specifier
 Specifies that a virtual function cannot be overridden in a derived class or that a class cannot be inherited from.
 ```c++
 struct A {
@@ -422,7 +428,7 @@ struct A final {};
 struct B : A {}; // error -- base 'A' is marked 'final'
 ```
 
-### Default functions
+### Default Functions
 A more elegant, efficient way to provide a default implementation of a function, such as a constructor.
 ```c++
 struct A {
@@ -449,7 +455,7 @@ struct C : B {
 C c; // c.x == 1
 ```
 
-### Deleted functions
+### Deleted Functions
 A more elegant, efficient way to provide a deleted implementation of a function. Useful for preventing copies on objects.
 ```c++
 class A {
@@ -466,7 +472,7 @@ A y = x; // error -- call to deleted copy constructor
 y = x; // error -- operator= deleted
 ```
 
-### Range-based for loops
+### Range-based for Loops
 Syntactic sugar for iterating over a container's elements.
 ```c++
 std::array<int, 5> a {1, 2, 3, 4, 5};
@@ -481,7 +487,7 @@ for (int x : a) x *= 2;
 // a == { 1, 2, 3, 4, 5 }
 ```
 
-### Special member functions for move semantics
+### Special Member Functions for Move Semantics
 The copy constructor and copy assignment operator are called when copies are made, and with C++11's introduction of move semantics, there is now a move constructor and move assignment operator for moves.
 ```c++
 struct A {
@@ -506,7 +512,7 @@ a2 = std::move(a3); // move-assignment using std::move
 a1 = f(A{}); // move-assignment from rvalue temporary
 ```
 
-### Converting constructors
+### Converting Constructors
 Converting constructors will convert values of braced list syntax into constructor arguments.
 ```c++
 struct A {
@@ -546,7 +552,7 @@ A c = {0, 0}; // calls A::A(std::initializer_list<int>)
 A d {0, 0, 0}; // calls A::A(std::initializer_list<int>)
 ```
 
-### Explicit conversion functions
+### Explicit Conversion Functions
 Conversion functions can now be made explicit using the `explicit` specifier.
 ```c++
 struct A {
@@ -565,7 +571,7 @@ B b;
 if (b); // OK calls B::operator bool()
 bool bb = b; // error copy-initialization does not consider B::operator bool()
 ```
-### Inline namespaces
+### Inline Namespaces
 All members of an inline namespace are treated as if they were part of its parent namespace, allowing specialization of functions and easing the process of versioning. This is a transitive property, if A contains B, which in turn contains C and both B and C are inline namespaces, C's members can be used as if they were on A.
 
 ```c++
@@ -584,7 +590,7 @@ int oldVersion {Program::Version1::getVersion()}; // Uses getVersion() from Vers
 bool firstVersion {Program::isFirstVersion()};    // Does not compile when Version2 is added
 ```
 
-### Non-static data member initializers
+### Non-static Data Member Initializers
 Allows non-static data members to be initialized where they are declared, potentially cleaning up constructors of default initializations.
 
 ```c++
@@ -601,7 +607,7 @@ class Human {
 };
 ```
 
-### Right angle brackets
+### Right Angle Brackets
 C++11 is now able to infer when a series of right angle brackets is used as an operator or as a closing statement of typedef, without having to add whitespace.
 
 ```c++
@@ -609,7 +615,7 @@ typedef std::map<int, std::map <int, std::map <int, int> > > cpp98LongTypedef;
 typedef std::map<int, std::map <int, std::map <int, int>>>   cpp11LongTypedef;
 ```
 
-### Ref-qualified member functions
+### Ref-qualified Member Functions
 Member functions can now be qualified depending on whether `*this` is an lvalue or rvalue reference.
 
 ```c++
@@ -637,7 +643,7 @@ std::move(foo).getBar(); // calls `Bar Foo::getBar() &&`
 std::move(foo2).getBar(); // calls `Bar Foo::getBar() const&&`
 ```
 
-### Trailing return types
+### Trailing return Types
 C++11 allows functions and lambdas an alternative syntax for specifying their return types.
 ```c++
 int f() {
@@ -669,7 +675,7 @@ auto add(T a, U b) -> decltype(a + b) {
 ```
 In C++14, [`decltype(auto) (C++14)`](README.md#decltypeauto) can be used instead.
 
-### Noexcept specifier
+### Noexcept Specifier
 The `noexcept` specifier specifies whether a function could throw exceptions. It is an improved version of `throw()`.
 
 ```c++
@@ -690,14 +696,14 @@ void g() noexcept {
 }
 ```
 
-### char32_t and char16_t
+### char32_t And char16_t
 Provides standard types for representing UTF-8 strings.
 ```c++
 char32_t utf8_str[] = U"\u0123";
 char16_t utf8_str[] = u"\u0123";
 ```
 
-### Raw string literals
+### Raw String Literals
 C++11 introduces a new way to declare string literals as "raw string literals". Characters issued from an escape sequence (tabs, line feeds, single backslashes, etc.) can be inputted raw while preserving formatting. This is useful, for example, to write literary text, which might contain a lot of quotes or special formatting. This can make your string literals easier to read and maintain.
 
 A raw string literal is declared using the following syntax:
@@ -794,7 +800,7 @@ std::to_string(1.2); // == "1.2"
 std::to_string(123); // == "123"
 ```
 
-### Type traits
+### Type Traits
 Type traits defines a compile-time template-based interface to query or modify the properties of types.
 ```c++
 static_assert(std::is_integral<int>::value);
@@ -802,7 +808,7 @@ static_assert(std::is_same<int, int>::value);
 static_assert(std::is_same<std::conditional<true, int, double>::type, int>::value);
 ```
 
-### Smart pointers
+### Smart Pointers
 C++11 introduces new smart pointers: `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`. `std::auto_ptr` now becomes deprecated and then eventually removed in C++17.
 
 `std::unique_ptr` is a non-copyable, movable pointer that manages its own heap-allocated memory. **Note: Prefer using the `std::make_X` helper functions as opposed to using constructors. See the sections for [std::make_unique](https://github.com/AnthonyCalandra/modern-cpp-features/blob/master/CPP14.md#stdmake_unique) and [std::make_shared](#stdmake_shared).**
@@ -888,7 +894,7 @@ std::sort(a.begin(), a.end()); // a == { 1, 2, 3 }
 for (int& x : a) x *= 2; // a == { 2, 4, 6 }
 ```
 
-### Unordered containers
+### Unordered Containers
 These containers maintain average constant-time complexity for search, insert, and remove operations. In order to achieve constant-time complexity, sacrifices order for speed by hashing elements into buckets. There are four unordered containers:
 * `unordered_set`
 * `unordered_multiset`
@@ -928,7 +934,7 @@ cout << vec[0] << endl; // prints 100
 cout << _cref; // prints 100
 ```
 
-### Memory model
+### Memory Model
 C++11 introduces a memory model for C++, which means library support for threading and atomic operations. Some of these operations include (but aren't limited to) atomic loads/stores, compare-and-swap, atomic flags, promises, futures, locks, and condition variables.
 
 See the sections on: [std::thread](#stdthread)

@@ -1,4 +1,9 @@
-# How do caches work on your computer?
+---
+title: How Do Caches Work on Your Computer?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:08:42 pm
+---
+# How Do Caches Work on Your Computer?
 
 on x86, cache lines are 64-bytes, and look like the following:
 

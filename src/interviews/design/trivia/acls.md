@@ -1,3 +1,8 @@
+---
+title: ACLs
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:08:22 pm
+---
 # ACLs
 
 Access Control Lists (ACLs) allow you to specify permissions for users, groups, and other that aren't tied to the unix ownership scheme.

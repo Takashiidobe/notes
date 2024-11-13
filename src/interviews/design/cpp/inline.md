@@ -1,3 +1,8 @@
+---
+title: Inline
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:39 pm
+---
 # Inline
 
 Inline is like `static` or `extern`. It's a linker directive.

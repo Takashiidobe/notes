@@ -1,4 +1,9 @@
-# Map vs Unordered Map
+---
+title: Map Vs Unordered Map
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:45 pm
+---
+# Map Vs Unordered Map
 
 Map is an ordered TreeMap (RBTree) and UnorderedMap is a hashmap.
 

@@ -1,5 +1,7 @@
 ---
-title: "Hamming Codes"
+title: Hamming Codes
+date created: Thursday, November 30th 2023, 6:47:53 pm
+date modified: Tuesday, November 12th 2024, 7:06:48 pm
 ---
 
 # Hamming Codes

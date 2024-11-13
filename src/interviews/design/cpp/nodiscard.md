@@ -1,4 +1,9 @@
-# What does [[nodiscard]] do?
+---
+title: What Does nodiscard Do?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:50 pm
+---
+# What Does [[nodiscard]] Do?
 
 Nodiscard is a C++ attribute that makes it so the return type of something must be used.
 

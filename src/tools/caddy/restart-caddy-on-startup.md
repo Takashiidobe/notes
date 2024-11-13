@@ -1,8 +1,8 @@
 ---
-title: restart-caddy-on-startup
+title: Restart Caddy on Startup
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, November 9th 2024, 7:24:46 am
 ---
-
-Caddy On Startup
 
 # Restart Caddy on Startup
 

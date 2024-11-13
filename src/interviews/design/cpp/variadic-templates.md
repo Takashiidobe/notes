@@ -1,3 +1,8 @@
+---
+title: Variadic Templates
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:08:06 pm
+---
 # Variadic Templates
 
 Variadic templates can be instantiated with any number of template arguments:

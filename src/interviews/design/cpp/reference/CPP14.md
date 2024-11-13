@@ -1,3 +1,8 @@
+---
+title: C++14
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 7:07:04 pm
+---
 # C++14
 
 ## Overview
@@ -20,7 +25,7 @@ C++14 includes the following new library features:
 
 ## C++14 Language Features
 
-### Binary literals
+### Binary Literals
 Binary literals provide a convenient way to represent a base-2 number.
 It is possible to separate digits with `'`.
 ```c++
@@ -28,7 +33,7 @@ It is possible to separate digits with `'`.
 0b1111'1111 // == 255
 ```
 
-### Generic lambda expressions
+### Generic Lambda Expressions
 C++14 now allows the `auto` type-specifier in the parameter list, enabling polymorphic lambdas.
 ```c++
 auto identity = [](auto x) { return x; };
@@ -36,7 +41,7 @@ int three = identity(3); // == 3
 std::string foo = identity("foo"); // == "foo"
 ```
 
-### Lambda capture initializers
+### Lambda Capture Initializers
 This allows creating lambda captures initialized with arbitrary expressions. The name given to the captured value does not need to be related to any variables in the enclosing scopes and introduces a new name inside the lambda body. The initializing expression is evaluated when the lambda is _created_ (not when it is _invoked_).
 ```c++
 int factory(int i) { return i * 10; }
@@ -69,7 +74,7 @@ auto f = [&r = x, x = x * 10] {
 f(); // sets x to 2 and returns 12
 ```
 
-### Return type deduction
+### Return Type Deduction
 Using an `auto` return type in C++14, the compiler will attempt to deduce the type for you. With lambdas, you can now deduce its return type using `auto`, which makes returning a deduced reference or rvalue reference possible.
 ```c++
 // Deduce return type as `int`.
@@ -124,7 +129,7 @@ static_assert(std::is_same<const int&, decltype(g(x))>::value == 1);
 
 See also: [`decltype (C++11)`](README.md#decltype).
 
-### Relaxing constraints on constexpr functions
+### Relaxing Constraints on Constexpr Functions
 In C++11, `constexpr` function bodies could only contain a very limited set of syntaxes, including (but not limited to): `typedef`s, `using`s, and a single `return` statement. In C++14, the set of allowable syntaxes expands greatly to include the most common syntax such as `if` statements, multiple `return`s, loops, etc.
 ```c++
 constexpr int factorial(int n) {
@@ -137,7 +142,7 @@ constexpr int factorial(int n) {
 factorial(5); // == 120
 ```
 
-### Variable templates
+### Variable Templates
 C++14 allows variables to be templated:
 
 ```c++
@@ -147,7 +152,7 @@ template<class T>
 constexpr T e  = T(2.7182818284590452353);
 ```
 
-### [[deprecated]] attribute
+### [[deprecated]] Attribute
 C++14 introduces the `[[deprecated]]` attribute to indicate that a unit (function, class, etc.) is discouraged and likely yield compilation warnings. If a reason is provided, it will be included in the warnings.
 ```c++
 [[deprecated]]
@@ -158,7 +163,7 @@ void legacy_method();
 
 ## C++14 Library Features
 
-### User-defined literals for standard library types
+### User-defined Literals for Standard Library Types
 New user-defined literals for standard library types, including new built-in literals for `chrono` and `basic_string`. These can be `constexpr` meaning they can be used at compile-time. Some uses for these literals include compile-time integer parsing, binary literals, and imaginary number literals.
 ```c++
 using namespace std::chrono_literals;
@@ -167,7 +172,7 @@ day.count(); // == 24
 std::chrono::duration_cast<std::chrono::minutes>(day).count(); // == 1440
 ```
 
-### Compile-time integer sequences
+### Compile-time Integer Sequences
 The class template `std::integer_sequence` represents a compile-time sequence of integers. There are a few helpers built on top:
 * `std::make_integer_sequence<T, N>` - creates a sequence of `0, ..., N - 1` with type `T`.
 * `std::index_sequence_for<T...>` - converts a template parameter pack into an integer sequence.
