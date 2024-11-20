@@ -1,6 +1,9 @@
 ---
-title: "Packages"
+title: Packages
+date created: Saturday, July 27th 2024, 3:42:40 pm
+date modified: Tuesday, November 12th 2024, 8:40:34 pm
 ---
+
 # Packages
 
 - [Aerc](aerc.md)

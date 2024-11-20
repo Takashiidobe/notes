@@ -1,5 +1,7 @@
 ---
-title: "Build for Different Architectures in Go"
+title: Build for Different Architectures in Go
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Wednesday, November 13th 2024, 7:01:46 am
 ---
 
 # Build for Different Architectures in Go

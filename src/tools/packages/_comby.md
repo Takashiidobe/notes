@@ -1,6 +1,9 @@
 ---
-title: _comby
+title: Comby
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:40:37 pm
 ---
+
 # Comby
 
 Comby is a tool for Refactoring codebases in any language:

@@ -1,5 +1,7 @@
 ---
-title: gooey
+title: Gooey
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 12th 2024, 8:40:16 pm
 ---
 
 # Gooey
@@ -17,7 +19,7 @@ pip3 install gooey
 
 ## Example
 
-```py
+```python
 from gooey import Gooey, GooeyParser
 from os import system
 
