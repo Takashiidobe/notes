@@ -4,17 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f2e9871ac830fa57",
+        "id": "bfabf65f2b69a847",
         "type": "tabs",
         "children": [
           {
-            "id": "be1a92291fe0445b",
+            "id": "dbfaf6a98e6611c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "kanban",
+              "state": {
+                "file": "Tasks.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Tasks"
             }
           }
         ]
@@ -48,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tasks",
+                "query": "MySQL 8",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,34 +179,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "fdc5b99befc64ed9",
+  "active": "dbfaf6a98e6611c6",
   "lastOpenFiles": [
+    "leadership qs.md",
     "Tasks.md",
+    "index.md",
+    "tools/_tools.md",
+    "Untitled Kanban.md",
+    "databases/sql/mysql-8.md",
+    "system-design/types-in-system-design.md",
+    "system-design/design-netflix.md",
+    "system-design/design-an-atm.md",
+    "system-design/design-a-voting-system.md",
+    "tools/packages/jenv.md",
+    "tools/packages/gooey.md",
+    "tools/packages/aerc.md",
+    "tools/packages/_comby.md",
+    "tools/packages/_packages.md",
+    "tools/packages/id3tool.md",
+    "tools/packages/lazy-docker.md",
     "programming-languages/go/build-for-different-archs-in-go.md",
     "programming-languages/scheme/structure-and-interpretation-of-computer-programs/structure-and-interpretation-of-computer-programs.md",
     "programming-languages/scheme/the-little-schemer/the-little-schemer.md",
     "programming-languages/scheme/_scheme.md",
     "programming-languages/typescript/_typescript.md",
     "quotes/_quotes.md",
-    "tools/packages/_comby.md",
-    "tools/packages/_packages.md",
-    "tools/packages/aerc.md",
-    "tools/packages/gooey.md",
     "tools/hugo/cstate.md",
     "tools/hugo/_hugo.md",
     "security/cves/CVE-2024-3094.md",
-    "security/cves/index.md",
-    "security/_security.md",
-    "security/constant-time-comparison.md",
-    "security/fail2ban.md",
-    "talks/what-matters-more-than-your-talents.md",
-    "til/_til.md",
-    "til/deque-in-c.md",
-    "til/dtruss.md",
-    "til/heredocs.md",
-    "til/linux-file-partitions.md",
-    "til/min-stack-in-c.md",
-    "til/rsync-to-remote-server.md",
     "interviews/design/images/using-tfo-cookie.png",
     "interviews/design/images/tfo-cookie-generation.png",
     "interviews/design/images/tcp-three-way-handshake.png",
