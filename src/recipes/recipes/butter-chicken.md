@@ -1,11 +1,10 @@
 ---
-title: butter-chicken
+title: Butter Chicken
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:58:00 pm
 ---
 
-Chicken
-
-![Butter
-Chicken](https://static01.nyt.com/images/2014/08/24/magazine/24eat/mag-24Eat-t_CA0-articleLarge.jpg)
+![Butter Chicken](https://static01.nyt.com/images/2014/08/24/magazine/24eat/mag-24Eat-t_CA0-articleLarge.jpg)
 
 # Butter Chicken
 

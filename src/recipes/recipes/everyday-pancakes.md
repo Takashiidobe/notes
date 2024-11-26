@@ -2,10 +2,7 @@
 title: everyday-pancakes
 ---
 
-Pancakes
-
-![Everyday
-Pancakes](https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-articleLarge.jpg)
+![Everyday Pancakes](https://static01.nyt.com/images/2017/03/24/dining/24COOKING-CLASSICPANCAKES/24COOKING-CLASSICPANCAKES-articleLarge.jpg)
 
 # Everyday Pancakes
 

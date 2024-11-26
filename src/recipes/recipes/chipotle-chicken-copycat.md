@@ -1,5 +1,7 @@
 ---
 title: Chipotle Chicken (Copycat)
+date created: Thursday, February 8th 2024, 1:41:26 pm
+date modified: Tuesday, November 26th 2024, 3:02:18 pm
 ---
 
 ![Chipotle Chicken (Copycat)](https://www.culinaryhill.com/wp-content/uploads/2020/04/Chipotle-Chicken-Recipe-Copycat-Culinary-Hill-square01.jpg)

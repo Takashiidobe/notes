@@ -1,9 +1,11 @@
 ---
-title: creativity-in-management
+title: Transcript
 author: "John Cleese"
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Friday, November 8th 2024, 10:22:30 pm
+date modified: Tuesday, November 26th 2024, 3:04:13 pm
 ---
+
+# Transcript
 
 You know, when Video Arts asked me if I’d like to talk about creativity I said “no problem!” No problem! Because telling people how to be creative is easy, it’s only being it that’s difficult.
 

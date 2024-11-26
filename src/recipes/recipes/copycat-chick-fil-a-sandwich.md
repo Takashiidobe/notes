@@ -1,11 +1,10 @@
 ---
-title: copycat-chick-fil-a-sandwich
+title: Copycat Chick-fil-A Sandwich
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:30 pm
 ---
 
-Chick Fil A Sandwich
-
-![Copycat Chick-fil-A
-Sandwich](https://s23209.pcdn.co/wp-content/uploads/2015/05/IMG_7865edit-360x360.jpg)
+![Copycat Chick-fil-A Sandwich](https://s23209.pcdn.co/wp-content/uploads/2015/05/IMG_7865edit-360x360.jpg)
 
 # Copycat Chick-fil-A Sandwich
 

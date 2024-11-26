@@ -1,12 +1,10 @@
 ---
-title: crab-cream-korokke-recipe-japanese-style-deep-fried-croquettes-filled-with-white-sauce-and-seafood
+title: Crab Cream Korokke Recipe (Japanese-style Deep-Fried Croquettes Filled with White Sauce and Seafood)
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:46 pm
 ---
 
-Cream Korokke Recipe Japanese Style Deep Fried Croquettes Filled With White Sauce And Seafood
-
-![Crab Cream Korokke Recipe (Japanese-style Deep-Fried Croquettes Filled
-with White Sauce and
-Seafood)](https://cookingwithdog.com/wp-content/uploads/2020/07/crab-cream-korokke-00.jpg)
+![Crab Cream Korokke Recipe (Japanese-style Deep-Fried Croquettes Filled with White Sauce and Seafood)](https://cookingwithdog.com/wp-content/uploads/2020/07/crab-cream-korokke-00.jpg)
 
 # Crab Cream Korokke Recipe (Japanese-style Deep-Fried Croquettes Filled with White Sauce and Seafood)
 

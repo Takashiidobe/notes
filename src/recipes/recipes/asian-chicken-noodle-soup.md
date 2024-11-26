@@ -1,10 +1,8 @@
 ---
 title: Asian Chicken Noodle Soup
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Tuesday, November 26th 2024, 8:30:37 am
+date modified: Tuesday, November 26th 2024, 2:58:16 pm
 ---
-
-Chicken Noodle Soup
 
 ![Asian Chicken Noodle Soup](https://tiffycooks.com/wp-content/uploads/2021/01/Asian-Chicken-Noodle-Sou.png)
 

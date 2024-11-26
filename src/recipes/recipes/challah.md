@@ -1,5 +1,7 @@
 ---
 title: Challah
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:01:58 pm
 ---
 
 ![Challah](https://www.onceuponachef.com/images/2016/02/challah-may5.jpg)

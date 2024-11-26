@@ -1,7 +1,7 @@
 ---
 title: Git
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Tuesday, November 12th 2024, 8:35:19 pm
+date modified: Tuesday, November 26th 2024, 3:58:59 pm
 ---
 
 # Git
@@ -14,3 +14,4 @@ date modified: Tuesday, November 12th 2024, 8:35:19 pm
 - [Push to Multiple Remotes at the Same Time](push-to-multiple-remotes-at-the-same-time.md)
 - [Setup Git on Server](setup-git-on-server.md)
 - [Setup Gitea](setup-gitea.md)
+- [Multiple Git Identities](multiple-git-identities.md)

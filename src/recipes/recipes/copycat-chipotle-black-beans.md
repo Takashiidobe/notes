@@ -1,5 +1,7 @@
 ---
 title: Copycat Chipotle Black Beans
+date created: Thursday, February 8th 2024, 1:41:26 pm
+date modified: Tuesday, November 26th 2024, 3:03:34 pm
 ---
 
 ![Copycat Chipotle Black Beans](https://www.thefoodhussy.com/wp-content/uploads/2021/04/copycat-chipotle-black-beans-sm-5-2.jpg)

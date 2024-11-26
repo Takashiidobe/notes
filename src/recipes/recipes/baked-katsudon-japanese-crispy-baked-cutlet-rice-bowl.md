@@ -1,5 +1,7 @@
 ---
-title: baked-katsudon-japanese-crispy-baked-cutlet-rice-bowl
+title: Baked Katsudon (Japanese Crispy Baked Cutlet Rice Bowl)
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:58:18 pm
 ---
 
 ![Baked Katsudon: Japanese Crispy Baked Cutlet Rice Bowl](https://www.justonecookbook.com/wp-content/uploads/2020/05/Baked-Katsudon-9603-I.jpg)

@@ -1,13 +1,14 @@
 ---
-title: spicy-pan-fried-chickpeas-with-beef
+title: Pan Fried Chickpeas With Beef
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:55 pm
 ---
 
-Pan Fried Chickpeas With Beef
+# Pan Fried Chickpeas With Beef
 
-![Spicy pan-fried chickpeas with
-beef](https://images.kitchenstories.io/wagtailOriginalImages/R2032-photo-final-1.jpg)
+![Spicy pan-fried chickpeas with beef](https://images.kitchenstories.io/wagtailOriginalImages/R2032-photo-final-1.jpg)
 
-# Spicy pan-fried chickpeas with beef
+# Spicy Pan-fried Chickpeas with Beef
 
 - From:
   [link](https://www.kitchenstories.com/en/recipes/spicy-pan-fried-chickpeas-with-beef.md)

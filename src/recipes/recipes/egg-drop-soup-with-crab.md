@@ -1,11 +1,10 @@
 ---
-title: egg-drop-soup-with-crab
+title: Egg Drop Soup with Crab
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:54:11 pm
 ---
 
-Drop Soup With Crab
-
-![Egg Drop Soup with
-Crab](https://tiffycooks.com/wp-content/uploads/2021/01/Egg-Drop-Soup-.png)
+![Egg Drop Soup with Crab](https://tiffycooks.com/wp-content/uploads/2021/01/Egg-Drop-Soup-.png)
 
 # Egg Drop Soup with Crab
 
@@ -16,7 +15,7 @@ Crab](https://tiffycooks.com/wp-content/uploads/2021/01/Egg-Drop-Soup-.png)
 
 ## Ingredients:
 
-- 2 Stalks Green Onion (Seperated with Whites and Greens )
+- 2 Stalks Green Onion (Separated with Whites and Greens )
 - 4 Large Eggs
 - 1 tsp White Pepper
 - 1 tsp Salt

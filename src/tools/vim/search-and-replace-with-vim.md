@@ -1,6 +1,9 @@
 ---
-title: search-and-replace-with-vim
+title: Search and Replace with Vim
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:11 pm
 ---
+
 # Search and Replace with Vim
 
 I gave up and looked up how to do it using VIM, I was sure there was a

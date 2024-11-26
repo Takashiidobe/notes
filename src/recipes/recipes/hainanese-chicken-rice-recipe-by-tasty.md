@@ -1,5 +1,7 @@
 ---
 title: Hainanese Chicken Rice Recipe by Tasty
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:56:38 pm
 ---
 
 ![Hainanese Chicken Rice Recipe by Tasty](https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/154660.jpg?resize=1200:*)

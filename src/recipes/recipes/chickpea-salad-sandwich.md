@@ -1,11 +1,10 @@
 ---
-title: chickpea-salad-sandwich
+title: Chickpea Salad Sandwich Recipe by Tasty
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:02:12 pm
 ---
 
-Salad Sandwich Recipe by Tasty
-
-![Chickpea Salad Sandwich Recipe by
-Tasty](https://img.buzzfeed.com/thumbnailer-prod-us-east-1/71cc62cde3e1444e83419cfd6914f4e5/EasyToPackVeganLunchesFBFinal.jpg)
+![Chickpea Salad Sandwich Recipe by Tasty](https://img.buzzfeed.com/thumbnailer-prod-us-east-1/71cc62cde3e1444e83419cfd6914f4e5/EasyToPackVeganLunchesFBFinal.jpg)
 
 # Chickpea Salad Sandwich Recipe by Tasty
 

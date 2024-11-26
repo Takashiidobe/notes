@@ -1,8 +1,8 @@
 ---
 title: delete-to-char
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:27 pm
 ---
-
-to Char
 
 Use `dt${character}` to delete up to but not including \$character.
 

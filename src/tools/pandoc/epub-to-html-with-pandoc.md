@@ -1,6 +1,9 @@
 ---
-title: epub-to-html-with-pandoc
+title: EPUB to HTML with Pandoc
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:38 pm
 ---
+
 # EPUB to HTML with Pandoc
 
 To turn an epub to HTML with Pandoc, you'll need to extract the html

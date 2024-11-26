@@ -1,5 +1,7 @@
 ---
 title: Cauliflower Piccata
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:01:56 pm
 ---
 
 ![Cauliflower Piccata](https://static01.nyt.com/images/2001/10/07/dining/hm-cauliflower-piccata/merlin_195006624_9fe19ba9-b756-415a-9fe7-f65fc4ade92f-articleLarge.jpg)

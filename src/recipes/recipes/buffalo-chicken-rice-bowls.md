@@ -1,5 +1,7 @@
 ---
 title: Buffalo Chicken Rice Bowls
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:58:12 pm
 ---
 
 ![Buffalo Chicken Rice Bowls](https://mealprepmanual.com/wp-content/uploads/2020/06/Buffalo-Chicken-and-Rice-Bowls-WP.jpg)

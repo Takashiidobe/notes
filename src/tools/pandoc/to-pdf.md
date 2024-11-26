@@ -1,5 +1,7 @@
 ---
 title: to-pdf
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:40 pm
 ---
 
 To convert to pdf, I use the eisvogel theme: [here](https://github.com/Wandmalfarbe/pandoc-latex-template.md).

@@ -1,5 +1,7 @@
 ---
 title: Chipotle Steak (Copycat)
+date created: Thursday, February 8th 2024, 1:41:26 pm
+date modified: Tuesday, November 26th 2024, 3:03:21 pm
 ---
 
 ![Chipotle Steak (Copycat)](https://www.culinaryhill.com/wp-content/uploads/2022/06/Chipotle-Steak-Copycat-Culinary-Hill-1200x800-1.jpg)

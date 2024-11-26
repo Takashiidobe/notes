@@ -1,5 +1,7 @@
 ---
-title: "Chipotle Recipes"
+title: Chipotle Recipes
+date created: Tuesday, June 25th 2024, 1:58:42 pm
+date modified: Tuesday, November 26th 2024, 3:02:29 pm
 ---
 
 # Chipotle Recipes
@@ -42,7 +44,7 @@ mix to combine.
 
 ### Ingredients:
 
-- 2 Ripe hass avocadoes
+- 2 Ripe hash avocadoes
 - juice of 1/4 lime
 - 1/4 of a bunch of cilantro finely chopped
 - 1/4 of a red onion chopped

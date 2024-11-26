@@ -1,11 +1,12 @@
 ---
-title: greek-slow-roasted-leg-of-lamb
+title: Greek Slow Roasted Leg of Lamb
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:54:04 pm
 ---
 
 Slow Roasted Leg of Lamb
 
-![Greek Slow Roasted Leg of
-Lamb](https://www.recipetineats.com/wp-content/uploads/2016/03/Greek-Slow-Roast-Lamb_7.jpg)
+![Greek Slow Roasted Leg of Lamb](https://www.recipetineats.com/wp-content/uploads/2016/03/Greek-Slow-Roast-Lamb_7.jpg)
 
 # Greek Slow Roasted Leg of Lamb
 

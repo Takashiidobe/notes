@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bfabf65f2b69a847",
+        "id": "ea663409231b0d27",
         "type": "tabs",
         "children": [
           {
-            "id": "dbfaf6a98e6611c6",
+            "id": "63fad462fdb7dc29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/packages/miniserve.md",
+                "file": "system-design/_system-design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "miniserve"
+              "title": "_system-design"
             }
           }
         ]
@@ -175,32 +175,32 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "dbfaf6a98e6611c6",
+  "active": "63fad462fdb7dc29",
   "lastOpenFiles": [
-    "tools/packages/mise.md",
-    "tools/packages/newsboat.md",
-    "tools/packages/pdf-tocgen.md",
-    "tools/packages/sc-im.md",
-    "tools/packages/sdcv.md",
-    "tools/packages/watchexec.md",
-    "tools/packages/local-stack.md",
-    "tools/hugo/cstate.md",
-    "tools/homebrew/using-different-homebrew-formula-versions.md",
-    "tools/git/push-to-multiple-remotes-at-the-same-time.md",
-    "tools/git/empty-git-commits.md",
+    "talks/learning-to-learn.md",
+    "talks/obama-at-the-democratic-national-convention.md",
     "tools/git/follow-changes-made-to-file.md",
-    "til/use-find-instead-of-globstar.md",
-    "til/use-sbrk-to-allocate-memory.md",
+    "tools/git/git-instaweb.md",
+    "tools/git/multiple-git-idenities.md",
+    "tools/git/push-to-multiple-remotes-at-the-same-time.md",
+    "tools/git/setup-git-on-server.md",
+    "tools/git/setup-gitea.md",
+    "tools/git/_git.md",
+    "tools/git/checkout-file-from-another-branch.md",
+    "tools/git/delta.md",
+    "tools/git/empty-git-commits.md",
     "til/traceroute.md",
-    "til/sync-with-android.md",
-    "til/smart-pointers-in-rust.md",
-    "til/min-stack-in-c.md",
-    "til/html-to-text.md",
+    "til/rsync-to-remote-server.md",
     "til/linux-file-partitions.md",
+    "talks/the-multidisciplinary-approach-to-thinking.md",
+    "talks/the-danger-of-a-single-story.md",
+    "talks/on-the-death-of-martin-luther-king.md",
+    "talks/george-washingtons-resignation.md",
+    "talks/cross-of-iron.md",
+    "talks/atoms-for-peace.md",
     "talks/1999-mount-holyoke-commencement-speech.md",
     "talks/a-lesson-on-elementary-worldly-wisdom.md",
     "talks/antitrust-commission-jeff-bezos.md",
-    "talks/atoms-for-peace.md",
     "talks/creative-thinking.md",
     "talks/creativity-in-management.md",
     "interviews/design/images/using-tfo-cookie.png",

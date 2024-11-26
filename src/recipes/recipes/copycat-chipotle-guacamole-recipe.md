@@ -1,5 +1,7 @@
 ---
 title: Copycat Chipotle Guacamole Recipe
+date created: Thursday, February 8th 2024, 1:41:25 pm
+date modified: Tuesday, November 26th 2024, 3:03:37 pm
 ---
 
 ![Copycat Chipotle Guacamole Recipe](https://belleofthekitchen.com/wp-content/uploads/2022/02/copycat-chipotle-guacamole-recipe-1-2.jpg)
@@ -12,7 +14,7 @@ title: Copycat Chipotle Guacamole Recipe
 
 ## Ingredients:
 
-- 3 Hass avocados
+- 3 Hash avocados
 - 1/3 of a red onion (chopped)
 - 1 jalapeño (seeds and membranes removed, chopped)
 - 1 lime (juiced)

@@ -1,6 +1,9 @@
 ---
 title: Vim
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:53:32 pm
 ---
+
 # Vim
 
 - [refer-to-current-file](./refer-to-current-file.md)

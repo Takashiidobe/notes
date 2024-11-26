@@ -1,5 +1,7 @@
 ---
 title: Braised White Beans and Greens With Parmesan
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:58:10 pm
 ---
 
 ![Braised White Beans and Greens With Parmesan](https://static01.nyt.com/images/2021/03/14/dining/lh-cheesy-beans-and-greens/merlin_183224118_e83ba06b-3d32-4ca6-a164-7e53b3fbc5fd-articleLarge.jpg)

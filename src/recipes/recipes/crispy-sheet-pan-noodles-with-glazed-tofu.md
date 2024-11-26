@@ -1,5 +1,7 @@
 ---
 title: Crispy Sheet-Pan Noodles With Glazed Tofu
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:53 pm
 ---
 
 ![Crispy Sheet-Pan Noodles With Glazed Tofu](https://static01.nyt.com/images/2021/10/13/dining/hm-crispy-ramen/merlin_195007359_3797c15f-a677-4940-b6aa-44215246ac28-articleLarge.jpg)

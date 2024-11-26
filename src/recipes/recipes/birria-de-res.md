@@ -1,10 +1,12 @@
 ---
-title: Birria de Res
+title: Birria De Res
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 2:58:09 pm
 ---
 
 ![Birria de Res](https://static01.nyt.com/images/2021/02/10/dining/09Birriarex1/merlin_183102807_b67d22d9-5849-47d3-9360-a5927e956757-articleLarge.jpg)
 
-# Birria de Res
+# Birria De Res
 
 - From: [link](https://cooking.nytimes.com/recipes/1021858-birria-de-res)
 

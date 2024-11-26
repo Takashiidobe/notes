@@ -1,13 +1,13 @@
 ---
-title: chicken-katsu-curry
+title: Chicken Katsu Curry
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:02:03 pm
 ---
 
-Katsu Curry
 
-![chicken katsu
-curry](https://images.immediate.co.uk/production/volatile/sites/2/2015/01/2980.jpg?quality=45&resize=768,574)
+![chicken katsu curry](https://images.immediate.co.uk/production/volatile/sites/2/2015/01/2980.jpg?quality=45&resize=768,574)
 
-# chicken katsu curry
+# Chicken Katsu Curry
 
 - From:
   [link](https://www.olivemagazine.com/recipes/meat-and-poultry/chicken-katsu-curry/.md)

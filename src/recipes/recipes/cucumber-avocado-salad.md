@@ -1,5 +1,7 @@
 ---
 title: Cucumber-Avocado Salad
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:58 pm
 ---
 
 ![Cucumber-Avocado Salad](https://static01.nyt.com/images/2021/07/13/dining/as-cucumber-avocado-saladd/merlin_189372006_a9ab5728-f86c-4727-aedf-3f1f6f4633b8-articleLarge.jpg)

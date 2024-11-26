@@ -1,5 +1,7 @@
 ---
 title: Cold Noodle Salad With Spicy Peanut Sauce
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:25 pm
 ---
 
 ![Cold Noodle Salad With Spicy Peanut Sauce](https://static01.nyt.com/images/2021/06/18/dining/hm-cold-noodle-salad/merlin_189371982_fe2a424a-73a9-4e56-b4e7-b77f4dfe544c-articleLarge.jpg)

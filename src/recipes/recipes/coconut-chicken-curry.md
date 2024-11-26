@@ -1,5 +1,7 @@
 ---
 title: Coconut Chicken Curry
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:23 pm
 ---
 
 ![Coconut Chicken Curry](https://static01.nyt.com/images/2021/01/06/dining/04Cookbooksrex2-curry/merlin_181749069_bac75581-7b0e-4426-8d8b-1803663440fd-articleLarge.jpg)

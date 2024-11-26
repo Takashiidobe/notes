@@ -1,5 +1,7 @@
 ---
 title: Chipotle Cilantro Lime Rice (Copycat)
+date created: Thursday, February 8th 2024, 1:41:25 pm
+date modified: Tuesday, November 26th 2024, 3:02:20 pm
 ---
 
 ![Chipotle Cilantro Lime Rice (Copycat)](https://www.culinaryhill.com/wp-content/uploads/2022/10/Chipotle-Cilantro-Lime-Rice-Culinary-Hill-1200x800-1.jpg)

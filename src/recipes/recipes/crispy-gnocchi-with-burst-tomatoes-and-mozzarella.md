@@ -1,5 +1,7 @@
 ---
 title: Crispy Gnocchi With Burst Tomatoes and Mozzarella
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 3:03:52 pm
 ---
 
 ![Crispy Gnocchi With Burst Tomatoes and Mozzarella](https://static01.nyt.com/images/2021/04/19/dining/as-cheesy-baked-gnocchi/merlin_183955068_cea0bca3-39eb-4a57-a1ce-ba780b08af51-articleLarge.jpg)
