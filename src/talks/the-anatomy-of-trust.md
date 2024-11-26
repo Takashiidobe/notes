@@ -1,6 +1,8 @@
 ---
-title: "The Anatomy of Trust"
+title: Background
 author: "Brene Brown"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 8:31:14 am
 ---
 
 # Background

@@ -1,11 +1,10 @@
 ---
-title: curry-udon
+title: Curry Udon
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 8:30:54 am
 ---
 
-Udon
-
-![Curry
-Udon](https://www.justonecookbook.com/wp-content/uploads/2020/05/Curry-Udon-1131-I-2.jpg)
+![Curry Udon](https://www.justonecookbook.com/wp-content/uploads/2020/05/Curry-Udon-1131-I-2.jpg)
 
 # Curry Udon
 

@@ -1,11 +1,12 @@
 ---
-title: miniserve
+title: Miniserve
+date created: Saturday, July 27th 2024, 3:42:22 pm
+date modified: Tuesday, November 26th 2024, 8:32:04 am
 ---
 
 # Miniserve
 
-Miniserve is a simple utility that serves files and directories over
-http.
+Miniserve is a simple utility that serves files and directories over http.
 
 ## Installation
 

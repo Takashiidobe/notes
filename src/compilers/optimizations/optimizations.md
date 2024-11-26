@@ -1,3 +1,8 @@
+---
+title: Compiler Optimizations
+date created: Tuesday, April 9th 2024, 7:37:44 pm
+date modified: Monday, November 25th 2024, 8:23:57 pm
+---
 # Compiler Optimizations
 
 1. Peephole Optimization

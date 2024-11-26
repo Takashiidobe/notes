@@ -1,9 +1,11 @@
 ---
-title: "The Ballot or the Bullet"
+title: Transcript
 author: "Malcolm X"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, November 26th 2024, 8:31:18 am
 ---
 
-## Transcript
+# Transcript
 
 Mr. Moderator, Rev. Cleage, brothers and sisters and friends, and I see some enemies. In fact, I think we'd be fooling ourselves if we had an audience this large and didn't realize that there were some enemies present.
 

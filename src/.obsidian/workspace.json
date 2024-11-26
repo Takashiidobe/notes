@@ -11,18 +11,14 @@
             "id": "dbfaf6a98e6611c6",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Tasks.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false
-                  ]
-                }
+                "file": "tools/packages/miniserve.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tasks"
+              "icon": "lucide-file",
+              "title": "miniserve"
             }
           }
         ]
@@ -181,32 +177,32 @@
   },
   "active": "dbfaf6a98e6611c6",
   "lastOpenFiles": [
-    "leadership qs.md",
-    "Tasks.md",
-    "index.md",
-    "tools/_tools.md",
-    "Untitled Kanban.md",
-    "databases/sql/mysql-8.md",
-    "system-design/types-in-system-design.md",
-    "system-design/design-netflix.md",
-    "system-design/design-an-atm.md",
-    "system-design/design-a-voting-system.md",
-    "tools/packages/jenv.md",
-    "tools/packages/gooey.md",
-    "tools/packages/aerc.md",
-    "tools/packages/_comby.md",
-    "tools/packages/_packages.md",
-    "tools/packages/id3tool.md",
-    "tools/packages/lazy-docker.md",
-    "programming-languages/go/build-for-different-archs-in-go.md",
-    "programming-languages/scheme/structure-and-interpretation-of-computer-programs/structure-and-interpretation-of-computer-programs.md",
-    "programming-languages/scheme/the-little-schemer/the-little-schemer.md",
-    "programming-languages/scheme/_scheme.md",
-    "programming-languages/typescript/_typescript.md",
-    "quotes/_quotes.md",
+    "tools/packages/mise.md",
+    "tools/packages/newsboat.md",
+    "tools/packages/pdf-tocgen.md",
+    "tools/packages/sc-im.md",
+    "tools/packages/sdcv.md",
+    "tools/packages/watchexec.md",
+    "tools/packages/local-stack.md",
     "tools/hugo/cstate.md",
-    "tools/hugo/_hugo.md",
-    "security/cves/CVE-2024-3094.md",
+    "tools/homebrew/using-different-homebrew-formula-versions.md",
+    "tools/git/push-to-multiple-remotes-at-the-same-time.md",
+    "tools/git/empty-git-commits.md",
+    "tools/git/follow-changes-made-to-file.md",
+    "til/use-find-instead-of-globstar.md",
+    "til/use-sbrk-to-allocate-memory.md",
+    "til/traceroute.md",
+    "til/sync-with-android.md",
+    "til/smart-pointers-in-rust.md",
+    "til/min-stack-in-c.md",
+    "til/html-to-text.md",
+    "til/linux-file-partitions.md",
+    "talks/1999-mount-holyoke-commencement-speech.md",
+    "talks/a-lesson-on-elementary-worldly-wisdom.md",
+    "talks/antitrust-commission-jeff-bezos.md",
+    "talks/atoms-for-peace.md",
+    "talks/creative-thinking.md",
+    "talks/creativity-in-management.md",
     "interviews/design/images/using-tfo-cookie.png",
     "interviews/design/images/tfo-cookie-generation.png",
     "interviews/design/images/tcp-three-way-handshake.png",

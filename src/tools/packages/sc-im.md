@@ -1,3 +1,8 @@
+---
+title: Sc-im
+date created: Saturday, July 27th 2024, 3:55:04 pm
+date modified: Tuesday, November 26th 2024, 8:31:54 am
+---
 # Sc-im
 
 Sc-im is spreadsheet software that can view xlsx, csv, and its own
