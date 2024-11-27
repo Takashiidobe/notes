@@ -1,0 +1,15 @@
+# Designing Data Intensive Applications
+
+- [Batch Processing](batch-processing.md)
+- [Consistency And Consensus](consistency-and-consensus.md)
+- [Data Models And Query Languages](data-models-and-query-languages.md)
+- [Distributed Systems Trouble](distributed-systems-trouble.md)
+- [Encoding And Evolution](encoding-and-evolution.md)
+- [Partitioning](partitioning.md)
+- [Reliable Scalable And Maintainable Applications](reliable-scalable-and-maintainable-applications.md)
+- [Replication](replication.md)
+- [Storage And Retrieval](storage-and-retrieval.md)
+- [Stream Processing](stream-processing.md)
+- [The Future Of Data Systems](the-future-of-data-systems.md)
+- [Transactions](transactions.md)
+- [_Designing Data Intensive Applications](_designing-data-intensive-applications.md)
