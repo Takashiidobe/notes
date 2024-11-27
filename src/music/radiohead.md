@@ -5,12 +5,12 @@ date modified: Tuesday, November 12th 2024, 8:30:38 pm
 ---
 # Albums
 
-- [Pablo Honey](radiohead/pablo-honeyradiohead.md)
-- [The Bends](radiohead/the-bendsradiohead.md)
-- [Ok Computer](radiohead/ok-computerradiohead.md)
-- [Kid A](radiohead/kid-aradiohead.md)
-- [Amnesiac](radiohead/amnesiacradiohead.md)
-- [Hail to the Thief](radiohead/hail-to-the-thiefradiohead.md)
-- [In Rainbows](radiohead/in-rainbowsradiohead.md)
-- [The King of Limbs](radiohead/the-king-of-limbsradiohead.md)
-- [A Moon Shaped Pool](radiohead/a-moon-shaped-poolradiohead.md)
+- [Pablo Honey](radiohead/pablo-honey.md)
+- [The Bends](radiohead/the-bends.md)
+- [Ok Computer](radiohead/ok-computer.md)
+- [Kid A](radiohead/kid-a.md)
+- [Amnesiac](radiohead/amnesiac.md)
+- [Hail to the Thief](radiohead/hail-to-the-thief.md)
+- [In Rainbows](radiohead/in-rainbows.md)
+- [The King of Limbs](radiohead/the-king-of-limbs.md)
+- [A Moon Shaped Pool](radiohead/a-moon-shaped-pool.md)
