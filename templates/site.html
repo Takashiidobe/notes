@@ -21,10 +21,11 @@
     $endif$ $if(keywords)$
     <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
     $endif$
-    <style id="hide-page">html{visibility: hidden;opacity:0;}</style>
+    <link id="prologue-styles" href="/prologue.css" rel="stylesheet">
     <link rel="icon" href="data:,">
     <link id="new-styles" href="/new.css" rel="stylesheet">
     <link id="pagefind-styles" href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <link id="epilogue-styles" href="/epilogue.css" rel="stylesheet">
 
     <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
     $if(highlighting-css)$

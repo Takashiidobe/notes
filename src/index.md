@@ -1,7 +1,7 @@
 ---
-title: Notes
+title: index
 date created: Saturday, August 3rd 2024, 6:47:12 pm
-date modified: Saturday, November 9th 2024, 7:22:02 am
+date modified: Thursday, December 5th 2024, 9:38:12 pm
 ---
 
 # Src
@@ -42,3 +42,4 @@ date modified: Saturday, November 9th 2024, 7:22:02 am
 - [Tasks](Tasks.md)
 - [Til](til/index.md)
 - [Tools](tools/index.md)
+- [Work](work/index.md)

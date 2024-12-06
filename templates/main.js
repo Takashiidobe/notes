@@ -21,11 +21,15 @@ function appendCss(link, filepath) {
   }
 }
 
+var prologueStyles = document.querySelector('#prologue-styles');
 var newStyles = document.querySelector('#new-styles');
 var pagefindStyles = document.querySelector('#pagefind-styles');
+var epilogueStyles = document.querySelector('#epilogue-styles');
 
+appendCss(prologueStyles, "/home/takashi/monorepo/notes/site/prologue.css", "/prologue.css");
 appendCss(newStyles, "/home/takashi/monorepo/notes/site/new.css", "/new.css");
 appendCss(pagefindStyles, "/home/takashi/monorepo/notes/site/pagefind/pagefind-ui.css", "/pagefind/pagefind-ui.css");
+appendCss(epilogueStyles, "/home/takashi/monorepo/notes/site/epilogue.css", "/epilogue.css");
 
 var possibleLinks = Array.from(document.querySelectorAll('p > a')) || []
 
@@ -50,6 +54,3 @@ if (possibleLinks.length > 0) {
     });
   }
 }
-
-const hidePageNode = document.head.querySelector('#hide-page');
-hidePageNode.remove();
