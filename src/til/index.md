@@ -1,3 +1,8 @@
+---
+title: Til
+date created: Tuesday, November 26th 2024, 7:59:40 pm
+date modified: Saturday, December 7th 2024, 8:58:06 pm
+---
 # Til
 
 - [Deque In C](deque-in-c.md)
@@ -12,4 +17,3 @@
 - [Traceroute](traceroute.md)
 - [Use Find Instead Of Globstar](use-find-instead-of-globstar.md)
 - [Use Sbrk To Allocate Memory](use-sbrk-to-allocate-memory.md)
-- [_Til](_til.md)

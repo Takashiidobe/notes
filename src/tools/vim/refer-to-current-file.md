@@ -1,8 +1,10 @@
 ---
-title: refer-to-current-file
+title: Refer to Current File
 date created: Friday, November 8th 2024, 8:00:23 pm
-date modified: Tuesday, November 26th 2024, 2:53:03 pm
+date modified: Saturday, December 7th 2024, 8:58:58 pm
 ---
+
+# Refer to Current File
 
 To refer to the current file in Vim, you can use `%`.
 

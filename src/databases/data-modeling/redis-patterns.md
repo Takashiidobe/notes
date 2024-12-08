@@ -1,3 +1,8 @@
+---
+title: Redis Data Modeling
+date created: Saturday, April 13th 2024, 8:49:52 am
+date modified: Saturday, December 7th 2024, 8:52:23 pm
+---
 # Redis Data Modeling
 
 ## One-to-One Relationships

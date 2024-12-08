@@ -1,7 +1,7 @@
 ---
 title: Use Sbrk to Adjust the Program Break
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Friday, November 8th 2024, 10:24:23 pm
+date modified: Saturday, December 7th 2024, 8:58:15 pm
 ---
 
 # Use Sbrk to Adjust the Program Break
