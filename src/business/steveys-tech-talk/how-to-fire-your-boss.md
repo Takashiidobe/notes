@@ -1,4 +1,9 @@
-# How to fire your boss
+---
+title: How to Fire Your Boss
+date created: Tuesday, April 9th 2024, 6:12:43 pm
+date modified: Saturday, December 7th 2024, 6:44:05 pm
+---
+# How to Fire Your Boss
 
 📈 Unique Advantages: The discussion ventures into the advantages of working in
 big tech, such as the ability to work remotely, switch teams due to the

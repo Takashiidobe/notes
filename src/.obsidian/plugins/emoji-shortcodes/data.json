@@ -1,0 +1,10 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":blue_book:",
+    ":ice_cube:"
+  ]
+}

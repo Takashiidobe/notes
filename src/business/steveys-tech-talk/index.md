@@ -1,5 +1,7 @@
 ---
-title: "Steveys-Tech-Talk"
+title: Steveys Tech Talk
+date created: Tuesday, November 26th 2024, 7:59:36 pm
+date modified: Saturday, December 7th 2024, 6:44:10 pm
 ---
 
 # Steveys Tech Talk

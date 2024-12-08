@@ -30,4 +30,4 @@
 - [Superclasses](superclasses.md)
 - [The Lox Language](the-lox-language.md)
 - [Types Of Values](types-of-values.md)
-- [_Crafting Interpreters](_crafting-interpreters.md)
+- [_Crafting Interpreters](books/crafting-interpreters/_crafting-interpreters.md)

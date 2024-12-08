@@ -1,3 +1,8 @@
+---
+title: Tips for New Managers
+date created: Tuesday, April 9th 2024, 6:21:30 pm
+date modified: Saturday, December 7th 2024, 6:44:11 pm
+---
 # Tips for New Managers
 
 🌱 Understanding Your Team: Initiate your management role by meeting your team

@@ -13,7 +13,7 @@
 - [Compiling To Assembly From Scratch](compiling-to-assembly-from-scratch/index.md)
 - [Computer Networking A Top Down Approach](computer-networking-a-top-down-approach/index.md)
 - [Computer Networks A Systems Approach](computer-networks-a-systems-approach/index.md)
-- [Crafting Interpreters](crafting-interpreters/index.md)
+- [Crafting Interpreters](books/crafting-interpreters/index.md)
 - [Crossing The Chasm](crossing-the-chasm.md)
 - [Cses](cses/index.md)
 - [Database Design And Implementation](database-design-and-implementation/index.md)

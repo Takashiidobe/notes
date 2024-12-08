@@ -1,5 +1,7 @@
 ---
-title: "The Bitter Lesson"
+title: The Bitter Lesson
+date created: Thursday, September 28th 2023, 10:06:19 am
+date modified: Saturday, December 7th 2024, 8:32:40 pm
 ---
 
 # The Bitter Lesson

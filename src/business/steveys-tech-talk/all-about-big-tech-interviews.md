@@ -1,4 +1,9 @@
-# All About big Tech Interviews
+---
+title: All About Big Tech Interviews
+date created: Tuesday, April 9th 2024, 6:15:41 pm
+date modified: Saturday, December 7th 2024, 6:44:03 pm
+---
+# All About Big Tech Interviews
 
 🔄 The Flawed Process: Steve begins by acknowledging the inherent flaws in the
 technical interview process. He criticizes the industry's reliance on

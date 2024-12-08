@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea663409231b0d27",
+        "id": "2d28980a3e5c9dd9",
         "type": "tabs",
         "children": [
           {
-            "id": "63fad462fdb7dc29",
+            "id": "cd2de41db3e17ed2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "real-world-systems/ideas.md",
+                "file": "work/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "index"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MySQL 8",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,35 +175,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "63fad462fdb7dc29",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
-    "real-world-systems/_real-world-systems.md",
-    "real-world-systems/ideas.md",
-    "real-world-systems/index.md",
-    "real-world-systems/lambda.md",
-    "real-world-systems/aurora.md",
-    "work/index.md",
     "work/managing-notes.md",
-    "index.md",
     "Tasks.md",
-    "work",
-    "compilers/_compilers.md",
+    "index.md",
+    "artificial-intelligence/the-bitter-lesson.md",
+    "artificial-intelligence/index.md",
+    "blockchain/proof-of-work.md",
+    "artificial-intelligence/_artificial-intelligence.md",
+    "blockchain/index.md",
+    "blockchain/proof-of-stake.md",
+    "blockchain/_blockchain.md",
+    "business/steveys-tech-talk/tips-for-new-managers.md",
+    "business/steveys-tech-talk/index.md",
+    "business/steveys-tech-talk/how-to-motivate-people.md",
+    "business/steveys-tech-talk/how-to-get-yourself-promoted.md",
+    "business/steveys-tech-talk/how-to-fire-your-boss.md",
+    "business/steveys-tech-talk/all-about-big-tech-interviews.md",
+    "business/index.md",
+    "business/wisdom.md",
+    "business/interviewee-questions.md",
+    "business/_business.md",
     "compilers/optimizations/optimizations.md",
+    "compilers/optimizations/index.md",
+    "compilers/compiling-to-assembly-from-scratch/index.md",
+    "books/compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md",
     "computer-architecture/x86/_x86.md",
-    "computer-architecture/x86/index.md",
-    "courses/an-introduction-to-computer-networks/_an-introduction-to-computer-networks.md",
-    "courses/an-introduction-to-computer-networks/abstract-sliding-windows.md",
-    "courses/an-introduction-to-computer-networks/advanced-ethernet.md",
-    "courses/an-introduction-to-computer-networks/exercise-numbering-conversion-tables.md",
-    "courses/an-introduction-to-computer-networks/ethernet-basics.md",
-    "courses/an-introduction-to-computer-networks/border-gateway-protocol-bgp.md",
-    "courses/an-introduction-to-computer-networks/bibliography.md",
-    "courses/an-introduction-to-computer-networks/an-overview-of-networks.md",
-    "courses/an-introduction-to-computer-networks/index.md",
-    "courses/an-introduction-to-computer-networks/further-dynamics-of-tcp.md",
-    "courses/an-introduction-to-computer-networks/dynamics-of-tcp.md",
-    "talks/index.md",
-    "talks/_talks.md",
+    "compilers/compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md",
+    "software-architecture",
+    "work",
     "tools/vim/index.md~",
     "index.md~",
     "music/radiohead.md~",

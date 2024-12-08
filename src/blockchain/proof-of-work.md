@@ -1,5 +1,7 @@
 ---
-title: "Proof of Work"
+title: proof-of-work
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 6:44:28 pm
 ---
 
 Proof of work involves miners solving cryptographically hard puzzles in

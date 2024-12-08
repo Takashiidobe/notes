@@ -1,6 +1,11 @@
-# Ask me this Instead
+---
+title: Ask Me This Instead
+date created: Sunday, April 28th 2024, 7:58:34 am
+date modified: Saturday, December 7th 2024, 6:43:35 pm
+---
+# Ask Me This Instead
 
-## What are the current focus areas for the company as a whole?
+## What Are the Current Focus Areas for the Company as a Whole?
 
 ### Who to Ask:
 CEO / Founder
@@ -14,7 +19,7 @@ Let say the team I’d join accomplishes the current list of priorities earlier 
 ### Why:
 This question is specific to the team and gives you insight into what is on the CEO mind as well as insight into the “why” behind the “what.”
 
-## How has the company changed since you joined?
+## How Has the Company Changed since You Joined?
 
 ### Who to Ask:
 Cross-Functional
@@ -28,7 +33,7 @@ With regard to the team I join, how have the cross-functional collaboration and 
 ### Why:
 Here, you focus on an element that is relevant to the team you join and specific enough to give you insight into this particular team member, collaboration, and progress toward goals.
 
-## What can you tell me about your new products or plans for growth?
+## What Can You Tell Me about Your New Products or Plans for Growth?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -42,7 +47,7 @@ While researching online, I noticed that you plan to launch [INSERT PRODUCT OR S
 ### Why:
 This indicates that you have been paying attention and are working to connect dots and learn more about the company. Their answer might unlock information about how the company prioritizes goals and sets a roadmap, as well as give you hints about other products or services that could come into play at some point and how the company evaluates the landscape and makes strategic decisions.
 
-## What are the current goals that the company is focused on, and how does this team work to support hitting those goals?
+## What Are the Current Goals that the Company is Focused On, and how Does This Team Work to Support Hitting Those Goals?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -56,7 +61,7 @@ Based on earlier conversations, I know that [INSERT INFORMATION ABOUT A SPECIFIC
 ### Why:
 This demonstrates that you are aware of certain priorities and eager to contribute. The response will give you a heads-up on expectations or current pain points that will be relevant to your role.
 
-## Is there a formal mission or company values?
+## Is there a Formal Mission or Company Values?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -70,7 +75,7 @@ While reading over your values, I found [INSERT A VALUE] really resonated with m
 ### Why:
 It less about whether they have a mission, values, or similar structure, but how those words or phrases actually come to life in a company. Asking a more specific question will demonstrate thoughtfulness and their answer will illuminate if those words are truly a part of the company’s culture.
 
-## How does the company take an idea from inception to completion?
+## How Does the Company Take an Idea from Inception to Completion?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -84,7 +89,7 @@ Can you describe the process that brought [INSERT PRODUCT, PROCESS OR SERVICE] t
 ### Why:
 When possible, get specific. It forces your interviewers to respond with real vs. hypothetical information. This question shows that you’re paying attention and are curious about how the team works. It also provides the chance to learn about another launch because you ask for a comparison in the follow-up question. You might get a two-for-one here and learn a lot in the process.
 
-## What’s the biggest change/challenge the department/company/industry has had to face recently?
+## What’s The Biggest change/challenge the department/company/industry Has Had to Face Recently?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -98,7 +103,7 @@ I’ve observed that the industry landscape is changing [INSERT IN WHAT WAYS]. H
 ### Why:
 Here is a chance for you to show you’re curious and aware of the landscape beyond your specific role, and ask a targeted question about the company’s readiness to respond. This will help you understand whether or not they are well positioned and get insight into work or company priorities that might be ahead.
 
-## How transparent is the company about operations/revenue/future plans?
+## How Transparent is the Company about operations/revenue/future Plans?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -112,7 +117,7 @@ In my current role, I have regular updates from leadership regarding [INSERT TOP
 ### Why:
 This question is targeted on what matters to you within the context of the job. Once you have the first part of the question answered, you could also do a follow-up to get even more insight. For example, “What other types of information do you share with this team to enable them to achieve their goals?”
 
-## What is the single largest problem facing the company today?
+## What is the Single Largest Problem Facing the Company Today?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -126,7 +131,7 @@ What is the single largest problem facing the company today and why do you think
 ### Why:
 A question like this gives you insight into a problem as well as why, in the mind of the interviewer, it is critically important to address. Then, the follow-up question lets you know if the company is proactive about addressing problems or if their efforts are stuck at “awareness” and stop short of “action.”
 
-## What has been the top accomplishments of the organization over the past year?
+## What Has Been the top Accomplishments of the Organization over the past Year?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -141,7 +146,7 @@ When you’re had the chance to highlight specific accomplishments to the board 
 Here, you’ll get information about the top accomplishments, and you’ll also understand the impact of each accomplishment (e.g. it was worthy of board awareness), the feedback the executive received and, hopefully, evidence that the executive provides context and updates back to their team.
 Diversity & Inclusion
 
-## What did your company do in response to a world event (for example, Black Lives Matter)?
+## What Did Your Company Do in Response to a World Event (for Example, Black Lives Matter)?
 
 ### Who to Ask:
 CEO / Founder
@@ -155,7 +160,7 @@ What comes after any statement or actions that you make in response to a world e
 ### Why:
 This question is aimed at understanding whether statements or responses are performative and reactive, rather than proactive and sustaining.
 
-## Who’s leading your DEI program?
+## Who’s Leading Your DEI Program?
 
 ### Who to Ask:
 Cross-Functional
@@ -169,7 +174,7 @@ Who is holding the organization accountable when it comes to DEI efforts (e.g., 
 ### Why:
 This question is aimed at understanding the structure, sustainability, and accountability of DEI efforts as well as open up insights that will enable you to determine if the company approach is in line with your expectations and values.
 
-## Tell me more about [THIS] value.
+## Tell Me More about [THIS] Value.
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -183,7 +188,7 @@ I noticed you had the value [NAME VALUE]. I curious about how the team brings th
 ### Why:
 This question gets the interviewer thinking specifically about practices that resonate with them on a personal level and opens the door for a more in-depth response about how the company values and DEI come to life within the organization.
 
-## What does mentorship and career development look like here?
+## What Does Mentorship and Career Development Look like Here?
 
 ### Who to Ask:
 HR
@@ -197,7 +202,7 @@ How structured is the company approach to mentorship? How does the company suppo
 ### Why:
 These questions ask the interviewer to speak on a personal level as well as about systems that are in place for mentorship. It also touches on whether DEI is baked into those programs to mitigate affinity bias.
 
-## Tell me about some of your recent projects.
+## Tell Me about Some of Your Recent Projects.
 
 ### Who to Ask:
 Manager
@@ -211,7 +216,7 @@ When was the last time your team failed to achieve the desired outcomes of a par
 ### Why:
 This question is aimed at understanding if the company/team is open about failures and, more importantly, practices a growth mindset.
 
-## Is everyone able to contribute ideas or feedback on their experience?
+## Is Everyone Able to Contribute Ideas or Feedback on Their Experience?
 
 ### Who to Ask:
 Manager
@@ -225,7 +230,7 @@ Are all feedback mechanisms anonymous? If so, why is that the case? How are enga
 ### Why:
 These questions will give you insight into a company approach to transparency and feedback. Companies that are working toward true inclusion generally aim to make it safe for employees to voice their feedback.
 
-## What does your DEI program’s budget look like?
+## What Does Your DEI program’s Budget Look Like?
 
 ### Who to Ask:
 Manager
@@ -239,7 +244,7 @@ Do you know how much money is allocated to your DEI efforts? If so, how much is 
 ### Why:
 Do the math. Does the DEI funding equate to more than the cost of a burrito ($7) per employee? While it’s not everything, funding can be a good indicator (or a warning sign) of how important DEI efforts are to the organization.
 
-## Who’s participating in your DEI program?
+## Who’s Participating in Your DEI Program?
 
 ### Who to Ask:
 Peer / Teammate
@@ -253,7 +258,7 @@ Are your DEI efforts being driven by one person or a small group of people? What
 ### Why:
 These questions will indicate if the efforts can endure as business, team, or individual context changes.
 
-## Tell me about your benefit offerings.
+## Tell Me about Your Benefit Offerings.
 
 ### Who to Ask:
 Recruiter
@@ -267,7 +272,7 @@ Can you describe how your benefit offerings have evolved/are evolving to be more
 ### Why:
 Here, you indicate you are looking specifically for information on inclusive benefits and will get insights into understanding what that means—whether equitable parental leaves, transgender-inclusive healthcare plans, fertility support, or floating/open holidays to accommodate varied religious or cultural holidays without having to disclose personal information (if you don want to). You can see where the company is prioritizing investment as well as get a view into how deeply integrated their DEI efforts are within the strategy and operations of the organization.
 
-## What does it take to be successful at this company?
+## What Does it Take to Be Successful at This Company?
 
 ### Who to Ask:
 Recruiter
@@ -281,7 +286,7 @@ Do you feel you can bring your authentic self to work? Do you have to assimilate
 ### Why:
 This a specific, hard-hitting question aimed at understanding if the organization is seeking candidates for “culture fit” vs. “culture add.”
 
-## Does the company have a DEI program?
+## Does the Company Have a DEI Program?
 
 ### Who to Ask:
 Recruiter
@@ -295,7 +300,7 @@ What is the next level for the company with regard to your DEI efforts—what is
 ### Why:
 This question forces the interviewer to get specific about where DEI efforts are going, and how transparent that is to any member of the organization.
 
-## How do you measure the effectiveness of the DEI efforts?
+## How Do You Measure the Effectiveness of the DEI Efforts?
 
 ### Who to Ask:
 Recruiter
@@ -310,7 +315,7 @@ How does the company balance data (if there are specific metrics being used) and
 ### Why:
 These questions will help you understand how the company approaches measuring it efforts. Whether metrics or less quantitative approaches are used, you will learn about what matters to the company with regard to DEI, whether or not they rely on numbers that tell an incomplete story, and if they are focused on external “wins” rather than sustained progress and change.
 
-## What percentage of the organization is engaged with the DEI program?
+## What Percentage of the Organization is Engaged with the DEI Program?
 
 ### Who to Ask:
 Recruiter
@@ -325,7 +330,7 @@ Who leads your company DEI efforts? Are you aware of any patterns in participati
 The labor of DEI work often falls on people from underrepresented or underinvested groups, who are sometimes not paid for their work. This question is aimed at understanding the level of allyship within a company and who is actively participating in this work.
 Future of Company
 
-## Is [COMPANY] better than its competitors? Will it look better on my resume?
+## Is [COMPANY] Better than Its Competitors? Will it Look Better on My Resume?
 
 ### Who to Ask:
 Backchannel Reference
@@ -339,7 +344,7 @@ As I consider [COMPANY] relative to [COMPETITOR] as the place I would go next in
 ### Why:
 Focusing in on a specific aspect of why you would choose one company or the other will enable your contact to target their response.
 
-## What gets you most excited about the company future?
+## What Gets You Most Excited about the Company Future?
 
 ### Who to Ask:
 CEO / Founder
@@ -353,7 +358,7 @@ If [COMPANY] had the chance to be on the cover/front page of all the major busin
 ### Why:
 This taps into something that would be exciting and pushes the CEO to take a moment to reflect, as it not just something they would be excited about but something that would matter beyond the company.
 
-## Where do you see this company in the next few years?
+## Where Do You See This Company in the next Few Years?
 
 ### Who to Ask:
 CEO / Founder
@@ -367,7 +372,7 @@ Two years from now, which teams at [COMPANY] will be the largest—what will the
 ### Why:
 This question is more precise and will give you information that is not necessarily being talked about in articles or evident on the careers page. Itl also help you contextualize whether or not you’d be joining a team expecting growth (and thus, potentially opportunities) or if the company will be investing in other areas.
 
-## What would you say is the time spent on creating new products/projects?
+## What Would You Say is the time Spent on Creating New products/projects?
 
 ### Who to Ask:
 CEO / Founder
@@ -381,7 +386,7 @@ I was told it took 18 months to successfully launch [PROJECT, PRODUCT, PROCESS].
 ### Why:
 Here, you connect the question to something you’ve learned in the process as well as posed a question about pace and intensity. This will help you understand if the company operates at a pace that you will like. Additionally, the follow-up questions get at decision making and pain points, which are helpful to understand.
 
-## Which competitors/products/targets are you most worried about?
+## Which competitors/products/targets Are You Most Worried About?
 
 ### Who to Ask:
 CEO / Founder
@@ -395,7 +400,7 @@ While [COMPANY] works to maintain competitive advantage and continue to grow, wh
 ### Why:
 While getting at competition, this question takes a positive frame, enabling the CEO to share insight on the landscape but then shift inward toward their leadership style.
 
-## What goals do you have for the company, yourself, and employees over the next five years?
+## What Goals Do You Have for the Company, Yourself, and Employees over the next Five Years?
 
 ### Who to Ask:
 CEO / Founder
@@ -409,7 +414,7 @@ As the CEO, what goals do you have for yourself and how do you share them with t
 ### Why:
 Interviewers often ask you about feedback and growth. Asking them the same question can provide a lens into the way a company or individual approaches feedback as well as insight into who they are as a person.
 
-## What can you tell me about your organization plans for new services, products, or plans for growth?
+## What Can You Tell Me about Your Organization Plans for New Services, Products, or Plans for Growth?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -423,7 +428,7 @@ What is the top priority for [COMPANY]—more revenue, new products, team growth
 ### Why:
 Here, you highlight those key elements of a business and offer the interviewer a choice about what to share, as well as push for more specific details about the status and importance of a particular topic.
 
-## What the company’s biggest threat to success this year, and how will I be able to help overcome it in this role?
+## What the company’s Biggest Threat to Success This Year, and how Will I Be Able to Help Overcome it in This Role?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -437,7 +442,7 @@ If you wanted the team to take a critical business risk that would not impact [C
 ### Why:
 This is a question that a senior executive is in a position to address that will provide you with a better understanding of prospective risks.
 
-## How many people have joined the company recently?
+## How Many People Have Joined the Company Recently?
 
 ### Who to Ask:
 Recruiter
@@ -452,7 +457,7 @@ In addition to [INSERT THE TEAM YOU’RE INTERVIEWING FOR], tell me a bit more a
 Getting to a more specific and related aspect of team growth is beneficial. Furthermore, understanding how the company is investing in the groups that you will be working with may provide valuable information about the resources, complexity, and priority of the shared initiatives.
 Leadership
 
-## I wanted to know if you base your innovation process more on the Silicon Valley style “move fast and break things,” or precision and artistry?
+## I Wanted to Know if You Base Your Innovation Process More on the Silicon Valley Style “move Fast and Break things,” or Precision and Artistry?
 
 ### Who to Ask:
 CEO / Founder
@@ -466,7 +471,7 @@ If you think back to one of the company greatest breakthroughs, what were the fa
 ### Why:
 Asking about a specific example will illustrate how the team collaborates to innovate and succeed as well as how those experiences influence future initiatives.
 
-## What do you want the company to be known for among employees—past, present, and future?
+## What Do You want the Company to Be Known for among employees—past, Present, and Future?
 
 ### Who to Ask:
 CEO / Founder
@@ -480,7 +485,7 @@ If alumni were to say a couple short sentences about their time here after they 
 ### Why:
 This question requires that the CEO reflect on what they think someone (likely a particular person) would say after leaving as well as think about what people might currently be saying. It requires them to be open and honest because the candidate actually has the chance to ask current and former employees questions.
 
-## How would you describe this company values?
+## How Would You Describe This Company Values?
 
 ### Who to Ask:
 Cross-Functional
@@ -494,7 +499,7 @@ How do different teams live the company values in their own unique way?
 ### Why:
 By asking the question this way, you get the benefit of their cross-functional perspective and an understanding of how different teams approach or live the values.
 
-## How did you get your start with your career? How long have you been with the company?
+## How Did You Get Your Start with Your Career? How long Have You Been with the Company?
 
 ### Who to Ask:
 Cross-Functional
@@ -508,7 +513,7 @@ Tell me about how your career journey brought you here. Why was this the best ne
 ### Why:
 This question turns your interviewer into a storyteller and also highlights a bit of the “why” they joined and what made that decision the right one for them, which could be interesting or helpful for you to know.
 
-## What are the company senior leaders like? What do they care about and talk about most?
+## What Are the Company Senior Leaders Like? What Do They Care about and Talk about Most?
 
 ### Who to Ask:
 Direct Report
@@ -524,7 +529,7 @@ Is there anything else that you believe is important to them, but might be left 
 ### Why:
 With these questions, you will get insight into the priorities that are integral to the company success (for example, goals tied to user or revenue growth, the “what”) as well as information about other expectations or goals that the leadership team has (such as the timeline for achievement or preferences about what approaches should be taken, the “how”).
 
-## What are some of your biggest worries or challenges these days? What keeps you up at night?
+## What Are Some of Your Biggest Worries or Challenges These Days? What Keeps You up at Night?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -538,7 +543,7 @@ What is a really important problem that the company needs to solve that is provi
 ### Why:
 These questions keep the focus on the work to be done, highlighting a specific challenge and then bringing the focus back on how the company or team works to address issues.
 
-## How do leaders set employees up for success?
+## How Do Leaders Set Employees up for Success?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -552,7 +557,7 @@ Can you tell me about how you help support the onboarding and integration proces
 ### Why:
 The onboarding and integration period is critical and getting more information about the leaders‘ involvement as well as a view into the process at the start and over time will be interesting to learn more about.
 
-## Is your leadership team diverse?
+## Is Your Leadership Team Diverse?
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -566,7 +571,7 @@ How is the company addressing the fact that the entire leadership team (and/or b
 ### Why:
 This may be a fairly common scenario, and it important to investigate whether the company doesn’t see a problem, or if they’re making strides to change. The company should be able to give you a very specific answer to this question.
 
-## How would you describe the overall style of management at the company?
+## How Would You Describe the Overall Style of Management at the Company?
 
 ### Who to Ask:
 Peer / Teammate
@@ -580,7 +585,7 @@ For the managers I’ll be working with most frequently, what do they have in co
 ### Why:
 In this question, you focus in on the people you are going to interact with the most, and by asking a comparison question you will learn more about individuals and the collective group.
 
-## How much exposure do we get to the top executives within the organization? Is there an open-door policy within the organization?
+## How much Exposure Do We Get to the top Executives within the Organization? Is there an Open-door Policy within the Organization?
 
 ### Who to Ask:
 Peer / Teammate
@@ -595,7 +600,7 @@ What aspects of this role are highly visible and important to the executive team
 These questions get at oversight and exposure as well as intervention and/or support. The second question will likely provide valuable information and indicate that you are not just focused on visibility.
 Management
 
-## Is [NAME] a good manager to work for?
+## Is [NAME] a Good Manager to Work For?
 
 ### Who to Ask:
 Backchannel Reference
@@ -609,7 +614,7 @@ Some of the most important things I looking for in my manager include [DESCRIBE]
 ### Why:
 With this framing, your contact will understand what you’re looking for and can frame stylistic aspects of the manager’s approach as well as layer in strengths and developments in a more productive way.
 
-## Tell me about your best boss.
+## Tell Me about Your Best Boss.
 
 ### Who to Ask:
 Direct Report
@@ -623,7 +628,7 @@ When has a mentor or manager really transformed your working experience? What we
 ### Why:
 This framing of the question opens the door to learning more about what works without anchoring a particular approach as the “best,” leaving room for you to share more about your style while keeping in mind their experience and preferences.
 
-## How do you anticipate interacting with your new hire—do you have a weekly one-on-one meeting, or do you mostly rely on email, or something else?
+## How Do You Anticipate Interacting with Your New hire—do You Have a Weekly One-on-one Meeting, or Do You Mostly Rely on Email, or Something Else?
 
 ### Who to Ask:
 Manager
@@ -637,7 +642,7 @@ I really appreciate the opportunity to have regular 1:1s as well as the chance t
 ### Why:
 This sets an expectation by indicating your experience and preferences before asking how the manager chooses to adapt, which opens the door for a more tailored response.
 
-## Why did you choose this career and industry?
+## Why Did You Choose This Career and Industry?
 
 ### Who to Ask:
 Manager
@@ -651,7 +656,7 @@ I love to hear more about your career journey and the path that led you to where
 ### Why:
 This question enables the manager to tell their story, which most people love to do. And, if you are passionate about having a similar career path, you might get a window into the steps you could take and how they will help you be successful.
 
-## What have been some of your biggest challenges during your career? How did you, or do you, deal with them?
+## What Have Been Some of Your Biggest Challenges during Your Career? How Did You, or Do You, Deal with Them?
 
 ### Who to Ask:
 Manager
@@ -665,7 +670,7 @@ Ask this question in a career development conversation if this person becomes yo
 ### Why:
 Focus your time during the interview process on the questions that will truly help you make your decision but tuck this one away for a conversation at a later date.
 
-## How and when is feedback provided to employees?
+## How and when is Feedback provided to Employees?
 
 ### Who to Ask:
 Manager
@@ -679,7 +684,7 @@ Without sharing explicit details, tell me about the last two to three times you 
 ### Why:
 This question takes it to another level! You’ll get specific insight into how and why your manager gives feedback (when not compelled to by a mandatory process) and how successful that coaching was for the people who received it.
 
-## Could you tell me a little bit about the person I would report to directly?
+## Could You Tell Me a Little Bit about the Person I Would Report to Directly?
 
 ### Who to Ask:
 Recruiter
@@ -694,7 +699,7 @@ When people talk about [NAME OF MANAGER]. what are the things that stand out abo
 This question pushes the interviewer to really reflect on what others might say and how they would frame that in an interview context, but also suggests the possibility that you might be able to cross check their input, therefore requiring them to be more open and honest. Ask this question to everyone you meet in the interview process!
 My Success
 
-## How does your department fit into the organization overall?
+## How Does Your Department Fit into the Organization Overall?
 
 ### Who to Ask:
 Cross-Functional
@@ -722,7 +727,7 @@ Why do you choose to do your role at [COMPANY] vs. a similar role at [COMPETITOR
 ### Why:
 In this question you will learn more about the value proposition the company offers employees, understand more about the interviewer and, potentially, get insight into rewards.
 
-## What mistakes have people made in this position?
+## What Mistakes Have People Made in This Position?
 
 ### Who to Ask:
 Cross-Functional
@@ -736,7 +741,7 @@ Could you share an example or two where the initial approach to do [SPECIFIC RES
 ### Why:
 This question will open the door for the interviewer to share a mistake, but from a learning and growth oriented angle. You’ll gain insight into how mistakes are addressed and new solutions adopted.
 
-## What do you feel has made you successful working here?
+## What Do You Feel Has Made You Successful Working Here?
 
 ### Who to Ask:
 Direct Report
@@ -752,7 +757,7 @@ Tell me about your definition of success in your role and what support you might
 ### Why:
 A couple follow-up questions can unlock even more valuable, and future-oriented, insights including their understanding of and perspective on what success looks like, and how you could play a role in supporting them as their manager.
 
-## Do you expect the main responsibilities for this position to change in the next six months to a year?
+## Do You Expect the Main Responsibilities for This Position to Change in the next Six Months to a Year?
 
 ### Who to Ask:
 Manager
@@ -766,7 +771,7 @@ If you consider the job description and responsibilities wee discussed so far in
 ### Why:
 This question enables you to bridge the gaps between the job description and reality now, and over time in a way that might unlock new responsibilities or clarify expectations for the role.
 
-## Is there anything else I could tell you about myself that would help you with your decision?
+## Is there Anything Else I Could Tell You about Myself that Would Help You with Your Decision?
 
 ### Who to Ask:
 Manager
@@ -780,7 +785,7 @@ If you were to tell other interviewers to push or probe further on an element of
 ### Why:
 This question gets at what questions might be lingering, but with a proactive lens—that you are willing to listen to the feedback and provide more information about your experience to resolve any gaps.
 
-## How does this position help your department achieve its goals?
+## How Does This Position Help Your Department Achieve Its Goals?
 
 ### Who to Ask:
 Manager
@@ -794,7 +799,7 @@ Describe the process you used to design this role and the associated responsibil
 ### Why:
 Reframing the question in this way will help you understand more of the context behind why the role was opened and how they determined which responsibilities were most important relative to broader priorities.
 
-## What are the major metrics for the person in this position?
+## What Are the Major Metrics for the Person in This Position?
 
 ### Who to Ask:
 Manager
@@ -808,7 +813,7 @@ Wee discussed metrics including [INSERT KEY METRICS]—what are the expectations
 ### Why:
 In this format, you’ll demonstrate listening and awareness about the requirements of the role and get more information about how the metrics are developed and monitored.
 
-## What are you hoping for your new hire to accomplish in the first three months on the job?
+## What Are You Hoping for Your New Hire to Accomplish in the First Three Months on the Job?
 
 ### Who to Ask:
 Manager
@@ -822,7 +827,7 @@ If I could make one clear, tangible impact in this role within the first three m
 ### Why:
 This question will highlight a top priority and give you a heads up on what you might need to focus on in subsequent interviews or should you join the team.
 
-## How do you envision your new hire stepping into the role? Will they jump in and ask a lot of questions to learn the job, or do you expect them to follow a week-by-week or day-by-day training plan, or something else?
+## How Do You Envision Your New Hire Stepping into the Role? Will They Jump in and Ask a Lot of Questions to Learn the Job, or Do You Expect Them to Follow a Week-by-week or Day-by-day Training Plan, or Something Else?
 
 ### Who to Ask:
 Manager
@@ -836,7 +841,7 @@ I tend to [ask lots of questions, follow my training plan, etc.] as I get up to 
 ### Why:
 By asking the question this way you can share more about your working style and get information about the relationship with the manager, including how they coach and direct work.
 
-## How will the arrival of your new employee make your life easier?
+## How Will the Arrival of Your New Employee Make Your Life Easier?
 
 ### Who to Ask:
 Manager
@@ -850,7 +855,7 @@ Should I join and take on responsibilities that you might be owning right now, w
 ### Why:
 Here you get to demonstrate interest in making their work experience better and also gain a view into what else the manager and team are prioritizing.
 
-## What do you believe is the main reason someone could fail in this position?
+## What Do You Believe is the Main Reason Someone Could Fail in This Position?
 
 ### Who to Ask:
 Manager
@@ -864,7 +869,7 @@ What are the mistakes you believe I’ll make and learn from while getting up to
 ### Why:
 This acknowledges the fact that everyone makes mistakes but also includes the emphasis on learning and potential impact of making a misstep.
 
-## What is the single largest problem facing your team today?
+## What is the Single Largest Problem Facing Your Team Today?
 
 ### Who to Ask:
 Manager
@@ -878,7 +883,7 @@ What project or problem is taking a disproportionate amount of effort or resourc
 ### Why:
 This question focuses on what will really matter—how does a particular problem impact the way the team operates and how is the team adapting to the situation?
 
-## Thinking back to people you’ve seen do this work previously, what differentiated the ones who were good from the ones who were really great at it?
+## Thinking back to People you’ve Seen Do This Work Previously, what Differentiated the Ones Who Were Good from the Ones Who Were Really Great at It?
 
 ### Who to Ask:
 Peer / Teammate
@@ -892,7 +897,7 @@ Thinking about the people who have done this or similar work, what contributions
 ### Why:
 This reframing directs the interviewer to respond in a way that is more helpful to you by touching on the contributions and the underlying “what” and “how.”
 
-## What are the common career paths in this department?
+## What Are the Common Career Paths in This Department?
 
 ### Who to Ask:
 Peer / Teammate
@@ -906,7 +911,7 @@ Tell me about your path of growth on this team and how it is similar or differen
 ### Why:
 Framing the question about their growth as well as asking them to compare their experience with the experiences of others will give you a better understanding of how these transitions practically play out.
 
-## What are the prospects for growth?
+## What Are the Prospects for Growth?
 
 ### Who to Ask:
 Peer / Teammate
@@ -920,7 +925,7 @@ If I were to come in over the next 6–12 months and succeed in all the existing
 ### Why:
 Taking this approach clarifies what you mean by growth, which otherwise was left open to interpretation, and asks for specific input on what would be next.
 
-## Would you like a list of references?
+## Would You like a List of References?
 
 ### Who to Ask:
 Recruiter
@@ -935,7 +940,7 @@ I have a list of references including [name/reference title/company/context]; le
 This approach demonstrates that you are confident, credible, and willing to have others back you up. It shows you’re ready and aware of the typical steps in the interview process.
 Offer Package
 
-## What types of volunteer work and community service does the organization encourage?
+## What Types of Volunteer Work and Community Service Does the Organization Encourage?
 
 ### Who to Ask:
 HR
@@ -955,7 +960,7 @@ Does the company time-off policy include time for volunteer days? Has the compan
 ### Why:
 These questions go deeper into what specifically matters to you, whether a specific commitment or broader indicators about how volunteering and civic engagement might be supported as part of the employee experience.
 
-## What types of rewards do you offer employees? What types of achievements or traits are rewarded?
+## What Types of Rewards Do You Offer Employees? What Types of Achievements or Traits Are Rewarded?
 
 ### Who to Ask:
 HR
@@ -969,7 +974,7 @@ What drives compensation changes—is it performance (effort or outcomes), cost 
 ### Why:
 The devil is in the details. To get a comprehensive understanding of certain programs or processes will require a series of targeted questions. This is an example where the “who,” “what,” “where,” “when,” “why,” and “how” structure of questioning can give you a much more complete picture than a single, open-ended question.
 
-## What is your preferred way of communication? Email, phone, in-person?
+## What is Your Preferred way of Communication? Email, Phone, In-person?
 
 ### Who to Ask:
 Manager
@@ -983,7 +988,7 @@ There are so many channels for communication, what are your preferences for how 
 ### Why:
 Here, you’ll get more insight into how the team communicates and interacts in different situations. It’s also an opportunity to respond and share some of your preferences or successful communication tactics.
 
-## What’s your timeline for next steps?
+## What’s Your Timeline for next Steps?
 
 ### Who to Ask:
 Recruiter
@@ -997,7 +1002,7 @@ I am actively interviewing and anticipate onsite interviews the week of [DATE]�
 ### Why:
 This question reminds the team that you have options, sets clear boundaries, and creates a specific timeline to follow up on if things are not progressing as communicated.
 
-## If I were hired for the position, what would be the ideal starting date?
+## If I Were Hired for the Position, what Would Be the Ideal Starting Date?
 
 ### Who to Ask:
 Recruiter
@@ -1011,7 +1016,7 @@ I available to start as soon as [YOUR DATE], would that align with what the team
 ### Why:
 This is an opportunity for you to set boundaries and protect personal or other commitments during the hiring process from the start. If you leave it up to the company, there is a chance they will ask or influence you to do everything on their timeline, which might not be the best for you.
 
-## What sorts of technology will your new employee use in the job?
+## What Sorts of Technology Will Your New Employee Use in the Job?
 
 ### Who to Ask:
 Recruiter
@@ -1025,7 +1030,7 @@ In my current role, I spend my day using [Slack, Salesforce, Zoom]—does your t
 ### Why:
 If you work in a similar role or industry, there is a good chance you know the technologies. But if it important to you, or you like to prepare in advance, a specific question will help.
 
-## How do people typically dress for work in your department? Does that vary depending on their level of customer contact, or other factors?
+## How Do People Typically Dress for Work in Your Department? Does that Vary Depending on Their Level of Customer Contact, or other Factors?
 
 ### Who to Ask:
 Recruiter
@@ -1039,7 +1044,7 @@ As I would prepare for a transition to your team, what are the expectations with
 ### Why:
 This enables you to get a read on something practical and relatively straightforward—dress code—and also an angle into culture or other aspects of the employee experience.
 
-## How many people work in this office/department?
+## How Many People Work in This office/department?
 
 ### Who to Ask:
 Recruiter
@@ -1053,7 +1058,7 @@ My understanding is that the team has [NUMBER] people on it right now. Do you th
 ### Why:
 If you start with a number that you’ve researched, the interviewer can confirm. Then, by asking about size relative to work, you might get a pulse on capacity and intensity as well as growth plans.
 
-## Is relocation a possibility?
+## Is Relocation a Possibility?
 
 ### Who to Ask:
 Recruiter
@@ -1068,7 +1073,7 @@ As you know, I currently live in [PLACE] and would happily relocate for this pos
 By taking this approach, you proactively frame it as a possibility, just one that needs to be addressed. This answer will help you understand if relocation or remote work is a possibility and assess what you might need to negotiate around should you receive an offer.
 Respond to Rumors / Press
 
-## What have you heard about working at [COMPANY]
+## What Have You Heard about Working at [COMPANY]
 
 ### Who to Ask:
 Backchannel Reference
@@ -1083,7 +1088,7 @@ Here a few observations I have of [COMPANY] so far in the interview process X, Y
 When a back-channel contact is taking time to support your decision process, you need to provide them with as much specific context as possible so that they can recall and share the most relevant information.
 
 
-## What could you tell me about the company that isn't widely known?
+## What Could You Tell Me about the Company that Isn't Widely Known?
 
 ### Who to Ask:
 CEO / Founder
@@ -1097,7 +1102,7 @@ What do you wish the press or employee reviews about [COMPANY] covered that they
 ### Why:
 This takes an open-ended question and gets at not just something that people may not know, but something that the CEO believes is important.
 
-## Can you tell me how you respond to negative employee feedback?
+## Can You Tell Me how You Respond to Negative Employee Feedback?
 
 ### Who to Ask:
 Recruiter
@@ -1112,7 +1117,7 @@ Can you tell me about a time when employees shared negative feedback either inte
 This question gets to a level of specificity that will help you understand the nature of actual negative feedback provided by employees as well as how the company responds.
 Role Specifics
 
-## Do you think that [JOB] would be a good move for me to make right now?
+## Do You Think that [JOB] Would Be a Good Move for Me to Make Right Now?
 
 ### Who to Ask:
 Backchannel Reference
@@ -1126,7 +1131,7 @@ At a high level, my objectives for my next position are A, B, and C. The main re
 ### Why:
 Again, providing context is key for the back-channel conversation. Ultimately, you are the only person who can determine what is right for you, but others can provide suggestions about what factors you should explore in more depth or consider.
 
-## What can I clarify for you about my qualifications?
+## What Can I Clarify for You about My Qualifications?
 
 ### Who to Ask:
 Direct Report
@@ -1140,7 +1145,7 @@ I like to ask if you have anything you’d want to clarify about my qualificatio
 ### Why:
 This is a simple addition, it lets them direct what information you might share or gives you the chance to highlight something that you think they might want or need to know.
 
-## Why do you think the team is hiring for this position?
+## Why Do You Think the Team is Hiring for This Position?
 
 ### Who to Ask:
 Direct Report
@@ -1154,7 +1159,7 @@ What is the elevator pitch that you think adequately conveys the reasons why som
 ### Why:
 You should ask this question to everyone you meet in the process as the selling points they share will either build your enthusiasm and increase your understanding or fall flat relative to your expectations and aspirations.
 
-## What are the pain points you have to deal with day-to-day that the person in this role should remedy?
+## What Are the Pain Points You Have to Deal with Day-to-day that the Person in This Role Should Remedy?
 
 ### Who to Ask:
 Manager
@@ -1168,7 +1173,7 @@ What emails, meetings, or lingering items on your to-do list shift when someone 
 ### Why:
 By framing it this way, you’re asking the interviewer to be more specific and giving yourself a valuable lens into some of the very granular aspects of the role that might not otherwise come up.
 
-## What does a typical day look like?
+## What Does a Typical Day Look Like?
 
 ### Who to Ask:
 Manager
@@ -1182,7 +1187,7 @@ If you were to start my onboarding plan if I were to join the team, what are the
 ### Why:
 This question requires the interviewer to think specifically about onboarding and start to share specific information that will help you understand more about the flow of a day or week on the team.
 
-## What sort of budget would I be working with?
+## What Sort of Budget Would I Be Working With?
 
 ### Who to Ask:
 Manager
@@ -1196,7 +1201,7 @@ In my current role (or in previous roles), Ie managed a budget of [DOLLARS]—ho
 ### Why:
 By asking the question in this way, you provide a helpful frame of reference to contrast or compare the roles and scope as well as learn more about the process for approving budgets at the company.
 
-## What would you say is the most fun or creative part of the job?
+## What Would You Say is the Most Fun or Creative part of the Job?
 
 ### Who to Ask:
 Manager
@@ -1210,7 +1215,7 @@ Within the responsibilities of the role, where are the processes, systems, etc. 
 ### Why:
 Rather than focusing on fun, asking the question this way will provide information about where there might be creativity or flexibility in the role.
 
-## What is the toughest time of the month or year for someone in this position?
+## What is the Toughest time of the Month or Year for Someone in This Position?
 
 ### Who to Ask:
 Manager
@@ -1224,7 +1229,7 @@ Every role has periods of intensity, pressure, or deadlines that require extra e
 ### Why:
 Adding the follow-up questions will push your interviewer to give you more complete picture of the periods of intensity and how the team responds.
 
-## What job shadowing opportunities are available for an applicant before they accept an offer?
+## What Job Shadowing Opportunities Are Available for an Applicant before They Accept an Offer?
 
 ### Who to Ask:
 Manager
@@ -1238,7 +1243,7 @@ I found that observation is one of the best ways to really understand the work I
 ### Why:
 Here you’ve asked a specific question and indicated the underlying “why.” Though the company may not have planned to do something like this, by asking it could become a possibility.
 
-## Is this a new role that has been created?
+## Is This a New Role that Has Been Created?
 
 ### Who to Ask:
 Recruiter
@@ -1254,7 +1259,7 @@ What would the team like to see the next person do to keep up momentum or evolve
 ### Why:
 This framing takes a basic question and, via the follow-up questions, adds depth and breadth that will provide valuable insight for later stages of the interview process.
 
-## Who will I report to directly?
+## Who Will I Report to Directly?
 
 ### Who to Ask:
 Recruiter
@@ -1269,7 +1274,7 @@ Based on our conversation, and the job description, it seems like I will report 
 Here, you can demonstrate research or awareness about the role (and they will correct you if you have it wrong), and also learn more about the team and opportunity.
 Team Dynamics
 
-## Can you tell me what the team is like?
+## Can You Tell Me what the Team is Like?
 
 ### Who to Ask:
 Cross-Functional
@@ -1280,12 +1285,12 @@ Getting a cross-functional team member’s perspective on the team will round ou
 ### Ask This Instead:
 Tell me how your team and others describe the team I be working with:
 
-## What do people believe they do well, what could they improve upon, etc.? How does this team support your own or your team success? What changes would make the collaboration more effective? What is the cadence of meetings or nature of communication between the two teams?
+## What Do People Believe They Do Well, what Could They Improve Upon, Etc.? How Does This Team Support Your Own or Your Team Success? What Changes Would Make the Collaboration More Effective? What is the Cadence of Meetings or Nature of Communication between the Two Teams?
 
 ### Why:
 Using this structure, you could start with the first portion, asking the interviewer to share more about what others might think about the team, and then ask some follow-ups to get some of the strengths and gaps it would be helpful to understand should you join the team.
 
-## How do leaders encourage employees to ask questions?
+## How Do Leaders Encourage Employees to Ask Questions?
 
 ### Who to Ask:
 Cross-Functional
@@ -1299,7 +1304,7 @@ What are the channels available for employees to share feedback or ask questions
 ### Why:
 This framing opens the door for information about how employees engage with leaders as well as how leaders respond.
 
-## What do you/employees like most about working here?
+## What Do you/employees like Most about Working Here?
 
 ### Who to Ask:
 Direct Report
@@ -1313,7 +1318,7 @@ What part of the employee experience do you get the most positive feedback about
 ### Why:
 Rather than ask about what someone likes or what they think other people like, ask about what people think or the feedback they share and hear about as that is more likely to indicate broader aspects of the culture and experience.
 
-## How did you get to the company, and to your current position?
+## How Did You Get to the Company, and to Your Current Position?
 
 ### Who to Ask:
 Direct Report
@@ -1327,7 +1332,7 @@ What brought you to [COMPANY], why did you think this was the place and role tha
 ### Why:
 You could ask this question of any of your interviewers, but taking a moment to understand a prospective direct report journey is a valuable relationship building opportunity.
 
-## What your least favorite part of working here?
+## What Your Least Favorite part of Working Here?
 
 ### Who to Ask:
 Direct Report
@@ -1341,7 +1346,7 @@ I hoping you’ll be open with me and tell me what you don’t like about workin
 ### Why:
 This framing acknowledges that asking for the dirt requires trust. It also enables you to get a view into something that might be less positive about the work experience and what, if anything, a team member might expect you to do about it.
 
-## Can you walk me through your typical work day?
+## Can You Walk Me through Your Typical Work Day?
 
 ### Who to Ask:
 Direct Report
@@ -1355,7 +1360,7 @@ If you were to consider your responsibilities within a pie chart, what is the ov
 ### Why:
 Here, you’ll get not only the what but an impression about how much time is allocated and whether or not the team member believes that this is the best use of their efforts, or if there is a different allotment that would be preferable.
 
-## Who are the other members of the department (by position) and how would we all interact?
+## Who Are the other Members of the Department (by position) and how Would We All Interact?
 
 ### Who to Ask:
 Direct Report
@@ -1369,7 +1374,7 @@ Tell me more about how this department operates—what type of group meetings, g
 ### Why:
 Providing examples of what you want to know about operations will help the interviewer respond with more specific and illustrative examples.
 
-## How does your department communicate? Do you meet as a group, or communicate another way?
+## How Does Your Department Communicate? Do You Meet as a Group, or Communicate Another Way?
 
 ### Who to Ask:
 Direct Report
@@ -1383,7 +1388,7 @@ If you could change one to two things about how the team or department communica
 ### Why:
 This is a positive framing that will also highlight potential issues or opportunities, as well as get your interviewer insights on what could make the situation better.
 
-## Can you tell me about the last team event you did together?
+## Can You Tell Me about the Last Team Event You Did Together?
 
 ### Who to Ask:
 Direct Report
@@ -1397,7 +1402,7 @@ How does this team build community and get to know one another?
 ### Why:
 Events are only one way that team building occurs, so broadening the question will help you understand their approach and if it is something you feel compatible with.
 
-## Tell me about what teamwork looks like here.
+## Tell Me about what Teamwork Looks like Here.
 
 ### Who to Ask:
 Executive / Boss’ Boss
@@ -1411,7 +1416,7 @@ What are the behaviors of successful teams here compared to less successful team
 ### Why:
 These questions require the interviewer to reflect on team dynamics and to reveal insights into what collective success looks like at the company.
 
-## What’s your favorite part about working here?
+## What’s Your Favorite part about Working Here?
 
 ### Who to Ask:
 Peer / Teammate
@@ -1425,7 +1430,7 @@ If you were to leave [COMPANY] tomorrow, what are the 1–2 things that would st
 ### Why:
 This question captures a more authentic view into someone experience and also opens the door for a broader conversation about culture, team work, or other aspects of the employee experience.
 
-## How would you describe the work environment here?
+## How Would You Describe the Work Environment Here?
 
 ### Who to Ask:
 Peer / Teammate
@@ -1439,7 +1444,7 @@ What is unique about the work experience and environment at [COMPANY]? Why do yo
 ### Why:
 This question pushes the interviewer to get specific about the company and take their answer to the next level in a way that will tell you more about what your working experience could look like.
 
-## Can you tell me a bit about the team I would be working with?
+## Can You Tell Me a Bit about the Team I Would Be Working With?
 
 ### Who to Ask:
 Recruiter
@@ -1453,7 +1458,7 @@ What are a few keywords that come to mind when you think about the people or tea
 ### Why:
 This is an unexpected question and will provide a new view into the characteristics of the team in a way that could be very interesting. If the interviewer is put on the spot, they might be more likely to give an intuitive, truthful response.
 
-## Could you go into more detail about the company’s culture?
+## Could You Go into More Detail about the company’s Culture?
 
 ### Who to Ask:
 Recruiter
@@ -1464,13 +1469,13 @@ This is one of the most popular questions that candidates ask and one of the que
 ### Ask This Instead:
 I thrive on teams that collaborate through … I most engaged when … I most productive when … in environments that … I achieve my goals when … I connect with my team and company by … I learn best if…
 
-## Tell me how this approach aligns with what you have observed on this team/at this company/with this manager.
+## Tell Me how This Approach Aligns with what You Have Observed on This team/at This company/with This Manager.
 
 ### Why:
 After you think about what matters to you, frame the question around those specific elements to one or all the interviewers you meet, so that you get a deeper understanding of how culture comes to life at the company.
 Work / Life Balance
 
-## What benefits are focused on work-life balance?
+## What Benefits Are Focused on Work-life Balance?
 
 ### Who to Ask:
 HR
@@ -1485,7 +1490,7 @@ PTO, childcare, wellness stipend, remote/flexible work, 401(k), healthcare, etc.
 ### Why:
 Focusing on the program(s) that matter to you will ensure that you get specific information rather than a sales pitch on a particular benefit or perk.
 
-## Tell me about work/life balance.
+## Tell Me about work/life Balance.
 
 ### Who to Ask:
 HR
@@ -1501,7 +1506,7 @@ When are the work peaks and valleys throughout the week? How do people manage an
 ### Why:
 This question provides the chance for the interviewer to comment on patterns and the team or organization response and protocol rather than making blanket statements.
 
-## What are your thoughts on working from home—for example when there bad weather, or in general?
+## What Are Your Thoughts on Working from home—for Example when there Bad Weather, or in General?
 
 ### Who to Ask:
 Recruiter
@@ -1515,7 +1520,7 @@ While researching, I came across some comments on working from home [seems possi
 ### Why:
 Starting with a reference point either based in research or potentially your own experience as well as asking about policies or practices will get you a more accurate response.
 
-## What is/was your work from home policy during COVID-19?
+## What is/was Your Work from home Policy during COVID-19?
 
 ### Who to Ask:
 Recruiter
@@ -1529,7 +1534,7 @@ How did your leadership team respond to COVID-19 and the need to work from home?
 ### Why:
 With these questions, you will learn more about how the leadership team responds to unexpected challenges as well as get insight into how the company responded to changes.
 
-## Do you plan to return to the office after COVID-19?
+## Do You Plan to return to the Office after COVID-19?
 
 ### Who to Ask:
 HR
@@ -1543,7 +1548,7 @@ What are your plans for an eventual return to the office? What are the factors (
 ### Why:
 There remains a lot of uncertainty about the duration of the pandemic and when certain aspects of life will start to look like they did prior to COVID-19. Asking about decision criteria and the company preparation or readiness to return will give you valuable information about the pandemic and general operations/planning.
 
-## Is it possible for this role to remain remote after COVID-19?
+## Is it Possible for This Role to Remain Remote after COVID-19?
 
 ### Who to Ask:
 Manager
@@ -1557,7 +1562,7 @@ Will the company consider long-term remote options for all or even specific role
 ### Why:
 Even if your interviewer does not know a final decision, asking these questions will yield insight into what considerations are being explored at the company for specific roles, or overall.
 
-## How did your team adapt to working from home?
+## How Did Your Team Adapt to Working from Home?
 
 ### Who to Ask:
 Manager
@@ -1568,7 +1573,7 @@ This is a valid question, but could result in a variety of different answers dep
 ### Ask This Instead:
 When your team made the shift to remote work? What changes were made with regard to:
 
-## Meetings [format: call vs. video]? Communication tools [chat, email, other]? Expectations around availability and productivity? Flexibility around schedule for caretakers?
+## Meetings [format: Call vs. video]? Communication Tools [chat, Email, other]? Expectations around Availability and Productivity? Flexibility around Schedule for Caretakers?
 
 ### Why:
 With this framing, you can focus the interviewer on what matters most to you about team work, collaboration, and what the day-to-day looks like.

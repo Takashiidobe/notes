@@ -14,7 +14,7 @@
 - [Ipv6 Additional Features](ipv6-additional-features.md)
 - [Ipv6](ipv6.md)
 - [Large Scale Ip Routing](large-scale-ip-routing.md)
-- [Links](links.md)
+- [Links](courses/an-introduction-to-computer-networks/links.md)
 - [Mininet](mininet.md)
 - [Network Management And Snmp](network-management-and-snmp.md)
 - [Network Simulations Ns 2](network-simulations-ns-2.md)

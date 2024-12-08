@@ -1,3 +1,8 @@
+---
+title: How to Motivate People
+date created: Wednesday, April 10th 2024, 9:33:11 am
+date modified: Saturday, December 7th 2024, 6:44:08 pm
+---
 # How to Motivate People
 
 🌟 Management Style: The speaker identifies himself as an unstructured and

@@ -1,4 +1,9 @@
-# How to get yourself promoted
+---
+title: How to Get Yourself Promoted
+date created: Tuesday, April 9th 2024, 1:00:32 pm
+date modified: Saturday, December 7th 2024, 6:44:06 pm
+---
+# How to Get Yourself Promoted
 
 - 🚀 Understanding Promotion: Steve clarifies that promotions are based on
 potential rather than past performance. The goal is to demonstrate you're

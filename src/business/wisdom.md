@@ -1,3 +1,8 @@
+---
+title: Wisdom
+date created: Sunday, April 28th 2024, 8:47:12 am
+date modified: Saturday, December 7th 2024, 6:43:54 pm
+---
 # Wisdom
 
 When the anecdotes and the data disagree, the anecdotes are usually
@@ -199,3 +204,5 @@ Jobs worked with the teams designing the silicon but also had a grand
 vision of what the apple ecosystem should look like. In the 2010s,
 everything would move to the cloud, and become a digital hub for
 managing the user's content.
+
+Sell, Design, Build is a maxim to building great products: <https://news.ycombinator.com/item?id=36231581>

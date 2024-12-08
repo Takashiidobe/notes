@@ -10,7 +10,7 @@ title: "An Introduction to Computer Networks"
 4. [advanced-ethernet](advanced-ethernet.md)
 5. [wireless-lans](wireless-lans.md)
 6. [other-lans](other-lans.md)
-7. [links](links.md)
+7. [links](courses/an-introduction-to-computer-networks/links.md)
 8. [packets](packets.md)
 9. [abstract-sliding-windows](abstract-sliding-windows.md)
 10. [ipv4](ipv4.md)
