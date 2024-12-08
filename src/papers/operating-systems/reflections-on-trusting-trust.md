@@ -1,5 +1,7 @@
 ---
-title: "Reflections on Trusting Trust"
+title: Reflections on Trusting Trust
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:50:05 pm
 ---
 
 # Reflections on Trusting Trust
@@ -23,3 +25,9 @@ As long as you don't audit your compiler, your code is compromised.
 As well, if you don't audit your OS, your code is compromised.
 
 This requires that you audit everything that your code touches.
+
+Because the compiler itself is bootstrapped from some version long ago, unless you've inspected every version of the compiler that was used to generate your current compiler, you can't verify that there's no backdoor. This is an exercise in obfuscation -- just like in the XZ incident, where there was a m4 script that tried to insert a backdoor into the `sshd` binary listening for connections if it was running on a debian like OS.
+
+Nowadays, we have fully verified compilers -- you can see the source code used to bootstrap your current compiler (rust used an initial compiler to generate a small subset of rust, then uses the previous version of the rust compiler to compile the next version e.g. 1.1 compiles 1.2, and 1.2 is released). However, you can't do this for all software, and with the xz incident, it seems like people are trying to attack all kinds of software with obfuscated tools like m4. In my opinion, writing build scripts with such an obscure turing complete language shouldn't be allowed, but alas, here we are.
+
+[^1]: https://www.cesarsotovalero.net/blog/revisiting-ken-thompson-reflection-on-trusting-trust.html

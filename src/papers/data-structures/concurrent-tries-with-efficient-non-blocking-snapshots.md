@@ -1,6 +1,10 @@
 ---
-title: "Concurrent Tries with Efficient Non-Blocking Snapshots"
+title: Concurrent Tries with Efficient Nonblocking Snapshots
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:44:36 pm
 ---
+
+# Concurrent Tries with Efficient Nonblocking Snapshots
 
 This paper introduces a non-blocking concurrent hash trie that has
 efficient lock-free snapshot operations, consistent iterators, and
@@ -8,7 +12,7 @@ linearizable size retrieval. The only requirement is that this hash trie
 requires a compare-and-swap instruction, (CAS) and is mainly blocked on
 how fast that is done.
 
-## Motivation
+# Motivation
 
 Most concurrent collections don't have linearizable snapshot -- this
 requires grabbing a lock on the entire data-structure, traversing it,

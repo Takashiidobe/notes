@@ -1,3 +1,8 @@
+---
+title: Programming Erlang
+date created: Wednesday, March 20th 2024, 2:34:03 pm
+date modified: Saturday, December 7th 2024, 8:46:51 pm
+---
 # Programming Erlang
 
 Erlang has many tools for building distributed systems.

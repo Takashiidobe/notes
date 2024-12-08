@@ -1,6 +1,10 @@
 ---
-title: "A Case for Redundant Array of Inexpensive Disks (RAID)"
+title: A Case for Redundant Array of Inexpensive Disks (RAID)
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:35:21 pm
 ---
+
+# A Case for Redundant Array of Inexpensive Disks (RAID)
 
 This paper was published by Patterson, Gibson, and Katz in 1988.
 

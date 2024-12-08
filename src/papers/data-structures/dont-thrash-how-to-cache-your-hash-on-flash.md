@@ -1,6 +1,10 @@
 ---
-title: "Don't Thrash: How to Cache your Hash on Flash"
+title: "Don't Thrash How to Cache Your Hash on Flash"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:44:48 pm
 ---
+
+# Don't Thrash How to Cache Your Hash on Flash
 
 Many large storage systems use an approximate-membership-query (AMQ) to
 deal with the massive amounts of data that they process.
@@ -10,7 +14,7 @@ scales beyond main memory. Bloom filters work well in memory, but not on
 disk. The Cascade Filter supports 500k insertions/deletions per second
 and over 500 lookups per second on an SSD.
 
-## Introduction
+# Introduction
 
 An AMQ data structure supports the following operations: Insert, lookup,
 and optionally delete. 
@@ -44,7 +48,7 @@ Bloom Filter would isn't that expensive but RAM access is fast -- but on
 disk, random access is ~10x slower than sequential access. So we know
 what to do -- set bits closer to each other. 
 
-## Design and Implementation
+# Design and Implementation
 
 The Cascade Filter is inspired by a Quotient Filter, which achieves fast
 performance by merging and writing QFs in an I/O efficient manner.
@@ -84,14 +88,14 @@ The space usage is roughly the same as a bloom filter (1.2x a BF).
 As well, reads only require $O(log(n/M))$ block reads, and an insert only
 requires O((log(n/M))/B) amortized block reads.
 
-## Evaluation
+# Evaluation
 
 The Cascade Filter trades a 3 fold slowdown in lookup throughput on
 flash in exchange for a 40x speed in insertion throughput over a BF
 optimized to use all of its buffer for queuing random writes. The
 Cascade Filter is CPU bound, and not I/O bound.
 
-## Future work
+# Future Work
 
 Cascade Filters are guaranteed to have better performance in the future,
 as I/O scales slower than CPU, so being CPU bound instead of I/O bound

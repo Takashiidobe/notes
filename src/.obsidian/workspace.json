@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/index.md",
+                "file": "papers/operating-systems/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "adcfcdc425814b8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/operating-systems/reflections-on-trusting-trust.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "reflections-on-trusting-trust"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reflections",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,34 +190,34 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a36477b0053b9431",
+  "active": "adcfcdc425814b8a",
   "lastOpenFiles": [
-    "work/managing-notes.md",
-    "Tasks.md",
-    "index.md",
-    "artificial-intelligence/the-bitter-lesson.md",
-    "artificial-intelligence/index.md",
-    "blockchain/proof-of-work.md",
-    "artificial-intelligence/_artificial-intelligence.md",
-    "blockchain/index.md",
-    "blockchain/proof-of-stake.md",
-    "blockchain/_blockchain.md",
-    "business/steveys-tech-talk/tips-for-new-managers.md",
-    "business/steveys-tech-talk/index.md",
-    "business/steveys-tech-talk/how-to-motivate-people.md",
-    "business/steveys-tech-talk/how-to-get-yourself-promoted.md",
-    "business/steveys-tech-talk/how-to-fire-your-boss.md",
-    "business/steveys-tech-talk/all-about-big-tech-interviews.md",
-    "business/index.md",
-    "business/wisdom.md",
-    "business/interviewee-questions.md",
-    "business/_business.md",
-    "compilers/optimizations/optimizations.md",
-    "compilers/optimizations/index.md",
-    "compilers/compiling-to-assembly-from-scratch/index.md",
-    "books/compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md",
-    "computer-architecture/x86/_x86.md",
-    "compilers/compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md",
+    "papers/classics-of-cs/reflections-on-trusting-trust.md",
+    "papers/operating-systems/the-unix-time-sharing-system.md",
+    "papers/operating-systems/_operating-systems.md",
+    "papers/operating-systems/reflections-on-trusting-trust.md",
+    "papers/operating-systems/index.md",
+    "papers/_papers.md",
+    "software-architecture/index.md",
+    "software-architecture/invariant-pyramid.md",
+    "software-architecture/links.md",
+    "software-architecture/static-vs-dynamic-schemas.md",
+    "programming-languages/index.md",
+    "programming-languages/typescript/_typescript.md",
+    "programming-languages/_programming-languages.md",
+    "programming-languages/typescript/index.md",
+    "programming-languages/rust/index.md",
+    "programming-languages/rust/rustup-docs.md",
+    "programming-languages/rust/_rust.md",
+    "programming-languages/scheme/the-little-schemer/index.md",
+    "programming-languages/scheme/index.md",
+    "programming-languages/scheme/_scheme.md",
+    "programming-languages/go/index.md",
+    "programming-languages/go/godocs.md",
+    "programming-languages/go/build-for-different-archs-in-go.md",
+    "programming-languages/erlang/programming-erlang.md",
+    "programming-languages/erlang/learn-you-some-erlang.md",
+    "programming-languages/erlang/index.md",
     "software-architecture",
     "work",
     "tools/vim/index.md~",

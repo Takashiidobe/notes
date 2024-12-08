@@ -1,5 +1,7 @@
 ---
-title: "A Practical Multi-word compare and Swap operation"
+title: A Practical Multi-Word Compare and Swap Operation
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:44:15 pm
 ---
 
 # A Practical Multi-Word Compare and Swap Operation
@@ -88,7 +90,7 @@ void Complete(RDCSSDescriptor_t* d) {
 }
 ```
 
-## Implementing Multi-word compare and swap
+## Implementing Multi-word Compare and Swap
 
 Now, we can implement multi-word compare and swap, which looks like 2PL
 (try to install descriptors into both memory addresses using RDCSS. If

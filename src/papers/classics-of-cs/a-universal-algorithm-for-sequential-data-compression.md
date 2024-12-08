@@ -1,5 +1,7 @@
 ---
-title: "A Universal Algorithm for Sequential Data Compression"
+title: A Universal Algorithm for Sequential Data Compression
+date created: Wednesday, October 4th 2023, 10:20:28 am
+date modified: Saturday, December 7th 2024, 8:35:41 pm
 ---
 
 # A Universal Algorithm for Sequential Data Compression

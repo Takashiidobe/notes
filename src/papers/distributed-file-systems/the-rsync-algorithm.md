@@ -1,5 +1,7 @@
 ---
-title: "The Rsync Algorithm"
+title: The Rsync Algorithm
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:45:48 pm
 ---
 
 # The Rsync Algorithm
@@ -23,11 +25,11 @@ Instead of sending the entire file from A to B over the network (which would be 
 4. B searches through F to find all blocks of S bytes that have the same weak and strong checksums as one of the blocks of F'.
 5. A sends B a sequence of instructions for constructing a copy of F'.Each instruction is a reference to a block of F', or literal data.
 
-## Rolling checksum
+## Rolling Checksum
 
 The rolling checksum is a variant of Adler-32. Because it is a rolling checksum, it can be used to calculate successive values very quickly.
 
-## Checksum searching
+## Checksum Searching
 
 The checksum searching algorithm is 3-leveled. The basic strategy computes the 32-bit rolling checksum for a block of length S in F'. The 32-bit checksums are hashed into a 16-bit hashtable, which points to the first match in the list, or a null pointer if there is no match.
 

@@ -1,6 +1,10 @@
 ---
-title: "The Slab Allocator"
+title: The Slab Allocator
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:46:32 pm
 ---
+
+# The Slab Allocator
 ## Introduction
 
 The Slab Allocator is an allocator for SunOS 5.4. The allocator notes
@@ -193,7 +197,7 @@ The slab allocator isn't a monolithic entity, but is rather a loose
 confederation of independent caches with no shared state. This allows
 them to have per-cache locking instead of the entire heap.
 
-## Slabs 
+## Slabs
 
 The slab is the unit of currency in the slab allocator. When the
 allocator needs to grow, it acquires an entire slab of objects at once.

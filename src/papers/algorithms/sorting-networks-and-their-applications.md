@@ -1,13 +1,13 @@
 ---
-title: Odd-even Merge
+title: Sorting Networks and Their Applications
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Tuesday, November 12th 2024, 8:31:21 pm
+date modified: Saturday, December 7th 2024, 8:34:27 pm
 ---
+
+# Sorting Networks and Their Applications
 
 This paper introduces two ways of executing merge sort in parallel, in a
 time complexity of (log N), odd-even merge and Bitonic merge.
-
-# Odd-even Merge
 
 Odd even merge sort involves merging two sorted lists into one sorted
 list. It does the following:

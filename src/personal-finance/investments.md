@@ -1,4 +1,10 @@
-# Personal Finance
+---
+title: Investments
+date created: Thursday, September 28th 2023, 10:21:57 am
+date modified: Saturday, December 7th 2024, 8:33:42 pm
+---
+
+# Investments
 
 ## Taxes
 
@@ -23,7 +29,7 @@ Let's say your income is taxed at the 24% federal tax bracket, and you have a st
 
 Your stock has a value of $50,000, and you sell it for $50,000. You owe .24 \* 50,000, or $12,000 in taxes on your W-2, which will be offset by the stock sale. You'll get ~$38,000, all things considered.
 
-### Holding onto your RSUs
+### Holding onto Your RSUs
 
 - If you hold onto your RSUs, you pay taxes out of pocket. The stocks are added as income at their current value, and once you pay your taxes, the stock becomes yours.
 
@@ -85,11 +91,11 @@ Next, if your employer allows it, contribute the maximum of after-tax dollars to
 
 ## HSAs and HRAs
 
-HRAs are employer sponsored plans that are owned by the organization. An HSA is a plan that is owned by the employee.
+HRAs are employer sponsored plans that are owned by the organization. An Has is a plan that is owned by the employee.
 
 ### HSAs
 
-HSAs are owned by the employee and can be transferred to a new custodian when changing jobs. As such, the money is yours, always. Prefer an HSA plan to an HRA plan if you meet the following criteria:
+HSAs are owned by the employee and can be transferred to a new custodian when changing jobs. As such, the money is yours, always. Prefer an Has plan to an HRA plan if you meet the following criteria:
 
 1. Covered under a High Deductible health plan (HDHP)
 2. Not enrolled in Medicare

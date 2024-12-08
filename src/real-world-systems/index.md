@@ -10,4 +10,3 @@ date modified: Thursday, December 5th 2024, 10:19:50 pm
 - [Ideas](ideas.md)
 - [Index](index.md)
 - [Lambda](lambda.md)
-- [_Real World Systems](_real-world-systems.md)

@@ -1,6 +1,10 @@
 ---
 title: "RRB-Trees: Efficient Immutable Vectors"
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:45:22 pm
 ---
+
+# RRB-Trees: Efficient Immutable Vectors
 
 RRB Trees stands for "Relaxed Radix Balanced Trees (RRB-Trees)". This
 allows for immutable vector concatenation, insert-at and splits in O(log

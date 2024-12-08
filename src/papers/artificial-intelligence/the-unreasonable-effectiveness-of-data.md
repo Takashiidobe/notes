@@ -1,5 +1,7 @@
 ---
-title: "The Unreasonable Effectiveness of Data"
+title: The Unreasonable Effectiveness of Data
+date created: Wednesday, October 4th 2023, 11:09:05 am
+date modified: Saturday, December 7th 2024, 8:34:33 pm
 ---
 
 # The Unreasonable Effectiveness of Data

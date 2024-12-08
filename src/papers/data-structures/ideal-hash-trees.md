@@ -1,7 +1,10 @@
 ---
-title: "Ideal Hash Trees"
+title: Ideal Hash Trees
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:45:09 pm
 ---
 
+# Ideal Hash Trees
 This paper describes "Hash Array Mapped Tries", aka "HAMTs". It involves
 using an Array Mapped Trie as a backing store and extending it to work
 as a Hash table.
@@ -17,7 +20,7 @@ existence of 32 possible arcs, with a 1 meaning a valid arc, and a 0 to
 mean an invalid arc. The other integer is used to store a pointer to the
 location in memory where the trie lives.
 
-## Ideal Hashing
+# Ideal Hashing
 
 The HAMT uses a hash function to generate an array index prefix, which
 is used to find an empty slot in the HAMT to insert the key, value pair

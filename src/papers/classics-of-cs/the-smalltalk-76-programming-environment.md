@@ -1,5 +1,7 @@
 ---
-title: "The Smalltalk 76 Programming Environment"
+title: The Smalltalk 76 Programming Environment
+date created: Wednesday, October 4th 2023, 8:49:12 am
+date modified: Saturday, December 7th 2024, 8:35:54 pm
 ---
 
 # The Smalltalk 76 Programming Environment

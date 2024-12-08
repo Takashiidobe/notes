@@ -37,6 +37,7 @@ date modified: Thursday, December 5th 2024, 9:38:12 pm
 - [Real World Systems](real-world-systems/index.md)
 - [Recipes](recipes/index.md)
 - [Security](security/index.md)
+- [Software Architecture](software-architecture/index.md)
 - [System Design](system-design/index.md)
 - [Talks](talks/index.md)
 - [Tasks](Tasks.md)

@@ -1,5 +1,7 @@
 ---
-title: "Solution of a Problem in Concurrent Programming Control"
+title: Solution of a Problem in Concurrent Programming Control
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:46:02 pm
 ---
 
 # Solution of a Problem in Concurrent Programming Control

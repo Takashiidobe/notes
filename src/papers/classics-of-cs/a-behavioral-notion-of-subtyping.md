@@ -1,6 +1,10 @@
 ---
-title: "A Behavioral Notion of Subtyping"
+title: A Behavioral Notion of Subtyping
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, December 7th 2024, 8:35:04 pm
 ---
+
+# A Behavioral Notion of Subtyping
 
 Behavioral subtyping is the principle that subclasses should satisfy the
 expectations of clients accessing subclass objects through references of
