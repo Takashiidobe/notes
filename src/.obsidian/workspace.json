@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/operating-systems/reflections-on-trusting-trust.md",
+                "file": "recipes/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reflections-on-trusting-trust"
+              "title": "index"
             }
           }
         ],
@@ -192,10 +192,20 @@
   },
   "active": "adcfcdc425814b8a",
   "lastOpenFiles": [
+    "recipes/recipes/index.md",
+    "security/index.md",
+    "security/constant-time-comparison.md",
+    "security/fail2ban.md",
+    "security/cves/index.md",
+    "security/_security.md",
+    "security/cves/CVE-2024-3094.md",
+    "papers/networking/index.md",
+    "papers/networking/a-protocol-for-packet-network-intercommunication.md",
+    "papers/operating-systems/reflections-on-trusting-trust.md",
+    "papers/networking/_networking.md",
     "papers/classics-of-cs/reflections-on-trusting-trust.md",
     "papers/operating-systems/the-unix-time-sharing-system.md",
     "papers/operating-systems/_operating-systems.md",
-    "papers/operating-systems/reflections-on-trusting-trust.md",
     "papers/operating-systems/index.md",
     "papers/_papers.md",
     "software-architecture/index.md",
@@ -208,16 +218,6 @@
     "programming-languages/typescript/index.md",
     "programming-languages/rust/index.md",
     "programming-languages/rust/rustup-docs.md",
-    "programming-languages/rust/_rust.md",
-    "programming-languages/scheme/the-little-schemer/index.md",
-    "programming-languages/scheme/index.md",
-    "programming-languages/scheme/_scheme.md",
-    "programming-languages/go/index.md",
-    "programming-languages/go/godocs.md",
-    "programming-languages/go/build-for-different-archs-in-go.md",
-    "programming-languages/erlang/programming-erlang.md",
-    "programming-languages/erlang/learn-you-some-erlang.md",
-    "programming-languages/erlang/index.md",
     "software-architecture",
     "work",
     "tools/vim/index.md~",
