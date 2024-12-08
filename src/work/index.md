@@ -6,6 +6,7 @@ date modified: Saturday, December 7th 2024, 8:57:22 pm
 
 # Work
 
+- [Create A Brag Doc](create-a-brag-doc.md)
 - [Index](index.md)
 - [Managing Notes](managing-notes.md)
 - [Types Of Notes](types-of-notes.md)
