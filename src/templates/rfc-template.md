@@ -1,9 +1,8 @@
 ---
 title: "RFC: Title Here"
 date created: Sunday, December 8th 2024, 2:55:20 pm
-date modified: Sunday, December 8th 2024, 3:08:44 pm
-tags:
-  - rfc
+date modified: Tuesday, December 10th 2024, 7:53:59 am
+tags: [rfc]
 ---
 
 # RFC: Title Here
@@ -51,13 +50,13 @@ tags:
 ### Dependencies:
 <!-- What existing internal and external systems does this one depend on? How will it use them?-->
 
-### Alternatives ConsideredPrior Art:
+### Alternatives Considered or Prior Art:
 <!-- What other approaches did you consider? What existing solutions are close but not quite right? How will this project replace or integrate with the alternatives?-->
 
 ### Operations:
 <!-- Are you adding any new regular human processes or extra work for any teams? If this is a new system, who will run it?-->
 
-### SecurityPrivacyCompliance:
+### Security Privacy Compliance:
 <!-- What security/privacy/compliance aspects should be considered?
 If you're not certain, never assume there aren’t any. Always talk to the security team.-->
 

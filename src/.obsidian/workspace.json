@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/the-little-mler.md",
+                "file": "adrs/0001-use-rust.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "the-little-mler"
+              "title": "0001-use-rust"
             }
           }
         ],
@@ -205,8 +205,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a36477b0053b9431",
+  "active": "c8329df5deaf85a1",
   "lastOpenFiles": [
+    "adrs/0000-adr-qualities.md",
+    "adrs/0001-use-rust.md",
+    "templates/adr-template.md",
+    "templates/rfc-template.md",
+    "books/the-little-mler.md",
     "books/the-art-of-war.md",
     "books/the-bitcoin-standard.md",
     "books/the-choice.md",
@@ -218,11 +223,8 @@
     "books/crafting-interpreters/a-map-of-the-territory.md",
     "books/crafting-interpreters/_crafting-interpreters.md",
     "books/_books.md",
-    "adrs/0000-adr-qualities.md",
     "adrs/index.md",
-    "templates/adr-template.md",
     "templates/index.md",
-    "templates/rfc-template.md",
     "real-world-systems/aurora.md",
     "real-world-systems/ideas.md",
     "real-world-systems/lambda.md",
@@ -231,8 +233,6 @@
     "security/index.md",
     "security/fail2ban.md",
     "security/constant-time-comparison.md",
-    "security/cves/CVE-2024-3094.md",
-    "security/cves/index.md",
     "adrs",
     "rfcs",
     "templates/rfc-template.md~",

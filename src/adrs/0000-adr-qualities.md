@@ -1,13 +1,12 @@
 ---
 title: Qualities of an Architecture Decision Record
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Monday, December 9th 2024, 9:46:01 pm
+date modified: Tuesday, December 10th 2024, 8:13:55 am
 tags: [adr, meta]
 ---
 
 # Qualities of an Architecture Decision Record
 * Status: **Accepted** 
-* Stakeholders: **list everyone involved in the decision** 
 * Date: **2024-12-09** 
 
 ## Context
