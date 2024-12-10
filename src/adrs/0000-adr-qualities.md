@@ -1,7 +1,7 @@
 ---
 title: Qualities of an Architecture Decision Record
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Tuesday, December 10th 2024, 8:13:55 am
+date modified: Tuesday, December 10th 2024, 12:13:27 pm
 tags: [adr, meta]
 ---
 
@@ -23,7 +23,7 @@ In software, I prefer these values in order:
 4. Portability
 5. Expressiveness 
 
-### Stability
+## Stability
 
 Stability is the most important value for me. I strongly prefer using tools with strong stability guarantees. In software, that means libraries that don't change often, or employ a strategy that makes migration with breaking changes as easy as possible.
 
@@ -45,7 +45,7 @@ Rust goes even further and allows for ecosystem changes with its split of stable
 
 > Rust uses **editions** to solve this problem. When there are backwards-incompatible changes, they are pushed into the next edition. Since editions are opt-in, existing crates won't use the changes unless they explicitly migrate into the new edition. For example, the latest version of Rust doesn't treat `async` as a keyword unless edition 2018 or later is chosen.
 
-### Correctness
+## Correctness
 
 Any program should solve a problem it sets out to solve with minimal errors. This is important because a program that can solve a problem on only certain inputs can be far worse than not running a program at all.
 
@@ -68,7 +68,7 @@ An example of a library that values correctness is [libsodium](https://libsodium
 > - The default PRG doesn’t implement something complicated and potentially insecure in userland to save CPU cycles. It is fast enough for most applications while being guaranteed to be thread-safe and fork-safe in all cases. If thread safety is not required, a faster, simple, and provably secure userland implementation is provided.
 > - The code includes many internal consistency checks and will defensively `abort()` if something unusual is detected. This requires a few extra checks but is useful for spotting internal and application-specific bugs that tests don’t catch.
 
-### Maintainability
+## Maintainability
 
 Maintainability is the ease at which a program can be modified. This allows somebody to extend software, fix its bugs, or add new features. 
 
@@ -77,7 +77,8 @@ Software which is maintainable can be used for longer, whereas unmaintainable so
 Software should also come with a set of tests that grant developers confidence in making changes, as tests are a specification for the behavior of a program -- if there aren't any tests, the only specification lies in the programming language itself, which can be weak, unless using a proof language.
 
 One example can be multics vs unix. By making a simpler operating system, unix was more maintainable than multics, which led to its success in the future.
-### Portability
+
+## Portability
 
 Portability means that software can run on many different versions of hardware. Linux now is a good example of this -- it can run on [business cards](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/): 
 
@@ -86,7 +87,8 @@ Portability means that software can run on many different versions of hardware. 
 Or mobile phones, tablets, laptops, desktops, and supercomputers. It has great driver support these days, and it can be compiled to opt-in to many features that can enhance its performance and functionality.
 
 For programming languages, rust supports 262 targets as of rust 1.83, including many esoteric ones. Go supports 45 or so, and VM languages might support fewer.
-### Expressiveness
+
+## Expressiveness
 
 Expressiveness is the ease in which one can write code that's easy to understand for human readers. There are many ideas in programming that allow the writer to express complicated ideas in a simple to use format.
 

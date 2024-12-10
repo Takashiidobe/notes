@@ -5,7 +5,6 @@ HTML_FILES=$(SOURCE_DOCS:src/%.md=site/%.html)
 
 all: html books fix_links copy_files
 
-
 deploy: html fix_links copy_files build_index
 	ntl deploy --prod
 
