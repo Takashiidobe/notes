@@ -1,13 +1,14 @@
 ---
 title: Short Title of Solved Problem and Solution
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Sunday, December 8th 2024, 2:54:07 pm
+date modified: Monday, December 9th 2024, 8:27:27 pm
+tags: [adr]
 ---
 
 # Short Title of Solved Problem and Solution
 
 * Status: **proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)** <!-- optional -->
-* Deciders: **list everyone involved in the decision** <!-- optional -->
+* Stakeholders: **list everyone involved in the decision** <!-- optional -->
 * Date: **YYYY-MM-DD when the decision was last updated** <!-- optional -->
 
 Technical Story: **description | ticket/issue URL** <!-- optional -->

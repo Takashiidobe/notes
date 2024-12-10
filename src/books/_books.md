@@ -17,7 +17,7 @@ title: Books
 - [Clever Girl Finance](nan.md)
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch/_compiling-to-assembly-from-scratch.md)
 - [Compiling to Assembly from Scratch](compiling-to-assembly-from-scratch.md)
-- [Crafting Interpreters](books/crafting-interpreters/_crafting-interpreters.md)
+- [Crafting Interpreters](crafting-interpreters/_crafting-interpreters.md)
 - [Crossing the Chasm](crossing-the-chasm.md)
 - [Deep Work](deep-work.md)
 - [Design Patterns: Elements of Reusable Object-Oriented Software](design-patterns-elements-of-reusable-object-oriented-software/_design-patterns-elements-of-reusable-object-oriented-software.md)

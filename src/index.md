@@ -7,6 +7,7 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 # Src
 
 - [.Obsidian](.obsidian/index.md)
+- [Adrs](adrs/index.md)
 - [Algorithms](algorithms/index.md)
 - [Artificial Intelligence](artificial-intelligence/index.md)
 - [Blockchain](blockchain/index.md)
@@ -36,11 +37,13 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 - [Quotes](quotes/index.md)
 - [Real World Systems](real-world-systems/index.md)
 - [Recipes](recipes/index.md)
+- [Rfcs](rfcs/index.md)
 - [Security](security/index.md)
 - [Software Architecture](software-architecture/index.md)
 - [System Design](system-design/index.md)
 - [Talks](talks/index.md)
 - [Tasks](Tasks.md)
+- [Templates](templates/index.md)
 - [Til](til/index.md)
 - [Tools](tools/index.md)
 - [Work](work/index.md)

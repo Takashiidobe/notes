@@ -2,6 +2,8 @@
 title: "RFC: Title Here"
 date created: Sunday, December 8th 2024, 2:55:20 pm
 date modified: Sunday, December 8th 2024, 3:08:44 pm
+tags:
+  - rfc
 ---
 
 # RFC: Title Here

@@ -1,3 +1,8 @@
+---
+title: Talks
+date created: Tuesday, November 26th 2024, 7:59:40 pm
+date modified: Monday, December 9th 2024, 9:46:47 pm
+---
 # Talks
 
 - [1999 Mount Holyoke Commencement Speech](1999-mount-holyoke-commencement-speech.md)
@@ -30,4 +35,3 @@
 - [We Shall Fight On The Beaches](we-shall-fight-on-the-beaches.md)
 - [What Matters More Than Your Talents](what-matters-more-than-your-talents.md)
 - [You And Your Research](you-and-your-research.md)
-- [_Talks](_talks.md)
