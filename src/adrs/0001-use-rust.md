@@ -1,7 +1,7 @@
 ---
 title: Use Rust
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Tuesday, December 10th 2024, 8:48:42 am
+date modified: Tuesday, December 10th 2024, 12:17:34 pm
 tags: [adr]
 ---
 
@@ -76,12 +76,13 @@ Chosen option: **Rust**, as it best meets all of the criteria above.
 * Bad, because **the ecosystem is fragmented**
 * Bad, because **the language is memory unsafe**
 
-### **C
+### **C**
 
-* Good, because **it is ubiquitous **
+* Good, because **it is ubiquitous**
 * Good, because **values simplicity**
 * Bad, because **the language isn't expressive**
 * Bad, because **the language is memory unsafe**
+
 ## Changelog
 
 * 2024-12-10 ADR created
