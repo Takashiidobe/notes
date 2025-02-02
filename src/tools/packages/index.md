@@ -1,3 +1,8 @@
+---
+title: Packages
+date created: Tuesday, November 26th 2024, 7:59:40 pm
+date modified: Thursday, December 26th 2024, 11:12:08 am
+---
 # Packages
 
 - [Aerc](aerc.md)
@@ -13,5 +18,5 @@
 - [Sc Im](sc-im.md)
 - [Sdcv](sdcv.md)
 - [Watchexec](watchexec.md)
-- [_Comby](_comby.md)
+- [Comby](comby.md)
 - [_Packages](_packages.md)
