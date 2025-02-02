@@ -37,7 +37,6 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 - [Quotes](quotes/index.md)
 - [Real World Systems](real-world-systems/index.md)
 - [Recipes](recipes/index.md)
-- [Rfcs](rfcs/index.md)
 - [Security](security/index.md)
 - [Software Architecture](software-architecture/index.md)
 - [System Design](system-design/index.md)

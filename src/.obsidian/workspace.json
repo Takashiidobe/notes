@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2d28980a3e5c9dd9",
+        "id": "12e24bef17bd763f",
         "type": "tabs",
         "children": [
           {
-            "id": "cd2de41db3e17ed2",
+            "id": "0f90b2793bd93bfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/packages/wikiman.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "wikiman"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -176,35 +173,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd2de41db3e17ed2",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
-    "tools/packages/chawan.md",
-    "tools/packages/wikiman.md",
-    "tools/packages/newsboat.md",
-    "tools/packages/sc-im.md",
-    "tools/packages/sdcv.md",
-    "tools/packages/watchexec.md",
-    "tools/packages/index.md",
-    "tools/packages/aerc.md",
-    "tools/packages/_packages.md",
-    "tools/packages/local-stack.md",
-    "tools/packages/id3tool.md",
-    "tools/packages/gooey.md",
-    "tools/packages/comby.md",
-    "tools/_tools.md",
-    "papers/operating-systems/index.md",
+    "databases/time-series/index.md",
+    "databases/time-series/a-basic-time-series-database.md",
+    "databases/sql/index.md",
+    "databases/time-series",
+    "databases/sql/effective-sql.md",
+    "databases/sql/_sql.md",
+    "adrs/index.md",
+    "databases/_databases.md",
+    "adrs/0000-adr-qualities.md",
+    "adrs/0001-use-rust.md",
+    "work/architecture-decision-records.md",
+    "work/index.md",
+    "work/managing-notes.md",
+    "templates/rfc-template.md",
+    "templates/index.md",
+    "templates/adr-template.md",
     "operating-systems/android/cross-compiling-c-for-android.md",
     "operating-systems/android/index.md",
+    "operating-systems/android/Running binaries for other architectures.md",
+    "tools/index.md",
+    "tools/_tools.md",
     "operating-systems/unix/index.md",
-    "operating-systems/shell/_shell.md",
-    "operating-systems/unix/_unix.md",
-    "operating-systems/_operating-systems.md",
+    "operating-systems/virtualization.md",
+    "operating-systems/index.md",
+    "tools/packages/wikiman.md",
+    "tools/packages/chawan.md",
+    "tools/packages/newsboat.md",
     "operating-systems/android",
-    "adrs/0001-use-rust.md",
-    "adrs/index.md",
-    "work/managing-notes.md",
-    "adrs/0000-adr-qualities.md",
-    "templates/adr-template.md",
     "adrs",
     "rfcs",
     "templates/rfc-template.md~",
@@ -213,7 +211,6 @@
     "work",
     "tools/vim/index.md~",
     "index.md~",
-    "music/radiohead.md~",
     "interviews/design/images/using-tfo-cookie.png",
     "interviews/design/images/tfo-cookie-generation.png",
     "interviews/design/images/tcp-three-way-handshake.png",
