@@ -81,4 +81,3 @@
 - [Understanding Software Dynamics](understanding-software-dynamics/index.md)
 - [Unix And Linux System Administration Handbook](unix-and-linux-system-administration-handbook/index.md)
 - [Zero To One](zero-to-one.md)
-- [_Books](_books.md)
