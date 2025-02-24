@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software-architecture/dependency-inversion.md",
+                "file": "software-architecture/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dependency-inversion"
+              "title": "index"
             }
           }
         ],
@@ -192,13 +192,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff769eaa2d2904f6",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
+    "software-architecture/dependency-inversion.md",
     "real-world-systems/index.md",
     "real-world-systems/The Go Garbage Collector.md",
     "real-world-systems/aurora.md",
     "real-world-systems/ideas.md",
-    "software-architecture/dependency-inversion.md",
     "software-architecture/static-vs-dynamic-schemas.md",
     "software-architecture/index.md",
     "software-architecture/links.md",
