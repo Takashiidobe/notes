@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating-systems/virtualization.md",
+                "file": "real-world-systems/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "virtualization"
+              "title": "index"
             }
           }
         ],
@@ -194,6 +194,18 @@
   },
   "active": "ff769eaa2d2904f6",
   "lastOpenFiles": [
+    "real-world-systems/The Go Garbage Collector.md",
+    "real-world-systems/index.md",
+    "real-world-systems/aurora.md",
+    "real-world-systems/ideas.md",
+    "software-architecture/Dependency Injection.md",
+    "software-architecture/static-vs-dynamic-schemas.md",
+    "software-architecture/index.md",
+    "software-architecture/links.md",
+    "software-architecture/invariant-pyramid.md",
+    "programming-languages/go/index.md",
+    "programming-languages/go/build-for-different-archs-in-go.md",
+    "operating-systems/virtualization.md",
     "operating-systems/unix/index.md",
     "data-structures/hyperloglogs.md",
     "data-structures/index.md",
@@ -208,19 +220,7 @@
     "data-structures/hash-tables.md",
     "data-structures/_data-structures.md",
     "artificial-intelligence/Links.md",
-    "databases/time-series/index.md",
-    "databases/time-series/a-basic-time-series-database.md",
-    "databases/sql/index.md",
     "databases/time-series",
-    "databases/sql/effective-sql.md",
-    "databases/sql/_sql.md",
-    "adrs/index.md",
-    "databases/_databases.md",
-    "adrs/0000-adr-qualities.md",
-    "adrs/0001-use-rust.md",
-    "work/architecture-decision-records.md",
-    "work/index.md",
-    "work/managing-notes.md",
     "operating-systems/android",
     "adrs",
     "rfcs",

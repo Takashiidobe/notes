@@ -1,7 +1,7 @@
 ---
 title: Real World Systems
 date created: Tuesday, November 26th 2024, 7:59:40 pm
-date modified: Thursday, December 5th 2024, 10:19:50 pm
+date modified: Monday, February 24th 2025, 7:38:21 am
 ---
 
 # Real World Systems
@@ -10,3 +10,4 @@ date modified: Thursday, December 5th 2024, 10:19:50 pm
 - [Ideas](ideas.md)
 - [Index](index.md)
 - [Lambda](lambda.md)
+- [The Go Garbage Collector](The Go Garbage Collector.md)
