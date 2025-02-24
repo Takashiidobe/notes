@@ -177,13 +177,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f90b2793bd93bfe",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
     "software-architecture/dependency-inversion.md",
     "data-structures/index.md",
     "software-architecture/index.md",
     "real-world-systems/index.md",
-    "real-world-systems/The Go Garbage Collector.md",
+    "real-world-systems/the-go-garbage-collector.md",
     "real-world-systems/aurora.md",
     "real-world-systems/ideas.md",
     "software-architecture/static-vs-dynamic-schemas.md",
