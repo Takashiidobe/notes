@@ -1,10 +1,10 @@
 ---
-title: big-o-complexity
+title: Big-o-complexity
 date created: Friday, May 12th 2023, 5:07:55 pm
-date modified: Friday, November 8th 2024, 10:09:28 pm
+date modified: Monday, February 24th 2025, 7:23:13 am
 ---
 
-## Big-o-complexity
+# Big-o-complexity
 
 Big O notation loosely measures how long an algorithm takes to run.
 
@@ -13,7 +13,7 @@ This is done **Relative to the size of input**.
 First we have to answer why an absolute measurement (e.g. time) fails
 us.
 
-### Time isn\'t Good Enough
+## Time isn\'t Good Enough
 
 Let\'s say I have a fast computer that can do 1 billion operations per
 second. We\'ll abbreviate this to be 1B ops/s.
@@ -44,7 +44,7 @@ they would have to transfer it to their computer and benchmark it.
 We need something that isn\'t bound to how fast our computer is, and
 that something is **Big O Notation**.
 
-### Big O Notation
+## Big O Notation
 
 Big O Notation doesn\'t care about how fast your computer is or my
 computer is, because it doesn\'t care for an **absolute** notion of
@@ -61,7 +61,7 @@ Big O Complexity cares about:
 - How fast the runtime grows relative to its input
 - When the input is extremely large (millions, billions, trillions).
 
-#### Constant Time
+### Constant Time
 
 Constant time means that no matter how large the input size is, the
 algorithm always does the same amount of work.
@@ -81,7 +81,7 @@ time.
 This is because all it needs is the address of the first element, finds
 what is located there, and returns it.
 
-#### Linear Time
+### Linear Time
 
 Linear time means that as the input size grows, the algorithm has to do
 more work for each piece of input.
@@ -102,6 +102,6 @@ two elements in the array, I have to print the first element and the
 second element. If I have a million elements in the array, I have to
 print out the first to the millionth element.
 
-### Big O Complexity Visualized
+## Big O Complexity Visualized
 
 ![BigOComplexity](/BigOComplexity.png)

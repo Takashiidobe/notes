@@ -1,10 +1,10 @@
 ---
-title: iteration-vs-recursion
+title: Iteration Vs Recursion
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Monday, February 24th 2025, 7:23:08 am
 ---
 
-Vs Recursion
-
-# Iteration vs Recursion
+# Iteration Vs Recursion
 
 In Programming, any task that requires something to be done repeatedly
 can be solved either with iteration or recursion.

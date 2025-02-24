@@ -1,5 +1,7 @@
 ---
-title: hyperloglogs
+title: HyperLogLogs
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Monday, February 24th 2025, 7:24:28 am
 ---
 
 # HyperLogLogs
@@ -18,8 +20,8 @@ Easy peasy, you\'re probably thinking. Just use a set.
 
 Let\'s do it in python.
 
-```py
-with open( as f:
+```python
+with open(input_file) as f:
     unique_nums = {line.rstrip() for line in f}
     print(len(unique_nums))
 ```
@@ -35,13 +37,13 @@ Enter the HyperLogLog! It probablistically finds the number of unique
 items in a set.
 
 Like most efficient things in programming, this starts out by hashing
-our values. Pytohn is a great language for this (as are a few others)
+our values. Python is a great language for this (as are a few others)
 because it comes with a hash method you can easily call!
 
 First we\'ll define a function that defines the number of trailing
 zeroes a number hasin its binary representation:
 
-```py
+```python
 def trailing_zeroes(num):
     if num == 0:
         return 32
@@ -80,7 +82,7 @@ or 1s we see in our hashed set. Interesting, right?
 So all we have to do is hash the items and count the longest sequence.
 Let\'s do that, but with some errors removed.
 
-```py
+```python
 def estimate_cardinality(values, k=10):
     buckets = 2 ** k
     max_zeroes = [0] * buckets
@@ -95,14 +97,14 @@ def estimate_cardinality(values, k=10):
 
 And let\'s run it.
 
-```py
+```python
 lines = None
-with open( as f:
+with open(input_file) as f:
     lines = [line.rstrip() for line in f]
 
 uniques = estimate_cardinality(lines)
 
-print(f
+print(f)
 ```
 
 I ran this on my computer with a million numbers in a csv, randomly
@@ -110,4 +112,4 @@ generated from 1 to 1 million and I got an error rate of 5.7% compared
 to the previous set. With increased buckets, I got it down to 3%. And
 I\'m basically using 5% of the memory of the previous solution, which
 isn\'t anything to scoff at. A great way to count unique items with less
-memory! e
+memory! 
