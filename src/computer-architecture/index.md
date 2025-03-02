@@ -8,4 +8,5 @@ date modified: Saturday, December 7th 2024, 6:42:25 pm
 
 - [Gates](gates.md)
 - [Index](index.md)
+- [Performance Aware Programming](performance-aware-programming/index.md)
 - [X86](x86/index.md)

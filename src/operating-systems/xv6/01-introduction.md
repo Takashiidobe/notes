@@ -1,7 +1,7 @@
 ---
 title: Intro
 date created: Saturday, March 1st 2025, 8:40:53 pm
-date modified: Saturday, March 1st 2025, 8:48:34 pm
+date modified: Sunday, March 2nd 2025, 8:40:56 am
 ---
 
 # Intro
@@ -23,6 +23,7 @@ date modified: Saturday, March 1st 2025, 8:48:34 pm
 - fork, wait, exit, pipe, open/close/read/write, kill, exec, link, unlink
 - Used to implement userspace, like cat, echo, grep, kill, ln, ls, mkdir, rm, wc
 ## Limitations
+
 - No user authentication
 - No network support
 - No virtual memory paging

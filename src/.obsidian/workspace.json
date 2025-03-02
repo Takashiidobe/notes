@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
+                "file": "operating-systems/xv6/02-general-features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-instructions-per-clock"
+              "title": "02-general-features"
             }
           }
         ],
@@ -194,15 +194,16 @@
   },
   "active": "1a387ab6f4f609c4",
   "lastOpenFiles": [
+    "operating-systems/xv6/01-introduction.md",
+    "operating-systems/xv6/02-general-features.md",
+    "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
     "computer-architecture/performance-aware-programming/1-waste.md",
     "computer-architecture/performance-aware-programming/0-welcome.md",
-    "operating-systems/xv6/01-introduction.md",
     "software-architecture/index.md",
     "operating-systems/xv6",
     "computer-architecture/performance-aware-programming/6-python-revisisted.md",
     "computer-architecture/performance-aware-programming/5-multithreading.md",
     "computer-architecture/performance-aware-programming/3-single-instruction-multiple-data.md",
-    "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
     "computer-architecture/performance-aware-programming/4-caching.md",
     "computer-architecture/gates.md",
     "computer-architecture/index.md",
@@ -221,7 +222,6 @@
     "operating-systems/virtualization.md",
     "operating-systems/unix/index.md",
     "data-structures/hyperloglogs.md",
-    "data-structures/iteration-vs-recursion.md",
     "databases/time-series",
     "operating-systems/android",
     "adrs",

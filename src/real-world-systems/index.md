@@ -10,4 +10,4 @@ date modified: Monday, February 24th 2025, 7:38:21 am
 - [Ideas](ideas.md)
 - [Index](index.md)
 - [Lambda](lambda.md)
-- [The Go Garbage Collector](The Go Garbage Collector.md)
+- [The Go Garbage Collector](the-go-garbage-collector.md)
