@@ -1,8 +1,9 @@
 ---
 title: Memory and Caching
 date created: Sunday, March 2nd 2025, 9:07:43 am
-date modified: Sunday, March 2nd 2025, 9:08:00 am
+date modified: Tuesday, March 4th 2025, 3:49:24 pm
 ---
+
 Some of the main features of xv6 are covered here:
 
 # Memory and Caching
@@ -20,7 +21,7 @@ performance. xv6 does not.
   the host machine.
 - Real world processors have interrupt controllers like PLIC
   (Platform-Level Interrupt Controllers) which manage interrupts and
-  assigns them to the appropriate core, and CLIC (Core-Local Interrupt
+  assigns them to the appropriate core, and CLINT (Core-Local Interrupt
   Controllers) which handle interrupts per core.
 
 # Memory Allocation
@@ -47,12 +48,12 @@ Where user-mode processes can only access pages marked as U.
 
 # Scheduling
 
-xv6 has a simple round-robin scheduler.
+xv6 has a semi round-robin scheduler.
 
 1. Each process has a time slice of 1 million cycles
 2. After the time slice expires, the process is returned to the ready
    queue.
-3. The next process is selected for execution
+3. The next process is selected for execution, which could be on a different core
 
 All cores share a single ready queue, where each core scans through the
 array linearly, searching for a runnable process.
@@ -63,6 +64,8 @@ xv6 also simplifies the boot process:
 
 The emulator loads the kernel directly into a fixed memory location.
 And starts execution from there.
+
+No bootloader, boot block or BIOS
 
 # Synchronization & Concurrency
 
@@ -76,7 +79,7 @@ With two accompanying functions:
 - `acquire()` wait in a loop until the lock is free, then lock.
 - `release()` unlocks the acquired lock by setting variable to 0.
 
-As well, there's `sleep()` and `wake_up()`
+As well, there's `sleep()` and `wakeup()`
 
 - `sleep()` puts a process in a blocked state
 - `wake_up()` changes a sleeping process back to runnable for scheduling
@@ -96,12 +99,12 @@ can still modify shared memory, so locking is necessary.
 A program's virtual memory is laid out as so:
 
 1. Code and Data section (loaded from the binary during execution)
-2. Stack (Allocated one 4KB page). If the program exceeds this, it
+2. Guard Page (prevents stack overflow by mdrking a page as
+3. Stack (Allocated one 4KB page). If the program exceeds this, it
    crashes.
 3. Heap (Grows dynamically in page-sized increments)
-4. Guard Page (prevents stack overflow by marking a page as
    inaccessible)
-5. Trap/Trampoline pages (traps are per process, trampolines for all
+4. Trap/Trampoline pages (traps are per process, trampolines for all
    processes)
     - Trap frames store process state during exceptions
     - Trampoline for handling traps
@@ -110,5 +113,5 @@ Environment variables are not supported.
 
 # Risc-V Memory Model
 
-- Risc-v has a 39-bit virtual address space, and xv6 uses 38 bits,
-  limiting the virtual address space to 256GB.
+- xv6 uses Sv39, which has  39-bit virtual address space, and xv6 uses 38 bits,
+  limiting the virtual address space to 256GB. There are Sv32 and Sv48 variants as well.

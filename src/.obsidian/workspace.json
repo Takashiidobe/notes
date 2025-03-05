@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating-systems/xv6/02-general-features.md",
+                "file": "operating-systems/xv6/03-startup-and-organization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-general-features"
+              "title": "03-startup-and-organization"
             }
           }
         ],
@@ -194,8 +194,9 @@
   },
   "active": "1a387ab6f4f609c4",
   "lastOpenFiles": [
-    "operating-systems/xv6/01-introduction.md",
     "operating-systems/xv6/02-general-features.md",
+    "operating-systems/xv6/03-startup-and-organization.md",
+    "operating-systems/xv6/01-introduction.md",
     "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
     "computer-architecture/performance-aware-programming/1-waste.md",
     "computer-architecture/performance-aware-programming/0-welcome.md",
@@ -221,7 +222,6 @@
     "programming-languages/go/build-for-different-archs-in-go.md",
     "operating-systems/virtualization.md",
     "operating-systems/unix/index.md",
-    "data-structures/hyperloglogs.md",
     "databases/time-series",
     "operating-systems/android",
     "adrs",
