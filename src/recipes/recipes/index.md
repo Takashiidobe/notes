@@ -18,6 +18,7 @@
 - [Chipotle Steak Copycat](chipotle-steak-copycat.md)
 - [Coconut Chicken Curry](coconut-chicken-curry.md)
 - [Cold Noodle Salad With Spicy Peanut Sauce](cold-noodle-salad-with-spicy-peanut-sauce.md)
+- [Cookies](cookies.md)
 - [Copycat Chick Fil A Sandwich](copycat-chick-fil-a-sandwich.md)
 - [Copycat Chipotle Black Beans](copycat-chipotle-black-beans.md)
 - [Copycat Chipotle Guacamole Recipe](copycat-chipotle-guacamole-recipe.md)
