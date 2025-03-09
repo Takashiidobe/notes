@@ -6,5 +6,6 @@ date modified: Saturday, December 7th 2024, 6:42:27 pm
 
 # X86
 
-- [Index](index.md)
+# X86
+
 - [_X86](_x86.md)

@@ -6,6 +6,8 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 
 # Src
 
+# Src
+
 - [.Obsidian](.obsidian/index.md)
 - [Adrs](adrs/index.md)
 - [Algorithms](algorithms/index.md)
@@ -23,7 +25,6 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 - [Devops](devops/index.md)
 - [Frontend](frontend/index.md)
 - [Img](img/index.md)
-- [Index](index.md)
 - [Information Theory](information-theory/index.md)
 - [Interviews](interviews/index.md)
 - [Math](math/index.md)
@@ -41,7 +42,6 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 - [Software Architecture](software-architecture/index.md)
 - [System Design](system-design/index.md)
 - [Talks](talks/index.md)
-- [Tasks](Tasks.md)
 - [Templates](templates/index.md)
 - [Til](til/index.md)
 - [Tools](tools/index.md)

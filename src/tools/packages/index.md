@@ -6,12 +6,13 @@ date modified: Thursday, December 26th 2024, 11:12:08 am
 
 # Packages
 
+# Packages
+
 - [Aerc](aerc.md)
 - [Chawan](chawan.md)
 - [Comby](comby.md)
 - [Gooey](gooey.md)
 - [Id3Tool](id3tool.md)
-- [Index](index.md)
 - [Jenv](jenv.md)
 - [Lazy Docker](lazy-docker.md)
 - [Local Stack](local-stack.md)

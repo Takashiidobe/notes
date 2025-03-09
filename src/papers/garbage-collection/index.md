@@ -6,5 +6,6 @@ date modified: Saturday, December 7th 2024, 8:46:36 pm
 
 # Garbage Collection
 
-- [Index](index.md)
+# Garbage Collection
+
 - [The Slab Allocator](the-slab-allocator.md)

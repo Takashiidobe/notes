@@ -4,6 +4,8 @@ title: "Design"
 
 # Design
 
+# Design
+
 - [Airbnb](airbnb.md)
 - [Algo Questions](algo-questions.md)
 - [Api Rate Limiter](api-rate-limiter.md)
@@ -33,7 +35,6 @@ title: "Design"
 - [Heavy Hitters](heavy-hitters.md)
 - [Hyperloglog](hyperloglog.md)
 - [Images](images/index.md)
-- [Index](index.md)
 - [Insert Delete Get Random O 1](insert-delete-get-random-o-1.md)
 - [Job Queue](job-queue.md)
 - [Key Value Store](key-value-store.md)

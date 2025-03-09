@@ -7,4 +7,3 @@
 - [Packages](packages/index.md)
 - [Pandoc](pandoc/index.md)
 - [Vim](vim/index.md)
-- [_Tools](_tools.md)

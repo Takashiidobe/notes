@@ -6,4 +6,5 @@ date modified: Monday, February 24th 2025, 7:24:37 am
 
 # Unix
 
-- [Index](index.md)
+# Unix
+

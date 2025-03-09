@@ -6,6 +6,7 @@ date modified: Saturday, December 7th 2024, 8:47:24 pm
 
 # Scheme
 
-- [Index](index.md)
+# Scheme
+
 - [Structure And Interpretation Of Computer Programs](structure-and-interpretation-of-computer-programs/index.md)
 - [The Little Schemer](the-little-schemer/index.md)

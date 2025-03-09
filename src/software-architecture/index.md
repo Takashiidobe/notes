@@ -6,8 +6,9 @@ date modified: Monday, February 24th 2025, 8:11:13 am
 
 # Software Architecture
 
+# Software Architecture
+
 - [Dependency Inversion](dependency-inversion.md)
-- [Index](index.md)
 - [Invariant Pyramid](invariant-pyramid.md)
 - [Links](links.md)
 - [Static Vs Dynamic Schemas](static-vs-dynamic-schemas.md)

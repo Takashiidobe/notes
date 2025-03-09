@@ -1,12 +1,12 @@
-# Index
+# Week4
 
-- [accounts-merge](accounts-merge.md)
-- [combination-sum](combination-sum.md)
-- [lowest-common-ancestor-of-a-binary-tree](lowest-common-ancestor-of-a-binary-tree.md)
-- [merge-intervals](merge-intervals.md)
-- [number-of-islands](number-of-islands.md)
-- [permutations](permutations.md)
-- [rotting-oranges](rotting-oranges.md)
-- [search-in-rotated-sorted-array](search-in-rotated-sorted-array.md)
-- [time-based-key-value-store](time-based-key-value-store.md)
-- [validate-binary-search-tree](validate-binary-search-tree.md)
+- [Accounts Merge](accounts-merge.md)
+- [Combination Sum](combination-sum.md)
+- [Lowest Common Ancestor Of A Binary Tree](lowest-common-ancestor-of-a-binary-tree.md)
+- [Merge Intervals](merge-intervals.md)
+- [Number Of Islands](number-of-islands.md)
+- [Permutations](permutations.md)
+- [Rotting Oranges](rotting-oranges.md)
+- [Search In Rotated Sorted Array](search-in-rotated-sorted-array.md)
+- [Time Based Key Value Store](time-based-key-value-store.md)
+- [Validate Binary Search Tree](validate-binary-search-tree.md)

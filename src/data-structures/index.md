@@ -6,11 +6,12 @@ date modified: Monday, February 24th 2025, 7:14:00 am
 
 # Data Structures
 
+# Data Structures
+
 - [Arrays](arrays.md)
 - [Big O Complexity](big-o-complexity.md)
 - [Hash Tables](hash-tables.md)
 - [Hyperloglogs](hyperloglogs.md)
-- [Index](index.md)
 - [Iteration Vs Recursion](iteration-vs-recursion.md)
 - [Memory](memory.md)
 - [Nodes](nodes.md)

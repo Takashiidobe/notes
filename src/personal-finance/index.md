@@ -6,6 +6,7 @@ date modified: Saturday, December 7th 2024, 8:33:59 pm
 
 # Personal Finance
 
-- [Index](index.md)
+# Personal Finance
+
 - [Investments](investments.md)
 - [Using 401Ks](using-401ks.md)

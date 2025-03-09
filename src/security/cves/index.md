@@ -6,5 +6,6 @@ date modified: Monday, December 9th 2024, 9:47:02 pm
 
 # Cves
 
+# Cves
+
 - [Cve 2024 3094](CVE-2024-3094.md)
-- [Index](index.md)

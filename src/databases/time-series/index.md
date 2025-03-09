@@ -1,3 +1,3 @@
 # Time Series
 
-- [Writing A Basic Time Series Database](Writing a Basic Time-Series Database.md)
+- [A Basic Time Series Database](a-basic-time-series-database.md)

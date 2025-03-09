@@ -6,10 +6,11 @@ date modified: Tuesday, November 12th 2024, 7:07:37 pm
 
 # Cpp
 
+# Cpp
+
 - [Avoiding Implicit Conversions](avoiding-implicit-conversions.md)
 - [Concepts](concepts.md)
 - [Constexpr](constexpr.md)
-- [Index](index.md)
 - [Inline](inline.md)
 - [Map Vs Unordered Map](map-vs-unordered-map.md)
 - [Nodiscard](nodiscard.md)

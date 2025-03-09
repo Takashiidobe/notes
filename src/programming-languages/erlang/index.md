@@ -6,6 +6,7 @@ date modified: Saturday, December 7th 2024, 8:46:50 pm
 
 # Erlang
 
-- [Index](index.md)
+# Erlang
+
 - [Learn You Some Erlang](learn-you-some-erlang.md)
 - [Programming Erlang](programming-erlang.md)

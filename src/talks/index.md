@@ -6,6 +6,8 @@ date modified: Monday, December 9th 2024, 9:46:47 pm
 
 # Talks
 
+# Talks
+
 - [1999 Mount Holyoke Commencement Speech](1999-mount-holyoke-commencement-speech.md)
 - [A Lesson On Elementary Worldly Wisdom](a-lesson-on-elementary-worldly-wisdom.md)
 - [Antitrust Commission Jeff Bezos](antitrust-commission-jeff-bezos.md)
@@ -19,7 +21,6 @@ date modified: Monday, December 9th 2024, 9:46:47 pm
 - [George Washingtons Resignation](george-washingtons-resignation.md)
 - [Gettysburg Address](gettysburg-address.md)
 - [I Am Prepared To Die](i-am-prepared-to-die.md)
-- [Index](index.md)
 - [Inventing On Principle](inventing-on-principle.md)
 - [Learning To Learn](learning-to-learn.md)
 - [Make Your Bed](make-your-bed.md)

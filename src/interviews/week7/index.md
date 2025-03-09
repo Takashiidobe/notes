@@ -1,12 +1,12 @@
-# Index
+# Week7
 
-- [design-add-and-search-words-data-structure](design-add-and-search-words-data-structure.md)
-- [find-the-duplicate-number](find-the-duplicate-number.md)
-- [group-anagrams](group-anagrams.md)
-- [maximum-product-subarray](maximum-product-subarray.md)
-- [next-permutation](next-permutation.md)
-- [pacific-atlantic-water-flow](pacific-atlantic-water-flow.md)
-- [remove-nth-node-from-end-of-list](remove-nth-node-from-end-of-list.md)
-- [shortest-path-to-get-food](shortest-path-to-get-food.md)
-- [top-k-frequent-words](top-k-frequent-words.md)
-- [valid-sudoku](valid-sudoku.md)
+- [Design Add And Search Words Data Structure](design-add-and-search-words-data-structure.md)
+- [Find The Duplicate Number](find-the-duplicate-number.md)
+- [Group Anagrams](group-anagrams.md)
+- [Maximum Product Subarray](maximum-product-subarray.md)
+- [Next Permutation](next-permutation.md)
+- [Pacific Atlantic Water Flow](pacific-atlantic-water-flow.md)
+- [Remove Nth Node From End Of List](remove-nth-node-from-end-of-list.md)
+- [Shortest Path To Get Food](shortest-path-to-get-food.md)
+- [Top K Frequent Words](top-k-frequent-words.md)
+- [Valid Sudoku](valid-sudoku.md)

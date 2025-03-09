@@ -2,13 +2,11 @@
 
 - [Algorithms](algorithms/index.md)
 - [Artificial Intelligence](artificial-intelligence/index.md)
-- [Caching](caching/index.md)
 - [Classics Of Cs](classics-of-cs/index.md)
 - [Concurrency](concurrency/index.md)
 - [Cryptography](cryptography/index.md)
 - [Data Structures](data-structures/index.md)
 - [Databases](databases/index.md)
-- [Datastores](datastores/index.md)
 - [Distributed File Systems](distributed-file-systems/index.md)
 - [Distributed Systems](distributed-systems/index.md)
 - [Garbage Collection](garbage-collection/index.md)

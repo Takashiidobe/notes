@@ -9,4 +9,3 @@
 - [Push To Multiple Remotes At The Same Time](push-to-multiple-remotes-at-the-same-time.md)
 - [Setup Git On Server](setup-git-on-server.md)
 - [Setup Gitea](setup-gitea.md)
-- [_Git](_git.md)

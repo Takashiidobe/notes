@@ -57,3 +57,6 @@
 - [Transaction Snapshots.Png](transaction-snapshots.png)
 - [Uma.Svg](uma.svg)
 - [Virtual Memory Page Table.Png](virtual-memory-page-table.png)
+- [Xv6 Kernel Linker Layout.Png](xv6-kernel-linker-layout.png)
+- [Xv6 Kernel Memory Layout.Png](xv6-kernel-memory-layout.png)
+- [Xv6 Process Memory Layout.Png](xv6-process-memory-layout.png)

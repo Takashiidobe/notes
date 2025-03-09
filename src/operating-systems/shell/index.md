@@ -6,4 +6,3 @@
 - [Shellspec](shellspec.md)
 - [Sort A Csv](sort-a-csv.md)
 - [Time It In Bash](time-it-in-bash.md)
-- [_Shell](_shell.md)

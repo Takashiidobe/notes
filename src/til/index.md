@@ -6,11 +6,12 @@ date modified: Saturday, December 7th 2024, 8:58:06 pm
 
 # Til
 
+# Til
+
 - [Deque In C](deque-in-c.md)
 - [Dtruss](dtruss.md)
 - [Heredocs](heredocs.md)
 - [Html To Text](html-to-text.md)
-- [Index](index.md)
 - [Linux File Partitions](linux-file-partitions.md)
 - [Min Stack In C](min-stack-in-c.md)
 - [Rsync To Remote Server](rsync-to-remote-server.md)

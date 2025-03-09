@@ -6,5 +6,6 @@ date modified: Saturday, December 7th 2024, 8:47:51 pm
 
 # Rust
 
-- [Index](index.md)
+# Rust
+
 - [Rustup Docs](rustup-docs.md)

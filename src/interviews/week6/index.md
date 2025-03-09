@@ -1,12 +1,12 @@
-# Index
+# Week6
 
-- [daily-temperatures](daily-temperatures.md)
-- [find-all-anagrams-in-a-string](find-all-anagrams-in-a-string.md)
-- [gas-station](gas-station.md)
-- [house-robber](house-robber.md)
-- [kth-smallest-element-in-a-bst](kth-smallest-element-in-a-bst.md)
-- [letter-combinations-of-a-phone-number](letter-combinations-of-a-phone-number.md)
-- [lru-cache](lru-cache.md)
-- [minimum-height-trees](minimum-height-trees.md)
-- [task-scheduler](task-scheduler.md)
-- [word-search](word-search.md)
+- [Daily Temperatures](daily-temperatures.md)
+- [Find All Anagrams In A String](find-all-anagrams-in-a-string.md)
+- [Gas Station](gas-station.md)
+- [House Robber](house-robber.md)
+- [Kth Smallest Element In A Bst](kth-smallest-element-in-a-bst.md)
+- [Letter Combinations Of A Phone Number](letter-combinations-of-a-phone-number.md)
+- [Lru Cache](lru-cache.md)
+- [Minimum Height Trees](minimum-height-trees.md)
+- [Task Scheduler](task-scheduler.md)
+- [Word Search](word-search.md)

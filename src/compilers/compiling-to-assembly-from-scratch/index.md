@@ -6,4 +6,5 @@ date modified: Saturday, December 7th 2024, 6:42:37 pm
 
 # Compiling To Assembly From Scratch
 
-- [Index](index.md)
+# Compiling To Assembly From Scratch
+

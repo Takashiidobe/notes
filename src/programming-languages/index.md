@@ -6,6 +6,8 @@ date modified: Saturday, December 7th 2024, 8:48:11 pm
 
 # Programming Languages
 
+# Programming Languages
+
 - [C](c/index.md)
 - [Clojure](clojure/index.md)
 - [Cpp](cpp/index.md)
@@ -13,7 +15,6 @@ date modified: Saturday, December 7th 2024, 8:48:11 pm
 - [Erlang](erlang/index.md)
 - [Go](go/index.md)
 - [Haskell](haskell/index.md)
-- [Index](index.md)
 - [Javascript](javascript/index.md)
 - [Kotlin](kotlin/index.md)
 - [Ocaml](ocaml/index.md)

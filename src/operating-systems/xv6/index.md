@@ -13,3 +13,4 @@
 - [12 Linker Layout](12-linker-layout.md)
 - [13 Trap Handling](13-trap-handling.md)
 - [14 Kernel Startup](14-kernel-startup.md)
+- [28 Disk Io](28-disk-io.md)

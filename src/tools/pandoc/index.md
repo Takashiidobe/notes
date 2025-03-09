@@ -6,6 +6,7 @@ date modified: Saturday, December 7th 2024, 8:58:40 pm
 
 # Pandoc
 
+# Pandoc
+
 - [Epub To Html With Pandoc](epub-to-html-with-pandoc.md)
-- [Index](index.md)
 - [To Pdf](to-pdf.md)
