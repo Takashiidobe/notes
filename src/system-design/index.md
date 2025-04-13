@@ -7,4 +7,3 @@
 - [Design Netflix](design-netflix.md)
 - [Systemsexpert](systemsexpert/index.md)
 - [Types In System Design](types-in-system-design.md)
-- [_System Design](_system-design.md)

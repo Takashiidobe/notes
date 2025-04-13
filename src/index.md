@@ -21,6 +21,7 @@ date modified: Saturday, December 7th 2024, 8:59:34 pm
 - [Cryptography](cryptography/index.md)
 - [Data Structures](data-structures/index.md)
 - [Databases](databases/index.md)
+- [Deep Dives](deep-dives/index.md)
 - [Design Patterns](design-patterns/index.md)
 - [Devops](devops/index.md)
 - [Frontend](frontend/index.md)
