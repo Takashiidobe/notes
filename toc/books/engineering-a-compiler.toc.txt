@@ -1,0 +1,14 @@
+Overview of Compilation
+Scanners
+Parsers
+Intermediate Representations
+Syntax-Driven Translation
+Implementing Procedures
+Code Shape
+Introduction to Optimization
+Data-Flow Analysis
+Scalar Optimization
+Instruction Selection
+Instruction Scheduling
+Register Allocation
+Runtime Optimization

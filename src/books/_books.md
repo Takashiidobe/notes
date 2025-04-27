@@ -89,3 +89,8 @@ title: Books
 - [The Anatomy of a High Performance Microprocessor](nan.md)
 - [Understanding Software Dynamics](nan.md)
 - [Postgres Internals](nan.md)
+- [Serious Cryptography](serious-cryptography/_serious-cryptography.md)
+- [The Mythical Man Month](the-mythical-man-month/_the-mythical-man-month.md)
+- [Kubernetes in Action](kubernetes-in-action/_kubernetes-in-action.md)
+- [Structured Computer Organization](structured-computer-organization/_structured-computer-organization.md)
+- [Engineering a Compiler](engineering-a-compiler/_engineering-a-compiler.md)

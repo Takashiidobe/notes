@@ -1,0 +1,18 @@
+Introducing Kubernetes
+First steps with Docker and Kubernetes
+Pods: running containers in Kubernetes
+Replication and other controllers: deploying managed pods
+Services: enabling clients to discover and talk to pods
+Volumes: attaching disk storage to containers
+ConfigMaps and Secrets: configuring applications
+Accessing pod metadata and other resources from applications
+Deployments: updating applications declaratively
+StatefulSets: deploying replicated stateful applications
+Understanding Kubernetes internals
+Securing the Kubernetes API server
+Securing cluster nodes and the network
+Managing pods’ computational resources
+Automatic scaling of pods and cluster nodes
+Advanced scheduling
+Best practices for developing apps
+Extending Kubernetes
