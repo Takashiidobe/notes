@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Alternative Blanket Implementations for a Single Rust Trait.md",
+                "file": "to-read/What the Hell Is a Target Triple · mcyoung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alternative Blanket Implementations for a Single Rust Trait"
+              "title": "What the Hell Is a Target Triple · mcyoung"
             }
           }
         ]
@@ -178,19 +178,26 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d3649c1899816e9e",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
-    "Clippings/A definitive guide to sealed traits in Rust.md",
-    "Clippings/Alternative Blanket Implementations for a Single Rust Trait.md",
-    "Clippings/Compaction.md",
-    "Clippings/How much code does that proc macro generate.md",
-    "Clippings/The messy reality of SIMD (vector) functions.md",
-    "Clippings/Unsoundness and accidental features in the target_feature attribute.md",
-    "Clippings/Why is the Rust compiler so slow.md",
-    "Clippings/You might not need Redis.md",
+    "to-read/Why is the Rust compiler so slow.md",
+    "recipes/recipes/braised-white-beans-and-greens-with-parmesan.md",
+    "recipes/recipes/buffalo-chicken-rice-bowls.md",
+    "recipes/recipes/birria-de-res.md",
+    "recipes/recipes/asian-chicken-noodle-soup.md",
+    "recipes/index.md",
+    "to-read/You might not need Redis.md",
+    "to-read/Protobuf Tip 1 Field Names Are Forever · mcyoung.md",
+    "to-read/What the Hell Is a Target Triple · mcyoung.md",
+    "to-read/Alternative Blanket Implementations for a Single Rust Trait.md",
+    "to-read/A definitive guide to sealed traits in Rust.md",
+    "to-read/Compaction.md",
+    "to-read/How much code does that proc macro generate.md",
+    "to-read/The messy reality of SIMD (vector) functions.md",
+    "to-read/Unsoundness and accidental features in the target_feature attribute.md",
     "Predrag Gruevski.md",
     "index.md",
-    "Clippings",
+    "to-read",
     "Untitled.md",
     "publish.css",
     "courses/algorithmic-game-theory/vcg-mechanism.md",
@@ -201,11 +208,6 @@
     "courses/algorithmic-game-theory/index.md",
     "courses/algorithmic-game-theory/beyond-quasi-linearity.md",
     "courses/algorithmic-game-theory/best-response-dynamics.md",
-    "courses/algorithmic-game-theory/best-case-and-strong-nash-equilibria.md",
-    "courses/algorithmic-game-theory/algorithmic-mechanism-design.md",
-    "cryptography/aes.md",
-    "cryptography/index.md",
-    "cryptography/tls.md",
     "img/even-or-odd-fsm.png",
     "img/abstract-multicore-architecture.svg",
     "img/and-from-or-and-not.png",
@@ -217,8 +219,6 @@
     "img/consistent-hashing.png",
     "img/count-min-sketch.png",
     "Untitled.canvas",
-    "operating-systems/xv6/08-page-table-architecture.md",
-    "operating-systems/xv6/09-status-and-trap-architecture.md",
     "operating-systems/xv6",
     "computer-architecture/performance-aware-programming",
     "databases/time-series",
