@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "12e24bef17bd763f",
+        "id": "21bf03ed825e4c23",
         "type": "tabs",
         "children": [
           {
-            "id": "0f90b2793bd93bfe",
+            "id": "d3649c1899816e9e",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "src/.obsidian/plugins/obsidian-minimal-settings/main.js",
-                "staged": false
+                "file": "Clippings/You might not need Redis.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (main.js)"
+              "icon": "lucide-file",
+              "title": "You might not need Redis"
             }
           }
         ]
@@ -173,50 +174,58 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "0f90b2793bd93bfe",
+  "active": "d3649c1899816e9e",
   "lastOpenFiles": [
+    "Clippings/Unsoundness and accidental features in the target_feature attribute.md",
+    "Clippings/Compaction.md",
+    "Clippings/A definitive guide to sealed traits in Rust.md",
+    "Clippings/You might not need Redis.md",
+    "Predrag Gruevski.md",
+    "index.md",
+    "Clippings",
+    "Untitled.md",
+    "publish.css",
+    "courses/algorithmic-game-theory/vcg-mechanism.md",
+    "courses/algorithmic-game-theory/swap-regret-minimax.md",
+    "courses/algorithmic-game-theory/smooth-games.md",
+    "courses/algorithmic-game-theory/selfish-routing-and-the-poa.md",
+    "courses/algorithmic-game-theory/network-over-provisioning.md",
+    "courses/algorithmic-game-theory/index.md",
+    "courses/algorithmic-game-theory/beyond-quasi-linearity.md",
+    "courses/algorithmic-game-theory/best-response-dynamics.md",
+    "courses/algorithmic-game-theory/best-case-and-strong-nash-equilibria.md",
+    "courses/algorithmic-game-theory/algorithmic-mechanism-design.md",
+    "cryptography/aes.md",
+    "cryptography/index.md",
+    "cryptography/tls.md",
+    "img/even-or-odd-fsm.png",
+    "img/abstract-multicore-architecture.svg",
+    "img/and-from-or-and-not.png",
+    "img/any-fsm.png",
+    "img/bcc_tracing_tools.png",
+    "img/architecture-of-a-dbms.png",
+    "img/block-groups.png",
+    "img/complexity-classes.png",
+    "img/consistent-hashing.png",
+    "img/count-min-sketch.png",
+    "Untitled.canvas",
     "operating-systems/xv6/08-page-table-architecture.md",
     "operating-systems/xv6/09-status-and-trap-architecture.md",
     "operating-systems/xv6/11-memory-layout.md",
     "operating-systems/xv6/12-linker-layout.md",
     "operating-systems/xv6/14-kernel-startup.md",
     "operating-systems/xv6/28-disk-io.md",
-    "operating-systems/xv6/07-memory-management.md",
-    "operating-systems/xv6/05-riscv-architecture.md",
-    "operating-systems/xv6/03-startup-and-organization.md",
-    "operating-systems/xv6/01-introduction.md",
-    "operating-systems/xv6/02-general-features.md",
-    "computer-architecture/performance-aware-programming/4-caching.md",
-    "computer-architecture/performance-aware-programming/6-python-revisisted.md",
-    "computer-architecture/performance-aware-programming/3-single-instruction-multiple-data.md",
-    "computer-architecture/performance-aware-programming/1-waste.md",
-    "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
-    "adrs/index.md",
-    "adrs/0000-adr-qualities.md",
-    "adrs/0001-use-rust.md",
-    "adrs/0002-use-linux.md",
-    "computer-architecture/performance-aware-programming/5-multithreading.md",
-    "computer-architecture/performance-aware-programming/0-welcome.md",
-    "software-architecture/index.md",
     "operating-systems/xv6",
-    "computer-architecture/gates.md",
-    "computer-architecture/index.md",
     "computer-architecture/performance-aware-programming",
-    "software-architecture/dependency-inversion.md",
     "databases/time-series",
     "operating-systems/android",
     "adrs",
     "rfcs",
     "templates/rfc-template.md~",
-    "templates",
-    "software-architecture",
-    "work",
-    "interviews/design/images/using-tfo-cookie.png",
-    "interviews/design/images/tfo-cookie-generation.png",
-    "interviews/design/images/tcp-three-way-handshake.png",
-    "Untitled.canvas"
+    "templates"
   ]
 }
