@@ -1,3 +1,8 @@
+---
+title: Risc-V Architecture
+date created: Tuesday, March 4th 2025, 8:10:00 pm
+date modified: Sunday, July 6th 2025, 2:42:57 pm
+---
 # Risc-V Architecture
 
 Risc-V64 has 32 Registers. There's also a 128 bit version with 64
@@ -163,7 +168,7 @@ kernelvec:
         sret
 ```
 
-## Risc-V modes
+## Risc-V Modes
 
 There are three modes in Risc-V, machine, supervisor, and user.
 
@@ -244,7 +249,7 @@ They can come from:
 These aren't registers because you can't write to them, but you can read
 them to a register:
 
-### mhartid
+### Mhartid
 
 `mhartid` contains the core number, and is moved to `tp` during startup.
 `cpuid()` returns the value of `tp`, and thus, `mhartid` in xv6.
@@ -254,7 +259,7 @@ from the stack after a trap, so user mode code can happily write to
 `tp`, and the kernel will always have the value of it in supervisor
 mode.
 
-### pmpcfg0 and pmpaddr0
+### Pmpcfg0 and Pmpaddr0
 
 `pmp` stands for `Physical Memory Protection` and limits access to
 physical memory for code in S and M mode.

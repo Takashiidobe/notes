@@ -1,7 +1,7 @@
 ---
 title: Use Rust
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Tuesday, December 10th 2024, 12:17:34 pm
+date modified: Wednesday, May 21st 2025, 7:46:39 am
 tags: [adr]
 ---
 

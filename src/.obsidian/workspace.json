@@ -11,31 +11,16 @@
             "id": "0f90b2793bd93bfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software-architecture/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "1a387ab6f4f609c4",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
-                "file": "src/books/serious-cryptography/block-ciphers.md",
+                "file": "src/.obsidian/plugins/obsidian-minimal-settings/main.js",
                 "staged": false
               },
               "icon": "git-pull-request",
-              "title": "Diff View (block-ciphers)"
+              "title": "Diff View (main.js)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,36 +176,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1a387ab6f4f609c4",
+  "active": "0f90b2793bd93bfe",
   "lastOpenFiles": [
+    "operating-systems/xv6/08-page-table-architecture.md",
+    "operating-systems/xv6/09-status-and-trap-architecture.md",
+    "operating-systems/xv6/11-memory-layout.md",
+    "operating-systems/xv6/12-linker-layout.md",
+    "operating-systems/xv6/14-kernel-startup.md",
+    "operating-systems/xv6/28-disk-io.md",
+    "operating-systems/xv6/07-memory-management.md",
+    "operating-systems/xv6/05-riscv-architecture.md",
     "operating-systems/xv6/03-startup-and-organization.md",
-    "operating-systems/xv6/02-general-features.md",
     "operating-systems/xv6/01-introduction.md",
-    "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
+    "operating-systems/xv6/02-general-features.md",
+    "computer-architecture/performance-aware-programming/4-caching.md",
+    "computer-architecture/performance-aware-programming/6-python-revisisted.md",
+    "computer-architecture/performance-aware-programming/3-single-instruction-multiple-data.md",
     "computer-architecture/performance-aware-programming/1-waste.md",
+    "computer-architecture/performance-aware-programming/2-instructions-per-clock.md",
+    "adrs/index.md",
+    "adrs/0000-adr-qualities.md",
+    "adrs/0001-use-rust.md",
+    "adrs/0002-use-linux.md",
+    "computer-architecture/performance-aware-programming/5-multithreading.md",
     "computer-architecture/performance-aware-programming/0-welcome.md",
     "software-architecture/index.md",
     "operating-systems/xv6",
-    "computer-architecture/performance-aware-programming/6-python-revisisted.md",
-    "computer-architecture/performance-aware-programming/5-multithreading.md",
-    "computer-architecture/performance-aware-programming/3-single-instruction-multiple-data.md",
-    "computer-architecture/performance-aware-programming/4-caching.md",
     "computer-architecture/gates.md",
     "computer-architecture/index.md",
     "computer-architecture/performance-aware-programming",
     "software-architecture/dependency-inversion.md",
-    "data-structures/index.md",
-    "real-world-systems/index.md",
-    "real-world-systems/the-go-garbage-collector.md",
-    "real-world-systems/aurora.md",
-    "real-world-systems/ideas.md",
-    "software-architecture/static-vs-dynamic-schemas.md",
-    "software-architecture/links.md",
-    "software-architecture/invariant-pyramid.md",
-    "programming-languages/go/index.md",
-    "programming-languages/go/build-for-different-archs-in-go.md",
-    "operating-systems/virtualization.md",
-    "operating-systems/unix/index.md",
     "databases/time-series",
     "operating-systems/android",
     "adrs",

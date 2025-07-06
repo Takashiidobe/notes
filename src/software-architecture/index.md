@@ -1,10 +1,8 @@
 ---
 title: Software Architecture
 date created: Saturday, December 7th 2024, 8:47:50 pm
-date modified: Monday, February 24th 2025, 8:11:13 am
+date modified: Wednesday, May 21st 2025, 7:46:14 am
 ---
-
-# Software Architecture
 
 # Software Architecture
 

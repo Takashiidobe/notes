@@ -1,14 +1,14 @@
 ---
 title: Qualities of an Architecture Decision Record
 date created: Sunday, December 8th 2024, 2:33:49 pm
-date modified: Tuesday, December 10th 2024, 12:13:27 pm
+date modified: Wednesday, May 21st 2025, 7:47:32 am
 tags: [adr, meta]
 ---
 
 # Qualities of an Architecture Decision Record
-* Status: **Accepted** 
-* Date: **2024-12-09** 
 
+* Status: **Accepted**
+* Date: **2024-12-09**
 ## Context
 
 ADR stands for Architecture Decision Record, which records a decision made to address a requirement at hand. This can include technological choices (which technologies are preferred to solve a problem), philosophical choices (which values should be valued over others), practice and strategies (high level guidance on guiding principles) just to name a few.
@@ -21,7 +21,7 @@ In software, I prefer these values in order:
 2. Correctness
 3. Maintainability
 4. Portability
-5. Expressiveness 
+5. Expressiveness
 
 ## Stability
 
@@ -31,7 +31,7 @@ Two examples of software which have this guarantee are Linux (quoting Linus Torv
 
 [Email](https://lkml.org/lkml/2012/12/23/75)
 
-> If a change results in user programs breaking, it's a bug in the kernel. We never EVER blame the user programs. 
+> If a change results in user programs breaking, it's a bug in the kernel. We never EVER blame the user programs.
 
 And Rust:
 
@@ -62,7 +62,7 @@ An example of a library that values correctness is [libsodium](https://libsodium
 > - Signatures use different code paths for verification to mitigate fault attacks and check for small order nonces.
 > - X25519 checks for weak public keys.
 > - Heap memory allocations ensure that pages are not swapped and cannot be shared with other processes.
-> - The code is optimized for clarity, not for the number of lines of code. Except for trivial inlined functions (e.g. helpers for unaligned memory access), implementations are self-contained. 
+> - The code is optimized for clarity, not for the number of lines of code. Except for trivial inlined functions (e.g. helpers for unaligned memory access), implementations are self-contained.
 > - The default compiler flags use a conservative optimization level, with extra code to check for stack overflows and some potentially dangerous optimizations disabled. The `--enable-opt` switch remains available for more aggressive optimizations.
 > - A complete, safe, and consistent API is favored over compact code. Redundancy of trivial functions is acceptable to improve clarity and prevent potential bugs in applications. For example, every operation gets a dedicated `_keygen()` function.
 > - The default PRG doesn’t implement something complicated and potentially insecure in userland to save CPU cycles. It is fast enough for most applications while being guaranteed to be thread-safe and fork-safe in all cases. If thread safety is not required, a faster, simple, and provably secure userland implementation is provided.
@@ -70,7 +70,7 @@ An example of a library that values correctness is [libsodium](https://libsodium
 
 ## Maintainability
 
-Maintainability is the ease at which a program can be modified. This allows somebody to extend software, fix its bugs, or add new features. 
+Maintainability is the ease at which a program can be modified. This allows somebody to extend software, fix its bugs, or add new features.
 
 Software which is maintainable can be used for longer, whereas unmaintainable software may require a rewrite in the long term, or require multiple breaking changes, which can make interfacing with the software difficult.
 
@@ -80,7 +80,7 @@ One example can be multics vs unix. By making a simpler operating system, unix w
 
 ## Portability
 
-Portability means that software can run on many different versions of hardware. Linux now is a good example of this -- it can run on [business cards](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/): 
+Portability means that software can run on many different versions of hardware. Linux now is a good example of this -- it can run on [business cards](https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/):
 
 > All this is accomplished on a very small 8MB flash chip. The bootloader fits in 256KB, the kernel is 1.6MB, and the whole root filesystem is 2.4MB.
 
