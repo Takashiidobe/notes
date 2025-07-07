@@ -11,17 +11,13 @@
             "id": "d3649c1899816e9e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "diff-view",
               "state": {
-                "file": "system-design/reservation-system.canvas",
-                "viewState": {
-                  "x": 489.5,
-                  "y": 432,
-                  "zoom": 0
-                }
+                "file": "src/.obsidian/daily-notes.json",
+                "staged": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "reservation-system"
+              "icon": "git-pull-request",
+              "title": "Diff View (daily-notes.json)"
             }
           }
         ]
@@ -56,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "performance aware programming",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,15 +174,28 @@
       "omnisearch:Omnisearch": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "d3649c1899816e9e",
+  "active": "fdc5b99befc64ed9",
   "lastOpenFiles": [
+    "private/2025-07-06.md",
+    "templates/adr-template.md",
+    "templates/daily-note-template.md",
+    "templates/index.md",
+    "templates/rfc-template.md",
+    "private/2025-W28.md",
+    "private/2025-07.md",
+    "2025-07-06.md",
+    "private",
+    "system-design/reservation-system.canvas",
+    "index.md~",
+    "quartz.content.ts~",
+    "quartz.content.ts",
     "system-design/icons/desktop.svg",
     "system-design/icons/firewall.svg",
     "system-design/types-in-system-design.md",
-    "system-design/reservation-system.canvas",
     "system-design/design-a-video-upload-system-with-low-bandwidth.md",
     "system-design/design-a-voting-system.md",
     "system-design/design-a-movie-ticketing-system.md",
@@ -204,13 +213,6 @@
     "system-design/systemsexpert/leader-election.md",
     "system-design/systemsexpert/load-balancers.md",
     "system-design/systemsexpert/logging-and-monitoring.md",
-    "system-design/systemsexpert/mapreduce.md",
-    "system-design/systemsexpert/network-protocols.md",
-    "system-design/systemsexpert/relational-databases.md",
-    "system-design/systemsexpert/storage.md",
-    "system-design/systemsexpert/specialized-storage-systems.md",
-    "system-design/systemsexpert/security-and-https.md",
-    "system-design/systemsexpert/what-are-design-fundamentals.md",
     "system-design/systemsexpert/quadtree.png",
     "system-design/systemsexpert/quadtree.svg",
     "system-design/icons/web-app.svg",
@@ -219,17 +221,12 @@
     "system-design/icons/relational-db.svg",
     "system-design/icons/postgres.svg",
     "system-design/icons/redis.svg",
-    "system-design/icons/pipeline.svg",
     "system-design/icons",
     "Clippings",
     "to-read",
     "publish.css",
     "Untitled.canvas",
     "operating-systems/xv6",
-    "computer-architecture/performance-aware-programming",
-    "databases/time-series",
-    "operating-systems/android",
-    "adrs",
-    "rfcs"
+    "computer-architecture/performance-aware-programming"
   ]
 }
