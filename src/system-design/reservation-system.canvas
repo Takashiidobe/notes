@@ -5,11 +5,21 @@
 		{"id":"ba05618f96f0f3c6","type":"file","file":"system-design/icons/desktop.svg","x":-64,"y":500,"width":73,"height":60},
 		{"id":"8ee8cb2c114ffcd5","type":"file","file":"system-design/icons/mobile.svg","x":-60,"y":260,"width":64,"height":105},
 		{"id":"96f5f03899660779","type":"file","file":"system-design/icons/web-app.svg","x":100,"y":300,"width":160,"height":130},
-		{"id":"00bcf932e1c2b676","type":"file","file":"system-design/icons/load-balancer.svg","x":340,"y":291,"width":60,"height":148},
-		{"id":"d8703dacaa31380a","type":"file","file":"system-design/icons/servers.svg","x":500,"y":296,"width":140,"height":138},
 		{"id":"03cd6d7fe11f346b","type":"file","file":"system-design/icons/redis.svg","x":720,"y":305,"width":145,"height":120},
 		{"id":"25df6aa9c17e45a3","type":"file","file":"system-design/icons/postgres.svg","x":940,"y":295,"width":140,"height":140},
-		{"id":"7d78099a27dfd039","type":"text","text":"Design Reservation System\n","x":440,"y":115,"width":220,"height":80}
+		{"id":"7d78099a27dfd039","type":"text","text":"Design Reservation System\n","x":440,"y":115,"width":220,"height":80},
+		{"id":"00bcf932e1c2b676","type":"file","file":"system-design/icons/load-balancer.svg","x":340,"y":291,"width":60,"height":148},
+		{"id":"d8703dacaa31380a","type":"file","file":"system-design/icons/servers.svg","x":500,"y":296,"width":140,"height":138},
+		{
+			"id":"109a82d6b035209d",
+			"type":"text",
+			"text":"Table:\n\n",
+			"styleAttributes":{},
+			"x":640,
+			"y":530,
+			"width":420,
+			"height":310
+		}
 	],
 	"edges":[
 		{
