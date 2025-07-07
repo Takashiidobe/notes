@@ -1,3 +1,0 @@
-# Hugo
-
-- [Cstate](cstate.md)

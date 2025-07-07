@@ -1,3 +1,0 @@
----
-title: "Non-Blocking Algorithms"
----
