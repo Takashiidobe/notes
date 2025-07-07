@@ -1,8 +1,8 @@
 ---
-title: logging-and-monitoring
+title: Logging and Monitoring
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:46 pm
 ---
-
-And Monitoring
 
 # Logging and Monitoring
 

@@ -1,8 +1,8 @@
 ---
-title: what-are-design-fundamentals
+title: What Are Design Fundamentals?
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:26 pm
 ---
-
-Are Design Fundamentals
 
 # What Are Design Fundamentals?
 
@@ -31,7 +31,5 @@ achieve some requirement of a system:
 ZooKeeper or Etcd for Leader Election S3 for Blob Storage EC2 for a
 Server Nginx for a Server or Reverse Proxy Redis for a Key-Value Store
 
-Prev:
-\[introduction-to-systemsexpert](introduction-to-systemsexpert.md)
-Next:
-\[client-server-model](client-server-model.md)
+Prev: [introduction-to-systemsexpert](introduction-to-systemsexpert.md)
+Next: [client-server-model](client-server-model.md)

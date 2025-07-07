@@ -1,8 +1,8 @@
 ---
-title: client-server-model
+title: Client Server Model
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:42:20 pm
 ---
-
-Server Model
 
 # Client Server Model
 
@@ -18,7 +18,7 @@ Server Model
 
 ## Networking
 
-### Making a GET request
+### Making a GET Request
 
 - When a browser looks up a website, it does a DNS lookup of the URL
   to find its IP Address

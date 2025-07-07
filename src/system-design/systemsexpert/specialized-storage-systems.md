@@ -1,10 +1,10 @@
 ---
-title: specialized-storage-systems
+title: Specialized Storage Paradigms
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:13 pm
 ---
 
-Storage Systems
-
-# Specialized storage Paradigms
+# Specialized Storage Paradigms
 
 1.  BLOB store ex:(GG, S3)
 
@@ -25,7 +25,7 @@ Storage Systems
 
 - used to store spatial data (coordinates)
 
-- spatial DBs tend to use Quad Trees for indicies Quad tree (either 0
+- spatial DBs tend to use Quad Trees for indices Quad tree (either 0
   or 4 nodes)
 
   ![Quadtree](./quadtree.svg) ![Quadtree](./quadtree.png)

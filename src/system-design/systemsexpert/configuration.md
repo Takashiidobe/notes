@@ -1,5 +1,7 @@
 ---
-title: configuration
+title: Configuration
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:42:11 pm
 ---
 
 # Configuration
@@ -17,5 +19,5 @@ title: configuration
 - ENV variables.
 
 Prev:
-\[polling-and-streaming](polling-and-streaming.md)
-Next: \[rate-limiting](rate-limiting.md)
+[polling-and-streaming](polling-and-streaming.md)
+Next:[rate-limiting](rate-limiting.md)

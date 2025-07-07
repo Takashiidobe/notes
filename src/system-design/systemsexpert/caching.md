@@ -1,5 +1,7 @@
 ---
-title: caching
+title: Caching
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:42:22 pm
 ---
 
 # Caching
@@ -17,7 +19,7 @@ title: caching
 
 - write-back cache
 
-  - When you write to the databse, you only update the cache, and
+  - When you write to the database, you only update the cache, and
     not the database.
   - Eventually, you write to the database to update.
 

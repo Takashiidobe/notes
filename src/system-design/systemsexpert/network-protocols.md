@@ -1,8 +1,8 @@
 ---
-title: network-protocols
+title: Network Protocols
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:39 pm
 ---
-
-Protocols
 
 # Network Protocols
 
@@ -25,7 +25,7 @@ Protocols
   - IP does not guarantee that the server receives packets
   - or that packets are received in order.
 
-## TCP - Transmission Control Protol
+## TCP - Transmission Control Protocol
 
 - Built on top of IP
 - Packets are guaranteed to be in order, and all sent, or an error is

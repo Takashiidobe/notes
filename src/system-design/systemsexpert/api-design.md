@@ -1,5 +1,7 @@
 ---
-title: api-design
+title: API Design
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:42:32 pm
 ---
 
 # API Design
@@ -11,7 +13,7 @@ title: api-design
   pieces.
 - It can be implemented using offsets and cursors.
 
-### Offset based Pagination
+### Offset Based Pagination
 
 - Use `LIMIT`, `WHERE`, `OFFSET` to generate a page listing.
 
@@ -37,7 +39,7 @@ title: api-design
   the window becomes unreliable, skipping, or returning duplicate
   results.
 
-### Cursor based Pagination
+### Cursor Based Pagination
 
 - To use a cursor, rows must have a unique, sequential column in the
   source table.

@@ -1,8 +1,8 @@
 ---
-title: leader-election
+title: Leader Election
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:52 pm
 ---
-
-Election
 
 # Leader Election
 
@@ -59,7 +59,7 @@ Election
     [                 ]--------->[  Follower  ]<------->[        ]
     [                 ]--------->[  Follower  ]<------->[        ]
 
-- Now, all writes to the leader have to propogate to the followers in
+- Now, all writes to the leader have to propagate to the followers in
   case of failure, and when the leader dies, then the followers have
   to relect a new leader.
 

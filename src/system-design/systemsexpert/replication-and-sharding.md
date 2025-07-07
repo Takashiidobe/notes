@@ -1,8 +1,8 @@
 ---
-title: replication-and-sharding
+title: Replication and Sharding
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:40:32 pm
 ---
-
-And Sharding
 
 # Replication and Sharding
 
@@ -24,7 +24,7 @@ And Sharding
 
 - This improves availability in some ways, but lowers performance.
 
-- Asynchonous updates are more performant, but lower consistency, and
+- Asynchronous updates are more performant, but lower consistency, and
   have more difficult failure modes.
 
 ## Sharding

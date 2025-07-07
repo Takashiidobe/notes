@@ -1,21 +1,16 @@
 ---
-title: relational-databases
+title: Relational Databases
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:40:27 pm
 ---
-
-Databases
 
 # Relational Databases
 
 - Imposes Tabular style organization:
-
 - Everything is a table.
-
 - Rows are often referred to as Records.
-
 - The data stored in them are well defined.
-
 - NoSQL are hard to query, whereas RDBMS use powerful SQL.
-
 - SQL follows ACID transactions:
 
   - Atomic:

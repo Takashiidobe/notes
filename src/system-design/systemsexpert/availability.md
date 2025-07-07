@@ -1,10 +1,11 @@
 ---
 title: Availability
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:42:24 pm
 ---
 
 Prev: [latency-and-throughput](latency-and-throughput.md)
 Next: [caching](caching.md)
-
 # Availability
 
 - Customers wouldn\'t be happy if a website was down \-- we would lose

@@ -1,8 +1,8 @@
 ---
-title: security-and-https
+title: Security and HTTPS
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:08 pm
 ---
-
-And Https
 
 # Security and HTTPS
 
@@ -89,5 +89,5 @@ P = (855^2753) % 3233 = 123;
   decrypt all data communicated during the remainder of the
   connection.
 
-Prev: \[mapreduce](mapreduce.md) Next:
-\[api-design](api-design.md)
+Prev:  [[mapreduce]]
+Next: [[api-design]]

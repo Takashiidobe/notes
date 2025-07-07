@@ -1,5 +1,7 @@
 ---
-title: mapreduce
+title: Mapreduce
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Sunday, July 6th 2025, 8:41:42 pm
 ---
 
 # Mapreduce
