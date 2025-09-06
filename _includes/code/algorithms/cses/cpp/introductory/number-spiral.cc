@@ -1,25 +1,25 @@
 #include <iostream>
-#include <vector>
-using namespace std;
-using ll = long long;
 
-void problem() {
-  ios::sync_with_stdio(0);
-  cin.tie(0);
+int main() {
+  int t;
+  std::cin >> t;
+  while (t--) {
+    long long a, b;
+    std::cin >> a >> b;
+    long long ans;
 
-  ll n;
-  cin >> n;
-  vector<ll> v;
-  for (int i = 0; i < n; i++) {
-    int x;
-    int y;
-    cin >> x;
-    cin >> y;
-    ll z = max(x, y);
-    ll ans;
-    ll z2 = z * z;
-    v.push_back(ans);
+    if (a > b) {
+      if (a % 2 == 0)
+        ans = a * a - b + 1;
+      else
+        ans = (a - 1) * (a - 1) + b;
+    } else {
+      if (b % 2 == 0)
+        ans = (b - 1) * (b - 1) + a;
+      else
+        ans = b * b - a + 1;
+    }
+
+    std::cout << ans << '\n';
   }
-
-  for (auto x : v) cout << x << '\n';
 }

@@ -99,7 +99,6 @@ echo "$title_template" >> $index_file
 echo "" >> $index_file
 echo -e "# $1\n" >> "$index_file"
 echo -e "\"$1\",,,$kebab_cased_dir_name/_$kebab_cased_dir_name,Reading," >> $CSV_PATH
-echo -e "- [$1]($kebab_cased_dir_name/_$kebab_cased_dir_name.md)" >> src/books/_books.md
 
 # len of array
 len="${#corrected_files[@]}"

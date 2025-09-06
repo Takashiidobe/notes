@@ -1,5 +1,7 @@
 ---
-title: "Storage Engines Introduction and Overview"
+title: Storage Engines Introduction and Overview
+date created: Tuesday, October 3rd 2023, 11:54:43 am
+date modified: Saturday, July 26th 2025, 2:28:07 pm
 ---
 
 Next: [b-tree-basics](b-tree-basics.md)
@@ -16,13 +18,13 @@ The architecture of a DBMS might look like the following:
 
 ![Architecture of a database management system](../../img/architecture-of-a-dbms.png)
 
-## Memory vs Disk-Based DBMS
+## Memory Vs Disk-Based DBMS
 
 Some databases which operate purely in memory have becoming more popular, due to the decrease in cost, and less complexity to implement in-memory versus on-disk data structures. [^1]
 
 [^1]: Intel Optane (now discontinued) used to combine the properties of the fast access of RAM (~30 microseconds) with the durability of an SSD. It did not become very popular, however.
 
-## Column vs Row Oriented DBMS
+## Column Vs Row Oriented DBMS
 
 Most RDBMS' are row-oriented, meaning each row is stored as a data unit. Some databases are column-oriented, where they store each column in an array. Most OLTP workloads prefer row-orientation, because they grab data horizontally, whereas OLAP workloads may grab certain parts of a record, and thus prefer column orientation. [^2]
 

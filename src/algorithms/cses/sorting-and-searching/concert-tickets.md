@@ -1,5 +1,7 @@
 ---
-title: concert-tickets
+title: Concert Tickets
+date created: Monday, July 21st 2025, 7:07:34 am
+date modified: Monday, July 21st 2025, 7:30:29 am
 ---
 
 # Concert Tickets
@@ -19,10 +21,10 @@ Input
 The first input line contains integers n and m: the number of tickets
 and the number of customers.
 
-The next line contains n integers h1,h2,\...,hn: the price of each
+The next line contains n integers h1,h2,...,hn: the price of each
 ticket.
 
-The last line contains m integers t1,t2,\...,tm: the maximum price for
+The last line contains m integers t1,t2,...,tm: the maximum price for
 each customer.
 
 Output
@@ -42,7 +44,7 @@ vice versa.
 Or we can use a sorted map, and not sort the customer prices.
 
 For every customer want, we want to find the next lowest price in the
-map. If we can\'t find it, we\'ll print out -1, otherwise, we\'ll print
+map. If we can't find it, we'll print out -1, otherwise, we'll print
 the price we found and erase that price from the map and move on.
 
 ## Solution

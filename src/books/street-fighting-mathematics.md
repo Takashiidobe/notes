@@ -1,14 +1,14 @@
 ---
-title: street-fighting-mathematics
+title: Street Fighting Mathematics
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, August 5th 2025, 10:41:26 am
 ---
-
-Fighting Mathematics
 
 # Street Fighting Mathematics
 
 ## Chapter 1 Dimensions
 
-### 1.1 Economics: The power of multinational corporations
+### 1.1 Economics: The Power of Multinational Corporations
 
 Read this quote: what is wrong with it?
 
@@ -47,4 +47,4 @@ Finding bad comparisons:
 Look for everyday comparisons---for example, on the news, in the
 newspaper, or on the Internet---that are dimensionally faulty.
 
-### 1.2 Newtonian mechanics: Free fall
+### 1.2 Newtonian Mechanics: Free Fall

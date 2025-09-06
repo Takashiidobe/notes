@@ -2,12 +2,12 @@
 title: maximum-subarray-sum
 ---
 
-Subarray Sum\"
+
 
 # Maximum Subarray Sum
 
-Prev: \[sum-of-two-values](sum-of-two-values.md)
-Next: \[stick-lengths](stick-lengths.md)
+Prev: [sum-of-two-values](sum-of-two-values.md)
+Next: [stick-lengths](stick-lengths.md)
 
 Given an array of n integers, your task is to find the maximum sum of
 values in a contiguous, nonempty subarray.
@@ -24,11 +24,11 @@ Print one integer: the maximum subarray sum.
 
 ## Explanation
 
-We want to find the maximum sum of values. We\'ll start out by taking
+We want to find the maximum sum of values. We'll start out by taking
 the first item in the array and calling that our maximum. Then, for
 every value we have two choices: either we take the next item and add it
 to our current running total, or we restart with just this item. We have
-to update our current and maximum values, and we\'re done.
+to update our current and maximum values, and we're done.
 
 ## Solution
 
@@ -36,5 +36,5 @@ to update our current and maximum values, and we\'re done.
 {{# include _include/code/algorithms/cses/cpp/sorting-and-searching/maximum-subarray-sum.cc }}
 ```
 
-Prev: \[sum-of-two-values](sum-of-two-values.md)
-Next: \[stick-lengths](stick-lengths.md)
+Prev: [sum-of-two-values](sum-of-two-values.md)
+Next: [stick-lengths](stick-lengths.md)

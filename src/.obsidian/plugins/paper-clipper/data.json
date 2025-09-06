@@ -1,0 +1,14 @@
+{
+  "email": "idobetakashi@gmail.com",
+  "pdf": {
+    "enable": true,
+    "confirmToSave": false,
+    "outputPath": "papers/{{ it.year }}/{{ it.title }}.pdf"
+  },
+  "reference": {
+    "enable": true,
+    "confirmToSave": false,
+    "outputPath": "papers/{{ it.year }}/{{ it.title }}.md",
+    "templatePath": ""
+  }
+}

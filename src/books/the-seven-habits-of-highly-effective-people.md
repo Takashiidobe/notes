@@ -1,5 +1,7 @@
 ---
-title: "The 7 Habits of Highly Effective People"
+title: The 7 Habits of Highly Effective People
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Tuesday, August 5th 2025, 10:41:37 am
 ---
 
 # The 7 Habits of Highly Effective People
@@ -43,7 +45,7 @@ Follow this table Ruthlessly:
 | Important     | Do       | Plan       |
 | Not Important | Delegate | Eliminate  |
 
-## Habit 4: Think win-win
+## Habit 4: Think Win-win
 
 Genuine feelings for mutually beneficial solutions should be prioritized
 over solutions where one party wins a lot and one party wins nothing.
@@ -51,7 +53,7 @@ over solutions where one party wins a lot and one party wins nothing.
 It's important to resolve conflict by allowing both parties to win a
 little bit at a time.
 
-## Habit 5: Seek first to understand, then to be understood
+## Habit 5: Seek First to Understand, then to Be Understood
 
 Listen first and understand before seeking to be understood. The Greeks
 characterized this in these values:

@@ -2,12 +2,12 @@
 title: restaurant-customers
 ---
 
-Customers\"
+
 
 # Restaurant Customers
 
-Prev: \[concert-tickets](concert-tickets.md) Next:
-\[movie-festival](movie-festival.md)
+Prev: [concert-tickets](concert-tickets.md) Next:
+[movie-festival](movie-festival.md)
 
 You are given the arrival and leaving times of n customers in a
 restaurant.
@@ -32,14 +32,14 @@ Print one integer: the maximum number of customers.
 With the assumption that all entering and leaving times are distinct, we
 can sort this to find a greedy answer.
 
-First, we\'ll create a vector of pairs\<int, bool>. For every time we
-see, we\'ll push back once for {enter_time, true} and leaving_time,
+First, we'll create a vector of pairs<int, bool>. For every time we
+see, we'll push back once for {enter_time, true} and leaving_time,
 false}, and sort the vector.
 
-Then, we\'ll count the maximum customers we\'ve seen so far and the
+Then, we'll count the maximum customers we've seen so far and the
 current customer count.
 
-We\'ll iterate through the vector; if the right hand side says true, we
+We'll iterate through the vector; if the right hand side says true, we
 know a customer has entered. Increment the current customer count, and
 update the maximum customers found if we hit a new max. Otherwise, if
 the right hand side says false, we know a customer has left. Decrement
@@ -51,5 +51,5 @@ the current customer count.
 {{# include _include/code/algorithms/cses/cpp/sorting-and-searching/restaurant-customers.cc }}
 ```
 
-Prev: \[concert-tickets](concert-tickets.md) Next:
-\[movie-festival](movie-festival.md)
+Prev: [concert-tickets](concert-tickets.md) Next:
+[movie-festival](movie-festival.md)

@@ -1,0 +1,15 @@
+Transactions on the Logical Database
+Operations on the Physical Database
+Logging and Buffering
+Transaction Rollback and Restart Recovery
+Transactional Isolation
+Lock-Based Concurrency Control
+B-Tree Traversals
+B-Tree Structure Modifications
+Advanced Locking Protocols
+Bulk Operations on B-Trees
+Online Index Construction and Maintenance
+Concurrency Control by Versioning
+Distributed Transactions
+Transactions in Page-Server Systems
+Processing of Write-Intensive Transactions

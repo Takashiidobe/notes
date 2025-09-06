@@ -1,5 +1,7 @@
 ---
-title: "Transaction Processing and Recovery"
+title: Transaction Processing and Recovery
+date created: Friday, May 12th 2023, 5:07:55 pm
+date modified: Saturday, July 26th 2025, 2:28:00 pm
 ---
 
 # Transaction Processing and Recovery

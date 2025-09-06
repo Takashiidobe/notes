@@ -21,7 +21,7 @@ Input
 The first input line contains two integers n and x: the number of
 children and the maximum allowed weight.
 
-The next line contains n integers p1,p2,\...,pn: the weight of each
+The next line contains n integers p1,p2,...,pn: the weight of each
 child.
 
 Output
@@ -32,16 +32,16 @@ Print one integer: the minimum number of gondolas.
 
 Since each gondola can have one or two children in it, we can go greedy.
 
-Let\'s put the children into a sorted collection, and iterate through
+Let's put the children into a sorted collection, and iterate through
 from smallest to largest.
 
 We want to find the largest number where the maximum allowed weight -
-current child \>= 0.
+current child >= 0.
 
 If we can find that, increment the answer, and remove both from the
 collection.
 
-If we can\'t find it (the index is out of bounds), then we\'ll just
+If we can't find it (the index is out of bounds), then we'll just
 remove our current child and move on.
 
 ## Solution

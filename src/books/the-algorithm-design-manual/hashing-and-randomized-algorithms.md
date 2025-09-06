@@ -1,5 +1,7 @@
 ---
-title: "Hashing and Randomized Algorithms"
+title: Hashing and Randomized Algorithms
+date created: Friday, November 17th 2023, 9:31:11 am
+date modified: Thursday, July 24th 2025, 10:18:08 pm
 ---
 
 # Hashing and Randomized Algorithms
@@ -128,7 +130,7 @@ The probability is $$ Pr = \frac{1}{n}(n - 2n\alpha) = 1 - 2\alpha $$.
 6-12. Show that for any given load $m/n$, the error probability of a Bloom filter is
 minimized when the number of hash functions is $k = exp(−1)/(m/n)$.
 
-We minimize $$ f(k) = \left(1 - \left(1 - \frac{1}{m}\right)^{kn}\right)^k $$ which results in $k = \frac{m}{n} \log 2 $
+We minimize $$ f(k) = \left(1 - \left(1 - \frac{1}{m}\right)^{kn}\right)^k $$ which results in $k = \frac{m}{n} \log 2$
 
 Prev: [divide-and-conquer](divide-and-conquer.md)
 Next: [graph-traversal](graph-traversal.md)
