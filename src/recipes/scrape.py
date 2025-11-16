@@ -1,10 +1,10 @@
 import re
 
-from recipe_scrapers import scrape_me
+from recipe_scrapers import scrape_html
 
 
 def scrape_recipe(url):
-    scraper = scrape_me(url, wild_mode=True)
+    scraper = scrape_html(html=None, org_url=url, supported_only=False, online=True)
     s = ""
     snake_cased_title = (
         scraper.title()
@@ -27,8 +27,13 @@ def scrape_recipe(url):
         s += f"# {scraper.title()}\n\n"
     if scraper.url:
         s += f"- From: [link]({scraper.url})\n\n"
-    if scraper.total_time():
-        s += f"- Cooking Time: {scraper.total_time()} minutes\n\n"
+    try:
+        if scraper.cook_time() or scraper.total_time():
+            times_to_cook = filter([scraper.cook_time(), scraper.total_time()])
+            cook_time = list(times_to_cook)[0]
+            s += f"- Cooking Time: {cook_time} minutes\n\n"
+    except:
+        pass
     if scraper.ingredients():
         s += "## Ingredients:\n\n"
         for i in scraper.ingredients():
