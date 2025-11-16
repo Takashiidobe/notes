@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "7b3417715f39be20",
+    "type": "split",
+    "children": [
+      {
+        "id": "999539c80c8ed627",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6f98e3685e4a3cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers/databases/advanced-database-systems-papers/01-intro/what-goes-around-comes-around.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "what-goes-around-comes-around"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e78acf73e5ac5ace",
+    "type": "split",
+    "children": [
+      {
+        "id": "3db43c5859cdbad3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a36477b0053b9431",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f0b360b780427745",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a34d8ac5966b6e27",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.500732421875
+  },
+  "right": {
+    "id": "f71d747dec8ed165",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c0a214cd61a1d2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c690b30c434ec452",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "16aebcc509e66427",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "b0e43dcc7414c50c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "af985135835af4d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "deep-dives/ParadeDB.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ParadeDB"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c6f98e3685e4a3cb",
+  "lastOpenFiles": [
+    "papers/databases/advanced-database-systems-papers/01-intro/what-goes-around-comes-around.pdf",
+    "papers/databases/advanced-database-systems-papers/01-intro/what-goes-around-comes-around.md",
+    "papers/databases/a-critique-of-ansi-sql-isolation-levels.pdf",
+    "papers/caching/2q-a-low-overhead-high-performance-buffer-management-replacement-algorithm.pdf",
+    "papers/caching/2q-a-low-overhead-high-performance-buffer-management-replacement-algorithm.md",
+    "papers/chemistry/are-titles-of-chemical-papers-becoming-more-informative.pdf",
+    "papers/chemistry/are-titles-of-chemical-papers-becoming-more-informative.md",
+    "papers/databases/a-critique-of-ansi-sql-isolation-levels.md",
+    "papers/economics/electronic-lottery-tickets-as-micropayments.md",
+    "papers/economics/electronic-lottery-tickets-as-micropayments.pdf",
+    "papers/algorithms/universal-classes-of-hash-functions.pdf",
+    "papers/algorithms/universal-classes-of-hash-functions.md",
+    "papers/type-theory/comprehending-monads.md",
+    "papers/type-theory/a-behavioral-notion-of-subtyping.md",
+    "papers/type-theory/theorems-for-free.md",
+    "papers/type-theory/theorems-for-free.pdf",
+    "papers/type-theory/pizza-into-java.pdf",
+    "papers/type-theory/pizza-into-java.md",
+    "papers/sociology/how-many-is-too-many.md",
+    "papers/sociology/how-many-is-too-many.pdf",
+    "papers/sociology/representing-the-intercultural-development-continuum-as-a-pendulum-addressing-the-lived-experiences-of-intercultural-competence-development-and-maintenance.md",
+    "papers/caching/a-constant-algorithm-for-implementing-the-lfu-cache-eviction-scheme.md",
+    "papers/history/ancient-babylonian-astronomers-calculated-jupiters-position-from-the-area-under-a-time-velocity-graph.pdf",
+    "papers/history/ancient-babylonian-astronomers-calculated-jupiters-position-from-the-area-under-a-time-velocity-graph.md",
+    "papers/_papers-to-sort/von-neumanns-first-computer-program.md",
+    "papers/space/water-extraction-on-mars-for-an-expanding-human-colony.md",
+    "papers/space/voyager.md",
+    "papers/space/the-silurian-hypothesis-would-it-be-possible-to-detect-an-industrial-civilization-in-the-geological-record.md",
+    "papers/space/technological-requirements-for-terraforming-mars.md",
+    "papers/space/searching-for-interstellar-communications.md",
+    "papers/space/search-for-artificial-stellar-sources-of-infrared-radiation.md",
+    "papers/economics/uncertainty-and-the-welfare-economics-of-medical-care.md",
+    "papers/economics/the-use-of-knowledge-in-society.md",
+    "papers/economics/the-theory-of-interstellar-trade.md",
+    "papers/economics/prospect-theory.md",
+    "books/radical-candor.jpg",
+    "system-design/reservation-system.canvas",
+    "system-design/icons/desktop.svg",
+    "system-design/icons/firewall.svg",
+    "system-design/systemsexpert/quadtree.png",
+    "system-design/systemsexpert/quadtree.svg",
+    "system-design/icons/web-app.svg",
+    "system-design/icons/servers.svg",
+    "system-design/icons/server.svg",
+    "system-design/icons/relational-db.svg",
+    "system-design/icons/postgres.svg",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,7 @@
+- [Instant Pot Clam Chowder](./instant-pot-clam-chowder)
+- [Pasta Puttanesca Inspired By Lemony Snicket'S A Series Of Unfortunate Events](./pasta-puttanesca-inspired-by-lemony-snickets-a-series-of-unfortunate-events)
+- [Pasta Alla Vodka](./pasta-alla-vodka)
+- [Creamy Garlic Pasta](./creamy-garlic-pasta)
+- [Shrimp Scampi](./shrimp-scampi)
+- [Mango Slush With Sago Tapioca Pearls And Coconut Milk](./mango-slush-with-sago-tapioca-pearls-and-coconut-milk)
+- [Mango Lassi](./mango-lassi)
