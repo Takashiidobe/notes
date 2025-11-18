@@ -1,7 +1,6 @@
 ---
 title: "Advanced SQL"
 ---
-
 # Advanced SQL
 
 Prev: [course-introduction-and-the-relational-model](course-introduction-and-the-relational-model.md)

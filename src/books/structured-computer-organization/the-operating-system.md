@@ -3,7 +3,6 @@ title: The Operating System
 date created: Saturday, April 26th 2025, 7:52:38 pm
 date modified: Saturday, July 26th 2025, 2:23:46 pm
 ---
-
 # The Operating System
 
 Prev: [the-instruction-set](the-instruction-set.md)

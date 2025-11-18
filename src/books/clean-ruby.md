@@ -2,8 +2,6 @@
 title: clean-ruby
 ---
 
-Ruby
-
 # Clean Ruby
 
 ## Chapter 1 The qualities of clean code

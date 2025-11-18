@@ -14,8 +14,7 @@ Next: [the-instruction-set](the-instruction-set.md)
 
 ## Section 4.7
 
-### 1.
-In Fig. 4-2, one way for producing A as ALU output is shown. Give another way.
+### 1. In Fig. 4-2, one way for producing A as ALU output is shown. Give another way.
 
 ### 2.
 In the Mic-1, it takes 1 nsec to set up MIR, 1 nsec to gate a register onto the B bus, 3 nsec to run the ALU and shifter, and 1 nsec for the results to propagate back to the registers. The clock pulse width is 2 nsec. Can this machine run at 100 MHz? How about 150 MHz?

@@ -1,7 +1,6 @@
 ---
 title: "Hash Tables"
 ---
-
 # Hash Tables
 
 Prev: [buffer-pools](buffer-pools.md)

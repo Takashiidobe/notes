@@ -3,7 +3,6 @@ title: The 7 Habits of Highly Effective People
 date created: Friday, May 12th 2023, 5:07:55 pm
 date modified: Tuesday, August 5th 2025, 10:41:37 am
 ---
-
 # The 7 Habits of Highly Effective People
 
 Character ethics matter - Integrity, Humility, Fidelity, Temperance,

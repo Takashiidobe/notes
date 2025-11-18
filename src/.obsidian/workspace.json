@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "999539c80c8ed627",
+        "id": "b96f906dec9ca8ad",
         "type": "tabs",
         "children": [
           {
-            "id": "c6f98e3685e4a3cb",
+            "id": "498291d291bce7bc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "papers/programming-languages/growing-a-language.pdf"
+                "file": "books/structured-computer-organization/computer-systems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "growing-a-language"
+              "icon": "lucide-file",
+              "title": "computer-systems"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.500732421875
+    "width": 328.5
   },
   "right": {
     "id": "f71d747dec8ed165",
@@ -163,50 +165,52 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6f98e3685e4a3cb",
+  "active": "a36477b0053b9431",
   "lastOpenFiles": [
-    "papers/programming-languages/growing-a-language.md",
-    "papers/computer-architecture/a-case-for-redundant-arrays-of-inexpensive-disks-raid.md",
-    "papers/computer-architecture/an-efficient-algorithm-for-exploiting-multiple-arithmetic-units.md",
-    "papers/computer-architecture/an-efficient-algorithm-for-exploiting-multiple-arithmetic-units.pdf",
-    "papers/computer-architecture/a-case-for-redundant-arrays-of-inexpensive-disks-raid.pdf",
-    "papers/concurrency/wait-free-synchronization.md",
-    "papers/concurrency/wait-free-synchronization.pdf",
-    "papers/concurrency/quadboost.md",
-    "papers/concurrency/quadboost.pdf",
-    "papers/concurrency/laws-of-order-expensive-synchronization-in-concurrent-algorithms-cannot-be-eliminated.md",
-    "papers/concurrency/efficient-lock-free-b-trees.md",
-    "papers/concurrency/concurrent-hash-tables-fast-and-general.md",
-    "papers/concurrency/a-wait-free-stack.pdf",
-    "papers/concurrency/a-wait-free-stack.md",
-    "papers/concurrency/a-wait-free-queue-as-fast-as-fetch-and-add.md",
-    "papers/concurrency/a-practical-multi-word-compare-and-swap-operation.pdf",
-    "papers/concurrency/a-practical-multi-word-compare-and-swap-operation.md",
-    "papers/concurrency/a-lazy-concurrent-list-based-set-algorithm.pdf",
-    "papers/cryptography/a-digital-signature-based-on-a-conventional-encryption-function.pdf",
-    "papers/cryptography/a-digital-signature-based-on-a-conventional-encryption-function.md",
-    "papers/cryptography/communication-theory-of-secrecy-systems.pdf",
-    "papers/cryptography/new-directions-in-cryptography.md",
-    "papers/cryptography/self-certifying-file-system.md",
-    "papers/cryptography/self-certifying-file-system.pdf",
-    "papers/cryptography/the-moral-character-of-cryptographic-work.md",
-    "papers/cryptography/twenty-years-of-attacks-on-the-rsa-cryptosystem.md",
-    "papers/databases/advanced-database-systems-papers/02-inmemory/main-memory-database-systems-an-overview-knowledge-and-data-engineering-ieee-transactions-on.md",
-    "papers/databases/advanced-database-systems-papers/02-inmemory/staring-into-the-abyss-an-evaluation-of-concurrency-control-with-one-thousand-cores.md",
-    "papers/databases/advanced-database-systems-papers/01-intro/what-goes-around-comes-around.md",
-    "papers/caching/2q-a-low-overhead-high-performance-buffer-management-replacement-algorithm.md",
-    "papers/chemistry/are-titles-of-chemical-papers-becoming-more-informative.md",
-    "papers/databases/a-critique-of-ansi-sql-isolation-levels.md",
-    "papers/economics/electronic-lottery-tickets-as-micropayments.md",
-    "papers/algorithms/universal-classes-of-hash-functions.md",
-    "papers/type-theory/comprehending-monads.md",
-    "papers/type-theory/a-behavioral-notion-of-subtyping.md",
+    "books/structured-computer-organization/introduction.md",
+    "books/structured-computer-organization/parallel-computer-architectures.md",
+    "books/structured-computer-organization/the-assembly-language-level.md",
+    "books/structured-computer-organization/the-operating-system.md",
+    "books/structured-computer-organization/the-microarchitecture-level.md",
+    "books/structured-computer-organization/the-instruction-set.md",
+    "books/structured-computer-organization/the-digital-logic-level.md",
+    "books/structured-computer-organization/reading-list-and-bibliography.md",
+    "books/structured-computer-organization/computer-systems.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/google-maps.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/hotel-reservation-system.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/metrics-monitoring-and-alerting-system.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/nearby-friends.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/proximity-service.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/distributed-message-queue.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/distributed-email-service.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/ad-click-event-aggregation.md",
+    "books/system-design-interview-an-insiders-guide-volume-2/digital-wallet.md",
+    "books/born-a-crime.md",
+    "books/clean-ruby.md",
+    "books/crossing-the-chasm.md",
+    "books/deep-work.md",
+    "books/educated.md",
+    "books/grit.md",
+    "books/inside-the-tornado.md",
+    "books/list.md",
+    "papers/algorithms/a-distributed-algorithm-for-minimum-weight-spanning-trees.pdf",
+    "courses/finance-theory-i/problem-sets.pdf",
+    "courses/finance-theory-i/36b761fc18615eeee3419cd2407dadc4_MIT15_401F08_Problem_Sets.pdf",
+    "courses/database-systems/01-introduction.pdf",
+    "courses/database-systems/24-distributedolap.pdf",
+    "courses/database-systems/02-advancedsql.pdf",
+    "courses/database-systems/03-storage1.pdf",
+    "courses/database-systems/20-logging.pdf",
+    "courses/database-systems/22-distributed.pdf",
+    "courses/database-systems/23-distributedoltp.pdf",
+    "img/abstract-multicore-architecture.svg",
     "books/radical-candor.jpg",
     "system-design/reservation-system.canvas",
     "system-design/icons/desktop.svg",
@@ -217,7 +221,6 @@
     "system-design/icons/servers.svg",
     "system-design/icons/server.svg",
     "system-design/icons/relational-db.svg",
-    "system-design/icons/postgres.svg",
     "Untitled.canvas"
   ]
 }

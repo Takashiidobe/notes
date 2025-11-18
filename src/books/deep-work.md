@@ -1,9 +1,6 @@
 ---
 title: deep-work
 ---
-
-Work
-
 # Deep Work
 
 ## Part 1

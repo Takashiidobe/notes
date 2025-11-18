@@ -1,7 +1,6 @@
 ---
 title: "Computer systems"
 ---
-
 # Computer systems
 
 Prev: [introduction](introduction.md)

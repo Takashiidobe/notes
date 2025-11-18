@@ -26,15 +26,15 @@ External Merge sort splits the data set into separate runs and then sorts them i
 1. Pass 0: Read every $B$ pages of the table into memory, sorts them, and writes them back to disk.
 2. Pass 1..N: Recursively merges pairs of runs into runs twice as long.
 
-Number of passes: $\log{2}N$
-Total I/O Cost: $2N * (# of passes)$
+Number of passes: $\log_{2}(N)$
+Total I/O Cost: $2(N) * (passes)$
 
 **General $K$-way Merge Sort**
 1. Pass 0: Use $B$ buffer pages, produce $N/B$ sorted runs of size $B$.
 2. Pass 1..N: Recursively merge $B - 1$ runs.
 
 Number of passes: $\log{B-1}\frac{N}{B}$
-Total I/O Cost: $2N * (# of passes)$
+Total I/O Cost: $2(N) * (passes)$
 
 ## Aggregations
 
