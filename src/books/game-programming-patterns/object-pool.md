@@ -2,8 +2,6 @@
 title: object-pool
 ---
 
-Pool
-
 # Object Pool
 
 ## Intent

@@ -1,7 +1,6 @@
 ---
 title: singleton
 ---
-
 # Singleton
 
 Use the Singleton pattern sparingly; it tends to result in problems down

@@ -1,9 +1,6 @@
 ---
 title: spatial-partition
 ---
-
-Partition
-
 # Spatial partition
 
 ## Intent

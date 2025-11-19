@@ -269,5 +269,4 @@ This pattern is about a mindset, and applying it to code that's slow.
   - You don't have to manage their lifetime
   - Looking up a component is slower
 
-Prev: [service-locator](service-locator.md) Next:
-[dirty-flag](dirty-flag.md)
+Prev: [service-locator](service-locator.md) Next: [dirty-flag](dirty-flag.md)

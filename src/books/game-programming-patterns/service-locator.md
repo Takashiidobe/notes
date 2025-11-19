@@ -2,8 +2,6 @@
 title: service-locator
 ---
 
-Locator
-
 # Service Locator
 
 ## Intent

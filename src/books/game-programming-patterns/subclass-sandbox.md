@@ -1,9 +1,6 @@
 ---
 title: subclass-sandbox
 ---
-
-Sandbox
-
 # Subclass Sandbox
 
 ## Intent

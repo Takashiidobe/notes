@@ -1,9 +1,6 @@
 ---
 title: game-loop
 ---
-
-Loop
-
 # Game Loop
 
 ## Intent
