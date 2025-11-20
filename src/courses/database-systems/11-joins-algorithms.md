@@ -1,11 +1,12 @@
 ---
 title: "Joins Algorithms"
+pdf: "[[11-joins-algorithms.pdf]]"
 ---
 
 # Joins Algorithms
 
-Prev: [sorting--aggregations](sorting--aggregations.md)
-Next: [query-execution-i](query-execution-i.md)
+Prev: [[10-sorting-aggregations]]
+Next: [[12-query-execution-i]]
 
 ## Joins
 
@@ -64,5 +65,5 @@ Partition Cost: $2 * (M + N)$
 Probe Cost: $(M + N)$
 Total Cost: $3 * (M + N)$
 
-Prev: [sorting--aggregations](sorting--aggregations.md)
-Next: [query-execution-i](query-execution-i.md)
+Prev: [[10-sorting-aggregations]]
+Next: [[12-query-execution-i]]

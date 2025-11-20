@@ -4,7 +4,7 @@ title: "Mutual Exclusion"
 
 # Mutual Exclusion
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/the-art-of-multiprocessor-programming/introduction.md)
 Next: [concurrent-objects](concurrent-objects.md)
 
 ## Time and events
@@ -233,5 +233,5 @@ Unfortunately, the bakery algorithm requires that timestamps never
 overflow, and are totally ordered. Of course, that's not feasible, since
 a counter might overflow a 64-bit int, for example.
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/the-art-of-multiprocessor-programming/introduction.md)
 Next: [concurrent-objects](concurrent-objects.md)

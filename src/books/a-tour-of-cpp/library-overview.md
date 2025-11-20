@@ -2,8 +2,6 @@
 title: library-overview
 ---
 
-
-
 # Library Overview
 
 Prev: [[concepts-and-generic-programming]] Next:

@@ -1,11 +1,12 @@
 ---
 title: "Distributed OLAP Database Systems"
+pdf: "[[24-distributed-olap-database-systems.pdf]]"
 ---
 
 # Distributed OLAP Database Systems
 
-Prev: [distributed-oltp-database-systems](distributed-oltp-database-systems.md)
-Next: [guest-speaker-shasank-chavan-oracle-in-memory-databases](guest-speaker-shasank-chavan-oracle-in-memory-databases.md)
+Prev: [[23-distributed-oltp-database-systems]]
+Next: [[guest-speaker-shasank-chavan-oracle-in-memory-databases]]
 
-Prev: [distributed-oltp-database-systems](distributed-oltp-database-systems.md)
-Next: [guest-speaker-shasank-chavan-oracle-in-memory-databases](guest-speaker-shasank-chavan-oracle-in-memory-databases.md)
+Prev: [[23-distributed-oltp-database-systems]]
+Next: [[guest-speaker-shasank-chavan-oracle-in-memory-databases]]

@@ -1,15 +1,11 @@
 ---
 title: the-c-programming-language-chapter-1
 ---
-
-C Programming Language Chapter 1
-
 # Chapter 1
 
 ## Exercise 1-1
 
-> Run the `hello world` program on your system. Experiment with leaving
-> out parts of the program, to see what error messages you get.
+> Run the `hello world` program on your system. Experiment with leaving out parts of the program, to see what error messages you get.
 
 ```c
 {{# include _include/code/programming-languages/c/the-c-programming-language/chapter-1/1-1/main.c }}
@@ -17,8 +13,7 @@ C Programming Language Chapter 1
 
 ## Exercise 1-2
 
-> Experiment to find out what happens when `prints`'s argument string
-> contains c where c is some character not listed above.
+> Experiment to find out what happens when `prints`'s argument string contains c where c is some character not listed above.
 
 Some escape characters include n for newline, t for tab, ' for
 single quote, " for double quote,  for literal backslash, r for

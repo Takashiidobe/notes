@@ -1,11 +1,12 @@
 ---
 title: "Buffer Pools"
+pdf: "[[05-buffer-pools.pdf]]"
 ---
 
 # Buffer Pools
 
-Prev: [database-storage-ii](database-storage-ii.md)
-Next: [hash-tables](hash-tables.md)
+Prev: [[04-database-storage-ii]]
+Next: [[06-hash-tables]]
 
 ## Locks vs Latches
 
@@ -68,5 +69,5 @@ Some better solutions include:
 - LRU-K: Take into account history of the last K references.
 - Priority hints: have a way to tell the buffer pool whether each page is important or not.
 
-Prev: [database-storage-ii](database-storage-ii.md)
-Next: [hash-tables](hash-tables.md)
+Prev: [[04-database-storage-ii]]
+Next: [[06-hash-tables]]

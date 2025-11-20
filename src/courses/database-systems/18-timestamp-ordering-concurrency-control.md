@@ -1,11 +1,12 @@
 ---
 title: "Timestamp Ordering Concurrency Control"
+pdf: "[[18-timestamp-ordering-concurrency-control.pdf]]"
 ---
 
 # Timestamp Ordering Concurrency Control
 
-Prev: [two-phase-locking-concurrency-control](two-phase-locking-concurrency-control.md)
-Next: [multi-version-concurrency-control](multi-version-concurrency-control.md)
+Prev: [[17-two-phase-locking-concurrency-control]]
+Next: [[19-multi-version-concurrency-control]]
 
 ## Timestamp Ordering Concurrency Control
 
@@ -87,5 +88,5 @@ In this case, the database chops up databases into disjoint subsets called parti
 This can only really work for local databases, since distributed transactions are slower than local transactions.
 
 
-Prev: [two-phase-locking-concurrency-control](two-phase-locking-concurrency-control.md)
-Next: [multi-version-concurrency-control](multi-version-concurrency-control.md)
+Prev: [[17-two-phase-locking-concurrency-control]]
+Next: [[19-multi-version-concurrency-control]]

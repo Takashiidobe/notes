@@ -1,11 +1,12 @@
 ---
 title: "Distributed OLTP Database Systems"
+pdf: "[[23-distributed-oltp-database-systems.pdf]]"
 ---
 
 # Distributed OLTP Database Systems
 
-Prev: [introduction-to-distributed-databases](introduction-to-distributed-databases.md)
-Next: [distributed-olap-database-systems](distributed-olap-database-systems.md)
+Prev: [[22-introduction-to-distributed-databases]]
+Next: [[24-distributed-olap-database-systems]]
 
 ## OLTP vs. OLAP
 
@@ -34,5 +35,5 @@ We'll assume that nodes are well-behaved. If the other nodes cannot be trusted, 
 - ZAB (Common)
 - Viewstamped Replication
 
-Prev: [introduction-to-distributed-databases](introduction-to-distributed-databases.md)
-Next: [distributed-olap-database-systems](distributed-olap-database-systems.md)
+Prev: [[22-introduction-to-distributed-databases]]
+Next: [[24-distributed-olap-database-systems]]

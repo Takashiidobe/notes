@@ -1,11 +1,12 @@
 ---
 title: "Database Storage II"
+pdf: "[[04-database-storage-ii.pdf]]"
 ---
 
 # Database Storage II
 
-Prev: [database-storage-i](database-storage-i.md)
-Next: [buffer-pools](buffer-pools.md)
+Prev: [[03-database-storage-i]]
+Next: [[05-buffer-pools]]
 
 ## Data Representation
 
@@ -90,5 +91,5 @@ Disadvantages:
 
 To put tuples back together, databases can set fixed-size offsets, or embed the tuple id inside the attribute of each column, to allow for faster jumping to specific attributes.
 
-Prev: [database-storage-i](database-storage-i.md)
-Next: [buffer-pools](buffer-pools.md)
+Prev: [[03-database-storage-i]]
+Next: [[05-buffer-pools]]

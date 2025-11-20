@@ -6,8 +6,8 @@ Case Study: Designing a Document Editor"
 
 # A Case Study: Designing a Document Editor
 
-Prev: [introduction](introduction.md) Next:
+Prev: [introduction](books/design-patterns-elements-of-reusable-object-oriented-software/introduction.md) Next:
 [creational-patterns](creational-patterns.md)
 
-Prev: [introduction](introduction.md) Next:
+Prev: [introduction](books/design-patterns-elements-of-reusable-object-oriented-software/introduction.md) Next:
 [creational-patterns](creational-patterns.md)

@@ -1,7 +1,6 @@
 ---
 title: templates
 ---
-
 # Templates
 
 Prev: [[essential-operations]] Next:

@@ -1,11 +1,12 @@
 ---
 title: "Trees Indexes II"
+pdf: "[[08-trees-indexes-ii.pdf]]"
 ---
 
 # Trees Indexes II
 
-Prev: [trees-indexes-i](trees-indexes-i.md)
-Next: [index-concurrency-control](index-concurrency-control.md)
+Prev: [[07-trees-indexes-i]]
+Next: [[09-index-concurrency-control]]
 
 ## Additional Index Usage
 
@@ -37,5 +38,5 @@ An inverted index stores a mapping of words to records that contain those words 
 **Design Decisions**:
 - What to store: The index needs to store at least the words contained in each record (separated by punctuation characters). It can include additional information like word frequency, position, and other metadata.
 
-Prev: [trees-indexes-i](trees-indexes-i.md)
-Next: [index-concurrency-control](index-concurrency-control.md)
+Prev: [[07-trees-indexes-i]]
+Next: [[09-index-concurrency-control]]

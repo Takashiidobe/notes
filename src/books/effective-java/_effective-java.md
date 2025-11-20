@@ -6,7 +6,7 @@ date modified: Tuesday, August 5th 2025, 10:45:30 am
 
 # Effective Java
 
-1. [introduction](introduction.md)
+1. [introduction](books/effective-java/introduction.md)
 2. [creating-and-destroying-objects](creating-and-destroying-objects.md)
 3. [methods-common-to-all-objects](methods-common-to-all-objects.md)
 4. [classes-and-interfaces](classes-and-interfaces.md)

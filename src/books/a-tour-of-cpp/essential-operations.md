@@ -1,9 +1,6 @@
 ---
 title: essential-operations
 ---
-
-
-
 # Essential Operations
 
 Prev: [[classes]] Next: [[templates]]

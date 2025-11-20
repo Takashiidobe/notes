@@ -1,10 +1,11 @@
 ---
 title: "Course Introduction and the Relational Model"
+pdf: "[[01-course-introduction-and-the-relational-model.pdf]]"
 ---
 
 # Course Introduction and the Relational Model
 
-Next: [advanced-sql](advanced-sql.md)
+Next: [[02-advanced-sql]]
 
 ## Databases
 
@@ -102,4 +103,4 @@ Join takes in two relations and outputs a relation that contains all the tuples 
 
 Syntax: $(R \bowtie S)$
 
-Next: [advanced-sql](advanced-sql.md)
+Next: [[02-advanced-sql]]

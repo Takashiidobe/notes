@@ -1,9 +1,6 @@
 ---
 title: strategies-for-one-to-many-relationships
 ---
-
-for one-to-many relationships"
-
 # Strategies for one-to-many relationships
 
 Prev:

@@ -1,11 +1,12 @@
 ---
 title: "Two-Phase Locking Concurrency Control"
+pdf: "[[17-two-phase-locking-concurrency-control.pdf]]"
 ---
 
 # Two-Phase Locking Concurrency Control
 
-Prev: [concurrency-control-theory](concurrency-control-theory.md)
-Next: [timestamp-ordering-concurrency-control](timestamp-ordering-concurrency-control.md)
+Prev: [[16-concurrency-control-theory]]
+Next: [[18-timestamp-ordering-concurrency-control]]
 
 ## Transaction Locks
 
@@ -71,5 +72,5 @@ When a transaction acquires a lock for an object in this way, it implicitly acqu
 - **Intention-Exclusive(IX)**: Indicates explicit locking at a lower level with exclusive or shared locks
 - **Shared+Intention-Exclusive(SIX)**: The subtree is locked explicitly in shared mode and explicit locking is done at a lower level with exclusive locks.
 
-Prev: [concurrency-control-theory](concurrency-control-theory.md)
-Next: [timestamp-ordering-concurrency-control](timestamp-ordering-concurrency-control.md)
+Prev: [[16-concurrency-control-theory]]
+Next: [[18-timestamp-ordering-concurrency-control]]

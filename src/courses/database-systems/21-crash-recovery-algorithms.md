@@ -1,11 +1,12 @@
 ---
 title: "Crash Recovery Algorithms"
+pdf: "[[21-crash-recovery-algorithms.pdf]]"
 ---
 
 # Crash Recovery Algorithms
 
-Prev: [logging-protocols--schemes](logging-protocols--schemes.md)
-Next: [introduction-to-distributed-databases](introduction-to-distributed-databases.md)
+Prev: [[20-logging-protocols-schemes]]
+Next: [[22-introduction-to-distributed-databases]]
 
 ## ARIES
 
@@ -117,5 +118,5 @@ The DBMS processes transactions in reverse LSN order, and as it reverses the upd
 
 Once the last transaction has been aborted, the DBMS flushes out the log and is ready to start processing new transactions.
 
-Prev: [logging-protocols--schemes](logging-protocols--schemes.md)
-Next: [introduction-to-distributed-databases](introduction-to-distributed-databases.md)
+Prev: [[20-logging-protocols-schemes]]
+Next: [[22-introduction-to-distributed-databases]]

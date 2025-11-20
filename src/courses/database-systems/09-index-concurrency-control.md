@@ -1,11 +1,12 @@
 ---
 title: "Index Concurrency Control"
+pdf: "[[09-index-concurrency-control.pdf]]"
 ---
 
 # Index Concurrency Control
 
-Prev: [trees-indexes-ii](trees-indexes-ii.md)
-Next: [sorting--aggregations](sorting--aggregations.md)
+Prev: [[08-trees-indexes-ii]]
+Next: [[10-sorting-aggregations]]
 
 ## Index Concurrency Control
 
@@ -78,5 +79,5 @@ An improved (optimistic) protocol might involve assuming that an operation is sa
 
 Leaf Node scans are susceptible to deadlocks because they have to acquire locks in two different directions (left-to-right and right-to-left). Since index latches don't have deadlock detection or avoidance, only careful coding can help with this. One way is to use "no-wait" mode, which means that if a thread tries to acquire a latch on a leaf node, but the latch is unavailable, then it immediately aborts, releasing locks, and restarts its read.
 
-Prev: [trees-indexes-ii](trees-indexes-ii.md)
-Next: [sorting--aggregations](sorting--aggregations.md)
+Prev: [[08-trees-indexes-ii]]
+Next: [[10-sorting-aggregations]]

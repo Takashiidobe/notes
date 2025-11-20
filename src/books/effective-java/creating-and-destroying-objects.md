@@ -6,7 +6,7 @@ date modified: Tuesday, August 5th 2025, 11:21:04 am
 
 # Creating and Destroying Objects
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/effective-java/introduction.md)
 Next: [methods-common-to-all-objects](methods-common-to-all-objects.md)
 
 # 1: Consider Static Factory Methods instead of Constructors
@@ -366,5 +366,5 @@ static void copy(String src, String dst) {
 }
 ```
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/effective-java/introduction.md)
 Next: [methods-common-to-all-objects](methods-common-to-all-objects.md)

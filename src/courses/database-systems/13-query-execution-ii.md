@@ -1,11 +1,12 @@
 ---
 title: "Query Execution II"
+pdf: "[[13-query-execution-ii.pdf]]"
 ---
 
 # Query Execution II
 
-Prev: [query-execution-i](query-execution-i.md)
-Next: [query-planning--optimization-i](query-planning--optimization-i.md)
+Prev: [[12-query-execution-i]]
+Next: [[14-query-planning-optimization-i]]
 
 ## Background
 
@@ -84,5 +85,5 @@ Split a single logical table into disjoint physical segments that are stored/man
 **Horizontal Partitioning**
 - Divide the tuples of a table into disjoint segments based on partitioning keys
 
-Prev: [query-execution-i](query-execution-i.md)
-Next: [query-planning--optimization-i](query-planning--optimization-i.md)
+Prev: [[12-query-execution-i]]
+Next: [[14-query-planning-optimization-i]]

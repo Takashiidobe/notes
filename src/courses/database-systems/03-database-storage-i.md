@@ -1,11 +1,12 @@
 ---
 title: "Database Storage I"
+pdf: "[[03-database-storage-i.pdf]]"
 ---
 
 # Database Storage I
 
-Prev: [advanced-sql](advanced-sql.md)
-Next: [database-storage-ii](database-storage-ii.md)
+Prev: [[02-advanced-sql]]
+Next: [[04-database-storage-ii]]
 
 ## Storage
 
@@ -124,5 +125,5 @@ There are two main ways to laying out data in pages:
 
 
 
-Prev: [advanced-sql](advanced-sql.md)
-Next: [database-storage-ii](database-storage-ii.md)
+Prev: [[02-advanced-sql]]
+Next: [[04-database-storage-ii]]

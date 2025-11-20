@@ -1,10 +1,11 @@
 ---
 title: "Advanced SQL"
+pdf: "[[02-advanced-sql.pdf]]"
 ---
 # Advanced SQL
 
-Prev: [course-introduction-and-the-relational-model](course-introduction-and-the-relational-model.md)
-Next: [database-storage-i](database-storage-i.md)
+Prev: [[01-course-introduction-and-the-relational-model]]
+Next: [[03-database-storage-i]]
 
 ## Relational Languages
 
@@ -172,5 +173,5 @@ WITH RECURSIVE iterator (counter) AS (
 SELECT * FROM iterator;
 ```
 
-Prev: [course-introduction-and-the-relational-model](course-introduction-and-the-relational-model.md)
-Next: [database-storage-i](database-storage-i.md)
+Prev: [[01-course-introduction-and-the-relational-model]]
+Next: [[03-database-storage-i]]

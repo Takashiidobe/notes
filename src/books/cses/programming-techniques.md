@@ -6,8 +6,8 @@ title: programming-techniques
 
 # Programming Techniques
 
-Prev: [introduction](introduction.md) Next:
+Prev: [introduction](books/cses/introduction.md) Next:
 [efficiency](efficiency.md)
 
-Prev: [introduction](introduction.md) Next:
+Prev: [introduction](books/cses/introduction.md) Next:
 [efficiency](efficiency.md)

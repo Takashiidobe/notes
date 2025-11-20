@@ -1,11 +1,12 @@
 ---
 title: "Trees Indexes I"
+pdf: "[[07-trees-indexes-i.pdf]]"
 ---
 
 # Trees Indexes I
 
-Prev: [hash-tables](hash-tables.md)
-Next: [trees-indexes-ii](trees-indexes-ii.md)
+Prev: [[06-hash-tables]]
+Next: [[08-trees-indexes-ii]]
 
 ## Indexes
 
@@ -87,5 +88,5 @@ To Insert:
 - The fastest way to build a B+ Tree from scratch is to first sort the keys and then build the index from the bottom up.
 - This is faster, since there are no splits or merges.
 
-Prev: [hash-tables](hash-tables.md)
-Next: [trees-indexes-ii](trees-indexes-ii.md)
+Prev: [[06-hash-tables]]
+Next: [[08-trees-indexes-ii]]

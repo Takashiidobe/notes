@@ -1,9 +1,6 @@
 ---
 title: the-c-programming-language-chapter-3
 ---
-
-C Programming Language Chapter 3
-
 # Chapter 3
 
 ## Exercise 3-1

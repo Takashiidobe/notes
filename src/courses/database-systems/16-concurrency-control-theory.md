@@ -1,11 +1,12 @@
 ---
 title: "Concurrency Control Theory"
+pdf: "[[16-concurrency-control-theory.pdf]]"
 ---
 
 # Concurrency Control Theory
 
-Prev: [query-planning--optimization-ii](query-planning--optimization-ii.md)
-Next: [two-phase-locking-concurrency-control](two-phase-locking-concurrency-control.md)
+Prev: [[15-query-planning-optimization-ii]]
+Next: [[17-two-phase-locking-concurrency-control]]
 
 ## Transactions
 
@@ -100,5 +101,5 @@ A schedule S is conflict serializable if each transaction is a node, its transac
 
 All changes should be durable after a crash or restart. This should be done with either logging or shadow paging.
 
-Prev: [query-planning--optimization-ii](query-planning--optimization-ii.md)
-Next: [two-phase-locking-concurrency-control](two-phase-locking-concurrency-control.md)
+Prev: [[15-query-planning-optimization-ii]]
+Next: [[17-two-phase-locking-concurrency-control]]

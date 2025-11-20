@@ -6,7 +6,7 @@ date modified: Sunday, July 27th 2025, 4:00:23 pm
 
 # Modern Operating Systems
 
-1. [introduction](introduction.md)
+1. [introduction](books/modern-operating-systems/introduction.md)
 2. [processes-and-threads](processes-and-threads.md)
 3. [deadlocks](deadlocks.md)
 4. [memory-management](memory-management.md)

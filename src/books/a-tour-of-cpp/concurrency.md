@@ -1,7 +1,6 @@
 ---
 title: concurrency
 ---
-
 # Concurrency
 
 Prev: [[numerics]] Next: [[history-and-compatibility]]

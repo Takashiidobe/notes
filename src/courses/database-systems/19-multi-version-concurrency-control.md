@@ -1,11 +1,12 @@
 ---
 title: "Multi-Version Concurrency Control"
+pdf: "[[19-multi-version-concurrency-control.pdf]]"
 ---
 
 # Multi-Version Concurrency Control
 
-Prev: [timestamp-ordering-concurrency-control](timestamp-ordering-concurrency-control.md)
-Next: [logging-protocols--schemes](logging-protocols--schemes.md)
+Prev: [[18-timestamp-ordering-concurrency-control]]
+Next: [[20-logging-protocols-schemes]]
 
 ## Multi-Version Concurrency Control
 
@@ -56,5 +57,5 @@ Secondary indexes can be maintained by:
 - **Logical Pointers** - Use a fixed identifier per tuple that does not change. Requires an indirection layer to map the logical id to the physical location of the tuple.
 - **Physical Pointers** - Use the physical address to the version chain head.
 
-Prev: [timestamp-ordering-concurrency-control](timestamp-ordering-concurrency-control.md)
-Next: [logging-protocols--schemes](logging-protocols--schemes.md)
+Prev: [[18-timestamp-ordering-concurrency-control]]
+Next: [[20-logging-protocols-schemes]]

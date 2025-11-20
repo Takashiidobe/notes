@@ -4,7 +4,7 @@ title: "Types"
 
 # Types
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/effective-rust/introduction.md)
 Next: [concepts](concepts.md)
 
 ## Item 1: Use the type system to express your data structures
@@ -137,5 +137,5 @@ through the concrete type through a pointer (either `&dyn Trait` or
 
 ## Item 3: Avoid matching on Option and Result
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/effective-rust/introduction.md)
 Next: [concepts](concepts.md)

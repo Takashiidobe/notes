@@ -1,11 +1,12 @@
 ---
 title: "Query Execution I"
+pdf: "[[12-query-execution-i.pdf]]"
 ---
 
 # Query Execution I
 
-Prev: [joins-algorithms](joins-algorithms.md)
-Next: [query-execution-ii](query-execution-ii.md)
+Prev: [[11-joins-algorithms]]
+Next: [[13-query-execution-ii]]
 
 ## Query Plan
 
@@ -70,5 +71,5 @@ The nodes in the tree are different expression types:
 
 To evaluate the tree, the DBMS walks through the tree, fetching tuples and evaluating.
 
-Prev: [joins-algorithms](joins-algorithms.md)
-Next: [query-execution-ii](query-execution-ii.md)
+Prev: [[11-joins-algorithms]]
+Next: [[13-query-execution-ii]]

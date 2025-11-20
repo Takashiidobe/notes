@@ -6,7 +6,7 @@ date modified: Sunday, July 27th 2025, 4:21:10 pm
 
 # Processes and Threads
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/modern-operating-systems/introduction.md)
 Next: [deadlocks](deadlocks.md)
 
 
@@ -140,5 +140,5 @@ waituntil x < 0 || y + z < n
 53. **A process can be put into a round-robin queue more than once to give it a higher priority. Running multiple instances of a program each working on a different part of a data pool can have the same effect. First write a program that tests a list of numbers for primality. Then devise a method to allow multiple instances of the program to run at once in such a way that no two instances of the program will work on the same number. Can you in fact get through the list faster by running multiple copies of the program? Note that your results will depend upon what else your computer is doing; on a personal computer running only instances of this program you would not expect an improvement, but on a system with other processes, you should be able to grab a bigger share of the CPU this way.**
 
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/modern-operating-systems/introduction.md)
 Next: [deadlocks](deadlocks.md)

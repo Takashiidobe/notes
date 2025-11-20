@@ -1,10 +1,11 @@
 ---
 title: "Hash Tables"
+pdf: "[[06-hash-tables.pdf]]"
 ---
 # Hash Tables
 
-Prev: [buffer-pools](buffer-pools.md)
-Next: [trees-indexes-i](trees-indexes-i.md)
+Prev: [[05-buffer-pools]]
+Next: [[07-trees-indexes-i]]
 
 ## Data Structures
 
@@ -86,5 +87,5 @@ Instead of immediately splitting a bucket when it overflows, the scheme maintain
 - If the hash maps to the slot that was previously pointed to, apply the new hash function.
 - When the pointer reaches the last slot, delete the original hash function and replace it with a new hash function.
 
-Prev: [buffer-pools](buffer-pools.md)
-Next: [trees-indexes-i](trees-indexes-i.md)
+Prev: [[05-buffer-pools]]
+Next: [[07-trees-indexes-i]]

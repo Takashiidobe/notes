@@ -1,7 +1,6 @@
 ---
 title: utilities
 ---
-
 # Utilities
 
 Prev: [[algorithms]] Next: [[numerics]]

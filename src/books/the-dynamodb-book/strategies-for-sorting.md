@@ -1,9 +1,6 @@
 ---
 title: strategies-for-sorting
 ---
-
-for sorting"
-
 # Strategies for sorting
 
 Prev:

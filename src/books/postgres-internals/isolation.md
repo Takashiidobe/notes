@@ -4,7 +4,7 @@ title: "Isolation"
 
 # Isolation
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/postgres-internals/introduction.md)
 Next: [pages-and-tuples](pages-and-tuples.md)
 
 Invariants in the database can be enforced using constraints, but the
@@ -86,5 +86,5 @@ phantom reads,
 But repeatable read has none of the SQL anomalies.
 Serializable remains the same.
 
-Prev: [introduction](introduction.md)
+Prev: [introduction](books/postgres-internals/introduction.md)
 Next: [pages-and-tuples](pages-and-tuples.md)

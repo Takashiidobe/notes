@@ -1,9 +1,6 @@
 ---
 title: the-c-programming-language-chapter-2
 ---
-
-C Programming Language Chapter 2
-
 # Chapter 2
 
 ## Exercise 2-1

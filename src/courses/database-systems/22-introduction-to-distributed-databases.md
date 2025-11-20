@@ -1,11 +1,12 @@
 ---
 title: "Introduction to Distributed Databases"
+pdf: "[[22-introduction-to-distributed-databases.pdf]]"
 ---
 
 # Introduction to Distributed Databases
 
-Prev: [crash-recovery-algorithms](crash-recovery-algorithms.md)
-Next: [distributed-oltp-database-systems](distributed-oltp-database-systems.md)
+Prev: [[21-crash-recovery-algorithms]]
+Next: [[23-distributed-oltp-database-systems]]
 
 ## Distributed DBMSs
 
@@ -88,5 +89,5 @@ Once the query is done, the client sends a commit request to the coordinator. Th
 
 - **Decentralized**: Nodes organize themselves. The client directly sends queries to one of the partitions. The home partition will send results back to the client. The home partition is in charge of communicating with other partitions and committing. Decentralized approaches have a hard time with distributed locking, however.
 
-Prev: [crash-recovery-algorithms](crash-recovery-algorithms.md)
-Next: [distributed-oltp-database-systems](distributed-oltp-database-systems.md)
+Prev: [[21-crash-recovery-algorithms]]
+Next: [[23-distributed-oltp-database-systems]]
