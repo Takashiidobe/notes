@@ -1,9 +1,6 @@
 ---
 title: the-where-clause
 ---
-
-Where Clause"
-
 # The Where Clause
 
 Prev:

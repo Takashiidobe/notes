@@ -94,18 +94,21 @@ EOF
 )
 
 # create the index file we want
-index_file="$DIR_PATH/_$kebab_cased_dir_name.md"
-echo "$title_template" >> $index_file
-echo "" >> $index_file
-echo -e "# $1\n" >> "$index_file"
 echo -e "\"$1\",,,$kebab_cased_dir_name/_$kebab_cased_dir_name,Reading," >> $CSV_PATH
 echo -e "- [$1]($kebab_cased_dir_name/_$kebab_cased_dir_name.md)" >> src/courses/_courses.md
 
-# len of array
 len="${#corrected_files[@]}"
+pad_width=${#len}
+numbered_files=()
 
 for index in "${!corrected_files[@]}"; do
-  FILE_NAME="$DIR_PATH/${corrected_files[$index]}.md"
+  padded_index=$(printf "%0*d" "$pad_width" $((index + 1)))
+  file_slug="${padded_index}-${corrected_files[$index]}"
+  numbered_files+=("$file_slug")
+done
+
+for index in "${!numbered_files[@]}"; do
+  FILE_NAME="$DIR_PATH/${numbered_files[$index]}.md"
   # create the file
 
   touch $FILE_NAME
@@ -121,32 +124,29 @@ EOF
   echo -e "# ${files[$index]}\n" >> $FILE_NAME
   # Create the title
 
-  # Add an entry of this file to index file
-  echo "$(( index + 1 )). [${corrected_files[$index]}](${corrected_files[$index]}.md)" >> $index_file
-
   if (( index > 0 )); then
     prev_index="$((index - 1))"
-    prev_item="${corrected_files[$prev_index]}"
-    echo "Prev: [$prev_item]($prev_item.md)" >> $FILE_NAME
+    prev_item="${numbered_files[$prev_index]}"
+    echo "Prev: [[${prev_item}|${files[$prev_index]}]]" >> $FILE_NAME
   fi
 
   if (( index < len - 1 )); then
     next_index="$((index + 1))"
-    next_item="${corrected_files[$next_index]}"
-    echo "Next: [$next_item]($next_item.md)" >> $FILE_NAME
+    next_item="${numbered_files[$next_index]}"
+    echo "Next: [[${next_item}|${files[$next_index]}]]" >> $FILE_NAME
   fi
 
   echo "" >> $FILE_NAME
 
   if (( index > 0 )); then
     prev_index="$((index - 1))"
-    prev_item="${corrected_files[$prev_index]}"
-    echo "Prev: [$prev_item]($prev_item.md)" >> $FILE_NAME
+    prev_item="${numbered_files[$prev_index]}"
+    echo "Prev: [[${prev_item}|${files[$prev_index]}]]" >> $FILE_NAME
   fi
 
   if (( index < len - 1 )); then
     next_index="$((index + 1))"
-    next_item="${corrected_files[$next_index]}"
-    echo "Next: [$next_item]($next_item.md)" >> $FILE_NAME
+    next_item="${numbered_files[$next_index]}"
+    echo "Next: [[${next_item}|${files[$next_index]}]]" >> $FILE_NAME
   fi
 done

@@ -1,9 +1,6 @@
 ---
 title: whats-a-postgresql-extension
 ---
-
-'s a PostgreSQL Extension?"
-
 # What's a PostgreSQL Extension?
 
 Prev:

@@ -1,9 +1,6 @@
 ---
 title: the-join-operation
 ---
-
-Join Operation"
-
 # The Join Operation
 
 Prev:
