@@ -1,7 +1,6 @@
 ---
 title: "Mutual Exclusion"
 ---
-
 # Mutual Exclusion
 
 Prev: [introduction](books/the-art-of-multiprocessor-programming/introduction.md)

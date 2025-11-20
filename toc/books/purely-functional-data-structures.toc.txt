@@ -1,0 +1,9 @@
+Introduction 
+Lazy Evaluation and $-Notation
+Amortization and Persistence via Lazy Evaluation
+Eliminating Amortization
+Lazy Rebuilding
+Numerical Representations
+Data-Structural Bootstrapping
+Implicit Recursive Slowdown
+Conclusions

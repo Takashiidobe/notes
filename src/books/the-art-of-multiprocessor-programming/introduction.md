@@ -232,7 +232,7 @@ is stuck waiting for another to get the second chopstick.
 4. Write a program to provide a starvation-free solution for n philosophers for any
 natural number n.
 
-```rs
+```rust
 use arr_macro::arr;
 use lazy_static::lazy_static;
 use std::sync::{Arc, Mutex};
