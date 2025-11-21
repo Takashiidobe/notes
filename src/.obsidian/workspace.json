@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ec611bbf16528bba",
+        "id": "9e0c4ad97c7de958",
         "type": "tabs",
         "children": [
           {
-            "id": "198202511c4a213e",
+            "id": "10d27bfd497f8985",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/serious-cryptography/05-stream-ciphers.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "05-stream-ciphers"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 522.5
+    "width": 239.5
   },
   "right": {
     "id": "f71d747dec8ed165",
@@ -148,14 +144,23 @@
               "icon": "lucide-list",
               "title": "Outline of ParadeDB"
             }
+          },
+          {
+            "id": "88d1f87854d3a6f6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 214.5,
-    "collapsed": true
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,45 +177,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "198202511c4a213e",
+  "active": "10d27bfd497f8985",
   "lastOpenFiles": [
-    "books/serious-cryptography/02-randomness.md",
-    "books/serious-cryptography/01-encryption.md",
-    "books/system-design-interview-an-insiders-guide/chapter-9-design-a-web-crawler.md",
-    "books/system-design-interview-an-insiders-guide/chapter-16-the-learning-continues.md",
-    "books/system-design-interview-an-insiders-guide/chapter-15-design-google-drive.md",
-    "books/system-design-interview-an-insiders-guide/chapter-14-design-youtube.md",
-    "books/system-design-interview-an-insiders-guide/chapter-13-design-a-search-autocomplete-system.md",
-    "books/system-design-interview-an-insiders-guide/chapter-12-design-a-chat-system.md",
-    "books/system-design-interview-an-insiders-guide/chapter-11-design-a-news-feed-system.md",
-    "books/system-design-interview-an-insiders-guide/chapter-10-design-a-notification-system.md",
-    "books/system-design-interview-an-insiders-guide/chapter-8-design-a-url-shortener.md",
-    "books/system-design-interview-an-insiders-guide/chapter-6-design-a-key-value-store.md",
-    "books/system-design-interview-an-insiders-guide/chapter-5-design-consistent-hashing.md",
-    "books/system-design-interview-an-insiders-guide/chapter-3-a-framework-for-system-design-interviews.md",
-    "books/system-design-interview-an-insiders-guide/chapter-1-scale-from-zero-to-millions-of-users.md",
-    "books/operating-systems-three-easy-pieces/08-scheduling-the-multi-level-feedback-queue.md",
-    "books/operating-systems-three-easy-pieces/17-condition-variables.md",
-    "books/operating-systems-three-easy-pieces/26-segmentation.md",
-    "books/operating-systems-three-easy-pieces/44-log-structured-file-systems.md",
-    "books/operating-systems-three-easy-pieces/45-data-integrity-and-protection.md",
-    "books/operating-systems-three-easy-pieces/43-crash-consistency-fsck-and-journaling.md",
-    "books/operating-systems-three-easy-pieces/40-interlude-files-and-directories.md",
-    "books/operating-systems-three-easy-pieces/37-hard-disk-drives.md",
-    "books/operating-systems-three-easy-pieces/38-flash-based-ssds.md",
-    "books/operating-systems-three-easy-pieces/39-redundant-arrays-of-inexpensive-disks-raids.md",
-    "books/operating-systems-three-easy-pieces/41-file-system-implementation.md",
+    "courses/randomized-algorithms/01-introduction-min-cut.pdf",
+    "courses/randomized-algorithms/01-introduction-min-cut.md",
+    "books/compiling-to-assembly-from-scratch/visitor-pattern.md",
+    "books/compiling-to-assembly-from-scratch/typescript-basics.md",
+    "books/compiling-to-assembly-from-scratch/static-type-checking-and-inference.md",
+    "books/compiling-to-assembly-from-scratch/second-pass-code-generation.md",
+    "books/compiling-to-assembly-from-scratch/introduction-to-part-ii.md",
+    "books/compiling-to-assembly-from-scratch/introduction-to-arm-assembly-programming.md",
+    "books/compiling-to-assembly-from-scratch/introduction.md",
+    "books/compiling-to-assembly-from-scratch/high-level-compiler-overview.md",
+    "books/compiling-to-assembly-from-scratch/first-pass-the-parser.md",
+    "books/compiling-to-assembly-from-scratch/arrays-and-heap-allocation.md",
+    "books/compiling-to-assembly-from-scratch/abstract-syntax-tree.md",
+    "software-architecture/static-vs-dynamic-schemas.md",
+    "software-architecture/links.md",
+    "software-architecture/invariant-pyramid.md",
+    "software-architecture/dependency-inversion.md",
+    "programming-languages/c/polymorphism-in-c.md",
+    "programming-languages/c/tuples-in-c.md",
+    "business/wisdom.md",
+    "business/interviewee-questions.md",
+    "books/the-c-programming-language/the-c-programming-language-chapter-7.md",
+    "books/the-c-programming-language/the-c-programming-language-chapter-8.md",
+    "books/the-c-programming-language/the-c-programming-language-chapter-6.md",
+    "books/the-c-programming-language/the-c-programming-language-chapter-5.md",
+    "books/the-c-programming-language/the-c-programming-language-chapter-3.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "courses/algorithms-for-big-data/01-logistics-course-topics-basic-tail-bounds-markov-chebyshev-chernoff-bernstein-morris-algorithm.pdf",
+    "courses/algorithms-for-big-data/02-distinct-elements-k-wise-independence-geometric-subsampling-of-streams.pdf",
+    "courses/algorithms-for-big-data/03-necessity-of-randomizedapproximate-guarantees-linear-sketching-ams-sketch-p-stable-sketch-0p2.pdf",
+    "courses/algorithms-for-big-data/20-krahmer-ward-proof-iterative-hard-thresholding.pdf",
+    "courses/algorithms-for-big-data/15-approximate-matrix-multiplication-with-frobenius-error-via-sampling--jl-matrix-median-trick-subspace-embeddings.pdf",
+    "courses/algorithms-for-big-data/22-matrix-completion.pdf",
+    "courses/algorithms-for-big-data/07-countsketch-ℓ0-sampling-graph-sketching.pdf",
+    "courses/algorithms-for-big-data/16-linear-least-squares-via-subspace-embeddings-leverage-score-sampling-non-commutative-khintchine-oblivious-subspace-embeddings.pdf",
+    "books/the-linux-programming-interface/out.svg",
     "books/high-performance-mysql/logical-architecture.png",
-    "books/perfbook",
-    "books/purely-functional-data-structures",
-    "books/serious-cryptography",
-    "courses/the-modern-algorithmic-toolbox/17-compressive-sensing.pdf",
-    "courses/the-modern-algorithmic-toolbox/04-curse-of-dimensionality.pdf",
-    "courses/machine-learning/machine-learning-notes.pdf",
-    "courses/great-ideas-in-theoretical-computer-science/lec24.pdf",
-    "courses/great-ideas-in-theoretical-computer-science/21-quantum-computing.pdf",
-    "courses/great-ideas-in-theoretical-computer-science/22-23-quantum-algorithms.pdf",
-    "courses/great-ideas-in-theoretical-computer-science/02-logic.pdf",
     "img/abstract-multicore-architecture.svg",
     "books/radical-candor.jpg",
     "system-design/reservation-system.canvas",
@@ -219,8 +225,6 @@
     "system-design/systemsexpert/quadtree.png",
     "system-design/systemsexpert/quadtree.svg",
     "system-design/icons/web-app.svg",
-    "system-design/icons/servers.svg",
-    "system-design/icons/server.svg",
-    "Untitled.canvas"
+    "system-design/icons/servers.svg"
   ]
 }

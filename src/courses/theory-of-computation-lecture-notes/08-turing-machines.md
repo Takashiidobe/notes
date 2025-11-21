@@ -1,6 +1,6 @@
 ---
-title: "Turing machines"
-pdf: "[[notes.pdf]]"
+title: Turing machines
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Turing machines

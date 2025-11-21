@@ -1,6 +1,6 @@
 ---
-title: "Closure of language classes under set operations"
-pdf: "[[notes.pdf]]"
+title: Closure of language classes under set operations
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 # Closure of language classes under set operations
 

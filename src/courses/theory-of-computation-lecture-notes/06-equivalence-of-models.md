@@ -1,6 +1,6 @@
 ---
-title: "Equivalence of models"
-pdf: "[[notes.pdf]]"
+title: Equivalence of models
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Equivalence of models

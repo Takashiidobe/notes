@@ -1,6 +1,6 @@
 ---
-title: "Declarative models of computation"
-pdf: "[[notes.pdf]]"
+title: Declarative models of computation
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Declarative models of computation

@@ -1,6 +1,6 @@
 ---
-title: "Undecidability"
-pdf: "[[notes.pdf]]"
+title: Undecidability
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Undecidability

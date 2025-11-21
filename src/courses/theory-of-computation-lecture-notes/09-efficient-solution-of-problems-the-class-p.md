@@ -1,6 +1,6 @@
 ---
 title: "Efficient solution of problems: The class P"
-pdf: "[[notes.pdf]]"
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Efficient solution of problems: The class P

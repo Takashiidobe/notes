@@ -1,6 +1,6 @@
 ---
 title: "Efficient verification of solutions: The class NP"
-pdf: "[[notes.pdf]]"
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Efficient verification of solutions: The class NP

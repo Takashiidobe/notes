@@ -1,6 +1,6 @@
 ---
-title: "Proving problems are not solvable in a model of computation"
-pdf: "[[notes.pdf]]"
+title: Proving problems are not solvable in a model of computation
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Proving problems are not solvable in a model of computation

@@ -1,6 +1,6 @@
 ---
-title: "Deterministic finite automata"
-pdf: "[[notes.pdf]]"
+title: Deterministic finite automata
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Deterministic finite automata

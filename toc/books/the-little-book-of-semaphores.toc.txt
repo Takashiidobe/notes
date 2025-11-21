@@ -1,0 +1,11 @@
+Introduction
+Semaphores
+Basic synchronization patterns
+Classical synchronization problems
+Less classical synchronization problems
+Not-so-classical problems
+Not remotely classical problems
+Synchronization in Python
+Synchronization in C
+Cleaning up Python threads
+Cleaning up POSIX threads

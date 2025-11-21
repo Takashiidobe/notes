@@ -1,6 +1,6 @@
 ---
-title: "String Theory"
-pdf: "[[notes.pdf]]"
+title: String Theory
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # String Theory

@@ -1,6 +1,6 @@
 ---
-title: "Introduction"
-pdf: "[[notes.pdf]]"
+title: Introduction
+pdf: "[[theory-of-computation-notes.pdf]]"
 ---
 
 # Introduction

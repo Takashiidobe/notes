@@ -104,45 +104,70 @@ In most applications, the events $A_1,\dots,A_h$ are bad events that we don't wa
 
 Let $A_j$ denote that an incorrect function $f_j \ne f$ has 0% training error on $n$ samples, despite having generalization error at least $e$. Since there are $h$ such values of $j$, the union bound implies that this probability is:
 
-$$Pr_{x_1,\dots,x_n \sim D}[\text{some }f_j \ne f \text{ has 0% training error}] \le \displaystyle \sum{j = 1}^h e^-en = h * e^-en$$
+$$
+\Pr_{x_1,\dots,x_n \sim D}\bigl[\text{some } f_j \ne f \text{ has } 0\% \text{ training error}\bigr]
+\le \sum_{j = 1}^h e^{-\varepsilon n}
+= h e^{-\varepsilon n}
+$$
 
-We can simplify this to $\ge 1 - he^-en$, so $he^-en$ is an upper bound on the failure probability of the learning algorithm. The upper bound increase linearly with the number of possible functions, but decreases exponentially with the size of the training set.
+We can simplify this to
+\[
+\Pr[\text{learning algorithm succeeds}] \ge 1 - h e^{-\varepsilon n},
+\]
+so \(h e^{-\varepsilon n}\) is an upper bound on the failure probability of the learning algorithm.  
+The upper bound increases linearly with the number of possible functions \(h\), but decreases exponentially with the size of the training set \(n\).
 
-So, if we wanted some $\sigma = 1%$, we set $he^-en = \sigma$ and solve for $n$:
+So, if we wanted some \(\sigma = 1\%\), we set
+\[
+h e^{-\varepsilon n} = \sigma
+\]
+and solve for \(n\):
+$$
+n \ge \frac{1}{\varepsilon}\left(\ln h + \ln \frac{1}{\sigma}\right).
+$$
 
-$$n \ge \frac{1}{e}(\ln{}h + \ln{} \frac{1}{\sigma})$$
+With probability \(1 - \sigma\), the output of the learning algorithm is the ground truth function \(f\).
 
-With probability of $1 - \sigma$, the output of the learning algorithm is the ground truth function $f$.
-
-So, generalization error is linear (to reduce it from 10% to 1% requires 10x more data), but $\frac{1}{\sigma}$ is logarithmic, so setting the $\sigma$ to be very small, with large $h$'s isn't a problem.
+So, generalization error is linear in \(1/\varepsilon\) (to reduce it from \(10\%\) to \(1\%\) requires \(10\times\) more data), but \(\frac{1}{\sigma}\) appears only inside a logarithm, so setting \(\sigma\) to be very small, even with large \(h\), is not a problem.
 
 ## PAC Guarantees: The Finite Case
 
-Suppose we loosen the second argument, that there are no functions close to $f$, the ground truth function. We now might output this other function $f'$, but if it's similar enough to $f$, it should be fine. We can use the same logic, with the stipulation that the output of the learning function has a generalization error less than $e$.
+Suppose we loosen the second argument, that there are no functions close to \(f\), the ground truth function. We now might output this other function \(f'\), but if it is similar enough to \(f\), it should be fine. We can use the same logic, with the stipulation that the output of the learning function has a generalization error less than \(\varepsilon\).
 
-$$n \ge \frac{1}{e}(\ln{}h + \ln{} \frac{1}{\sigma})$$
+We obtain the same sample-complexity bound:
+$$
+n \ge \frac{1}{\varepsilon}\left(\ln h + \ln \frac{1}{\sigma}\right).
+$$
 
-This is a PAC guarantee, which is "probably approximately correct".
+This is a PAC guarantee, which is “probably approximately correct”.
 
 ## PAC Guarantees: Linear Classifiers
 
-Now we loosen the first assumption, but with a caveat -- that the ground truth function $f$ has some structure. If $f$ is unrestricted, from $\Bbb R^d$ to $\{0, 1\}$, then the unseen points could be anything, and the learning algorithm could not meaningfully say anything about it.
+Now we loosen the first assumption, but with a caveat — that the ground truth function \(f\) has some structure. If \(f\) is unrestricted, from $\mathbb{R}^d$ to $({0, 1})$, then the unseen points could be anything, and the learning algorithm could not meaningfully say anything about them.
 
 ### Linear Classifiers
 
-A linear classifier in $\Bbb R^d$ is specified by a $d$-vector $a = (a_1,\dots,a_d) \in \Bbb R^d$ of real coefficients, and is defined as the function $f_a : \Bbb R^d \to \{0, 1\}$:
+A linear classifier in $\mathbb{R}^d$ is specified by a $(d)$-vector $a = (a_1,\dots,a_d) \in \mathbb{R}^d$ of real coefficients, and is defined as the function $f_a : \mathbb{R}^d \to \{0, 1\}$:
+$$
+f_a((x_1,\dots,x_d)) =
+\begin{cases}
+1, & \text{if } \displaystyle\sum_{i=1}^d a_i x_i \ge 0, \\
+0, & \text{if } \displaystyle\sum_{i=1}^d a_i x_i < 0.
+\end{cases}
+$$
 
-$$f_a((x_1,\dots,x_d)) = \begin{cases} 1, & \text{if } \sum_{i=1}^d a_ix_i \ge 0 \\ 0, & \text{if } \sum_{i=1}^d a_i x_i \lt 0 \end{cases}$$
-
-A lienar classifier in $d$ dimensions has $d$ degrees of freedom.
+A linear classifier in \(d\) dimensions has \(d\) degrees of freedom.
 
 ### From the Curse of Dimensionality to Generalization
 
-The curse of dimensionality can be used for a positive result here. Since the number of distinct directions in $\Bbb R^d$ grows exponentially with $d$, since the complexity of generalization grows logarthmically to the number of functions, then there is a complexity of learning a good classifier which is linear to $d$, which is true.
+The curse of dimensionality can be used for a positive result here. Since the number of distinct directions in $(\mathbb{R}^d)$ grows exponentially with $d$, and since the complexity of generalization grows logarithmically in the number of functions, there is a complexity of learning a good classifier which is linear in $d$, which is indeed what we obtain.
 
 We use the same theorem:
+$$
+n \ge \frac{c}{\varepsilon}\left(d + \ln \frac{1}{\sigma}\right).
+$$
 
-$$n \ge \frac{c}{e}(d + \ln \frac{1}{\sigma})$$
+
 
 Where c is a sufficiently large constant. The output of the learning algorithm is a linear classifier with generalization error less than $e$.
 

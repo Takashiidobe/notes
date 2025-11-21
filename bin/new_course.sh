@@ -93,9 +93,7 @@ title: "$1"
 EOF
 )
 
-# create the index file we want
 echo -e "\"$1\",,,$kebab_cased_dir_name/_$kebab_cased_dir_name,Reading," >> $CSV_PATH
-echo -e "- [$1]($kebab_cased_dir_name/_$kebab_cased_dir_name.md)" >> src/courses/_courses.md
 
 len="${#corrected_files[@]}"
 pad_width=${#len}
